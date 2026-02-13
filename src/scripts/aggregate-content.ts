@@ -3,8 +3,12 @@ dotenv.config({ path: ".env.local" });
 import fs from "fs/promises";
 import path from "path";
 import { fetchGitHubActivity } from "../lib/aggregators/github";
-import { fetchNoteComArticles } from "../lib/aggregators/notecom";
-import { batchSummarize } from "../lib/gemini";
+import {
+  fetchNoteComArticles,
+  fetchNoteComFullArticles,
+} from "../lib/aggregators/notecom";
+import { batchSummarize, updateNotePrompt } from "../lib/gemini";
+import { NoteArticle } from "../lib/aggregators/notecom";
 import { ContentItem, SummarizedContent } from "../lib/types";
 
 async function loadCache(): Promise<Map<string, SummarizedContent>> {
@@ -67,12 +71,29 @@ async function main() {
   // Summarize (GitHub as-is, note.com via Gemini with cache)
   const summarized = await batchSummarize(allItems, cache);
 
+  // Preserve cached items from sources that failed to fetch
+  const fetchedIds = new Set(summarized.map((item) => item.id));
+  const preserved: SummarizedContent[] = [];
+  for (const [id, cached] of cache) {
+    if (!fetchedIds.has(id)) {
+      preserved.push(cached);
+    }
+  }
+  if (preserved.length > 0) {
+    console.log(`  Preserved ${preserved.length} cached items from failed sources`);
+  }
+
+  const allSummarized = [...summarized, ...preserved].sort(
+    (a, b) =>
+      new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
+  );
+
   // Save summarized content
   const contentDir = path.join(process.cwd(), "content", "research");
   await fs.mkdir(contentDir, { recursive: true });
   await fs.writeFile(
     path.join(contentDir, "summarized.json"),
-    JSON.stringify(summarized, null, 2)
+    JSON.stringify(allSummarized, null, 2)
   );
 
   // Save image metadata
@@ -82,8 +103,63 @@ async function main() {
     JSON.stringify(imageItems, null, 2)
   );
 
+  // Fetch full note.com articles (with cache)
+  let articlesCache: NoteArticle[] = [];
+  try {
+    const raw = await fs.readFile(
+      path.join(contentDir, "articles.json"),
+      "utf-8"
+    );
+    articlesCache = JSON.parse(raw);
+  } catch {
+    // No cache yet
+  }
+
+  console.log("Fetching new note.com articles...");
+  const { articles: allArticles, newArticles } =
+    await fetchNoteComFullArticles(noteUsername, noCache ? [] : articlesCache);
+
+  await fs.writeFile(
+    path.join(contentDir, "articles.json"),
+    JSON.stringify(allArticles, null, 2)
+  );
   console.log(
-    `Done! ${summarized.length} items (${imageItems.length} with images)`
+    `Articles: ${allArticles.length} total, ${newArticles.length} new`
+  );
+
+  // Update note-prompt.txt if there are new articles
+  if (newArticles.length > 0 || noCache) {
+    console.log("Updating note-prompt.txt with Gemini...");
+    let existingNotePrompt = "";
+    if (!noCache) {
+      try {
+        existingNotePrompt = await fs.readFile(
+          path.join(contentDir, "note-prompt.txt"),
+          "utf-8"
+        );
+      } catch {
+        // First time — will generate from all articles
+      }
+    }
+
+    const articlesToProcess =
+      existingNotePrompt && !noCache ? newArticles : allArticles;
+    const updatedNotePrompt = await updateNotePrompt(
+      articlesToProcess,
+      existingNotePrompt
+    );
+
+    await fs.writeFile(
+      path.join(contentDir, "note-prompt.txt"),
+      updatedNotePrompt
+    );
+    console.log("note-prompt.txt updated");
+  } else {
+    console.log("No new articles, note-prompt.txt unchanged");
+  }
+
+  console.log(
+    `Done! ${allSummarized.length} items (${imageItems.length} with images)`
   );
 }
 

@@ -1,5 +1,6 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { ContentItem, SummarizedContent } from "./types";
+import { NoteArticle } from "./aggregators/notecom";
 
 function contentToSummary(item: ContentItem): SummarizedContent {
   return {
@@ -103,4 +104,66 @@ export async function batchSummarize(
     (a, b) =>
       new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
   );
+}
+
+export async function updateNotePrompt(
+  newArticles: NoteArticle[],
+  existingPrompt: string
+): Promise<string> {
+  const apiKey = process.env.GEMINI_API_KEY;
+  if (!apiKey || apiKey === "your_gemini_api_key_here") {
+    console.warn("  GEMINI_API_KEY not configured, skipping note-prompt update");
+    return existingPrompt;
+  }
+
+  const genAI = new GoogleGenerativeAI(apiKey);
+  const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
+
+  const newArticleText = newArticles
+    .map((a) => `### ${a.title}\n${a.body}`)
+    .join("\n\n---\n\n");
+
+  const prompt = existingPrompt
+    ? `以下はHayato Shimada（Hayato Shimada）のnote.com記事から作成された人格プロファイルです。
+
+--- 既存プロファイル ---
+${existingPrompt}
+--- 既存プロファイル ここまで ---
+
+以下の新しい記事が追加されました。既存プロファイルに新しい記事の情報を統合して、更新されたプロファイルを作成してください。
+
+--- 新しい記事 ---
+${newArticleText}
+--- 新しい記事 ここまで ---
+
+ルール:
+- 既存プロファイルの内容を保持しつつ、新しい情報を追加・統合する
+- 著者の文体の特徴、よく使う表現、興味関心、価値観を抽出する
+- 具体的なエピソードや固有名詞も含める
+- 日本語で出力する
+- プロファイルとして簡潔にまとめる（箇条書き推奨）`
+    : `以下はHayato Shimada（Hayato Shimada）がnote.comに書いた記事の全文です。
+これらの記事から、著者の人格プロファイルを作成してください。
+
+--- 記事 ---
+${newArticleText}
+--- 記事 ここまで ---
+
+以下を抽出・整理してください:
+- 文体の特徴（語尾、一人称、文の構造、比喩の使い方など）
+- よく使う表現やフレーズ
+- 興味関心のあるトピック
+- 価値観や考え方
+- 具体的なエピソードや固有名詞
+- ユーモアや自虐のパターン
+
+日本語で、箇条書き中心に簡潔にまとめてください。`;
+
+  try {
+    const result = await model.generateContent(prompt);
+    return result.response.text().trim();
+  } catch (error) {
+    console.error("Failed to update note-prompt:", error);
+    return existingPrompt;
+  }
 }

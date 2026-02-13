@@ -1,12 +1,16 @@
 import type { Metadata } from "next";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { ChatPanel } from "@/components/chat/ChatPanel";
 import "./globals.css";
 
 export const metadata: Metadata = {
   title: "foxtrotdesign",
   description:
     "Hayato Shimadaの活動をまとめたウェブサイト。クリエイティブとエンジニアリングの交差点。",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 // Inline script to prevent flash of wrong theme on load
@@ -32,6 +36,7 @@ export default function RootLayout({
         <Header />
         <main className="min-h-screen">{children}</main>
         <Footer />
+        <ChatPanel />
       </body>
     </html>
   );
