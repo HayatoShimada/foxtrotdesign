@@ -1,5 +1,14 @@
 [
   {
+    "id": "github-commit-952512a",
+    "source": "github",
+    "title": "foxtrotdesign",
+    "summary": "feat: リポジトリ表示機能追加",
+    "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/952512af28dcaf7ff002a7104e6a204a7afedd0b",
+    "imageUrls": [],
+    "publishedAt": "2026-02-13T14:14:56Z"
+  },
+  {
     "id": "github-commit-a9b8293",
     "source": "github",
     "title": "news_tracker",

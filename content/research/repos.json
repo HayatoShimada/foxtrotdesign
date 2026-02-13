@@ -1,17 +1,17 @@
 [
   {
+    "name": "foxtrotdesign",
+    "description": "Hayato Shimada の活動をまとめたポートフォリオサイト。 note.com と GitHub のコンテンツを Gemini AI で要約し、ミニマルなデザインで表示する。",
+    "language": "TypeScript",
+    "url": "https://github.com/HayatoShimada/foxtrotdesign",
+    "updatedAt": "2026-02-13T14:15:01Z"
+  },
+  {
     "name": "news_tracker",
     "description": "GitHub の開発活動を毎日分析し、学習すべきこと・関連ニュース・次のアクション・プロジェクトアイデアを Notion に自動投稿するツールです。",
     "language": "Python",
     "url": "https://github.com/HayatoShimada/news_tracker",
     "updatedAt": "2026-02-13T14:07:01Z"
-  },
-  {
-    "name": "foxtrotdesign",
-    "description": "Hayato Shimada の活動をまとめたポートフォリオサイト。 note.com と GitHub のコンテンツを Gemini AI で要約し、ミニマルなデザインで表示する。",
-    "language": "TypeScript",
-    "url": "https://github.com/HayatoShimada/foxtrotdesign",
-    "updatedAt": "2026-02-13T13:57:44Z"
   },
   {
     "name": "gemini_robo",

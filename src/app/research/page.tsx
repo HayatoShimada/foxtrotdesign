@@ -55,24 +55,28 @@ export default async function ResearchPage() {
             Research
           </h1>
           <p className="text-muted">
-            note.com,GitHubでの活動まとめ。<br />
-            各種プロジェクトやアイデアの記録を時系列で追跡できます。
+            note.com,GitHubでの活動まとめ.<br />
+            各種プロジェクトやアイデアの記録を時系列で追跡できます.
           </p>
         </div>
 
-        {repos.length > 0 && <RepoList repos={repos} />}
+        {repos.length > 0 && (
+          <RepoList repos={repos} username="HayatoShimada" />
+        )}
 
         <div className="mt-8">
-          {items.length > 0 ? (
-            <ResearchList items={items} />
-          ) : (
-            <p className="text-muted text-center py-12">
-              コンテンツがまだありません。npm run aggregate
-              を実行してコンテンツを取得してください。
-            </p>
-          )}
+          <h2 className="font-serif font-bold text-lg mb-4">Commit History</h2>
+            {items.length > 0 ? (
+              <ResearchList items={items} />
+            ) : (
+              <p className="text-muted text-center py-12">
+                コンテンツがまだありません.npm run aggregate
+                を実行してコンテンツを取得してください.
+              </p>
+            )}
+          </div>
         </div>
-      </div>
+
     </Container>
   );
 }

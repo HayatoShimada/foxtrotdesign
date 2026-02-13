@@ -24,7 +24,7 @@ export function ChatMessages({
     <div className="flex-1 overflow-y-auto p-3 text-xs space-y-2">
       {messages.length === 0 && (
         <p className="text-muted">
-          Hayato ShimadaのAIです。何でも聞いてください。
+          Hayato ShimadaのAIです.何でも聞いてください.
         </p>
       )}
       {messages.map((msg, i) => (

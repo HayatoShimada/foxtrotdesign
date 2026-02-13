@@ -65,7 +65,7 @@ export function ChatPanel() {
       const errorMsg =
         e instanceof Error && e.message.length > 0 && e.message.length < 200
           ? e.message
-          : "エラーが発生しました。もう一度お試しください。";
+          : "エラーが発生しました.もう一度お試しください.";
       setMessages((prev) => {
         const copy = [...prev];
         copy[copy.length - 1] = { role: "model", content: errorMsg };

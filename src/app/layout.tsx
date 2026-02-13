@@ -7,7 +7,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "foxtrotdesign",
   description:
-    "Hayato Shimadaの活動をまとめたウェブサイト。クリエイティブとエンジニアリングの交差点。",
+    "Hayato Shimadaの活動をまとめたウェブサイト.クリエイティブとエンジニアリングの交差点.",
   icons: {
     icon: "/favicon.svg",
   },

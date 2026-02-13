@@ -60,8 +60,8 @@ export default async function ImagesPage() {
         </div>
       ) : (
         <p className="text-muted text-center py-12">
-          画像がまだありません。npm run aggregate
-          を実行してコンテンツを取得してください。
+          画像がまだありません.npm run aggregate
+          を実行してコンテンツを取得してください.
         </p>
       )}
     </Container>

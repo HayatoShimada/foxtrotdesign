@@ -41,7 +41,7 @@ export async function POST(request: NextRequest) {
   const now = Date.now();
   const elapsed = now - lastRequestTime;
   if (elapsed < MIN_INTERVAL_MS) {
-    return new Response("少し待ってからもう一度お試しください。", {
+    return new Response("少し待ってからもう一度お試しください.", {
       status: 429,
     });
   }
@@ -61,7 +61,7 @@ export async function POST(request: NextRequest) {
 
   if (messages.length > 50) {
     return new Response(
-      "会話が長くなりすぎました。ページをリロードしてください。",
+      "会話が長くなりすぎました.ページをリロードしてください.",
       { status: 400 }
     );
   }
@@ -81,7 +81,7 @@ export async function POST(request: NextRequest) {
           role: "user" as const,
           parts: [
             {
-              text: "以下は僕のnote.com記事から抽出した人格プロファイルです。これを参考にして会話してください。\n\n"
+              text: "以下は僕のnote.com記事から抽出した人格プロファイルです.これを参考にして会話してください.\n\n"
                 + notePrompt,
             },
           ],
@@ -89,7 +89,7 @@ export async function POST(request: NextRequest) {
         {
           role: "model" as const,
           parts: [
-            { text: "了解。プロファイルを参考にして会話するよ。" },
+            { text: "了解.プロファイルを参考にして会話するよ." },
           ],
         },
       ]
@@ -138,7 +138,7 @@ export async function POST(request: NextRequest) {
       error instanceof Error && error.message.includes("429");
     if (isRateLimit) {
       return new Response(
-        "APIの利用制限に達しました。少し時間をおいてお試しください。",
+        "APIの利用制限に達しました.少し時間をおいてお試しください.",
         { status: 429 }
       );
     }
