@@ -1,5 +1,14 @@
 [
   {
+    "id": "github-commit-beedc2e",
+    "source": "github",
+    "title": "foxtrotdesign: feat: build type add",
+    "summary": "feat: build type add",
+    "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/beedc2e2b02f8a2f277c3d499bfdb5fed08838fb",
+    "imageUrls": [],
+    "publishedAt": "2026-02-13T05:15:47Z"
+  },
+  {
     "id": "github-commit-851020c",
     "source": "github",
     "title": "foxtrotdesign: Add Next.js portfolio site with Gemini AI content aggregation",
