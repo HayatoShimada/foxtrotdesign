@@ -1,5 +1,14 @@
 [
   {
+    "id": "github-commit-d60f660",
+    "source": "github",
+    "title": "foxtrotdesign: fix: update images with all image URLs",
+    "summary": "fix: update images with all image URLs",
+    "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/d60f660df857b7c315c95d1ee218e837a732abdd",
+    "imageUrls": [],
+    "publishedAt": "2026-02-13T05:49:11Z"
+  },
+  {
     "id": "github-commit-beedc2e",
     "source": "github",
     "title": "foxtrotdesign: feat: build type add",
