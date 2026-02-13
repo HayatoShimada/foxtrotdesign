@@ -1,12 +1,35 @@
+import dotenv from "dotenv";
+dotenv.config({ path: ".env.local" });
 import fs from "fs/promises";
 import path from "path";
 import { fetchGitHubActivity } from "../lib/aggregators/github";
 import { fetchNoteComArticles } from "../lib/aggregators/notecom";
 import { batchSummarize } from "../lib/gemini";
-import { ContentItem } from "../lib/types";
+import { ContentItem, SummarizedContent } from "../lib/types";
+
+async function loadCache(): Promise<Map<string, SummarizedContent>> {
+  const filePath = path.join(
+    process.cwd(),
+    "content",
+    "research",
+    "summarized.json"
+  );
+
+  try {
+    const raw = await fs.readFile(filePath, "utf-8");
+    const data: SummarizedContent[] = JSON.parse(raw);
+    return new Map(data.map((item) => [item.id, item]));
+  } catch {
+    return new Map();
+  }
+}
+
+const noCache = process.argv.includes("--no-cache");
 
 async function main() {
-  console.log("Starting content aggregation...");
+  console.log(
+    `Starting content aggregation...${noCache ? " (no cache)" : ""}`
+  );
 
   const githubUsername = process.env.GITHUB_USERNAME || "HayatoShimada";
   const noteUsername = process.env.NOTE_COM_USERNAME || "85_store";
@@ -33,9 +56,16 @@ async function main() {
     JSON.stringify(allItems, null, 2)
   );
 
-  // Summarize with Gemini
-  console.log("Summarizing content with Gemini...");
-  const summarized = await batchSummarize(allItems);
+  // Load existing cache (skip if --no-cache)
+  const cache = noCache ? new Map() : await loadCache();
+  console.log(
+    noCache
+      ? "Cache disabled, summarizing all items"
+      : `Loaded cache: ${cache.size} existing summaries`
+  );
+
+  // Summarize (GitHub as-is, note.com via Gemini with cache)
+  const summarized = await batchSummarize(allItems, cache);
 
   // Save summarized content
   const contentDir = path.join(process.cwd(), "content", "research");
@@ -53,7 +83,7 @@ async function main() {
   );
 
   console.log(
-    `Aggregation complete! ${summarized.length} summaries, ${imageItems.length} items with images.`
+    `Done! ${summarized.length} items (${imageItems.length} with images)`
   );
 }
 

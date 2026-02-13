@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "tsx src/scripts/aggregate-content.ts && next build",
     "start": "next start",
     "lint": "next lint",
-    "aggregate": "tsx src/scripts/aggregate-content.ts"
+    "aggregate": "tsx src/scripts/aggregate-content.ts",
+    "aggregate:fresh": "tsx src/scripts/aggregate-content.ts --no-cache"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
     "date-fns": "^4.1.0",
+    "dotenv": "^17.3.1",
     "next": "^16.1.6",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",

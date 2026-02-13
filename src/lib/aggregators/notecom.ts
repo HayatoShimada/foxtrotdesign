@@ -12,8 +12,10 @@ export async function fetchNoteComArticles(
     const feed = await parser.parseURL(feedUrl);
 
     return feed.items.map((item) => {
-      const imageMatch = item.content?.match(/<img[^>]+src="([^">]+)"/);
-      const imageUrls = imageMatch ? [imageMatch[1]] : [];
+      const imageMatches = item.content?.matchAll(/<img[^>]+src="([^">]+)"/g);
+      const imageUrls = imageMatches
+        ? [...imageMatches].map((m) => m[1])
+        : [];
 
       return {
         id: `notecom-${item.guid || item.link}`,

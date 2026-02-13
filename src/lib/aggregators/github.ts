@@ -1,12 +1,31 @@
 import { ContentItem } from "../types";
 
+interface GitHubCommit {
+  sha: string;
+  commit: {
+    message: string;
+    author: { date: string };
+  };
+  html_url: string;
+}
+
+interface GitHubRepo {
+  id: number;
+  name: string;
+  full_name: string;
+  html_url: string;
+  description: string | null;
+  language: string | null;
+  updated_at: string;
+}
+
 export async function fetchGitHubActivity(
   username: string
 ): Promise<ContentItem[]> {
   const items: ContentItem[] = [];
 
   const reposRes = await fetch(
-    `https://api.github.com/users/${username}/repos?sort=updated&per_page=10`,
+    `https://api.github.com/users/${username}/repos?sort=pushed&per_page=10`,
     { headers: { Accept: "application/vnd.github+json" } }
   );
 
@@ -15,55 +34,39 @@ export async function fetchGitHubActivity(
     return [];
   }
 
-  const repos = await reposRes.json();
+  const repos: GitHubRepo[] = await reposRes.json();
 
-  for (const repo of repos) {
-    items.push({
-      id: `github-repo-${repo.id}`,
-      source: "github",
-      type: "repository",
-      title: repo.name,
-      content: repo.description || "",
-      url: repo.html_url,
+  // Fetch recent commits for each repo
+  const commitFetches = repos.map(async (repo) => {
+    const commitsRes = await fetch(
+      `https://api.github.com/repos/${repo.full_name}/commits?per_page=5`,
+      { headers: { Accept: "application/vnd.github+json" } }
+    );
+
+    if (!commitsRes.ok) return [];
+
+    const commits: GitHubCommit[] = await commitsRes.json();
+
+    return commits.map((commit) => ({
+      id: `github-commit-${commit.sha.slice(0, 7)}`,
+      source: "github" as const,
+      type: "commit" as const,
+      title: `${repo.name}: ${commit.commit.message.split("\n")[0]}`,
+      content: commit.commit.message,
+      url: commit.html_url,
       imageUrls: [],
-      publishedAt: repo.updated_at,
+      publishedAt: commit.commit.author.date,
       metadata: {
-        stars: repo.stargazers_count,
+        repo: repo.name,
+        repoUrl: repo.html_url,
+        sha: commit.sha.slice(0, 7),
         language: repo.language,
-        topics: repo.topics,
       },
-    });
-  }
+    }));
+  });
 
-  const eventsRes = await fetch(
-    `https://api.github.com/users/${username}/events/public?per_page=30`,
-    { headers: { Accept: "application/vnd.github+json" } }
-  );
-
-  if (eventsRes.ok) {
-    const events = await eventsRes.json();
-    const pushEvents = events
-      .filter((e: Record<string, unknown>) => e.type === "PushEvent")
-      .slice(0, 10);
-
-    for (const event of pushEvents) {
-      const payload = event.payload as { commits?: Array<{ message: string }> };
-      const commits = payload.commits || [];
-      if (commits.length > 0) {
-        const repo = event.repo as { name: string };
-        items.push({
-          id: `github-push-${event.id}`,
-          source: "github",
-          type: "commit",
-          title: `${repo.name}: ${commits[0].message}`,
-          content: commits.map((c) => c.message).join("\n"),
-          url: `https://github.com/${repo.name}`,
-          imageUrls: [],
-          publishedAt: event.created_at as string,
-        });
-      }
-    }
-  }
+  const allCommits = await Promise.all(commitFetches);
+  items.push(...allCommits.flat());
 
   return items.sort(
     (a, b) =>

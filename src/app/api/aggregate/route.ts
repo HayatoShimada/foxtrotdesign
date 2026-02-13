@@ -2,9 +2,26 @@ import { NextRequest, NextResponse } from "next/server";
 import { fetchGitHubActivity } from "@/lib/aggregators/github";
 import { fetchNoteComArticles } from "@/lib/aggregators/notecom";
 import { batchSummarize } from "@/lib/gemini";
-import { ContentItem } from "@/lib/types";
+import { ContentItem, SummarizedContent } from "@/lib/types";
 import fs from "fs/promises";
 import path from "path";
+
+async function loadCache(): Promise<Map<string, SummarizedContent>> {
+  const filePath = path.join(
+    process.cwd(),
+    "content",
+    "research",
+    "summarized.json"
+  );
+
+  try {
+    const raw = await fs.readFile(filePath, "utf-8");
+    const data: SummarizedContent[] = JSON.parse(raw);
+    return new Map(data.map((item) => [item.id, item]));
+  } catch {
+    return new Map();
+  }
+}
 
 export async function GET(request: NextRequest) {
   const authHeader = request.headers.get("authorization");
@@ -28,7 +45,8 @@ export async function GET(request: NextRequest) {
         new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
     );
 
-    const summarized = await batchSummarize(allItems);
+    const cache = await loadCache();
+    const summarized = await batchSummarize(allItems, cache);
     const imageItems = allItems.filter((item) => item.imageUrls.length > 0);
 
     const contentDir = path.join(process.cwd(), "content", "research");

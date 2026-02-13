@@ -1,0 +1,593 @@
+[
+  {
+    "id": "github-commit-851020c",
+    "source": "github",
+    "title": "foxtrotdesign: Add Next.js portfolio site with Gemini AI content aggregation",
+    "summary": "Add Next.js portfolio site with Gemini AI content aggregation\n\n- Next.js app with Home, Research, Images pages\n- Gemini AI integration for summarizing Instagram, note.com, GitHub activity\n- Minimal mo",
+    "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/851020c6cf868af8f738da436fcb39911aee2cb2",
+    "imageUrls": [],
+    "publishedAt": "2026-02-13T04:42:11Z"
+  },
+  {
+    "id": "github-commit-9873063",
+    "source": "github",
+    "title": "foxtrotdesign: first commit",
+    "summary": "first commit",
+    "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/98730634d37472ea31b55763bbeceea53bd8f4f4",
+    "imageUrls": [],
+    "publishedAt": "2026-02-13T04:33:46Z"
+  },
+  {
+    "id": "github-commit-ec24123",
+    "source": "github",
+    "title": "trackdlo2: feat: 追従方法の修正",
+    "summary": "feat: 追従方法の修正",
+    "url": "https://github.com/HayatoShimada/trackdlo2/commit/ec24123859e5d23f89ebd3ef6ce82372a047dbab",
+    "imageUrls": [],
+    "publishedAt": "2026-02-13T03:54:36Z"
+  },
+  {
+    "id": "github-commit-6802d29",
+    "source": "github",
+    "title": "gemini_sc: first commit",
+    "summary": "first commit",
+    "url": "https://github.com/HayatoShimada/gemini_sc/commit/6802d292cf24dec807a4dab8943c08196910f33d",
+    "imageUrls": [],
+    "publishedAt": "2026-02-12T07:31:36Z"
+  },
+  {
+    "id": "github-commit-ab573fc",
+    "source": "github",
+    "title": "gemini_sc: feat: init",
+    "summary": "feat: init",
+    "url": "https://github.com/HayatoShimada/gemini_sc/commit/ab573fc5afc0c667be5855c6d328347612456253",
+    "imageUrls": [],
+    "publishedAt": "2026-02-12T07:30:30Z"
+  },
+  {
+    "id": "github-commit-176cf6c",
+    "source": "github",
+    "title": "phisical_ai_research: commit",
+    "summary": "commit",
+    "url": "https://github.com/HayatoShimada/phisical_ai_research/commit/176cf6c6d1dd365f9328a466368b0b76d1d82f79",
+    "imageUrls": [],
+    "publishedAt": "2026-02-12T05:37:07Z"
+  },
+  {
+    "id": "github-commit-da88a65",
+    "source": "github",
+    "title": "phisical_ai_research: add: vision2",
+    "summary": "add: vision2",
+    "url": "https://github.com/HayatoShimada/phisical_ai_research/commit/da88a653933a66c2b824007ba5c7261467054932",
+    "imageUrls": [],
+    "publishedAt": "2026-02-12T05:26:09Z"
+  },
+  {
+    "id": "github-commit-82af53e",
+    "source": "github",
+    "title": "phisical_ai_research: feat: vision",
+    "summary": "feat: vision",
+    "url": "https://github.com/HayatoShimada/phisical_ai_research/commit/82af53e8bdfc82591556d9a595a7bc02553e7049",
+    "imageUrls": [],
+    "publishedAt": "2026-02-12T05:07:31Z"
+  },
+  {
+    "id": "github-commit-bd01ca6",
+    "source": "github",
+    "title": "phisical_ai_research: add: news pickup",
+    "summary": "add: news pickup",
+    "url": "https://github.com/HayatoShimada/phisical_ai_research/commit/bd01ca6efe0616c4130b4567cef3ffe242d431bf",
+    "imageUrls": [],
+    "publishedAt": "2026-02-12T02:32:20Z"
+  },
+  {
+    "id": "github-commit-3108b20",
+    "source": "github",
+    "title": "phisical_ai_research: docs: topic & policy",
+    "summary": "docs: topic & policy",
+    "url": "https://github.com/HayatoShimada/phisical_ai_research/commit/3108b203c4a72922694859d992c66201fa978ab7",
+    "imageUrls": [],
+    "publishedAt": "2026-02-12T02:15:37Z"
+  },
+  {
+    "id": "github-commit-cc053ef",
+    "source": "github",
+    "title": "trackdlo2: fix: segmentation fault bug",
+    "summary": "fix: segmentation fault bug",
+    "url": "https://github.com/HayatoShimada/trackdlo2/commit/cc053ef84f00284ded3583b93d6ce7d94a77eea8",
+    "imageUrls": [],
+    "publishedAt": "2026-02-11T15:02:59Z"
+  },
+  {
+    "id": "github-commit-082f98a",
+    "source": "github",
+    "title": "trackdlo2: fix: no image error fix",
+    "summary": "fix: no image error fix",
+    "url": "https://github.com/HayatoShimada/trackdlo2/commit/082f98a066b77ea20ed31eee21560e32abd096ff",
+    "imageUrls": [],
+    "publishedAt": "2026-02-11T14:49:27Z"
+  },
+  {
+    "id": "github-commit-d1d867c",
+    "source": "github",
+    "title": "trackdlo2: feat: speed down and dlo tracking",
+    "summary": "feat: speed down and dlo tracking",
+    "url": "https://github.com/HayatoShimada/trackdlo2/commit/d1d867cd23a7fa236926277a8dac4e3735af8d9e",
+    "imageUrls": [],
+    "publishedAt": "2026-02-11T14:41:35Z"
+  },
+  {
+    "id": "github-commit-34da04f",
+    "source": "github",
+    "title": "trackdlo2: feat: 探索方法の変更",
+    "summary": "feat: 探索方法の変更",
+    "url": "https://github.com/HayatoShimada/trackdlo2/commit/34da04fa1d47a6ccb710c03f95a8361d00c42083",
+    "imageUrls": [],
+    "publishedAt": "2026-02-11T14:39:03Z"
+  },
+  {
+    "id": "github-commit-ab075d7",
+    "source": "github",
+    "title": "slither_ai_dlo_2: feat: cuda",
+    "summary": "feat: cuda",
+    "url": "https://github.com/HayatoShimada/slither_ai_dlo_2/commit/ab075d7af81f354f65574e69f8f2d74df51cec1c",
+    "imageUrls": [],
+    "publishedAt": "2026-02-10T07:34:49Z"
+  },
+  {
+    "id": "github-commit-8e4abda",
+    "source": "github",
+    "title": "slither_ai_dlo_2: fix: 探索のバグ修正",
+    "summary": "fix: 探索のバグ修正",
+    "url": "https://github.com/HayatoShimada/slither_ai_dlo_2/commit/8e4abdab5ea23add506b858d4ee0f7723779ea06",
+    "imageUrls": [],
+    "publishedAt": "2026-02-09T13:48:08Z"
+  },
+  {
+    "id": "github-commit-706fb2c",
+    "source": "github",
+    "title": "slither_ai_dlo_2: feat: mac / chromium",
+    "summary": "feat: mac / chromium",
+    "url": "https://github.com/HayatoShimada/slither_ai_dlo_2/commit/706fb2c211048bb15aabb66edf2b55efdc7cd686",
+    "imageUrls": [],
+    "publishedAt": "2026-02-09T10:06:20Z"
+  },
+  {
+    "id": "github-commit-f55901a",
+    "source": "github",
+    "title": "slither_ai_dlo_2: feat: nvidia & radeon & cpu rl add",
+    "summary": "feat: nvidia & radeon & cpu rl add",
+    "url": "https://github.com/HayatoShimada/slither_ai_dlo_2/commit/f55901a409a2583d4f9424daadc43d65a56885f2",
+    "imageUrls": [],
+    "publishedAt": "2026-02-09T07:33:36Z"
+  },
+  {
+    "id": "github-commit-3d648cd",
+    "source": "github",
+    "title": "slither_ai_dlo_2: feat: episode 2 times pro update",
+    "summary": "feat: episode 2 times pro update",
+    "url": "https://github.com/HayatoShimada/slither_ai_dlo_2/commit/3d648cd6620bc49fac6c75e3c72b8b5f19375297",
+    "imageUrls": [],
+    "publishedAt": "2026-02-09T07:26:46Z"
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/n08d5e538a7cd",
+    "source": "notecom",
+    "title": "問うカフェ参加記　自由とは",
+    "summary": "「問うカフェ」とは？\nお茶を飲みながら、一つのテーマについて参加者全員で語り合う会です。「話し合う」と聞くと少し身構えてしまいますが、実際には「テーマのある雑談」という趣が強く、普段はあえて考えないような問いを言語化することで、自分の視野を広げていくことを意図されています。\n続きをみる",
+    "url": "https://note.com/85_store/n/n08d5e538a7cd",
+    "imageUrls": [],
+    "publishedAt": "2026-02-08T14:45:06.000Z"
+  },
+  {
+    "id": "github-commit-4522482",
+    "source": "github",
+    "title": "85store: feat: microcms",
+    "summary": "feat: microcms",
+    "url": "https://github.com/HayatoShimada/85store/commit/4522482065dcfce1979171523d78c51cdaf33d97",
+    "imageUrls": [],
+    "publishedAt": "2026-02-06T11:42:55Z"
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/na7c93d22cc71",
+    "source": "notecom",
+    "title": "洋服を買って豊かになって欲しい",
+    "summary": "今週のWEEKEND LIMITED STOREもご来店いただきありがとうございました。\n予約のみというだけでもハードルは高いのですが。\nどんな店舗なのか、何が売っているのか、どんな店員なのか。\n何も分からないお店に来ていただけるお客様にただただ感謝です。\n何より楽しんで帰っていただけるのがすごく嬉しい。そこの充実感に向けて、日々苦心するばかりです。\n    \n        \n         ",
+    "url": "https://note.com/85_store/n/na7c93d22cc71",
+    "imageUrls": [],
+    "publishedAt": "2026-02-01T13:39:12.000Z"
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/n68381a205e37",
+    "source": "notecom",
+    "title": "J.CREWはやばい",
+    "summary": "「チェックシャツ屋さん」と揶揄されるくらい、チェックシャツの仕入れにこだわっている85-Storeですが、見つけたら必ずピックしているブランドがあります。\nそれが\"J.CREW\"です。\n続きをみる",
+    "url": "https://note.com/85_store/n/n68381a205e37",
+    "imageUrls": [],
+    "publishedAt": "2026-01-30T13:50:29.000Z"
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/n718f1bac3498",
+    "source": "notecom",
+    "title": "企業・団体ロゴモノ×アウトドアウェア古着~欧米タイポグラフィと日本タイポの差異について~",
+    "summary": "適度な冷たさがあるデザイン\nタイポグラフィ好き、ロゴデザイン好きとして見つけるたびにピックしてきたジャンルがあります。\nそれが企業・団体ロゴのアウトドアウェアです。\n続きをみる",
+    "url": "https://note.com/85_store/n/n718f1bac3498",
+    "imageUrls": [],
+    "publishedAt": "2026-01-26T14:24:12.000Z"
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/n321f6c2512e8",
+    "source": "notecom",
+    "title": "イベントは道連れ、世は情け。",
+    "summary": "勝手に流れてきた古着屋さんのリール動画での\n「最初の1, 2年はイベントに出まくらんなん！」的な内容に触発され。\n俺もやるぞ！と、フリマサイトで一番直近で参加できるイベントに登録したのが先月末のこと。\nそして今日、そのイベントに参加してきました。\nしかも警報レベルの大雪の中。\n行く途中に5回ぐらい「帰りたい…」と思いました。\n続きをみる",
+    "url": "https://note.com/85_store/n/n321f6c2512e8",
+    "imageUrls": [],
+    "publishedAt": "2026-01-24T15:40:22.000Z"
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/n948bc1edf6ee",
+    "source": "notecom",
+    "title": "1/24はフリマ出店",
+    "summary": "1/24はフリマ出店のため、WEEKEND LIMITED STOREはお休みです。\n北陸フリーマーケット\n続きをみる",
+    "url": "https://note.com/85_store/n/n948bc1edf6ee",
+    "imageUrls": [],
+    "publishedAt": "2026-01-19T03:16:49.000Z"
+  },
+  {
+    "id": "github-commit-8adbe81",
+    "source": "github",
+    "title": "85store: feat: about add photos",
+    "summary": "feat: about add photos",
+    "url": "https://github.com/HayatoShimada/85store/commit/8adbe81d339cfd79442faa10c2b5242eafcabcb1",
+    "imageUrls": [],
+    "publishedAt": "2026-01-18T15:11:37Z"
+  },
+  {
+    "id": "github-commit-01d1a2a",
+    "source": "github",
+    "title": "85store: feat: xl => 3xl",
+    "summary": "feat: xl => 3xl",
+    "url": "https://github.com/HayatoShimada/85store/commit/01d1a2a189310127775679226aa7296079399970",
+    "imageUrls": [],
+    "publishedAt": "2026-01-18T14:42:08Z"
+  },
+  {
+    "id": "github-commit-e6f1e5a",
+    "source": "github",
+    "title": "85store: feat font weight",
+    "summary": "feat font weight",
+    "url": "https://github.com/HayatoShimada/85store/commit/e6f1e5a7e90fc503acf62ae8f7e7f73f853bc653",
+    "imageUrls": [],
+    "publishedAt": "2026-01-18T14:37:15Z"
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/nf7e15696a481",
+    "source": "notecom",
+    "title": "感情的、論理的、山道を作ったり走ったり",
+    "summary": "感情を優先する人との会話を山道だとすると、一定の整合性を保ちながら話を進めたい論者にとっては、無理難題ばかりの山という大自然を前に、道路を舗装していこうとするようなものだろう。\nできる限り真っ直ぐに、走りやすく舗装したいが、そこに横たわる急斜面、曲がりくねった崖、水源に固い岩盤。\nありとあらゆる感情的地雷を避けながら、時に橋をかけ、トンネルを掘り、崖に沿って曲がった道を丁寧に引かなければならない。",
+    "url": "https://note.com/85_store/n/nf7e15696a481",
+    "imageUrls": [],
+    "publishedAt": "2026-01-16T20:04:11.000Z"
+  },
+  {
+    "id": "github-commit-2b23f10",
+    "source": "github",
+    "title": "85store: Merge pull request #13 from HayatoShimada/dmsans",
+    "summary": "Merge pull request #13 from HayatoShimada/dmsans\n\nfeat: DM Sans",
+    "url": "https://github.com/HayatoShimada/85store/commit/2b23f105af1fdaed8447029e7d986ac8847471cd",
+    "imageUrls": [],
+    "publishedAt": "2026-01-15T03:17:04Z"
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/n3cd85f1f9b6d",
+    "source": "notecom",
+    "title": "Adobeからの移行とフォント問題",
+    "summary": "転職に伴いAdobeが使えなくなるので、代替ソフトを探していたところ、Canvaが提供している完全無料のAffinityに出会う。\nhttps://www.affinity.studio/ja_jp\n続きをみる",
+    "url": "https://note.com/85_store/n/n3cd85f1f9b6d",
+    "imageUrls": [],
+    "publishedAt": "2026-01-15T01:13:52.000Z"
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/n83f02c212b52",
+    "source": "notecom",
+    "title": "新年茶会の誘い|イベント振り返り",
+    "summary": "寮で生活をしていた高校時代、メンヘラ気味の彼女が「こいつ死ぬのか？」と思うほどにヘラっていたので、寮(練合)から冠水公園まで走って会いに行った事がある。\n15分だけ話して、また走って帰るのだが(彼女は若干引いて冷静になっていた)18km程の行程で、まして台風の日にやるべき事ではなかった。\n8号線を越えて新湊に向かう途中、何の障害物もない田園地帯で、息も出来ないほどの強烈な風の中、「これが愛だ！」と",
+    "url": "https://note.com/85_store/n/n83f02c212b52",
+    "imageUrls": [
+      "https://assets.st-note.com/production/uploads/images/243466815/picture_pc_a5bf077b8c25d159ba1ce2b34240f15e.png"
+    ],
+    "publishedAt": "2026-01-12T23:46:37.000Z"
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/nd2d13d09c2ff",
+    "source": "notecom",
+    "title": "視点ラッシュ",
+    "summary": "年末にゆる言語学ラジオのベスト本回を見てから、「視点」という言葉で頭がいっぱいになっている。\nこういう気になるワードが好きな人から出てくるとヤバい。\n水野さんは罪な男だ。\n続きをみる",
+    "url": "https://note.com/85_store/n/nd2d13d09c2ff",
+    "imageUrls": [],
+    "publishedAt": "2026-01-09T12:09:50.000Z"
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/n2c996eeca007",
+    "source": "notecom",
+    "title": "小売はもう「価値」を売れない。だから視点を売る本をつくる。",
+    "summary": "85 no mawariという本を書いています\n価格も価値も「買い手」が決める時代になった。\nさて、小売は何を売れるのだろうか？\n続きをみる",
+    "url": "https://note.com/85_store/n/n2c996eeca007",
+    "imageUrls": [],
+    "publishedAt": "2026-01-09T02:12:43.000Z"
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/n4a100d1126a5",
+    "source": "notecom",
+    "title": "好き集め",
+    "summary": "4年ぶりくらいに氷見のfctryに訪問しました。\n FCTRY powered by BASEシルクスクリーン 印刷の体験ショップ。その場で簡単にオリジナルTシャツなどをお作り頂けます。オーダーも承りますのでお気軽にfctry.thebase.in \n続きをみる",
+    "url": "https://note.com/85_store/n/n4a100d1126a5",
+    "imageUrls": [],
+    "publishedAt": "2026-01-08T07:11:19.000Z"
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/nd62225ec475d",
+    "source": "notecom",
+    "title": "曖昧クルーネック",
+    "summary": "[River] Crew Neck DARK NAVYセッケツと呼ばれる生地は、空気の層があることで抜群の保温性と柔らかな肌当たりで着心地抜群。ウールを１１％配合させることによshop.85-store.com 17,600円    85-storeで購入する    \nRiverから一番楽しみにしていた洋服が届きました。\n続きをみる",
+    "url": "https://note.com/85_store/n/nd62225ec475d",
+    "imageUrls": [],
+    "publishedAt": "2026-01-07T04:20:45.000Z"
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/n3b68ca2e65ad",
+    "source": "notecom",
+    "title": "床屋のようなブティックのような",
+    "summary": "85-Storeはヴィレバンだ！と宣言したのも束の間。\n「ブティック」という言葉の、丁度良い重さが気になる今日この頃。\n続きをみる",
+    "url": "https://note.com/85_store/n/n3b68ca2e65ad",
+    "imageUrls": [],
+    "publishedAt": "2026-01-06T17:32:29.000Z"
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/n00b5504bf389",
+    "source": "notecom",
+    "title": "Why Does It Always Rain on Me?|スコットランドと富山と羊",
+    "summary": "僕はOasisよりTravis派。\n失恋でも社会批判でも自己憐憫でもないロック。サカナクションでもくるりでもない。もっと冷めて諦めて受け入れて進む。それがTravis。\n続きをみる",
+    "url": "https://note.com/85_store/n/n00b5504bf389",
+    "imageUrls": [
+      "https://assets.st-note.com/img/1767722797-xVS4uLyz598KIJspBTDhQaZe.png"
+    ],
+    "publishedAt": "2026-01-06T16:31:16.000Z"
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/nb5401208da40",
+    "source": "notecom",
+    "title": "85-Storeの紹介",
+    "summary": "年始のイベントで、ゆいまる著の小説が発表されます。\nイベントでは洋服を売らないので、お店のPRメインになります。\n About Us | 富山県南砺市井波の古着・セレクトショップ 85-Store富山県南砺市井波の古着・セレクトショップ「85-Store（ハコストア）」について。オーセンティックな古着とニューアイテム85-store.com \n続きをみる",
+    "url": "https://note.com/85_store/n/nb5401208da40",
+    "imageUrls": [],
+    "publishedAt": "2026-01-04T05:44:17.000Z"
+  },
+  {
+    "id": "github-commit-2edbcdb",
+    "source": "github",
+    "title": "astro-notion-blog: feat:meta",
+    "summary": "feat:meta",
+    "url": "https://github.com/HayatoShimada/astro-notion-blog/commit/2edbcdb8c3a4d6750f2f6921079723ab222441d9",
+    "imageUrls": [],
+    "publishedAt": "2026-01-03T13:49:43Z"
+  },
+  {
+    "id": "github-commit-8c3e101",
+    "source": "github",
+    "title": "astro-notion-blog: feat: kurashitou add",
+    "summary": "feat: kurashitou add",
+    "url": "https://github.com/HayatoShimada/astro-notion-blog/commit/8c3e10122715f0149435135b4fc2bf5d09610796",
+    "imageUrls": [],
+    "publishedAt": "2026-01-01T12:12:23Z"
+  },
+  {
+    "id": "github-commit-1c4843d",
+    "source": "github",
+    "title": "astro-notion-blog: feat:Probono",
+    "summary": "feat:Probono",
+    "url": "https://github.com/HayatoShimada/astro-notion-blog/commit/1c4843d5111d47316e7485cae76a45238f8a180a",
+    "imageUrls": [],
+    "publishedAt": "2026-01-01T12:11:09Z"
+  },
+  {
+    "id": "github-commit-ea7e51a",
+    "source": "github",
+    "title": "astro-notion-blog: feat: add kurashitou",
+    "summary": "feat: add kurashitou",
+    "url": "https://github.com/HayatoShimada/astro-notion-blog/commit/ea7e51a29b32e3089c5ecf92f1e7cd54ed9ddaca",
+    "imageUrls": [],
+    "publishedAt": "2026-01-01T11:59:42Z"
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/neef8c5ea4416",
+    "source": "notecom",
+    "title": "イベント出店のお知らせ|新年茶会の誘い",
+    "summary": "期日：1/12(祝月) 成人の日\n場所：DOMAから\n DOMAから（どまから） · 〒932-0215 富山県南砺市山下９２シェアキッチンmaps.app.goo.gl \n続きをみる",
+    "url": "https://note.com/85_store/n/neef8c5ea4416",
+    "imageUrls": [],
+    "publishedAt": "2026-01-01T11:26:07.000Z"
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/nbf5fc56157ba",
+    "source": "notecom",
+    "title": "服とキャプション|85-Storeはヴィレバン",
+    "summary": "言語脳、視覚脳\n安易にカテゴライズするのは好きじゃないが、ゆる言語学ラジオのビジュアルシンカーの回を見てから、この人は言語脳なのか視覚脳なのかを無意識に分類してしまうようになった。\n続きをみる",
+    "url": "https://note.com/85_store/n/nbf5fc56157ba",
+    "imageUrls": [],
+    "publishedAt": "2025-12-31T02:21:49.000Z"
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/ndd8755f5d534",
+    "source": "notecom",
+    "title": "年末年始反省セール開催中",
+    "summary": "本年は85-Storeをお引き立ていただき、誠にありがとうございました。\n感謝を込めて...というよりも\n続きをみる",
+    "url": "https://note.com/85_store/n/ndd8755f5d534",
+    "imageUrls": [],
+    "publishedAt": "2025-12-30T06:40:07.000Z"
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/n79c49388c76a",
+    "source": "notecom",
+    "title": "私は猫のような機械になりたい",
+    "summary": "私はロジカルな人間なので共感が出来ません。\nですが、人が悲しい時はその気持ちを受け取って自分も悲しくなるし、喜んでいる時はもちろん嬉しくて、その気持ちを受け取っています。\n受け取った感情をそのまま自分の感情で返せないだけで、誰かの感情について深く理解したいと思っています。\n実際にホロスコープを見てもらうと、ほとんどが水の属性で、占ってもらった方がジーンとくるほど、共感できて、優しい人。\n続きをみる",
+    "url": "https://note.com/85_store/n/n79c49388c76a",
+    "imageUrls": [],
+    "publishedAt": "2025-12-28T22:35:03.000Z"
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/n0fdc07957b60",
+    "source": "notecom",
+    "title": "免責的超人論・多重ペルソナモデル",
+    "summary": "本論はこれまでに島田迅人が考えていた（感じていた）世界と自己、制度と自由に対する抽象的な観点を、ベースの言語化できない抽象理論\n二元論的免責論\nポストニーチェ的超人論\n多重ペルソナ的解決\nを元にChat GPT 5.2との壁打ちによってなんとか言語化し、構造化を進めています。\n生成内容は何度も修正を重ねて、最終的に私が納得する着地点を目指しつつ、最後に細部の表現を加筆・修正しながら書き上げています",
+    "url": "https://note.com/85_store/n/n0fdc07957b60",
+    "imageUrls": [],
+    "publishedAt": "2025-12-26T15:31:50.000Z"
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/n8c0101146b37",
+    "source": "notecom",
+    "title": "二元論とボランティア（Probono）",
+    "summary": "日本は因果論的に\"運用されやすい\"社会であり、\n一元論的に“解釈されがち”な社会です。\n\n\n日本仏教には下記の考え方があります。\n因果応報\n\n\n縁起（多因的・非直線的）\n\n\n無常\n\n\n\n\n儒教・近代日本社会の考え方が仏教主張と混ざっています。\n自己責任\n\n\n努力主義\n\n\n成果主義\n\n\n\n\n続きをみる",
+    "url": "https://note.com/85_store/n/n8c0101146b37",
+    "imageUrls": [],
+    "publishedAt": "2025-12-26T02:10:40.000Z"
+  },
+  {
+    "id": "github-commit-b84783e",
+    "source": "github",
+    "title": "astro-notion-blog: feat: probono",
+    "summary": "feat: probono",
+    "url": "https://github.com/HayatoShimada/astro-notion-blog/commit/b84783e9b1e5e0c0e3a69eeef949a78c576eb3d3",
+    "imageUrls": [],
+    "publishedAt": "2025-12-25T05:51:32Z"
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/n854f76ebbad4",
+    "source": "notecom",
+    "title": "ハコの中に込めた「好き」の正体。｜85-Storeの振り返りと、これからのこと。",
+    "summary": "「今、これが純粋に良い！」 そんな真っ直ぐな気持ちを大切にしてほしい。\n僕たち85-Storeがオープン以来掲げてきたのは、ブランドや時代背景といった「記号」を取り払った先にある、洋服そのものの魅力を信じることでした。オーセンティックな古着も、日本の職人とアウトレット生地で作る新品も。すべては「今好きなものが、ずっと好きなものになる」という未来のために選んできました。\n続きをみる",
+    "url": "https://note.com/85_store/n/n854f76ebbad4",
+    "imageUrls": [],
+    "publishedAt": "2025-12-23T05:48:40.000Z"
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/n2c0d75a38f14",
+    "source": "notecom",
+    "title": "スタイリング遍歴",
+    "summary": "自分の昔のスタイリングを色々見ていくと面白い。あと痛い。\nその時何に影響を受けていたのか。\nその時何が好きだったのか。\n100枚以上の写真の中から特徴的なスタイリングを悶絶しながらピックしてみます。\n\n続きをみる",
+    "url": "https://note.com/85_store/n/n2c0d75a38f14",
+    "imageUrls": [
+      "https://assets.st-note.com/img/1766417253-Z7uwaqgbizcpJHXCS4LhoFlN.jpg"
+    ],
+    "publishedAt": "2025-12-22T15:47:55.000Z"
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/nd98ec76351c5",
+    "source": "notecom",
+    "title": "「いちいち理由がある」カバーオール",
+    "summary": "カバーオールを着る理由\n現代のライフスタイルで、車に乗るか、乗らないかは洋服の選択に直結してきます。\n東京にいたときは電車移動+歩きメインで、コートを着ることが多かったですが、富山に帰ってきてからは殆どが車移動。\n富山県民は100m移動するのにも車を使うくらい、生活に切り離せないものとなっており、アウターの選択肢は自ずとショート丈に。\n続きをみる",
+    "url": "https://note.com/85_store/n/nd98ec76351c5",
+    "imageUrls": [],
+    "publishedAt": "2025-12-22T05:58:24.000Z"
+  },
+  {
+    "id": "github-commit-13ee0c7",
+    "source": "github",
+    "title": "85store_barcode_converter: first commit",
+    "summary": "first commit",
+    "url": "https://github.com/HayatoShimada/85store_barcode_converter/commit/13ee0c71a8cd6bd37c2aabeb5ffb6fef79bf52cf",
+    "imageUrls": [],
+    "publishedAt": "2025-12-20T03:44:20Z"
+  },
+  {
+    "id": "github-commit-6792c06",
+    "source": "github",
+    "title": "KdxDesigner: 工程詳細フロー画面とMainViewの調整",
+    "summary": "工程詳細フロー画面とMainViewの調整",
+    "url": "https://github.com/HayatoShimada/KdxDesigner/commit/6792c068f35d019b55fcb3de6687448339e8edb9",
+    "imageUrls": [],
+    "publishedAt": "2025-08-10T23:15:46Z"
+  },
+  {
+    "id": "github-commit-3948242",
+    "source": "github",
+    "title": "KdxDesigner: リファクタリング",
+    "summary": "リファクタリング",
+    "url": "https://github.com/HayatoShimada/KdxDesigner/commit/39482428c66767b928ed43c0316f7744b37e3ccb",
+    "imageUrls": [],
+    "publishedAt": "2025-08-09T01:50:46Z"
+  },
+  {
+    "id": "github-commit-461a144",
+    "source": "github",
+    "title": "KdxDesigner: delete none method",
+    "summary": "delete none method",
+    "url": "https://github.com/HayatoShimada/KdxDesigner/commit/461a144fb79aa449795abd99c7ac6b0be1e51bea",
+    "imageUrls": [],
+    "publishedAt": "2025-08-09T01:44:26Z"
+  },
+  {
+    "id": "github-commit-4783f3f",
+    "source": "github",
+    "title": "KdxDesigner: merge error fix",
+    "summary": "merge error fix",
+    "url": "https://github.com/HayatoShimada/KdxDesigner/commit/4783f3f1874b2d142599d960cc4096ebe0d993a5",
+    "imageUrls": [],
+    "publishedAt": "2025-08-09T01:35:49Z"
+  },
+  {
+    "id": "github-commit-c56399b",
+    "source": "github",
+    "title": "KdxDesigner: merge",
+    "summary": "merge",
+    "url": "https://github.com/HayatoShimada/KdxDesigner/commit/c56399b5f79786fd83909a738819d6909d5c585a",
+    "imageUrls": [],
+    "publishedAt": "2025-08-09T01:35:05Z"
+  },
+  {
+    "id": "github-commit-4ef29dd",
+    "source": "github",
+    "title": "studio-ts: blog_profile写真",
+    "summary": "blog_profile写真",
+    "url": "https://github.com/HayatoShimada/studio-ts/commit/4ef29ddbd9fd9995fab594832dfe8f995f6e3a65",
+    "imageUrls": [],
+    "publishedAt": "2025-06-22T23:34:28Z"
+  },
+  {
+    "id": "github-commit-89194ed",
+    "source": "github",
+    "title": "studio-ts: 無辺集ページの削除",
+    "summary": "無辺集ページの削除",
+    "url": "https://github.com/HayatoShimada/studio-ts/commit/89194ed53b459afb5cee1a0fd5effcbb2c81dc6e",
+    "imageUrls": [],
+    "publishedAt": "2025-06-21T06:57:06Z"
+  },
+  {
+    "id": "github-commit-d9e38c8",
+    "source": "github",
+    "title": "studio-ts: blogの投稿",
+    "summary": "blogの投稿",
+    "url": "https://github.com/HayatoShimada/studio-ts/commit/d9e38c8db9001aec0ebc97a294a8ba89f377c466",
+    "imageUrls": [],
+    "publishedAt": "2025-06-21T06:54:52Z"
+  },
+  {
+    "id": "github-commit-25c47f9",
+    "source": "github",
+    "title": "studio-ts: blogの作成",
+    "summary": "blogの作成",
+    "url": "https://github.com/HayatoShimada/studio-ts/commit/25c47f9ca109fa340a8ddce5900a7c439dbb327c",
+    "imageUrls": [],
+    "publishedAt": "2025-06-21T06:54:35Z"
+  },
+  {
+    "id": "github-commit-242814e",
+    "source": "github",
+    "title": "studio-ts: github_link更新",
+    "summary": "github_link更新",
+    "url": "https://github.com/HayatoShimada/studio-ts/commit/242814eeb45b4a74a7760312ae6dd33ef59b6f18",
+    "imageUrls": [],
+    "publishedAt": "2025-06-21T06:04:54Z"
+  }
+]

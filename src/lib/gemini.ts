@@ -1,7 +1,19 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { ContentItem, SummarizedContent } from "./types";
 
-export async function summarizeContent(
+function contentToSummary(item: ContentItem): SummarizedContent {
+  return {
+    id: item.id,
+    source: item.source,
+    title: item.title,
+    summary: item.content?.substring(0, 200) || item.title,
+    url: item.url,
+    imageUrls: item.imageUrls,
+    publishedAt: item.publishedAt,
+  };
+}
+
+async function summarizeWithGemini(
   item: ContentItem,
   model: ReturnType<GoogleGenerativeAI["getGenerativeModel"]>
 ): Promise<SummarizedContent> {
@@ -16,8 +28,7 @@ export async function summarizeContent(
 
   try {
     const result = await model.generateContent(prompt);
-    const response = result.response;
-    const summary = response.text().trim();
+    const summary = result.response.text().trim();
 
     return {
       id: item.id,
@@ -30,52 +41,66 @@ export async function summarizeContent(
     };
   } catch (error) {
     console.error(`Failed to summarize ${item.id}:`, error);
-    return {
-      id: item.id,
-      source: item.source,
-      title: item.title,
-      summary: item.content?.substring(0, 200) + "..." || "要約を生成できませんでした。",
-      url: item.url,
-      imageUrls: item.imageUrls,
-      publishedAt: item.publishedAt,
-    };
+    return contentToSummary(item);
   }
 }
 
 export async function batchSummarize(
-  items: ContentItem[]
+  items: ContentItem[],
+  cache: Map<string, SummarizedContent>
 ): Promise<SummarizedContent[]> {
-  const apiKey = process.env.GEMINI_API_KEY;
-  if (!apiKey || apiKey === "your_gemini_api_key_here") {
-    console.warn("GEMINI_API_KEY not configured, using content as-is");
-    return items.map((item) => ({
-      id: item.id,
-      source: item.source,
-      title: item.title,
-      summary: item.content?.substring(0, 200) || item.title,
-      url: item.url,
-      imageUrls: item.imageUrls,
-      publishedAt: item.publishedAt,
-    }));
-  }
+  // GitHub items: use commit message as-is, no Gemini
+  const githubItems = items.filter((item) => item.source === "github");
+  const noteItems = items.filter((item) => item.source === "notecom");
 
-  const genAI = new GoogleGenerativeAI(apiKey);
-  const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
+  const githubResults = githubItems.map(contentToSummary);
 
-  const batchSize = 5;
-  const results: SummarizedContent[] = [];
+  // note.com items: check cache, only summarize new ones
+  const cachedResults: SummarizedContent[] = [];
+  const newNoteItems: ContentItem[] = [];
 
-  for (let i = 0; i < items.length; i += batchSize) {
-    const batch = items.slice(i, i + batchSize);
-    const summaries = await Promise.all(
-      batch.map((item) => summarizeContent(item, model))
-    );
-    results.push(...summaries);
-
-    if (i + batchSize < items.length) {
-      await new Promise((resolve) => setTimeout(resolve, 1000));
+  for (const item of noteItems) {
+    const cached = cache.get(item.id);
+    if (cached) {
+      cachedResults.push(cached);
+    } else {
+      newNoteItems.push(item);
     }
   }
 
-  return results;
+  if (cachedResults.length > 0) {
+    console.log(`  Cache hit: ${cachedResults.length} items`);
+  }
+
+  let newResults: SummarizedContent[] = [];
+
+  if (newNoteItems.length > 0) {
+    const apiKey = process.env.GEMINI_API_KEY;
+    if (!apiKey || apiKey === "your_gemini_api_key_here") {
+      console.warn("  GEMINI_API_KEY not configured, using content as-is");
+      newResults = newNoteItems.map(contentToSummary);
+    } else {
+      console.log(`  Summarizing ${newNoteItems.length} new note.com items with Gemini...`);
+      const genAI = new GoogleGenerativeAI(apiKey);
+      const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
+
+      const batchSize = 5;
+      for (let i = 0; i < newNoteItems.length; i += batchSize) {
+        const batch = newNoteItems.slice(i, i + batchSize);
+        const summaries = await Promise.all(
+          batch.map((item) => summarizeWithGemini(item, model))
+        );
+        newResults.push(...summaries);
+
+        if (i + batchSize < newNoteItems.length) {
+          await new Promise((resolve) => setTimeout(resolve, 1000));
+        }
+      }
+    }
+  }
+
+  return [...githubResults, ...cachedResults, ...newResults].sort(
+    (a, b) =>
+      new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
+  );
 }

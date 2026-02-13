@@ -1,7 +1,7 @@
 export interface ContentItem {
   id: string;
   source: "notecom" | "github";
-  type: "article" | "repository" | "commit";
+  type: "article" | "commit";
   title: string;
   content: string;
   url: string;

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ThemeToggle } from "./ThemeToggle";
 
 export function Header() {
   return (
@@ -8,13 +9,14 @@ export function Header() {
           <Link href="/" className="font-bold hover:underline">
             foxtrotdesign
           </Link>
-          <div className="flex gap-6">
+          <div className="flex items-center gap-4 md:gap-6">
             <Link href="/research" className="hover:underline">
               Research
             </Link>
             <Link href="/images" className="hover:underline">
               Images
             </Link>
+            <ThemeToggle />
           </div>
         </div>
       </nav>

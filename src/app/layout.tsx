@@ -9,13 +9,25 @@ export const metadata: Metadata = {
     "Hayato Shimadaの活動をまとめたウェブサイト。クリエイティブとエンジニアリングの交差点。",
 };
 
+// Inline script to prevent flash of wrong theme on load
+const themeScript = `
+(function() {
+  var t = localStorage.getItem('theme');
+  var d = t === 'dark' || (!t || t === 'system') && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  if (d) document.documentElement.classList.add('dark');
+})();
+`;
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html lang="ja">
+    <html lang="ja" suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeScript }} />
+      </head>
       <body>
         <Header />
         <main className="min-h-screen">{children}</main>
