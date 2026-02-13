@@ -1,0 +1,44 @@
+{
+  "name": "foxtrotdesign",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "aggregate": "tsx src/scripts/aggregate-content.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HayatoShimada/foxtrotdesign.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HayatoShimada/foxtrotdesign/issues"
+  },
+  "homepage": "https://github.com/HayatoShimada/foxtrotdesign#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "date-fns": "^4.1.0",
+    "next": "^16.1.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.3",
+    "@tailwindcss/postcss": "^4.1.18",
+    "@types/node": "^25.2.3",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^9.39.2",
+    "eslint-config-next": "^16.1.6",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

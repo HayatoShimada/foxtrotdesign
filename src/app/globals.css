@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+
+  --color-background: #ffffff;
+  --color-foreground: #000000;
+  --color-muted: #6b7280;
+  --color-border: #d1d5db;
+
+  --shadow-brutal-sm: 3px 3px 0px #000;
+  --shadow-brutal-md: 5px 5px 0px #000;
+}
+
+body {
+  font-family: var(--font-mono);
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-size: 0.875rem;
+  line-height: 1.625;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}
