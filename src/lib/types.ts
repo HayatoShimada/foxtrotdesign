@@ -19,3 +19,11 @@ export interface SummarizedContent {
   imageUrls: string[];
   publishedAt: string;
 }
+
+export interface GitHubRepo {
+  name: string;
+  description: string | null;
+  language: string | null;
+  url: string;
+  updatedAt: string;
+}

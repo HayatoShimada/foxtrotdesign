@@ -2,7 +2,7 @@ import dotenv from "dotenv";
 dotenv.config({ path: ".env.local" });
 import fs from "fs/promises";
 import path from "path";
-import { fetchGitHubActivity } from "../lib/aggregators/github";
+import { fetchGitHubActivity, fetchGitHubRepos } from "../lib/aggregators/github";
 import {
   fetchNoteComArticles,
   fetchNoteComFullArticles,
@@ -38,9 +38,10 @@ async function main() {
   const githubUsername = process.env.GITHUB_USERNAME || "HayatoShimada";
   const noteUsername = process.env.NOTE_COM_USERNAME || "85_store";
 
-  const [githubItems, noteItems] = await Promise.all([
+  const [githubItems, noteItems, githubRepos] = await Promise.all([
     fetchGitHubActivity(githubUsername),
     fetchNoteComArticles(noteUsername),
+    fetchGitHubRepos(githubUsername),
   ]);
 
   const allItems: ContentItem[] = [...githubItems, ...noteItems].sort(
@@ -95,6 +96,13 @@ async function main() {
     path.join(contentDir, "summarized.json"),
     JSON.stringify(allSummarized, null, 2)
   );
+
+  // Save repos
+  await fs.writeFile(
+    path.join(contentDir, "repos.json"),
+    JSON.stringify(githubRepos, null, 2)
+  );
+  console.log(`Saved ${githubRepos.length} repos`);
 
   // Save image metadata
   const imageItems = allItems.filter((item) => item.imageUrls.length > 0);

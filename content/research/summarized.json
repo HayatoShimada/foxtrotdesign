@@ -1,8 +1,80 @@
 [
   {
+    "id": "github-commit-a9b8293",
+    "source": "github",
+    "title": "news_tracker",
+    "summary": "init: 最初のコミット",
+    "url": "https://github.com/HayatoShimada/news_tracker/commit/a9b82933d945a9c69938007efd9962bf418b20b9",
+    "imageUrls": [],
+    "publishedAt": "2026-02-13T14:03:10Z"
+  },
+  {
+    "id": "github-commit-2ac737a",
+    "source": "github",
+    "title": "news_tracker",
+    "summary": "first commit",
+    "url": "https://github.com/HayatoShimada/news_tracker/commit/2ac737abc5b02e92a9a94c3bbfdb61caf32335e9",
+    "imageUrls": [],
+    "publishedAt": "2026-02-13T14:00:02Z"
+  },
+  {
+    "id": "github-commit-426fe14",
+    "source": "github",
+    "title": "news_tracker",
+    "summary": "first commit",
+    "url": "https://github.com/HayatoShimada/news_tracker/commit/426fe143bbce68732c8e8b9fc669a88835fef6c6",
+    "imageUrls": [],
+    "publishedAt": "2026-02-13T13:59:54Z"
+  },
+  {
+    "id": "github-commit-fe1ff79",
+    "source": "github",
+    "title": "foxtrotdesign",
+    "summary": "feat: トップページの内容を修正",
+    "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/fe1ff79b7886c44af0a3b456a037e42a9f7b3fc3",
+    "imageUrls": [],
+    "publishedAt": "2026-02-13T11:21:57Z"
+  },
+  {
+    "id": "github-commit-8227255",
+    "source": "github",
+    "title": "foxtrotdesign",
+    "summary": "feat: chat機能を追加した",
+    "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/8227255ea9b03448fa6e7e41cb091226ebf145cb",
+    "imageUrls": [],
+    "publishedAt": "2026-02-13T11:19:22Z"
+  },
+  {
+    "id": "github-commit-ee37469",
+    "source": "github",
+    "title": "gemini_robo",
+    "summary": "feat: 起動確認と結果の保存が成功",
+    "url": "https://github.com/HayatoShimada/gemini_robo/commit/ee3746908ac1e1cd5c5198311a735ff14b54717c",
+    "imageUrls": [],
+    "publishedAt": "2026-02-13T07:21:26Z"
+  },
+  {
+    "id": "github-commit-208043e",
+    "source": "github",
+    "title": "gemini_robo",
+    "summary": "init",
+    "url": "https://github.com/HayatoShimada/gemini_robo/commit/208043ed8d57ad07d4a81979851bfd523eef9ab3",
+    "imageUrls": [],
+    "publishedAt": "2026-02-13T06:25:16Z"
+  },
+  {
+    "id": "github-commit-25fa9e2",
+    "source": "github",
+    "title": "foxtrotdesign",
+    "summary": "images",
+    "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/25fa9e21fcb9a34057b15f72d8e4f27a41886afc",
+    "imageUrls": [],
+    "publishedAt": "2026-02-13T05:50:11Z"
+  },
+  {
     "id": "github-commit-d60f660",
     "source": "github",
-    "title": "foxtrotdesign: fix: update images with all image URLs",
+    "title": "foxtrotdesign",
     "summary": "fix: update images with all image URLs",
     "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/d60f660df857b7c315c95d1ee218e837a732abdd",
     "imageUrls": [],
@@ -11,7 +83,7 @@
   {
     "id": "github-commit-beedc2e",
     "source": "github",
-    "title": "foxtrotdesign: feat: build type add",
+    "title": "foxtrotdesign",
     "summary": "feat: build type add",
     "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/beedc2e2b02f8a2f277c3d499bfdb5fed08838fb",
     "imageUrls": [],
@@ -20,7 +92,7 @@
   {
     "id": "github-commit-851020c",
     "source": "github",
-    "title": "foxtrotdesign: Add Next.js portfolio site with Gemini AI content aggregation",
+    "title": "foxtrotdesign",
     "summary": "Add Next.js portfolio site with Gemini AI content aggregation\n\n- Next.js app with Home, Research, Images pages\n- Gemini AI integration for summarizing Instagram, note.com, GitHub activity\n- Minimal mo",
     "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/851020c6cf868af8f738da436fcb39911aee2cb2",
     "imageUrls": [],
@@ -29,7 +101,7 @@
   {
     "id": "github-commit-9873063",
     "source": "github",
-    "title": "foxtrotdesign: first commit",
+    "title": "foxtrotdesign",
     "summary": "first commit",
     "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/98730634d37472ea31b55763bbeceea53bd8f4f4",
     "imageUrls": [],
@@ -38,7 +110,7 @@
   {
     "id": "github-commit-ec24123",
     "source": "github",
-    "title": "trackdlo2: feat: 追従方法の修正",
+    "title": "trackdlo2",
     "summary": "feat: 追従方法の修正",
     "url": "https://github.com/HayatoShimada/trackdlo2/commit/ec24123859e5d23f89ebd3ef6ce82372a047dbab",
     "imageUrls": [],
@@ -47,7 +119,7 @@
   {
     "id": "github-commit-6802d29",
     "source": "github",
-    "title": "gemini_sc: first commit",
+    "title": "gemini_sc",
     "summary": "first commit",
     "url": "https://github.com/HayatoShimada/gemini_sc/commit/6802d292cf24dec807a4dab8943c08196910f33d",
     "imageUrls": [],
@@ -56,7 +128,7 @@
   {
     "id": "github-commit-ab573fc",
     "source": "github",
-    "title": "gemini_sc: feat: init",
+    "title": "gemini_sc",
     "summary": "feat: init",
     "url": "https://github.com/HayatoShimada/gemini_sc/commit/ab573fc5afc0c667be5855c6d328347612456253",
     "imageUrls": [],
@@ -65,7 +137,7 @@
   {
     "id": "github-commit-176cf6c",
     "source": "github",
-    "title": "phisical_ai_research: commit",
+    "title": "phisical_ai_research",
     "summary": "commit",
     "url": "https://github.com/HayatoShimada/phisical_ai_research/commit/176cf6c6d1dd365f9328a466368b0b76d1d82f79",
     "imageUrls": [],
@@ -74,7 +146,7 @@
   {
     "id": "github-commit-da88a65",
     "source": "github",
-    "title": "phisical_ai_research: add: vision2",
+    "title": "phisical_ai_research",
     "summary": "add: vision2",
     "url": "https://github.com/HayatoShimada/phisical_ai_research/commit/da88a653933a66c2b824007ba5c7261467054932",
     "imageUrls": [],
@@ -83,7 +155,7 @@
   {
     "id": "github-commit-82af53e",
     "source": "github",
-    "title": "phisical_ai_research: feat: vision",
+    "title": "phisical_ai_research",
     "summary": "feat: vision",
     "url": "https://github.com/HayatoShimada/phisical_ai_research/commit/82af53e8bdfc82591556d9a595a7bc02553e7049",
     "imageUrls": [],
@@ -92,7 +164,7 @@
   {
     "id": "github-commit-bd01ca6",
     "source": "github",
-    "title": "phisical_ai_research: add: news pickup",
+    "title": "phisical_ai_research",
     "summary": "add: news pickup",
     "url": "https://github.com/HayatoShimada/phisical_ai_research/commit/bd01ca6efe0616c4130b4567cef3ffe242d431bf",
     "imageUrls": [],
@@ -101,7 +173,7 @@
   {
     "id": "github-commit-3108b20",
     "source": "github",
-    "title": "phisical_ai_research: docs: topic & policy",
+    "title": "phisical_ai_research",
     "summary": "docs: topic & policy",
     "url": "https://github.com/HayatoShimada/phisical_ai_research/commit/3108b203c4a72922694859d992c66201fa978ab7",
     "imageUrls": [],
@@ -110,7 +182,7 @@
   {
     "id": "github-commit-cc053ef",
     "source": "github",
-    "title": "trackdlo2: fix: segmentation fault bug",
+    "title": "trackdlo2",
     "summary": "fix: segmentation fault bug",
     "url": "https://github.com/HayatoShimada/trackdlo2/commit/cc053ef84f00284ded3583b93d6ce7d94a77eea8",
     "imageUrls": [],
@@ -119,7 +191,7 @@
   {
     "id": "github-commit-082f98a",
     "source": "github",
-    "title": "trackdlo2: fix: no image error fix",
+    "title": "trackdlo2",
     "summary": "fix: no image error fix",
     "url": "https://github.com/HayatoShimada/trackdlo2/commit/082f98a066b77ea20ed31eee21560e32abd096ff",
     "imageUrls": [],
@@ -128,7 +200,7 @@
   {
     "id": "github-commit-d1d867c",
     "source": "github",
-    "title": "trackdlo2: feat: speed down and dlo tracking",
+    "title": "trackdlo2",
     "summary": "feat: speed down and dlo tracking",
     "url": "https://github.com/HayatoShimada/trackdlo2/commit/d1d867cd23a7fa236926277a8dac4e3735af8d9e",
     "imageUrls": [],
@@ -137,7 +209,7 @@
   {
     "id": "github-commit-34da04f",
     "source": "github",
-    "title": "trackdlo2: feat: 探索方法の変更",
+    "title": "trackdlo2",
     "summary": "feat: 探索方法の変更",
     "url": "https://github.com/HayatoShimada/trackdlo2/commit/34da04fa1d47a6ccb710c03f95a8361d00c42083",
     "imageUrls": [],
@@ -146,7 +218,7 @@
   {
     "id": "github-commit-ab075d7",
     "source": "github",
-    "title": "slither_ai_dlo_2: feat: cuda",
+    "title": "slither_ai_dlo_2",
     "summary": "feat: cuda",
     "url": "https://github.com/HayatoShimada/slither_ai_dlo_2/commit/ab075d7af81f354f65574e69f8f2d74df51cec1c",
     "imageUrls": [],
@@ -155,7 +227,7 @@
   {
     "id": "github-commit-8e4abda",
     "source": "github",
-    "title": "slither_ai_dlo_2: fix: 探索のバグ修正",
+    "title": "slither_ai_dlo_2",
     "summary": "fix: 探索のバグ修正",
     "url": "https://github.com/HayatoShimada/slither_ai_dlo_2/commit/8e4abdab5ea23add506b858d4ee0f7723779ea06",
     "imageUrls": [],
@@ -164,7 +236,7 @@
   {
     "id": "github-commit-706fb2c",
     "source": "github",
-    "title": "slither_ai_dlo_2: feat: mac / chromium",
+    "title": "slither_ai_dlo_2",
     "summary": "feat: mac / chromium",
     "url": "https://github.com/HayatoShimada/slither_ai_dlo_2/commit/706fb2c211048bb15aabb66edf2b55efdc7cd686",
     "imageUrls": [],
@@ -173,7 +245,7 @@
   {
     "id": "github-commit-f55901a",
     "source": "github",
-    "title": "slither_ai_dlo_2: feat: nvidia & radeon & cpu rl add",
+    "title": "slither_ai_dlo_2",
     "summary": "feat: nvidia & radeon & cpu rl add",
     "url": "https://github.com/HayatoShimada/slither_ai_dlo_2/commit/f55901a409a2583d4f9424daadc43d65a56885f2",
     "imageUrls": [],
@@ -182,7 +254,7 @@
   {
     "id": "github-commit-3d648cd",
     "source": "github",
-    "title": "slither_ai_dlo_2: feat: episode 2 times pro update",
+    "title": "slither_ai_dlo_2",
     "summary": "feat: episode 2 times pro update",
     "url": "https://github.com/HayatoShimada/slither_ai_dlo_2/commit/3d648cd6620bc49fac6c75e3c72b8b5f19375297",
     "imageUrls": [],
@@ -200,7 +272,7 @@
   {
     "id": "github-commit-4522482",
     "source": "github",
-    "title": "85store: feat: microcms",
+    "title": "85store",
     "summary": "feat: microcms",
     "url": "https://github.com/HayatoShimada/85store/commit/4522482065dcfce1979171523d78c51cdaf33d97",
     "imageUrls": [],
@@ -254,7 +326,7 @@
   {
     "id": "github-commit-8adbe81",
     "source": "github",
-    "title": "85store: feat: about add photos",
+    "title": "85store",
     "summary": "feat: about add photos",
     "url": "https://github.com/HayatoShimada/85store/commit/8adbe81d339cfd79442faa10c2b5242eafcabcb1",
     "imageUrls": [],
@@ -263,7 +335,7 @@
   {
     "id": "github-commit-01d1a2a",
     "source": "github",
-    "title": "85store: feat: xl => 3xl",
+    "title": "85store",
     "summary": "feat: xl => 3xl",
     "url": "https://github.com/HayatoShimada/85store/commit/01d1a2a189310127775679226aa7296079399970",
     "imageUrls": [],
@@ -272,7 +344,7 @@
   {
     "id": "github-commit-e6f1e5a",
     "source": "github",
-    "title": "85store: feat font weight",
+    "title": "85store",
     "summary": "feat font weight",
     "url": "https://github.com/HayatoShimada/85store/commit/e6f1e5a7e90fc503acf62ae8f7e7f73f853bc653",
     "imageUrls": [],
@@ -290,7 +362,7 @@
   {
     "id": "github-commit-2b23f10",
     "source": "github",
-    "title": "85store: Merge pull request #13 from HayatoShimada/dmsans",
+    "title": "85store",
     "summary": "Merge pull request #13 from HayatoShimada/dmsans\n\nfeat: DM Sans",
     "url": "https://github.com/HayatoShimada/85store/commit/2b23f105af1fdaed8447029e7d986ac8847471cd",
     "imageUrls": [],
@@ -384,7 +456,7 @@
   {
     "id": "github-commit-2edbcdb",
     "source": "github",
-    "title": "astro-notion-blog: feat:meta",
+    "title": "astro-notion-blog",
     "summary": "feat:meta",
     "url": "https://github.com/HayatoShimada/astro-notion-blog/commit/2edbcdb8c3a4d6750f2f6921079723ab222441d9",
     "imageUrls": [],
@@ -393,7 +465,7 @@
   {
     "id": "github-commit-8c3e101",
     "source": "github",
-    "title": "astro-notion-blog: feat: kurashitou add",
+    "title": "astro-notion-blog",
     "summary": "feat: kurashitou add",
     "url": "https://github.com/HayatoShimada/astro-notion-blog/commit/8c3e10122715f0149435135b4fc2bf5d09610796",
     "imageUrls": [],
@@ -402,7 +474,7 @@
   {
     "id": "github-commit-1c4843d",
     "source": "github",
-    "title": "astro-notion-blog: feat:Probono",
+    "title": "astro-notion-blog",
     "summary": "feat:Probono",
     "url": "https://github.com/HayatoShimada/astro-notion-blog/commit/1c4843d5111d47316e7485cae76a45238f8a180a",
     "imageUrls": [],
@@ -411,7 +483,7 @@
   {
     "id": "github-commit-ea7e51a",
     "source": "github",
-    "title": "astro-notion-blog: feat: add kurashitou",
+    "title": "astro-notion-blog",
     "summary": "feat: add kurashitou",
     "url": "https://github.com/HayatoShimada/astro-notion-blog/commit/ea7e51a29b32e3089c5ecf92f1e7cd54ed9ddaca",
     "imageUrls": [],
@@ -474,7 +546,7 @@
   {
     "id": "github-commit-b84783e",
     "source": "github",
-    "title": "astro-notion-blog: feat: probono",
+    "title": "astro-notion-blog",
     "summary": "feat: probono",
     "url": "https://github.com/HayatoShimada/astro-notion-blog/commit/b84783e9b1e5e0c0e3a69eeef949a78c576eb3d3",
     "imageUrls": [],
@@ -512,7 +584,7 @@
   {
     "id": "github-commit-13ee0c7",
     "source": "github",
-    "title": "85store_barcode_converter: first commit",
+    "title": "85store_barcode_converter",
     "summary": "first commit",
     "url": "https://github.com/HayatoShimada/85store_barcode_converter/commit/13ee0c71a8cd6bd37c2aabeb5ffb6fef79bf52cf",
     "imageUrls": [],
@@ -521,7 +593,7 @@
   {
     "id": "github-commit-6792c06",
     "source": "github",
-    "title": "KdxDesigner: 工程詳細フロー画面とMainViewの調整",
+    "title": "KdxDesigner",
     "summary": "工程詳細フロー画面とMainViewの調整",
     "url": "https://github.com/HayatoShimada/KdxDesigner/commit/6792c068f35d019b55fcb3de6687448339e8edb9",
     "imageUrls": [],
@@ -530,7 +602,7 @@
   {
     "id": "github-commit-3948242",
     "source": "github",
-    "title": "KdxDesigner: リファクタリング",
+    "title": "KdxDesigner",
     "summary": "リファクタリング",
     "url": "https://github.com/HayatoShimada/KdxDesigner/commit/39482428c66767b928ed43c0316f7744b37e3ccb",
     "imageUrls": [],
@@ -539,7 +611,7 @@
   {
     "id": "github-commit-461a144",
     "source": "github",
-    "title": "KdxDesigner: delete none method",
+    "title": "KdxDesigner",
     "summary": "delete none method",
     "url": "https://github.com/HayatoShimada/KdxDesigner/commit/461a144fb79aa449795abd99c7ac6b0be1e51bea",
     "imageUrls": [],
@@ -548,7 +620,7 @@
   {
     "id": "github-commit-4783f3f",
     "source": "github",
-    "title": "KdxDesigner: merge error fix",
+    "title": "KdxDesigner",
     "summary": "merge error fix",
     "url": "https://github.com/HayatoShimada/KdxDesigner/commit/4783f3f1874b2d142599d960cc4096ebe0d993a5",
     "imageUrls": [],
@@ -557,7 +629,7 @@
   {
     "id": "github-commit-c56399b",
     "source": "github",
-    "title": "KdxDesigner: merge",
+    "title": "KdxDesigner",
     "summary": "merge",
     "url": "https://github.com/HayatoShimada/KdxDesigner/commit/c56399b5f79786fd83909a738819d6909d5c585a",
     "imageUrls": [],
@@ -566,7 +638,7 @@
   {
     "id": "github-commit-4ef29dd",
     "source": "github",
-    "title": "studio-ts: blog_profile写真",
+    "title": "studio-ts",
     "summary": "blog_profile写真",
     "url": "https://github.com/HayatoShimada/studio-ts/commit/4ef29ddbd9fd9995fab594832dfe8f995f6e3a65",
     "imageUrls": [],
@@ -575,7 +647,7 @@
   {
     "id": "github-commit-89194ed",
     "source": "github",
-    "title": "studio-ts: 無辺集ページの削除",
+    "title": "studio-ts",
     "summary": "無辺集ページの削除",
     "url": "https://github.com/HayatoShimada/studio-ts/commit/89194ed53b459afb5cee1a0fd5effcbb2c81dc6e",
     "imageUrls": [],
@@ -584,7 +656,7 @@
   {
     "id": "github-commit-d9e38c8",
     "source": "github",
-    "title": "studio-ts: blogの投稿",
+    "title": "studio-ts",
     "summary": "blogの投稿",
     "url": "https://github.com/HayatoShimada/studio-ts/commit/d9e38c8db9001aec0ebc97a294a8ba89f377c466",
     "imageUrls": [],
@@ -593,7 +665,7 @@
   {
     "id": "github-commit-25c47f9",
     "source": "github",
-    "title": "studio-ts: blogの作成",
+    "title": "studio-ts",
     "summary": "blogの作成",
     "url": "https://github.com/HayatoShimada/studio-ts/commit/25c47f9ca109fa340a8ddce5900a7c439dbb327c",
     "imageUrls": [],
@@ -602,7 +674,7 @@
   {
     "id": "github-commit-242814e",
     "source": "github",
-    "title": "studio-ts: github_link更新",
+    "title": "studio-ts",
     "summary": "github_link更新",
     "url": "https://github.com/HayatoShimada/studio-ts/commit/242814eeb45b4a74a7760312ae6dd33ef59b6f18",
     "imageUrls": [],

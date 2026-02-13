@@ -1,8 +1,9 @@
 import fs from "fs/promises";
 import path from "path";
 import { Container } from "@/components/Container";
+import { RepoList } from "@/components/research/RepoList";
 import { ResearchList } from "@/components/research/ResearchList";
-import { SummarizedContent } from "@/lib/types";
+import { SummarizedContent, GitHubRepo } from "@/lib/types";
 
 async function getResearchContent(): Promise<SummarizedContent[]> {
   const filePath = path.join(
@@ -24,8 +25,27 @@ async function getResearchContent(): Promise<SummarizedContent[]> {
   }
 }
 
+async function getRepos(): Promise<GitHubRepo[]> {
+  const filePath = path.join(
+    process.cwd(),
+    "content",
+    "research",
+    "repos.json"
+  );
+
+  try {
+    const raw = await fs.readFile(filePath, "utf-8");
+    return JSON.parse(raw);
+  } catch {
+    return [];
+  }
+}
+
 export default async function ResearchPage() {
-  const items = await getResearchContent();
+  const [items, repos] = await Promise.all([
+    getResearchContent(),
+    getRepos(),
+  ]);
 
   return (
     <Container>
@@ -35,9 +55,12 @@ export default async function ResearchPage() {
             Research
           </h1>
           <p className="text-muted">
-            note.com、GitHubでの活動をまとめた研究ノート。各種プロジェクトやアイデアの記録を時系列で追跡できます。
+            note.com,GitHubでの活動まとめ。<br />
+            各種プロジェクトやアイデアの記録を時系列で追跡できます。
           </p>
         </div>
+
+        {repos.length > 0 && <RepoList repos={repos} />}
 
         <div className="mt-8">
           {items.length > 0 ? (

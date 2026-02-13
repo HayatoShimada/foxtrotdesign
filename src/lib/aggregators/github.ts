@@ -1,4 +1,4 @@
-import { ContentItem } from "../types";
+import { ContentItem, GitHubRepo as GitHubRepoType } from "../types";
 
 interface GitHubCommit {
   sha: string;
@@ -51,7 +51,7 @@ export async function fetchGitHubActivity(
       id: `github-commit-${commit.sha.slice(0, 7)}`,
       source: "github" as const,
       type: "commit" as const,
-      title: `${repo.name}: ${commit.commit.message.split("\n")[0]}`,
+      title: repo.name,
       content: commit.commit.message,
       url: commit.html_url,
       imageUrls: [],
@@ -72,4 +72,28 @@ export async function fetchGitHubActivity(
     (a, b) =>
       new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
   );
+}
+
+export async function fetchGitHubRepos(
+  username: string
+): Promise<GitHubRepoType[]> {
+  const reposRes = await fetch(
+    `https://api.github.com/users/${username}/repos?sort=pushed&per_page=5`,
+    { headers: { Accept: "application/vnd.github+json" } }
+  );
+
+  if (!reposRes.ok) {
+    console.error(`GitHub repos API error: ${reposRes.status}`);
+    return [];
+  }
+
+  const repos: GitHubRepo[] = await reposRes.json();
+
+  return repos.map((repo) => ({
+    name: repo.name,
+    description: repo.description,
+    language: repo.language,
+    url: repo.html_url,
+    updatedAt: repo.updated_at,
+  }));
 }
