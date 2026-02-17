@@ -1,5 +1,124 @@
 [
   {
+    "id": "bluesky-3mf2bslfys22c",
+    "source": "bluesky",
+    "title": "Blueskyを始めました",
+    "summary": "Blueskyを始めました",
+    "url": "https://bsky.app/profile/85-store.bsky.social/post/3mf2bslfys22c",
+    "imageUrls": [],
+    "publishedAt": "2026-02-17T09:46:12.065Z"
+  },
+  {
+    "id": "github-commit-4a43218",
+    "source": "github",
+    "title": "gemini_robo",
+    "summary": "docs: readme add",
+    "url": "https://github.com/HayatoShimada/gemini_robo/commit/4a43218fec577b81f0cc391063b018a50a6abd34",
+    "imageUrls": [],
+    "publishedAt": "2026-02-17T04:56:39Z"
+  },
+  {
+    "id": "github-commit-fd5fa15",
+    "source": "github",
+    "title": "marp",
+    "summary": "feat: pptx profile add",
+    "url": "https://github.com/HayatoShimada/marp/commit/fd5fa15d4a9f7a82de297a3e20a6bec221885731",
+    "imageUrls": [],
+    "publishedAt": "2026-02-17T02:24:24Z"
+  },
+  {
+    "id": "github-commit-9987c23",
+    "source": "github",
+    "title": "marp",
+    "summary": "Revise profile details and enhance formatting\n\nUpdated personal introduction and work history details, including company roles and responsibilities. Improved formatting and added links to company webs",
+    "url": "https://github.com/HayatoShimada/marp/commit/9987c23fc348354e5b8007a11ccd74bdde540879",
+    "imageUrls": [],
+    "publishedAt": "2026-02-17T02:22:38Z"
+  },
+  {
+    "id": "github-commit-6cb77c4",
+    "source": "github",
+    "title": "marp",
+    "summary": "feat: track slide update",
+    "url": "https://github.com/HayatoShimada/marp/commit/6cb77c4a87873687a65a0a57983858d94d68d106",
+    "imageUrls": [],
+    "publishedAt": "2026-02-17T02:22:06Z"
+  },
+  {
+    "id": "github-commit-0515c6b",
+    "source": "github",
+    "title": "marp",
+    "summary": "feat: MARP構文整理",
+    "url": "https://github.com/HayatoShimada/marp/commit/0515c6b020c6d8a06bdd399d260bee1251c2e6cf",
+    "imageUrls": [],
+    "publishedAt": "2026-02-17T00:34:42Z"
+  },
+  {
+    "id": "github-commit-eb60c2e",
+    "source": "github",
+    "title": "nanto_event",
+    "summary": "init",
+    "url": "https://github.com/HayatoShimada/nanto_event/commit/eb60c2e86e44d45edce8b51f7ac7f7bcf7891966",
+    "imageUrls": [],
+    "publishedAt": "2026-02-16T07:23:47Z"
+  },
+  {
+    "id": "github-commit-8f1397a",
+    "source": "github",
+    "title": "nanto_event",
+    "summary": "first commit",
+    "url": "https://github.com/HayatoShimada/nanto_event/commit/8f1397a2c6eb135858a13b74395004bcd2ee6484",
+    "imageUrls": [],
+    "publishedAt": "2026-02-16T07:23:20Z"
+  },
+  {
+    "id": "github-commit-84dfaac",
+    "source": "github",
+    "title": "marp",
+    "summary": "feat: 動画配信方法追記",
+    "url": "https://github.com/HayatoShimada/marp/commit/84dfaac2584a4bc430526b926123928569b41a57",
+    "imageUrls": [],
+    "publishedAt": "2026-02-16T07:04:45Z"
+  },
+  {
+    "id": "github-commit-1bdc991",
+    "source": "github",
+    "title": "trackdlo2",
+    "summary": "docs: add pictures",
+    "url": "https://github.com/HayatoShimada/trackdlo2/commit/1bdc991e1e2f560fc189f2fdcf6dd6ca13f5675c",
+    "imageUrls": [],
+    "publishedAt": "2026-02-15T23:42:38Z"
+  },
+  {
+    "id": "github-commit-6c7cbdd",
+    "source": "github",
+    "title": "trackdlo2",
+    "summary": "docs: video add",
+    "url": "https://github.com/HayatoShimada/trackdlo2/commit/6c7cbdd1d37cd559b9bb64014d9be991101a3480",
+    "imageUrls": [],
+    "publishedAt": "2026-02-15T23:37:24Z"
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/n8cedbd973f47",
+    "source": "notecom",
+    "title": "ワークライフバランス",
+    "summary": "本記事では、複数の活動に従事する筆者がワークライフバランスの崩壊を自覚し、全ての時間がタスク化している現状を述べている。危機感を覚え、バランスを取り戻すための視点を探している過程が示唆されている。",
+    "url": "https://note.com/85_store/n/n8cedbd973f47",
+    "imageUrls": [
+      "https://assets.st-note.com/production/uploads/images/251514010/rectangle_large_type_2_5131c97bd8dc9aba1d6637f1196be443.jpeg?width=800"
+    ],
+    "publishedAt": "2026-02-13T14:58:46.000Z"
+  },
+  {
+    "id": "github-commit-5dbfb30",
+    "source": "github",
+    "title": "foxtrotdesign",
+    "summary": "feat: リポジトリ表示の改善。",
+    "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/5dbfb30fb08f1ad65bcdbd00c42cc90ef8727113",
+    "imageUrls": [],
+    "publishedAt": "2026-02-13T14:27:01Z"
+  },
+  {
     "id": "github-commit-952512a",
     "source": "github",
     "title": "foxtrotdesign",

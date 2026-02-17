@@ -4,7 +4,7 @@ import { useState } from "react";
 import { SummarizedContent } from "@/lib/types";
 import { ResearchItem } from "./ResearchItem";
 
-type Filter = "all" | "notecom" | "github";
+type Filter = "all" | "notecom" | "github" | "bluesky";
 
 export function ResearchList({ items }: { items: SummarizedContent[] }) {
   const [filter, setFilter] = useState<Filter>("all");
@@ -19,6 +19,7 @@ export function ResearchList({ items }: { items: SummarizedContent[] }) {
           ["all", "All"],
           ["notecom", "note.com"],
           ["github", "GitHub"],
+          ["bluesky", "Bluesky"],
         ] as const).map(([value, label]) => (
           <button
             key={value}

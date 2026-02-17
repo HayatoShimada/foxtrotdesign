@@ -50,11 +50,13 @@ export async function batchSummarize(
   items: ContentItem[],
   cache: Map<string, SummarizedContent>
 ): Promise<SummarizedContent[]> {
-  // GitHub items: use commit message as-is, no Gemini
+  // GitHub and Bluesky items: use content as-is, no Gemini
   const githubItems = items.filter((item) => item.source === "github");
+  const blueskyItems = items.filter((item) => item.source === "bluesky");
   const noteItems = items.filter((item) => item.source === "notecom");
 
   const githubResults = githubItems.map(contentToSummary);
+  const blueskyResults = blueskyItems.map(contentToSummary);
 
   // note.com items: check cache, only summarize new ones
   const cachedResults: SummarizedContent[] = [];
@@ -100,7 +102,7 @@ export async function batchSummarize(
     }
   }
 
-  return [...githubResults, ...cachedResults, ...newResults].sort(
+  return [...githubResults, ...blueskyResults, ...cachedResults, ...newResults].sort(
     (a, b) =>
       new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
   );

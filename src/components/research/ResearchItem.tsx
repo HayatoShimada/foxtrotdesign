@@ -4,6 +4,7 @@ import { SummarizedContent } from "@/lib/types";
 const sourceLabels: Record<string, string> = {
   notecom: "note.com",
   github: "GitHub",
+  bluesky: "Bluesky",
 };
 
 export function ResearchItem({ item }: { item: SummarizedContent }) {
