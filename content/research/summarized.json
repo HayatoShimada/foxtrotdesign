@@ -1,5 +1,14 @@
 [
   {
+    "id": "github-commit-00d6efa",
+    "source": "github",
+    "title": "foxtrotdesign",
+    "summary": "feat: Blueskyアカウントをresearchに紐付けた",
+    "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/00d6efa395722aa7baa99b0977e0821729bb26da",
+    "imageUrls": [],
+    "publishedAt": "2026-02-17T10:06:37Z"
+  },
+  {
     "id": "bluesky-3mf2bslfys22c",
     "source": "bluesky",
     "title": "Blueskyを始めました",

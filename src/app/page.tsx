@@ -40,7 +40,7 @@ export default function Home() {
             >
               <h3 className="font-bold mb-2">Research →</h3>
               <p className="text-muted text-xs">
-                note.com,GitHubでの活動のまとめ.
+                note.com,GitHub,Blueskyでの活動のまとめ.
               </p>
             </Link>
             <Link

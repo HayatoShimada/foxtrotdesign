@@ -1,5 +1,12 @@
 [
   {
+    "name": "foxtrotdesign",
+    "description": "Hayato Shimada の活動をまとめたポートフォリオサイト。 note.com と GitHub のコンテンツを Gemini AI で要約し、ミニマルなデザインで表示する。",
+    "language": "TypeScript",
+    "url": "https://github.com/HayatoShimada/foxtrotdesign",
+    "updatedAt": "2026-02-17T10:06:43Z"
+  },
+  {
     "name": "gemini_robo",
     "description": "gemini roboticsとrealsenceで3次元空間上の点群を取得する、ros2システムです。",
     "language": "Python",
@@ -26,12 +33,5 @@
     "language": "C++",
     "url": "https://github.com/HayatoShimada/trackdlo2",
     "updatedAt": "2026-02-15T23:42:49Z"
-  },
-  {
-    "name": "foxtrotdesign",
-    "description": "Hayato Shimada の活動をまとめたポートフォリオサイト。 note.com と GitHub のコンテンツを Gemini AI で要約し、ミニマルなデザインで表示する。",
-    "language": "TypeScript",
-    "url": "https://github.com/HayatoShimada/foxtrotdesign",
-    "updatedAt": "2026-02-13T14:27:07Z"
   }
 ]
