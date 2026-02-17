@@ -8,9 +8,8 @@ export function Header() {
       <nav className="max-w-2xl mx-auto px-4 md:px-12 py-6">
         <div className="flex items-center justify-between">
           <Link href="/" className="font-bold hover:underline">
-            <span className="hidden md:inline">foxtrotdesign</span>
             <svg
-              className="md:hidden w-6 h-6"
+              className="w-6 h-6"
               viewBox="0 0 32 32"
               xmlns="http://www.w3.org/2000/svg"
             >
