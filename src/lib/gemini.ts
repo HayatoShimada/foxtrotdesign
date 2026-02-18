@@ -18,23 +18,43 @@ async function summarizeWithGemini(
   item: ContentItem,
   model: ReturnType<GoogleGenerativeAI["getGenerativeModel"]>
 ): Promise<SummarizedContent> {
+  const isBluesky = item.source === "bluesky";
+
   const prompt = `あなたは簡潔で学術的なスタイルで要約を作成するアシスタントです。
-以下のコンテンツを2-3文で要約してください。要約は客観的で情報密度が高く,研究論文のアブストラクトのようなスタイルで書いてください。
+以下のコンテンツから「タイトル」と「要約」を作成してください。
+
+ルール:
+- タイトル: コンテンツの核心を突く特徴的なもの（30文字以内）。
+- 要約: 2-3文で客観的、情報密度が高く、研究論文のアブストラクトのようなスタイル。
+${isBluesky ? "- SourceはBlueskyです。単なる本文の切り出しではなく、投稿の意図やトピックが伝わるタイトルにしてください。\n- Blueskyの投稿タイプ（PostまたはRepost）を判別し、タイトルの冒頭に [Post] または [Repost] を必ず付けてください。" : ""}
 
 タイトル: ${item.title}
 ソース: ${item.source}
 内容: ${item.content || "No content available"}
 
-要約:`;
+出力形式:
+【タイトル】
+（ここにタイトル）
+【要約】
+（ここに要約）`;
 
   try {
     const result = await model.generateContent(prompt);
-    const summary = result.response.text().trim();
+    const text = result.response.text().trim();
+
+    let title = item.title;
+    let summary = text;
+
+    const titleMatch = text.match(/【タイトル】\n?([\s\S]*?)\n?【要約】/);
+    const summaryMatch = text.match(/【要約】\n?([\s\S]*)/);
+
+    if (titleMatch) title = titleMatch[1].trim();
+    if (summaryMatch) summary = summaryMatch[1].trim();
 
     return {
       id: item.id,
       source: item.source,
-      title: item.title,
+      title,
       summary,
       url: item.url,
       imageUrls: item.imageUrls,
@@ -50,24 +70,22 @@ export async function batchSummarize(
   items: ContentItem[],
   cache: Map<string, SummarizedContent>
 ): Promise<SummarizedContent[]> {
-  // GitHub and Bluesky items: use content as-is, no Gemini
+  // GitHub items: use content as-is, no Gemini
   const githubItems = items.filter((item) => item.source === "github");
-  const blueskyItems = items.filter((item) => item.source === "bluesky");
-  const noteItems = items.filter((item) => item.source === "notecom");
+  // note.com and Bluesky items: check cache, summarize new ones
+  const geminiSourceItems = items.filter((item) => item.source === "notecom" || item.source === "bluesky");
 
   const githubResults = githubItems.map(contentToSummary);
-  const blueskyResults = blueskyItems.map(contentToSummary);
 
-  // note.com items: check cache, only summarize new ones
   const cachedResults: SummarizedContent[] = [];
-  const newNoteItems: ContentItem[] = [];
+  const newGeminiItems: ContentItem[] = [];
 
-  for (const item of noteItems) {
+  for (const item of geminiSourceItems) {
     const cached = cache.get(item.id);
     if (cached) {
       cachedResults.push(cached);
     } else {
-      newNoteItems.push(item);
+      newGeminiItems.push(item);
     }
   }
 
@@ -77,32 +95,32 @@ export async function batchSummarize(
 
   let newResults: SummarizedContent[] = [];
 
-  if (newNoteItems.length > 0) {
+  if (newGeminiItems.length > 0) {
     const apiKey = process.env.GEMINI_API_KEY;
     if (!apiKey || apiKey === "your_gemini_api_key_here") {
       console.warn("  GEMINI_API_KEY not configured, using content as-is");
-      newResults = newNoteItems.map(contentToSummary);
+      newResults = newGeminiItems.map(contentToSummary);
     } else {
-      console.log(`  Summarizing ${newNoteItems.length} new note.com items with Gemini...`);
+      console.log(`  Summarizing ${newGeminiItems.length} new items (note.com/bluesky) with Gemini...`);
       const genAI = new GoogleGenerativeAI(apiKey);
       const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
 
       const batchSize = 5;
-      for (let i = 0; i < newNoteItems.length; i += batchSize) {
-        const batch = newNoteItems.slice(i, i + batchSize);
+      for (let i = 0; i < newGeminiItems.length; i += batchSize) {
+        const batch = newGeminiItems.slice(i, i + batchSize);
         const summaries = await Promise.all(
           batch.map((item) => summarizeWithGemini(item, model))
         );
         newResults.push(...summaries);
 
-        if (i + batchSize < newNoteItems.length) {
+        if (i + batchSize < newGeminiItems.length) {
           await new Promise((resolve) => setTimeout(resolve, 1000));
         }
       }
     }
   }
 
-  return [...githubResults, ...blueskyResults, ...cachedResults, ...newResults].sort(
+  return [...githubResults, ...cachedResults, ...newResults].sort(
     (a, b) =>
       new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
   );
