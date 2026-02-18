@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { useState } from "react";
 import { ThemeToggle } from "./ThemeToggle";
-import { ChatButton } from "./chat/ChatButton";
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -97,9 +96,6 @@ function NavItems({ onClick }: { onClick?: () => void }) {
       <Link href="/images" className="hover:underline" onClick={onClick}>
         Images
       </Link>
-      <div onClick={onClick}>
-        <ChatButton />
-      </div>
       <ThemeToggle />
     </>
   );

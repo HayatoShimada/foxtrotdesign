@@ -1,5 +1,20 @@
 [
   {
+    "id": "github-commit-005852b",
+    "source": "github",
+    "title": "foxtrotdesign",
+    "summary": "fix: cdn.bsky.app host add",
+    "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/005852b4833d9f7e098545e5400317c33cf9b46c",
+    "imageUrls": [],
+    "publishedAt": "2026-02-18T04:06:49Z",
+    "metadata": {
+      "repo": "foxtrotdesign",
+      "repoUrl": "https://github.com/HayatoShimada/foxtrotdesign",
+      "sha": "005852b",
+      "language": "TypeScript"
+    }
+  },
+  {
     "id": "github-commit-6f949f6",
     "source": "github",
     "title": "foxtrotdesign",

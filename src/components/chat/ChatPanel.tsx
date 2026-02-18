@@ -29,6 +29,12 @@ export function ChatPanel() {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [isOpen]);
 
+  useEffect(() => {
+    window.dispatchEvent(
+      new CustomEvent("chat-state-change", { detail: { isOpen } })
+    );
+  }, [isOpen]);
+
   async function sendMessage(text: string) {
     const userMessage: Message = { role: "user", content: text };
     const updated = [...messages, userMessage];
