@@ -11,6 +11,7 @@ function contentToSummary(item: ContentItem): SummarizedContent {
     url: item.url,
     imageUrls: item.imageUrls,
     publishedAt: item.publishedAt,
+    metadata: item.metadata,
   };
 }
 
@@ -59,6 +60,7 @@ ${isBluesky ? "- SourceはBlueskyです。単なる本文の切り出しでは�
       url: item.url,
       imageUrls: item.imageUrls,
       publishedAt: item.publishedAt,
+      metadata: item.metadata,
     };
   } catch (error) {
     console.error(`Failed to summarize ${item.id}:`, error);

@@ -24,9 +24,16 @@ export async function fetchGitHubActivity(
 ): Promise<ContentItem[]> {
   const items: ContentItem[] = [];
 
+  const headers: HeadersInit = {
+    Accept: "application/vnd.github+json",
+  };
+  if (process.env.GITHUB_TOKEN) {
+    headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
+  }
+
   const reposRes = await fetch(
     `https://api.github.com/users/${username}/repos?sort=pushed&per_page=10`,
-    { headers: { Accept: "application/vnd.github+json" } }
+    { headers }
   );
 
   if (!reposRes.ok) {
@@ -40,7 +47,7 @@ export async function fetchGitHubActivity(
   const commitFetches = repos.map(async (repo) => {
     const commitsRes = await fetch(
       `https://api.github.com/repos/${repo.full_name}/commits?per_page=5`,
-      { headers: { Accept: "application/vnd.github+json" } }
+      { headers }
     );
 
     if (!commitsRes.ok) return [];
@@ -77,9 +84,16 @@ export async function fetchGitHubActivity(
 export async function fetchGitHubRepos(
   username: string
 ): Promise<GitHubRepoType[]> {
+  const headers: HeadersInit = {
+    Accept: "application/vnd.github+json",
+  };
+  if (process.env.GITHUB_TOKEN) {
+    headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
+  }
+
   const reposRes = await fetch(
     `https://api.github.com/users/${username}/repos?sort=pushed&per_page=5`,
-    { headers: { Accept: "application/vnd.github+json" } }
+    { headers }
   );
 
   if (!reposRes.ok) {

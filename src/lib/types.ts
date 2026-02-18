@@ -18,6 +18,7 @@ export interface SummarizedContent {
   url: string;
   imageUrls: string[];
   publishedAt: string;
+  metadata?: Record<string, any>;
 }
 
 export interface GitHubRepo {
@@ -26,4 +27,5 @@ export interface GitHubRepo {
   language: string | null;
   url: string;
   updatedAt: string;
+  commits?: SummarizedContent[];
 }

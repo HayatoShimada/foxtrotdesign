@@ -24,6 +24,9 @@ export function Header() {
             <Link href="/research" className="hover:underline">
               Research
             </Link>
+            <Link href="/timeline" className="hover:underline">
+              Timeline
+            </Link>
             <Link href="/images" className="hover:underline">
               Images
             </Link>

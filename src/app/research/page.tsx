@@ -2,7 +2,6 @@ import fs from "fs/promises";
 import path from "path";
 import { Container } from "@/components/Container";
 import { RepoList } from "@/components/research/RepoList";
-import { ResearchList } from "@/components/research/ResearchList";
 import { SummarizedContent, GitHubRepo } from "@/lib/types";
 
 async function getResearchContent(): Promise<SummarizedContent[]> {
@@ -47,6 +46,14 @@ export default async function ResearchPage() {
     getRepos(),
   ]);
 
+  const reposWithCommits = repos.map(repo => ({
+    ...repo,
+    commits: items.filter(item =>
+      item.source === "github" &&
+      ((item as any).metadata?.repo === repo.name || item.title === repo.name)
+    ).slice(0, 10)
+  }));
+
   return (
     <Container>
       <div className="space-y-8">
@@ -55,28 +62,19 @@ export default async function ResearchPage() {
             Research
           </h1>
           <p className="text-muted">
-            note.com,GitHub,Blueskyでの活動まとめ.<br />
-            各種プロジェクトやアイデアの記録を時系列で追跡できます.
+            GitHubリポジトリ一覧.<br />
+            各プロジェクトの概要と直近の活動状況を確認できます.
           </p>
         </div>
 
-        {repos.length > 0 && (
-          <RepoList repos={repos} username="HayatoShimada" />
+        {reposWithCommits.length > 0 ? (
+          <RepoList repos={reposWithCommits} username="HayatoShimada" />
+        ) : (
+          <p className="text-muted text-center py-12">
+            リポジトリがありません.
+          </p>
         )}
-
-        <div className="mt-8">
-          <h2 className="font-serif font-bold text-lg mb-4">Commit History</h2>
-            {items.length > 0 ? (
-              <ResearchList items={items} />
-            ) : (
-              <p className="text-muted text-center py-12">
-                コンテンツがまだありません.npm run aggregate
-                を実行してコンテンツを取得してください.
-              </p>
-            )}
-          </div>
-        </div>
-
+      </div>
     </Container>
   );
 }

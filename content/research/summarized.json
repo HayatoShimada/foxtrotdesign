@@ -1,9 +1,24 @@
 [
   {
+    "id": "github-commit-e2a8b0f",
+    "source": "github",
+    "title": "foxtrotdesign",
+    "summary": "feat: Blueskyタイトルの変更",
+    "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/e2a8b0f53d599a7d2259df094d3120495d9e3a47",
+    "imageUrls": [],
+    "publishedAt": "2026-02-18T00:11:07Z",
+    "metadata": {
+      "repo": "foxtrotdesign",
+      "repoUrl": "https://github.com/HayatoShimada/foxtrotdesign",
+      "sha": "e2a8b0f",
+      "language": "TypeScript"
+    }
+  },
+  {
     "id": "bluesky-3mf2dj6dndc2d",
     "source": "bluesky",
-    "title": "[Post] 南砺市向けRSSリーダー構築構想",
-    "summary": "南砺市の小規模事業者向けに特化したRSSリーダーサイトの構築が提案されている。地域事業者の情報収集効率化と情報発信力強化を目的とする。",
+    "title": "[Post] 南砺市向けRSSリーダー構築",
+    "summary": "南砺市の小規模事業者向けに、情報収集を支援するRSSリーダーサイトの構築を目指す。地域経済活性化への貢献が期待される。",
     "url": "https://bsky.app/profile/85-store.bsky.social/post/3mf2dj6dndc2d",
     "imageUrls": [],
     "publishedAt": "2026-02-17T10:16:43.849Z"
@@ -15,7 +30,13 @@
     "summary": "feat: ヘッダー常時アイコンに変更",
     "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/885141a17ea37d3453130d194cd548c97c259fa8",
     "imageUrls": [],
-    "publishedAt": "2026-02-17T10:14:25Z"
+    "publishedAt": "2026-02-17T10:14:25Z",
+    "metadata": {
+      "repo": "foxtrotdesign",
+      "repoUrl": "https://github.com/HayatoShimada/foxtrotdesign",
+      "sha": "885141a",
+      "language": "TypeScript"
+    }
   },
   {
     "id": "github-commit-e1e1695",
@@ -24,7 +45,13 @@
     "summary": "fix: レイアウトの調整",
     "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/e1e16956996d91e63b55e8bc09b695ddb80c0afa",
     "imageUrls": [],
-    "publishedAt": "2026-02-17T10:12:55Z"
+    "publishedAt": "2026-02-17T10:12:55Z",
+    "metadata": {
+      "repo": "foxtrotdesign",
+      "repoUrl": "https://github.com/HayatoShimada/foxtrotdesign",
+      "sha": "e1e1695",
+      "language": "TypeScript"
+    }
   },
   {
     "id": "github-commit-20e7c64",
@@ -33,7 +60,13 @@
     "summary": "feat: Blueskyアイコンの追加",
     "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/20e7c640214f2e296a7981f93aaeee6998db195d",
     "imageUrls": [],
-    "publishedAt": "2026-02-17T10:09:50Z"
+    "publishedAt": "2026-02-17T10:09:50Z",
+    "metadata": {
+      "repo": "foxtrotdesign",
+      "repoUrl": "https://github.com/HayatoShimada/foxtrotdesign",
+      "sha": "20e7c64",
+      "language": "TypeScript"
+    }
   },
   {
     "id": "github-commit-00d6efa",
@@ -42,13 +75,19 @@
     "summary": "feat: Blueskyアカウントをresearchに紐付けた",
     "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/00d6efa395722aa7baa99b0977e0821729bb26da",
     "imageUrls": [],
-    "publishedAt": "2026-02-17T10:06:37Z"
+    "publishedAt": "2026-02-17T10:06:37Z",
+    "metadata": {
+      "repo": "foxtrotdesign",
+      "repoUrl": "https://github.com/HayatoShimada/foxtrotdesign",
+      "sha": "00d6efa",
+      "language": "TypeScript"
+    }
   },
   {
     "id": "bluesky-3mf2bslfys22c",
     "source": "bluesky",
     "title": "[Post] Blueskyアカウント開設報告",
-    "summary": "新規にBlueskyアカウントを開設したことを報告する投稿。ソーシャルメディアプラットフォームへの参加開始を告知し、今後の活動を示唆する。",
+    "summary": "Blueskyにおける新規アカウント開設を告知する投稿。分散型SNSプラットフォームへの参加表明と、今後の情報発信への期待を示唆する。",
     "url": "https://bsky.app/profile/85-store.bsky.social/post/3mf2bslfys22c",
     "imageUrls": [],
     "publishedAt": "2026-02-17T09:46:12.065Z"
@@ -60,7 +99,13 @@
     "summary": "docs: readme add",
     "url": "https://github.com/HayatoShimada/gemini_robo/commit/4a43218fec577b81f0cc391063b018a50a6abd34",
     "imageUrls": [],
-    "publishedAt": "2026-02-17T04:56:39Z"
+    "publishedAt": "2026-02-17T04:56:39Z",
+    "metadata": {
+      "repo": "gemini_robo",
+      "repoUrl": "https://github.com/HayatoShimada/gemini_robo",
+      "sha": "4a43218",
+      "language": "Python"
+    }
   },
   {
     "id": "github-commit-fd5fa15",
@@ -69,7 +114,13 @@
     "summary": "feat: pptx profile add",
     "url": "https://github.com/HayatoShimada/marp/commit/fd5fa15d4a9f7a82de297a3e20a6bec221885731",
     "imageUrls": [],
-    "publishedAt": "2026-02-17T02:24:24Z"
+    "publishedAt": "2026-02-17T02:24:24Z",
+    "metadata": {
+      "repo": "marp",
+      "repoUrl": "https://github.com/HayatoShimada/marp",
+      "sha": "fd5fa15",
+      "language": "CSS"
+    }
   },
   {
     "id": "github-commit-9987c23",
@@ -78,7 +129,13 @@
     "summary": "Revise profile details and enhance formatting\n\nUpdated personal introduction and work history details, including company roles and responsibilities. Improved formatting and added links to company webs",
     "url": "https://github.com/HayatoShimada/marp/commit/9987c23fc348354e5b8007a11ccd74bdde540879",
     "imageUrls": [],
-    "publishedAt": "2026-02-17T02:22:38Z"
+    "publishedAt": "2026-02-17T02:22:38Z",
+    "metadata": {
+      "repo": "marp",
+      "repoUrl": "https://github.com/HayatoShimada/marp",
+      "sha": "9987c23",
+      "language": "CSS"
+    }
   },
   {
     "id": "github-commit-6cb77c4",
@@ -87,7 +144,13 @@
     "summary": "feat: track slide update",
     "url": "https://github.com/HayatoShimada/marp/commit/6cb77c4a87873687a65a0a57983858d94d68d106",
     "imageUrls": [],
-    "publishedAt": "2026-02-17T02:22:06Z"
+    "publishedAt": "2026-02-17T02:22:06Z",
+    "metadata": {
+      "repo": "marp",
+      "repoUrl": "https://github.com/HayatoShimada/marp",
+      "sha": "6cb77c4",
+      "language": "CSS"
+    }
   },
   {
     "id": "github-commit-0515c6b",
@@ -96,7 +159,13 @@
     "summary": "feat: MARP構文整理",
     "url": "https://github.com/HayatoShimada/marp/commit/0515c6b020c6d8a06bdd399d260bee1251c2e6cf",
     "imageUrls": [],
-    "publishedAt": "2026-02-17T00:34:42Z"
+    "publishedAt": "2026-02-17T00:34:42Z",
+    "metadata": {
+      "repo": "marp",
+      "repoUrl": "https://github.com/HayatoShimada/marp",
+      "sha": "0515c6b",
+      "language": "CSS"
+    }
   },
   {
     "id": "github-commit-eb60c2e",
@@ -105,7 +174,13 @@
     "summary": "init",
     "url": "https://github.com/HayatoShimada/nanto_event/commit/eb60c2e86e44d45edce8b51f7ac7f7bcf7891966",
     "imageUrls": [],
-    "publishedAt": "2026-02-16T07:23:47Z"
+    "publishedAt": "2026-02-16T07:23:47Z",
+    "metadata": {
+      "repo": "nanto_event",
+      "repoUrl": "https://github.com/HayatoShimada/nanto_event",
+      "sha": "eb60c2e",
+      "language": "TypeScript"
+    }
   },
   {
     "id": "github-commit-8f1397a",
@@ -114,7 +189,13 @@
     "summary": "first commit",
     "url": "https://github.com/HayatoShimada/nanto_event/commit/8f1397a2c6eb135858a13b74395004bcd2ee6484",
     "imageUrls": [],
-    "publishedAt": "2026-02-16T07:23:20Z"
+    "publishedAt": "2026-02-16T07:23:20Z",
+    "metadata": {
+      "repo": "nanto_event",
+      "repoUrl": "https://github.com/HayatoShimada/nanto_event",
+      "sha": "8f1397a",
+      "language": "TypeScript"
+    }
   },
   {
     "id": "github-commit-84dfaac",
@@ -123,7 +204,13 @@
     "summary": "feat: 動画配信方法追記",
     "url": "https://github.com/HayatoShimada/marp/commit/84dfaac2584a4bc430526b926123928569b41a57",
     "imageUrls": [],
-    "publishedAt": "2026-02-16T07:04:45Z"
+    "publishedAt": "2026-02-16T07:04:45Z",
+    "metadata": {
+      "repo": "marp",
+      "repoUrl": "https://github.com/HayatoShimada/marp",
+      "sha": "84dfaac",
+      "language": "CSS"
+    }
   },
   {
     "id": "github-commit-1bdc991",
@@ -132,7 +219,13 @@
     "summary": "docs: add pictures",
     "url": "https://github.com/HayatoShimada/trackdlo2/commit/1bdc991e1e2f560fc189f2fdcf6dd6ca13f5675c",
     "imageUrls": [],
-    "publishedAt": "2026-02-15T23:42:38Z"
+    "publishedAt": "2026-02-15T23:42:38Z",
+    "metadata": {
+      "repo": "trackdlo2",
+      "repoUrl": "https://github.com/HayatoShimada/trackdlo2",
+      "sha": "1bdc991",
+      "language": "C++"
+    }
   },
   {
     "id": "github-commit-6c7cbdd",
@@ -141,27 +234,27 @@
     "summary": "docs: video add",
     "url": "https://github.com/HayatoShimada/trackdlo2/commit/6c7cbdd1d37cd559b9bb64014d9be991101a3480",
     "imageUrls": [],
-    "publishedAt": "2026-02-15T23:37:24Z"
+    "publishedAt": "2026-02-15T23:37:24Z",
+    "metadata": {
+      "repo": "trackdlo2",
+      "repoUrl": "https://github.com/HayatoShimada/trackdlo2",
+      "sha": "6c7cbdd",
+      "language": "C++"
+    }
   },
   {
     "id": "notecom-https://note.com/85_store/n/n8cedbd973f47",
     "source": "notecom",
-    "title": "ワークライフバランス崩壊の考察",
-    "summary": "社会人、企業運営、プロボノ活動によるワークライフバランスの崩壊を自覚し、家庭時間すらタスク化する現状を報告する。解決策として、ゆる言語学ラジオでの視点を参考に、バランス改善を模索する。",
+    "title": "ワークライフバランス崩壊の危機",
+    "summary": "社会人、事業運営、プロボノ活動による多忙な日々は、ワークライフバランスを著しく損ない、生活全般がタスク化する状況を生み出している。現状を打破するため、新たな視点を取り入れ、バランス回復の必要性が示唆される。",
     "url": "https://note.com/85_store/n/n8cedbd973f47",
     "imageUrls": [
       "https://assets.st-note.com/production/uploads/images/251514010/rectangle_large_type_2_5131c97bd8dc9aba1d6637f1196be443.jpeg?width=800"
     ],
-    "publishedAt": "2026-02-13T14:58:46.000Z"
-  },
-  {
-    "id": "github-commit-5dbfb30",
-    "source": "github",
-    "title": "foxtrotdesign",
-    "summary": "feat: リポジトリ表示の改善。",
-    "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/5dbfb30fb08f1ad65bcdbd00c42cc90ef8727113",
-    "imageUrls": [],
-    "publishedAt": "2026-02-13T14:27:01Z"
+    "publishedAt": "2026-02-13T14:58:46.000Z",
+    "metadata": {
+      "categories": []
+    }
   },
   {
     "id": "github-commit-a9b8293",
@@ -170,7 +263,13 @@
     "summary": "init: 最初のコミット",
     "url": "https://github.com/HayatoShimada/news_tracker/commit/a9b82933d945a9c69938007efd9962bf418b20b9",
     "imageUrls": [],
-    "publishedAt": "2026-02-13T14:03:10Z"
+    "publishedAt": "2026-02-13T14:03:10Z",
+    "metadata": {
+      "repo": "news_tracker",
+      "repoUrl": "https://github.com/HayatoShimada/news_tracker",
+      "sha": "a9b8293",
+      "language": "Python"
+    }
   },
   {
     "id": "github-commit-2ac737a",
@@ -179,7 +278,13 @@
     "summary": "first commit",
     "url": "https://github.com/HayatoShimada/news_tracker/commit/2ac737abc5b02e92a9a94c3bbfdb61caf32335e9",
     "imageUrls": [],
-    "publishedAt": "2026-02-13T14:00:02Z"
+    "publishedAt": "2026-02-13T14:00:02Z",
+    "metadata": {
+      "repo": "news_tracker",
+      "repoUrl": "https://github.com/HayatoShimada/news_tracker",
+      "sha": "2ac737a",
+      "language": "Python"
+    }
   },
   {
     "id": "github-commit-426fe14",
@@ -188,7 +293,13 @@
     "summary": "first commit",
     "url": "https://github.com/HayatoShimada/news_tracker/commit/426fe143bbce68732c8e8b9fc669a88835fef6c6",
     "imageUrls": [],
-    "publishedAt": "2026-02-13T13:59:54Z"
+    "publishedAt": "2026-02-13T13:59:54Z",
+    "metadata": {
+      "repo": "news_tracker",
+      "repoUrl": "https://github.com/HayatoShimada/news_tracker",
+      "sha": "426fe14",
+      "language": "Python"
+    }
   },
   {
     "id": "github-commit-ee37469",
@@ -197,7 +308,13 @@
     "summary": "feat: 起動確認と結果の保存が成功",
     "url": "https://github.com/HayatoShimada/gemini_robo/commit/ee3746908ac1e1cd5c5198311a735ff14b54717c",
     "imageUrls": [],
-    "publishedAt": "2026-02-13T07:21:26Z"
+    "publishedAt": "2026-02-13T07:21:26Z",
+    "metadata": {
+      "repo": "gemini_robo",
+      "repoUrl": "https://github.com/HayatoShimada/gemini_robo",
+      "sha": "ee37469",
+      "language": "Python"
+    }
   },
   {
     "id": "github-commit-208043e",
@@ -206,7 +323,13 @@
     "summary": "init",
     "url": "https://github.com/HayatoShimada/gemini_robo/commit/208043ed8d57ad07d4a81979851bfd523eef9ab3",
     "imageUrls": [],
-    "publishedAt": "2026-02-13T06:25:16Z"
+    "publishedAt": "2026-02-13T06:25:16Z",
+    "metadata": {
+      "repo": "gemini_robo",
+      "repoUrl": "https://github.com/HayatoShimada/gemini_robo",
+      "sha": "208043e",
+      "language": "Python"
+    }
   },
   {
     "id": "github-commit-ec24123",
@@ -215,7 +338,13 @@
     "summary": "feat: 追従方法の修正",
     "url": "https://github.com/HayatoShimada/trackdlo2/commit/ec24123859e5d23f89ebd3ef6ce82372a047dbab",
     "imageUrls": [],
-    "publishedAt": "2026-02-13T03:54:36Z"
+    "publishedAt": "2026-02-13T03:54:36Z",
+    "metadata": {
+      "repo": "trackdlo2",
+      "repoUrl": "https://github.com/HayatoShimada/trackdlo2",
+      "sha": "ec24123",
+      "language": "C++"
+    }
   },
   {
     "id": "github-commit-6802d29",
@@ -224,7 +353,13 @@
     "summary": "first commit",
     "url": "https://github.com/HayatoShimada/gemini_sc/commit/6802d292cf24dec807a4dab8943c08196910f33d",
     "imageUrls": [],
-    "publishedAt": "2026-02-12T07:31:36Z"
+    "publishedAt": "2026-02-12T07:31:36Z",
+    "metadata": {
+      "repo": "gemini_sc",
+      "repoUrl": "https://github.com/HayatoShimada/gemini_sc",
+      "sha": "6802d29",
+      "language": "Python"
+    }
   },
   {
     "id": "github-commit-ab573fc",
@@ -233,7 +368,13 @@
     "summary": "feat: init",
     "url": "https://github.com/HayatoShimada/gemini_sc/commit/ab573fc5afc0c667be5855c6d328347612456253",
     "imageUrls": [],
-    "publishedAt": "2026-02-12T07:30:30Z"
+    "publishedAt": "2026-02-12T07:30:30Z",
+    "metadata": {
+      "repo": "gemini_sc",
+      "repoUrl": "https://github.com/HayatoShimada/gemini_sc",
+      "sha": "ab573fc",
+      "language": "Python"
+    }
   },
   {
     "id": "github-commit-176cf6c",
@@ -242,7 +383,13 @@
     "summary": "commit",
     "url": "https://github.com/HayatoShimada/phisical_ai_research/commit/176cf6c6d1dd365f9328a466368b0b76d1d82f79",
     "imageUrls": [],
-    "publishedAt": "2026-02-12T05:37:07Z"
+    "publishedAt": "2026-02-12T05:37:07Z",
+    "metadata": {
+      "repo": "phisical_ai_research",
+      "repoUrl": "https://github.com/HayatoShimada/phisical_ai_research",
+      "sha": "176cf6c",
+      "language": null
+    }
   },
   {
     "id": "github-commit-da88a65",
@@ -251,7 +398,13 @@
     "summary": "add: vision2",
     "url": "https://github.com/HayatoShimada/phisical_ai_research/commit/da88a653933a66c2b824007ba5c7261467054932",
     "imageUrls": [],
-    "publishedAt": "2026-02-12T05:26:09Z"
+    "publishedAt": "2026-02-12T05:26:09Z",
+    "metadata": {
+      "repo": "phisical_ai_research",
+      "repoUrl": "https://github.com/HayatoShimada/phisical_ai_research",
+      "sha": "da88a65",
+      "language": null
+    }
   },
   {
     "id": "github-commit-82af53e",
@@ -260,7 +413,13 @@
     "summary": "feat: vision",
     "url": "https://github.com/HayatoShimada/phisical_ai_research/commit/82af53e8bdfc82591556d9a595a7bc02553e7049",
     "imageUrls": [],
-    "publishedAt": "2026-02-12T05:07:31Z"
+    "publishedAt": "2026-02-12T05:07:31Z",
+    "metadata": {
+      "repo": "phisical_ai_research",
+      "repoUrl": "https://github.com/HayatoShimada/phisical_ai_research",
+      "sha": "82af53e",
+      "language": null
+    }
   },
   {
     "id": "github-commit-bd01ca6",
@@ -269,7 +428,13 @@
     "summary": "add: news pickup",
     "url": "https://github.com/HayatoShimada/phisical_ai_research/commit/bd01ca6efe0616c4130b4567cef3ffe242d431bf",
     "imageUrls": [],
-    "publishedAt": "2026-02-12T02:32:20Z"
+    "publishedAt": "2026-02-12T02:32:20Z",
+    "metadata": {
+      "repo": "phisical_ai_research",
+      "repoUrl": "https://github.com/HayatoShimada/phisical_ai_research",
+      "sha": "bd01ca6",
+      "language": null
+    }
   },
   {
     "id": "github-commit-3108b20",
@@ -278,7 +443,13 @@
     "summary": "docs: topic & policy",
     "url": "https://github.com/HayatoShimada/phisical_ai_research/commit/3108b203c4a72922694859d992c66201fa978ab7",
     "imageUrls": [],
-    "publishedAt": "2026-02-12T02:15:37Z"
+    "publishedAt": "2026-02-12T02:15:37Z",
+    "metadata": {
+      "repo": "phisical_ai_research",
+      "repoUrl": "https://github.com/HayatoShimada/phisical_ai_research",
+      "sha": "3108b20",
+      "language": null
+    }
   },
   {
     "id": "github-commit-cc053ef",
@@ -287,7 +458,13 @@
     "summary": "fix: segmentation fault bug",
     "url": "https://github.com/HayatoShimada/trackdlo2/commit/cc053ef84f00284ded3583b93d6ce7d94a77eea8",
     "imageUrls": [],
-    "publishedAt": "2026-02-11T15:02:59Z"
+    "publishedAt": "2026-02-11T15:02:59Z",
+    "metadata": {
+      "repo": "trackdlo2",
+      "repoUrl": "https://github.com/HayatoShimada/trackdlo2",
+      "sha": "cc053ef",
+      "language": "C++"
+    }
   },
   {
     "id": "github-commit-082f98a",
@@ -296,7 +473,13 @@
     "summary": "fix: no image error fix",
     "url": "https://github.com/HayatoShimada/trackdlo2/commit/082f98a066b77ea20ed31eee21560e32abd096ff",
     "imageUrls": [],
-    "publishedAt": "2026-02-11T14:49:27Z"
+    "publishedAt": "2026-02-11T14:49:27Z",
+    "metadata": {
+      "repo": "trackdlo2",
+      "repoUrl": "https://github.com/HayatoShimada/trackdlo2",
+      "sha": "082f98a",
+      "language": "C++"
+    }
   },
   {
     "id": "github-commit-ab075d7",
@@ -305,7 +488,13 @@
     "summary": "feat: cuda",
     "url": "https://github.com/HayatoShimada/slither_ai_dlo_2/commit/ab075d7af81f354f65574e69f8f2d74df51cec1c",
     "imageUrls": [],
-    "publishedAt": "2026-02-10T07:34:49Z"
+    "publishedAt": "2026-02-10T07:34:49Z",
+    "metadata": {
+      "repo": "slither_ai_dlo_2",
+      "repoUrl": "https://github.com/HayatoShimada/slither_ai_dlo_2",
+      "sha": "ab075d7",
+      "language": "Python"
+    }
   },
   {
     "id": "github-commit-8e4abda",
@@ -314,7 +503,13 @@
     "summary": "fix: 探索のバグ修正",
     "url": "https://github.com/HayatoShimada/slither_ai_dlo_2/commit/8e4abdab5ea23add506b858d4ee0f7723779ea06",
     "imageUrls": [],
-    "publishedAt": "2026-02-09T13:48:08Z"
+    "publishedAt": "2026-02-09T13:48:08Z",
+    "metadata": {
+      "repo": "slither_ai_dlo_2",
+      "repoUrl": "https://github.com/HayatoShimada/slither_ai_dlo_2",
+      "sha": "8e4abda",
+      "language": "Python"
+    }
   },
   {
     "id": "github-commit-706fb2c",
@@ -323,7 +518,13 @@
     "summary": "feat: mac / chromium",
     "url": "https://github.com/HayatoShimada/slither_ai_dlo_2/commit/706fb2c211048bb15aabb66edf2b55efdc7cd686",
     "imageUrls": [],
-    "publishedAt": "2026-02-09T10:06:20Z"
+    "publishedAt": "2026-02-09T10:06:20Z",
+    "metadata": {
+      "repo": "slither_ai_dlo_2",
+      "repoUrl": "https://github.com/HayatoShimada/slither_ai_dlo_2",
+      "sha": "706fb2c",
+      "language": "Python"
+    }
   },
   {
     "id": "github-commit-f55901a",
@@ -332,7 +533,13 @@
     "summary": "feat: nvidia & radeon & cpu rl add",
     "url": "https://github.com/HayatoShimada/slither_ai_dlo_2/commit/f55901a409a2583d4f9424daadc43d65a56885f2",
     "imageUrls": [],
-    "publishedAt": "2026-02-09T07:33:36Z"
+    "publishedAt": "2026-02-09T07:33:36Z",
+    "metadata": {
+      "repo": "slither_ai_dlo_2",
+      "repoUrl": "https://github.com/HayatoShimada/slither_ai_dlo_2",
+      "sha": "f55901a",
+      "language": "Python"
+    }
   },
   {
     "id": "github-commit-3d648cd",
@@ -341,266 +548,344 @@
     "summary": "feat: episode 2 times pro update",
     "url": "https://github.com/HayatoShimada/slither_ai_dlo_2/commit/3d648cd6620bc49fac6c75e3c72b8b5f19375297",
     "imageUrls": [],
-    "publishedAt": "2026-02-09T07:26:46Z"
+    "publishedAt": "2026-02-09T07:26:46Z",
+    "metadata": {
+      "repo": "slither_ai_dlo_2",
+      "repoUrl": "https://github.com/HayatoShimada/slither_ai_dlo_2",
+      "sha": "3d648cd",
+      "language": "Python"
+    }
   },
   {
     "id": "notecom-https://note.com/85_store/n/n08d5e538a7cd",
     "source": "notecom",
     "title": "問うカフェ：自由を語る雑談会",
-    "summary": "問うカフェは、参加者が特定のテーマについて雑談形式で語り合う会である。普段意識しない問いを言語化し、参加者それぞれの視野を広げることを目的とする。",
+    "summary": "問うカフェは、参加者が特定のテーマについてお茶を飲みながら語り合う会である。形式ばらない雑談を通じて普段考えない問いを言語化し、参加者の視野を広げることを目的とする。",
     "url": "https://note.com/85_store/n/n08d5e538a7cd",
     "imageUrls": [],
-    "publishedAt": "2026-02-08T14:45:06.000Z"
+    "publishedAt": "2026-02-08T14:45:06.000Z",
+    "metadata": {
+      "categories": []
+    }
   },
   {
     "id": "notecom-https://note.com/85_store/n/na7c93d22cc71",
     "source": "notecom",
-    "title": "未知の店への来店と顧客満足",
-    "summary": "予約制のWEKEND LIMITED STOREへの来店者への感謝と、顧客の満足度向上への努力が述べられている。店舗の認知度が低い状況下で、顧客体験の充実が重視されていることが示唆される。",
+    "title": "未知の店への感謝と充実感",
+    "summary": "WEEKEND LIMITED STOREへの来店者に感謝を述べ、予約制というハードルを越えて来店する顧客への感謝と、顧客が楽しんで帰ることに充実感を感じている。店側は日々顧客満足度向上のために苦心している。",
     "url": "https://note.com/85_store/n/na7c93d22cc71",
     "imageUrls": [
       "https://assets.st-note.com/production/uploads/images/248413207/rectangle_large_type_2_1f28c00d71a9e78af8eb97af0af484ac.png?width=800"
     ],
-    "publishedAt": "2026-02-01T13:39:12.000Z"
+    "publishedAt": "2026-02-01T13:39:12.000Z",
+    "metadata": {
+      "categories": []
+    }
   },
   {
     "id": "notecom-https://note.com/85_store/n/n68381a205e37",
     "source": "notecom",
-    "title": "J.CREWの魅力：85-Store視点",
-    "summary": "セレクトショップ85-Storeが、チェックシャツの仕入れにおいて特に重視するブランドとしてJ.CREWを挙げている。本記事では、同ブランドの魅力と、85-StoreがJ.CREWを厳選する理由について考察する。",
+    "title": "J.CREWの魅力：85-Storeの視点",
+    "summary": "セレクトショップ85-Storeが、特にチェックシャツの仕入れにおいて重視するブランドとしてJ.CREWを挙げている。同ブランドの魅力に着目し、厳選されたアイテムが提供されていることを示唆する。",
     "url": "https://note.com/85_store/n/n68381a205e37",
     "imageUrls": [
       "https://assets.st-note.com/production/uploads/images/247844208/rectangle_large_type_2_0c60ba7fce85f7232a76e7472657450b.jpeg?width=800"
     ],
-    "publishedAt": "2026-01-30T13:50:29.000Z"
+    "publishedAt": "2026-01-30T13:50:29.000Z",
+    "metadata": {
+      "categories": []
+    }
   },
   {
     "id": "notecom-https://note.com/85_store/n/n718f1bac3498",
     "source": "notecom",
-    "title": "企業ロゴ×古着アウトドアウェア",
-    "summary": "企業・団体ロゴを配した古着アウトドアウェアに着目し、欧米と日本のタイポグラフィデザインの差異を考察する。適度な冷たさを持つデザインが魅力である。",
+    "title": "企業ロゴ×古着に見るタイポグラフィ",
+    "summary": "企業・団体ロゴがプリントされたアウトドアウェア古着を収集・分析し、欧米と日本のタイポグラフィデザインの差異に着目する。特有の冷たさを帯びたデザインに焦点を当て、ロゴデザインの視点から考察を行う。",
     "url": "https://note.com/85_store/n/n718f1bac3498",
     "imageUrls": [
       "https://assets.st-note.com/production/uploads/images/246878693/rectangle_large_type_2_ce74abfac8bab97185c269828b601309.jpeg?width=800"
     ],
-    "publishedAt": "2026-01-26T14:24:12.000Z"
+    "publishedAt": "2026-01-26T14:24:12.000Z",
+    "metadata": {
+      "categories": []
+    }
   },
   {
     "id": "notecom-https://note.com/85_store/n/n321f6c2512e8",
     "source": "notecom",
-    "title": "大雪の古着屋イベント参加記",
-    "summary": "古着屋リール動画に触発されフリマイベントに参加。大雪という悪天候の中、イベント当日を迎えた。困難な状況下でのイベント参加の経験が記述されている。",
+    "title": "大雪の古着イベント参加記",
+    "summary": "古着店のリール動画に触発されフリマイベントへ参加した記録。警報級の大雪に見舞われつつもイベントを完遂。困難な状況下でのイベント出店の模様を記述。",
     "url": "https://note.com/85_store/n/n321f6c2512e8",
     "imageUrls": [
       "https://assets.st-note.com/production/uploads/images/246365789/rectangle_large_type_2_afffa385f805d96ca3a5ee03814df9e3.png?width=800"
     ],
-    "publishedAt": "2026-01-24T15:40:22.000Z"
+    "publishedAt": "2026-01-24T15:40:22.000Z",
+    "metadata": {
+      "categories": []
+    }
   },
   {
     "id": "notecom-https://note.com/85_store/n/n948bc1edf6ee",
     "source": "notecom",
     "title": "1/24 北陸フリマ出店による休業",
-    "summary": "1月24日に北陸フリーマーケットへ出店するため、WEEKEND LIMITED STOREは休業となる。詳細情報はnote.comで公開されている。",
+    "summary": "1月24日、北陸フリーマーケット出店に伴い、WEEKEND LIMITED STOREは休業となる。これにより、同日の実店舗での販売は行われない。",
     "url": "https://note.com/85_store/n/n948bc1edf6ee",
     "imageUrls": [
       "https://assets.st-note.com/production/uploads/images/244989461/rectangle_large_type_2_f098c03368be69e7539081d187c9b751.png?width=800"
     ],
-    "publishedAt": "2026-01-19T03:16:49.000Z"
+    "publishedAt": "2026-01-19T03:16:49.000Z",
+    "metadata": {
+      "categories": []
+    }
   },
   {
     "id": "notecom-https://note.com/85_store/n/nf7e15696a481",
     "source": "notecom",
-    "title": "感情と論理の会話：山道と舗装",
-    "summary": "感情優先の対話は、論理的整合性を求める者にとって、自然の山道を舗装するような困難を伴う。感情的地雷を避けながら道を作る必要があり、整合性のない道は突然終わる。論理的追求は、しばしば感情という現実の前で頓挫する。",
+    "title": "感情 vs 論理：山道と舗装路の対話",
+    "summary": "感情を重視する対話は山道に例えられ、論理的整合性を求める側は、その山道を舗装しようと試みる。しかし、感情的な地雷や非合理的な要素が、直線的な思考を阻害し、一時的な直線（トンネル）も唐突に終焉を迎える。対話における感情と論理の衝突と、その限界を示唆する。",
     "url": "https://note.com/85_store/n/nf7e15696a481",
     "imageUrls": [
       "https://assets.st-note.com/production/uploads/images/244389995/rectangle_large_type_2_0718ee57562dc60c3a68a0a3389ea91c.png?width=800"
     ],
-    "publishedAt": "2026-01-16T20:04:11.000Z"
+    "publishedAt": "2026-01-16T20:04:11.000Z",
+    "metadata": {
+      "categories": []
+    }
   },
   {
     "id": "notecom-https://note.com/85_store/n/n3cd85f1f9b6d",
     "source": "notecom",
-    "title": "Adobe代替とAffinity Suite",
-    "summary": "転職によりAdobe製品が利用不可となるユーザーが、代替ソフトウェアとしてCanva提供のAffinity Suiteを発見した事例報告。Affinity Suiteは無償で利用可能であり、Adobe製品からの移行先として検討されている。",
+    "title": "Adobe代替とAffinityの活用",
+    "summary": "転職によるAdobe製品利用不可を契機に、Canva提供のAffinityに注目。AffinityはAdobe製品の代替となりうる可能性を示唆し、特にフォント問題解決への貢献が期待される。",
     "url": "https://note.com/85_store/n/n3cd85f1f9b6d",
     "imageUrls": [
       "https://assets.st-note.com/production/uploads/images/243958437/rectangle_large_type_2_47bcb82719564b5375e8a4224bbc240e.png?width=800"
     ],
-    "publishedAt": "2026-01-15T01:13:52.000Z"
+    "publishedAt": "2026-01-15T01:13:52.000Z",
+    "metadata": {
+      "categories": []
+    }
   },
   {
     "id": "notecom-https://note.com/85_store/n/n83f02c212b52",
     "source": "notecom",
-    "title": "台風下の愛の疾走：高校時代の回顧",
-    "summary": "高校時代、著者は精神的に不安定な彼女を励ますため、台風の日に約18kmを走って会いに行った。強風吹き荒れる田園地帯で愛を叫んだという、若さ故の無謀な行動を回顧する。",
+    "title": "台風下の愛の疾走：新湊往復",
+    "summary": "高校時代、筆者は精神的に不安定な恋人のために、台風の日に寮から冠水公園まで約18kmを往復した。強風の中、田園地帯で愛を叫ぶという危険な行為を通して、当時の恋愛感情の激しさを回顧している。",
     "url": "https://note.com/85_store/n/n83f02c212b52",
     "imageUrls": [
       "https://assets.st-note.com/production/uploads/images/243471876/rectangle_large_type_2_900457ba65072eee6bc1ff9f14b74c96.jpg?width=800",
       "https://assets.st-note.com/production/uploads/images/243466815/picture_pc_a5bf077b8c25d159ba1ce2b34240f15e.png"
     ],
-    "publishedAt": "2026-01-12T23:46:37.000Z"
+    "publishedAt": "2026-01-12T23:46:37.000Z",
+    "metadata": {
+      "categories": []
+    }
   },
   {
     "id": "notecom-https://note.com/85_store/n/nd2d13d09c2ff",
     "source": "notecom",
-    "title": "視点への着目：水野氏の影響",
-    "summary": "年末の番組をきっかけに「視点」という言葉への関心が高まっている。特定の人物の発言が、特定の概念に対する強い興味を喚起する様子が示唆される。",
+    "title": "視点への着目：ゆる言語学ラジオの影響",
+    "summary": "年末のゆる言語学ラジオのベスト本紹介が、「視点」という言葉への関心を喚起した。特定の人物の発言をきっかけに、あるキーワードへの意識が高まる現象について考察の端緒とする。",
     "url": "https://note.com/85_store/n/nd2d13d09c2ff",
     "imageUrls": [
       "https://assets.st-note.com/production/uploads/images/242598544/rectangle_large_type_2_3b3a3a87ce764d7add6c0edaed7f0dd2.jpeg?width=800"
     ],
-    "publishedAt": "2026-01-09T12:09:50.000Z"
+    "publishedAt": "2026-01-09T12:09:50.000Z",
+    "metadata": {
+      "categories": []
+    }
   },
   {
     "id": "notecom-https://note.com/85_store/n/n2c996eeca007",
     "source": "notecom",
-    "title": "小売業の新たな価値：視点の販売",
-    "summary": "価格と価値の決定権が買い手に移行した現代において、小売業は従来の価値提供から転換を迫られている。書籍「85 no mawari」の執筆を通して、小売業が提供すべき新たな価値として「視点」の販売を提唱する。",
+    "title": "小売の視点販売への転換",
+    "summary": "現代において価格と価値の決定権が買い手に移行したことを背景に、小売業が新たな販売戦略として「視点」を売る必要性を提起する書籍が執筆されている。本著は、従来の価値提供モデルから脱却し、小売業が独自の視点を提供することで競争力を維持する可能性を示唆する。",
     "url": "https://note.com/85_store/n/n2c996eeca007",
     "imageUrls": [],
-    "publishedAt": "2026-01-09T02:12:43.000Z"
+    "publishedAt": "2026-01-09T02:12:43.000Z",
+    "metadata": {
+      "categories": []
+    }
   },
   {
     "id": "notecom-https://note.com/85_store/n/n4a100d1126a5",
     "source": "notecom",
     "title": "氷見fctry訪問記：シルクスクリーン体験",
-    "summary": "4年ぶりに氷見のfctryを訪問し、シルクスクリーン印刷体験について記述する。fctryはBASEが運営するショップであり、オリジナルTシャツ等の作成が可能。",
+    "summary": "4年ぶりに氷見のfctryを訪問し、シルクスクリーン印刷体験ショップの現状を確認した。fctryでは、オリジナルTシャツ等の製作体験やオーダーが可能である。",
     "url": "https://note.com/85_store/n/n4a100d1126a5",
     "imageUrls": [
       "https://assets.st-note.com/production/uploads/images/242281108/rectangle_large_type_2_bf82287b62aa20185a96d385ec5fb6f4.jpeg?width=800"
     ],
-    "publishedAt": "2026-01-08T07:11:19.000Z"
+    "publishedAt": "2026-01-08T07:11:19.000Z",
+    "metadata": {
+      "categories": []
+    }
   },
   {
     "id": "notecom-https://note.com/85_store/n/nd62225ec475d",
     "source": "notecom",
-    "title": "保温性と着心地を両立するクルーネック",
-    "summary": "Riverのクルーネックは、空気層を持つセッケツ生地とウール混紡により、高い保温性と柔らかな肌触りを実現している。快適な着用感が特徴。",
+    "title": "保温性と着心地を両立する曖昧クルーネック",
+    "summary": "Riverのクルーネックは、空気層を持つセッケツ生地とウール混紡により、高い保温性と柔らかな肌触りを実現。快適な着心地を提供する。",
     "url": "https://note.com/85_store/n/nd62225ec475d",
     "imageUrls": [
       "https://assets.st-note.com/production/uploads/images/242013581/rectangle_large_type_2_2d73da4c8adec4eb02f89403524d6c7a.jpeg?width=800"
     ],
-    "publishedAt": "2026-01-07T04:20:45.000Z"
+    "publishedAt": "2026-01-07T04:20:45.000Z",
+    "metadata": {
+      "categories": []
+    }
   },
   {
     "id": "notecom-https://note.com/85_store/n/n3b68ca2e65ad",
     "source": "notecom",
-    "title": "ブティックの適度な重みとは",
-    "summary": "ヴィレバンを85-Storeと表現したことを機に、「ブティック」という言葉が持つ重みについて考察している。現代において、ブティックという言葉が持つニュアンスの再検討が必要とされている。",
+    "title": "ブティックの重み考察",
+    "summary": "ヴィレバンを例に、「ブティック」という言葉が持つニュアンスの適正な重みについて考察している。現代における「ブティック」のイメージと、その言葉が持つ意味合いの微妙な変化に着目した内容である。",
     "url": "https://note.com/85_store/n/n3b68ca2e65ad",
     "imageUrls": [
       "https://assets.st-note.com/production/uploads/images/241940846/rectangle_large_type_2_818e735edadfa8169c5602fe700a5482.jpeg?width=800"
     ],
-    "publishedAt": "2026-01-06T17:32:29.000Z"
+    "publishedAt": "2026-01-06T17:32:29.000Z",
+    "metadata": {
+      "categories": []
+    }
   },
   {
     "id": "notecom-https://note.com/85_store/n/n00b5504bf389",
     "source": "notecom",
-    "title": "Travis派の音楽観：諦観と前進",
-    "summary": "OasisではなくTravisを好む筆者の音楽観を提示。失恋や社会批判、自己憐憫とは異なる、冷めた諦観と受容、そして前進という価値観がTravisの音楽に内包されていると考察する。",
+    "title": "Travisの魅力：諦観と前進",
+    "summary": "本稿は、Oasisやサカナクションとは異なる、Travisの音楽性を分析する。失恋や社会批判、自己憐憫に留まらず、冷めた視点から諦めと受容、そして前進を描く点がTravisの独自性であると主張する。",
     "url": "https://note.com/85_store/n/n00b5504bf389",
     "imageUrls": [
       "https://assets.st-note.com/production/uploads/images/241934022/rectangle_large_type_2_19f4531e92865cd5729d9156e6661672.jpeg?width=800",
       "https://assets.st-note.com/img/1767722797-xVS4uLyz598KIJspBTDhQaZe.png"
     ],
-    "publishedAt": "2026-01-06T16:31:16.000Z"
+    "publishedAt": "2026-01-06T16:31:16.000Z",
+    "metadata": {
+      "categories": []
+    }
   },
   {
     "id": "notecom-https://note.com/85_store/n/nb5401208da40",
     "source": "notecom",
     "title": "85-Store: 小説発表イベント開催",
-    "summary": "85-Storeは、年始イベントにてゆいまる著の小説発表と店舗PRを実施する。古着・セレクトショップである同店は、イベントで物販は行わず、ブランド認知度向上に注力する。",
+    "summary": "富山県の古着・セレクトショップ85-Storeが、ゆいまる著の小説発表イベントを年始に開催する。イベントでは物販は行わず、店舗PRを主目的とする。",
     "url": "https://note.com/85_store/n/nb5401208da40",
     "imageUrls": [
       "https://assets.st-note.com/production/uploads/images/241286621/rectangle_large_type_2_a94c194200ed198a2adf70023b52ec9b.jpeg?width=800"
     ],
-    "publishedAt": "2026-01-04T05:44:17.000Z"
+    "publishedAt": "2026-01-04T05:44:17.000Z",
+    "metadata": {
+      "categories": []
+    }
   },
   {
     "id": "notecom-https://note.com/85_store/n/neef8c5ea4416",
     "source": "notecom",
-    "title": "1/12 DOMAから 新年茶会",
-    "summary": "1月12日(祝月)に富山県南砺市のシェアキッチン「DOMAから」にて新年茶会が開催される。詳細は地図アプリで場所を確認可能。",
+    "title": "1/12 DOMAから新年茶会開催",
+    "summary": "1月12日（成人の日）に富山県南砺市のシェアキッチンDOMAからにて新年茶会が開催される。詳細な場所は地図アプリで確認可能。",
     "url": "https://note.com/85_store/n/neef8c5ea4416",
     "imageUrls": [
       "https://assets.st-note.com/production/uploads/images/240607423/rectangle_large_type_2_daf32f3bd728b9ea7485d6d333b0ead5.png?width=800"
     ],
-    "publishedAt": "2026-01-01T11:26:07.000Z"
+    "publishedAt": "2026-01-01T11:26:07.000Z",
+    "metadata": {
+      "categories": []
+    }
   },
   {
     "id": "notecom-https://note.com/85_store/n/nbf5fc56157ba",
     "source": "notecom",
     "title": "言語脳と視覚脳：無意識の分類",
-    "summary": "ゆる言語学ラジオのビジュアルシンカー回視聴後、言語脳と視覚脳の分類を無意識に行うようになったという個人的な体験を述べている。脳のタイプ分類に対する筆者の意識の変化を考察する。",
+    "summary": "ゆる言語学ラジオのビジュアルシンカー回視聴後、言語脳・視覚脳の分類を無意識に行うようになったという。脳の機能特性に基づく思考様式の分類への関心を示唆する。",
     "url": "https://note.com/85_store/n/nbf5fc56157ba",
     "imageUrls": [
       "https://assets.st-note.com/production/uploads/images/240154090/rectangle_large_type_2_cba0d798c3b091db0b8a73ac67e06b3d.jpeg?width=800"
     ],
-    "publishedAt": "2025-12-31T02:21:49.000Z"
+    "publishedAt": "2025-12-31T02:21:49.000Z",
+    "metadata": {
+      "categories": []
+    }
   },
   {
     "id": "notecom-https://note.com/85_store/n/ndd8755f5d534",
     "source": "notecom",
     "title": "年末年始反省セール開催",
-    "summary": "85-Storeは、日頃の感謝を込め年末年始セールを開催する。詳細はnote.comで確認可能。",
+    "summary": "85-Storeは、日頃の感謝を込めて年末年始セールを開催する。詳細はnote.comで確認可能。",
     "url": "https://note.com/85_store/n/ndd8755f5d534",
     "imageUrls": [
       "https://assets.st-note.com/production/uploads/images/239940536/rectangle_large_type_2_440c48695546ca8583dfa31db84dde95.png?width=800"
     ],
-    "publishedAt": "2025-12-30T06:40:07.000Z"
+    "publishedAt": "2025-12-30T06:40:07.000Z",
+    "metadata": {
+      "categories": []
+    }
   },
   {
     "id": "notecom-https://note.com/85_store/n/n79c49388c76a",
     "source": "notecom",
-    "title": "共感性欠如と感情理解の希求",
-    "summary": "筆者はロジカル思考のため共感困難だが、他者の感情を受容し理解を深めたいと述べている。ホロスコープでは共感性の高さが示唆されており、感情理解と表現のギャップに苦悩していることが示唆される。",
+    "title": "共感欠如と感情理解の狭間",
+    "summary": "筆者は論理的思考を優先する一方、他者の感情を受容し理解したいと願う。ホロスコープでは共感性が高いと診断されるにも関わらず、感情を自身の感情として表現することに苦悩している。",
     "url": "https://note.com/85_store/n/n79c49388c76a",
     "imageUrls": [
       "https://assets.st-note.com/production/uploads/images/239589930/rectangle_large_type_2_6a11ad48c5685e0ce0346f1b853e6481.jpeg?width=800"
     ],
-    "publishedAt": "2025-12-28T22:35:03.000Z"
+    "publishedAt": "2025-12-28T22:35:03.000Z",
+    "metadata": {
+      "categories": []
+    }
   },
   {
     "id": "notecom-https://note.com/85_store/n/n0fdc07957b60",
     "source": "notecom",
     "title": "免責的超人論と多重ペルソナ",
-    "summary": "本稿は、島田迅人が抱く世界観・自己認識・制度と自由の関係に対する抽象的観点を、二元論的免責論、ポストニーチェ的超人論、多重ペルソナ的解決を基に言語化・構造化を試みたものである。Chat GPTとの対話を通して生成された内容を修正し、表現を洗練させることで、独自の理論構築を目指す。",
+    "summary": "本稿は、島田迅人が抱く世界観と自己認識、制度と自由に関する抽象的観点を、二元論的免責論、ポストニーチェ的超人論、多重ペルソナ的解決を基に言語化・構造化する試みである。Chat GPTとの対話を重ね、内容を修正しながら、独自の理論構築を目指す。",
     "url": "https://note.com/85_store/n/n0fdc07957b60",
     "imageUrls": [],
-    "publishedAt": "2025-12-26T15:31:50.000Z"
+    "publishedAt": "2025-12-26T15:31:50.000Z",
+    "metadata": {
+      "categories": []
+    }
   },
   {
     "id": "notecom-https://note.com/85_store/n/n8c0101146b37",
     "source": "notecom",
-    "title": "日本社会の二元論的構造とボランティア",
-    "summary": "日本社会は因果論的な運用と一元論的な解釈が混在する。仏教思想（因果応報、縁起、無常）と儒教・近代思想（自己責任、努力主義、成果主義）が複合的に作用し、ボランティア活動の解釈にも影響を与えている可能性が示唆される。",
+    "title": "日本社会における二元論的解釈とボランティア",
+    "summary": "日本社会は因果論的運用と一元論的解釈が混在し、仏教由来の縁起や無常観と、儒教・近代社会由来の自己責任論などが複雑に絡み合っている。この構造が、ボランティア活動（Probono）に対する認識にも影響を与えている可能性が示唆される。",
     "url": "https://note.com/85_store/n/n8c0101146b37",
     "imageUrls": [],
-    "publishedAt": "2025-12-26T02:10:40.000Z"
+    "publishedAt": "2025-12-26T02:10:40.000Z",
+    "metadata": {
+      "categories": []
+    }
   },
   {
     "id": "notecom-https://note.com/85_store/n/n854f76ebbad4",
     "source": "notecom",
     "title": "85-Store:「好き」を追求するセレクト",
-    "summary": "85-Storeは、ブランドや時代背景に囚われず、洋服そのものの魅力を重視するセレクトショップである。古着と新品を組み合わせ、「今好きなものが、ずっと好きなものになる」未来を目指し、純粋な「好き」の気持ちを大切にしている。",
+    "summary": "85-Storeは、ブランドや時代背景に捉われず、洋服そのものの魅力を重視するセレクトショップである。古着と新品を組み合わせ、「今好きなものが、ずっと好きなものになる」未来を目指している。",
     "url": "https://note.com/85_store/n/n854f76ebbad4",
     "imageUrls": [
       "https://assets.st-note.com/production/uploads/images/238305453/rectangle_large_type_2_ae4b554db22d4b9d2367071020f935bc.png?width=800"
     ],
-    "publishedAt": "2025-12-23T05:48:40.000Z"
+    "publishedAt": "2025-12-23T05:48:40.000Z",
+    "metadata": {
+      "categories": []
+    }
   },
   {
     "id": "notecom-https://note.com/85_store/n/n2c0d75a38f14",
     "source": "notecom",
-    "title": "スタイリング遍歴の回顧と分析",
-    "summary": "過去のスタイリングを写真で振り返り、当時の嗜好や影響源を考察する。多数の写真から特徴的なものを抽出し、自己のスタイリング変遷を分析する試みである。",
+    "title": "過去のスタイリング分析",
+    "summary": "本稿は、筆者の過去のスタイリング写真100枚以上を分析し、その変遷を辿る。当時の嗜好や影響源を考察し、自己のスタイリング遍歴を客観的に記述する。",
     "url": "https://note.com/85_store/n/n2c0d75a38f14",
     "imageUrls": [
       "https://assets.st-note.com/production/uploads/images/238207131/rectangle_large_type_2_f1b4fa59cbb38237353736235e6d8159.jpeg?width=800",
       "https://assets.st-note.com/img/1766417253-Z7uwaqgbizcpJHXCS4LhoFlN.jpg"
     ],
-    "publishedAt": "2025-12-22T15:47:55.000Z"
+    "publishedAt": "2025-12-22T15:47:55.000Z",
+    "metadata": {
+      "categories": []
+    }
   },
   {
     "id": "github-commit-6792c06",
@@ -609,7 +894,13 @@
     "summary": "工程詳細フロー画面とMainViewの調整",
     "url": "https://github.com/HayatoShimada/KdxDesigner/commit/6792c068f35d019b55fcb3de6687448339e8edb9",
     "imageUrls": [],
-    "publishedAt": "2025-08-10T23:15:46Z"
+    "publishedAt": "2025-08-10T23:15:46Z",
+    "metadata": {
+      "repo": "KdxDesigner",
+      "repoUrl": "https://github.com/HayatoShimada/KdxDesigner",
+      "sha": "6792c06",
+      "language": "C#"
+    }
   },
   {
     "id": "github-commit-3948242",
@@ -618,7 +909,13 @@
     "summary": "リファクタリング",
     "url": "https://github.com/HayatoShimada/KdxDesigner/commit/39482428c66767b928ed43c0316f7744b37e3ccb",
     "imageUrls": [],
-    "publishedAt": "2025-08-09T01:50:46Z"
+    "publishedAt": "2025-08-09T01:50:46Z",
+    "metadata": {
+      "repo": "KdxDesigner",
+      "repoUrl": "https://github.com/HayatoShimada/KdxDesigner",
+      "sha": "3948242",
+      "language": "C#"
+    }
   },
   {
     "id": "github-commit-461a144",
@@ -627,7 +924,13 @@
     "summary": "delete none method",
     "url": "https://github.com/HayatoShimada/KdxDesigner/commit/461a144fb79aa449795abd99c7ac6b0be1e51bea",
     "imageUrls": [],
-    "publishedAt": "2025-08-09T01:44:26Z"
+    "publishedAt": "2025-08-09T01:44:26Z",
+    "metadata": {
+      "repo": "KdxDesigner",
+      "repoUrl": "https://github.com/HayatoShimada/KdxDesigner",
+      "sha": "461a144",
+      "language": "C#"
+    }
   },
   {
     "id": "github-commit-4783f3f",
@@ -636,7 +939,13 @@
     "summary": "merge error fix",
     "url": "https://github.com/HayatoShimada/KdxDesigner/commit/4783f3f1874b2d142599d960cc4096ebe0d993a5",
     "imageUrls": [],
-    "publishedAt": "2025-08-09T01:35:49Z"
+    "publishedAt": "2025-08-09T01:35:49Z",
+    "metadata": {
+      "repo": "KdxDesigner",
+      "repoUrl": "https://github.com/HayatoShimada/KdxDesigner",
+      "sha": "4783f3f",
+      "language": "C#"
+    }
   },
   {
     "id": "github-commit-c56399b",
@@ -645,6 +954,12 @@
     "summary": "merge",
     "url": "https://github.com/HayatoShimada/KdxDesigner/commit/c56399b5f79786fd83909a738819d6909d5c585a",
     "imageUrls": [],
-    "publishedAt": "2025-08-09T01:35:05Z"
+    "publishedAt": "2025-08-09T01:35:05Z",
+    "metadata": {
+      "repo": "KdxDesigner",
+      "repoUrl": "https://github.com/HayatoShimada/KdxDesigner",
+      "sha": "c56399b",
+      "language": "C#"
+    }
   }
 ]
