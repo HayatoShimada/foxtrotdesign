@@ -14,7 +14,7 @@ export function ResearchList({ items }: { items: SummarizedContent[] }) {
 
   return (
     <div>
-      <div className="flex gap-2 mb-6">
+      <div className="flex flex-wrap gap-2 mb-6">
         {([
           ["all", "All"],
           ["notecom", "note.com"],
@@ -24,11 +24,10 @@ export function ResearchList({ items }: { items: SummarizedContent[] }) {
           <button
             key={value}
             onClick={() => setFilter(value)}
-            className={`text-xs px-2 py-1 border transition-colors ${
-              filter === value
+            className={`text-xs px-2 py-1 border transition-colors ${filter === value
                 ? "border-foreground text-foreground"
                 : "border-border text-muted hover:text-foreground hover:border-foreground"
-            }`}
+              }`}
           >
             {label}
           </button>

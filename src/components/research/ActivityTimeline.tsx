@@ -110,8 +110,7 @@ export function ActivityTimeline({ repos }: { repos: GitHubRepo[] }) {
             <div className="w-full border border-border p-4 bg-background/50">
                 <div className="w-full relative" style={{ height: `${height}px` }}>
                     <svg
-                        className="absolute inset-0 w-full h-full pointer-events-none"
-                        style={{ overflow: "visible" }}
+                        className="absolute inset-0 w-full h-full pointer-events-none overflow-hidden"
                     >
                         {/* Vertical Grid Lines and Labels */}
                         {gridLines.map((line, i) => (
@@ -128,7 +127,13 @@ export function ActivityTimeline({ repos }: { repos: GitHubRepo[] }) {
                                 <text
                                     x={`${line.pos}%`}
                                     y={paddingTop - 10}
-                                    textAnchor="middle"
+                                    textAnchor={
+                                        line.pos > 95
+                                            ? "end"
+                                            : line.pos < 5
+                                                ? "start"
+                                                : "middle"
+                                    }
                                     className="fill-muted text-[10px] uppercase font-mono"
                                 >
                                     {line.label}
@@ -194,7 +199,7 @@ export function ActivityTimeline({ repos }: { repos: GitHubRepo[] }) {
                                                 style={{ left: `${leftPercent}%` }}
                                             >
                                                 {/* Tooltip */}
-                                                <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-max max-w-[200px] p-2 bg-background border border-border text-xs z-20 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none shadow-brutal-sm">
+                                                <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-max max-w-[200px] p-2 bg-background border border-border text-xs z-20 hidden group-hover:block shadow-brutal-sm">
                                                     <div className="font-bold mb-1 font-mono">
                                                         {format(commitDate, "yyyy-MM-dd HH:mm")}
                                                     </div>

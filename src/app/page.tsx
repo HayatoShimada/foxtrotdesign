@@ -54,6 +54,17 @@ export default function Home() {
               </p>
             </Link>
             <Link
+              href="https://85-store.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block border border-foreground p-4 shadow-brutal-sm hover:shadow-brutal-md transition-shadow"
+            >
+              <h3 className="font-bold mb-2">85-Store →</h3>
+              <p className="text-muted text-xs">
+                Vintage & New Clothing Select Shop.
+              </p>
+            </Link>
+            <Link
               href="/timeline"
               className="block border border-foreground p-4 shadow-brutal-sm hover:shadow-brutal-md transition-shadow"
             >

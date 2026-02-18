@@ -1,6 +1,6 @@
 export function Footer() {
   return (
-    <footer className="border-t border-border mt-12">
+    <footer className="border-t border-border mt-12 pb-28">
       <div className="max-w-2xl mx-auto px-4 md:px-12 py-6">
         <div className="flex justify-between items-center text-xs text-muted">
           <p>&copy; {new Date().getFullYear()} Hayato Shimada</p>
