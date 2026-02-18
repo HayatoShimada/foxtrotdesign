@@ -1,5 +1,20 @@
 [
   {
+    "id": "github-commit-6f949f6",
+    "source": "github",
+    "title": "foxtrotdesign",
+    "summary": "fix: header & footer",
+    "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/6f949f6e6db687f6d2cf78fcd36ef3ac18e4addd",
+    "imageUrls": [],
+    "publishedAt": "2026-02-18T04:01:19Z",
+    "metadata": {
+      "repo": "foxtrotdesign",
+      "repoUrl": "https://github.com/HayatoShimada/foxtrotdesign",
+      "sha": "6f949f6",
+      "language": "TypeScript"
+    }
+  },
+  {
     "id": "bluesky-3mf464wadzs2n",
     "source": "bluesky",
     "title": "[Post] コミット可視化ツール開発",

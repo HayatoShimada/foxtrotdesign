@@ -11,6 +11,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "assets.st-note.com",
       },
+      {
+        protocol: "https",
+        hostname: "cdn.bsky.app",
+      },
     ],
   },
   turbopack: {
