@@ -1,5 +1,31 @@
 [
   {
+    "id": "bluesky-3mf464wadzs2n",
+    "source": "bluesky",
+    "title": "[Post] コミット可視化ツール開発",
+    "summary": "自身がコミットしているリポジトリと貢献度を可視化するツールが開発された。これにより、開発者は自身の活動状況を定量的に把握し、プロジェクトへの関与を評価できる。",
+    "url": "https://bsky.app/profile/85-store.bsky.social/post/3mf464wadzs2n",
+    "imageUrls": [
+      "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:r6sn23opu43lnk6vznxsuxwz/bafkreib7lriczv4bhyfvj7lxxww5vvukets6xbtzrajdv4mpwkgbsifysq@jpeg"
+    ],
+    "publishedAt": "2026-02-18T03:45:43.462Z"
+  },
+  {
+    "id": "github-commit-4badea0",
+    "source": "github",
+    "title": "foxtrotdesign",
+    "summary": "feat: timelineページの実装",
+    "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/4badea063c04bd20f730b95ddedb622ac5e3af29",
+    "imageUrls": [],
+    "publishedAt": "2026-02-18T01:02:11Z",
+    "metadata": {
+      "repo": "foxtrotdesign",
+      "repoUrl": "https://github.com/HayatoShimada/foxtrotdesign",
+      "sha": "4badea0",
+      "language": "TypeScript"
+    }
+  },
+  {
     "id": "github-commit-e2a8b0f",
     "source": "github",
     "title": "foxtrotdesign",
@@ -569,6 +595,21 @@
     }
   },
   {
+    "id": "github-commit-4522482",
+    "source": "github",
+    "title": "85store",
+    "summary": "feat: microcms",
+    "url": "https://github.com/HayatoShimada/85store/commit/4522482065dcfce1979171523d78c51cdaf33d97",
+    "imageUrls": [],
+    "publishedAt": "2026-02-06T11:42:55Z",
+    "metadata": {
+      "repo": "85store",
+      "repoUrl": "https://github.com/HayatoShimada/85store",
+      "sha": "4522482",
+      "language": "TypeScript"
+    }
+  },
+  {
     "id": "notecom-https://note.com/85_store/n/na7c93d22cc71",
     "source": "notecom",
     "title": "未知の店への感謝と充実感",
@@ -639,6 +680,51 @@
     }
   },
   {
+    "id": "github-commit-8adbe81",
+    "source": "github",
+    "title": "85store",
+    "summary": "feat: about add photos",
+    "url": "https://github.com/HayatoShimada/85store/commit/8adbe81d339cfd79442faa10c2b5242eafcabcb1",
+    "imageUrls": [],
+    "publishedAt": "2026-01-18T15:11:37Z",
+    "metadata": {
+      "repo": "85store",
+      "repoUrl": "https://github.com/HayatoShimada/85store",
+      "sha": "8adbe81",
+      "language": "TypeScript"
+    }
+  },
+  {
+    "id": "github-commit-01d1a2a",
+    "source": "github",
+    "title": "85store",
+    "summary": "feat: xl => 3xl",
+    "url": "https://github.com/HayatoShimada/85store/commit/01d1a2a189310127775679226aa7296079399970",
+    "imageUrls": [],
+    "publishedAt": "2026-01-18T14:42:08Z",
+    "metadata": {
+      "repo": "85store",
+      "repoUrl": "https://github.com/HayatoShimada/85store",
+      "sha": "01d1a2a",
+      "language": "TypeScript"
+    }
+  },
+  {
+    "id": "github-commit-e6f1e5a",
+    "source": "github",
+    "title": "85store",
+    "summary": "feat font weight",
+    "url": "https://github.com/HayatoShimada/85store/commit/e6f1e5a7e90fc503acf62ae8f7e7f73f853bc653",
+    "imageUrls": [],
+    "publishedAt": "2026-01-18T14:37:15Z",
+    "metadata": {
+      "repo": "85store",
+      "repoUrl": "https://github.com/HayatoShimada/85store",
+      "sha": "e6f1e5a",
+      "language": "TypeScript"
+    }
+  },
+  {
     "id": "notecom-https://note.com/85_store/n/nf7e15696a481",
     "source": "notecom",
     "title": "感情 vs 論理：山道と舗装路の対話",
@@ -650,6 +736,21 @@
     "publishedAt": "2026-01-16T20:04:11.000Z",
     "metadata": {
       "categories": []
+    }
+  },
+  {
+    "id": "github-commit-2b23f10",
+    "source": "github",
+    "title": "85store",
+    "summary": "Merge pull request #13 from HayatoShimada/dmsans\n\nfeat: DM Sans",
+    "url": "https://github.com/HayatoShimada/85store/commit/2b23f105af1fdaed8447029e7d986ac8847471cd",
+    "imageUrls": [],
+    "publishedAt": "2026-01-15T03:17:04Z",
+    "metadata": {
+      "repo": "85store",
+      "repoUrl": "https://github.com/HayatoShimada/85store",
+      "sha": "2b23f10",
+      "language": "TypeScript"
     }
   },
   {

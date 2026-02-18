@@ -1,5 +1,17 @@
 [
   {
+    "id": "bluesky-3mf464wadzs2n",
+    "source": "bluesky",
+    "type": "post",
+    "title": "どのリポジトリにどの程度コミットしているか、可視化できるよう...",
+    "content": "どのリポジトリにどの程度コミットしているか、可視化できるようにしました",
+    "url": "https://bsky.app/profile/85-store.bsky.social/post/3mf464wadzs2n",
+    "imageUrls": [
+      "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:r6sn23opu43lnk6vznxsuxwz/bafkreib7lriczv4bhyfvj7lxxww5vvukets6xbtzrajdv4mpwkgbsifysq@jpeg"
+    ],
+    "publishedAt": "2026-02-18T03:45:43.462Z"
+  },
+  {
     "id": "notecom-https://note.com/85_store/n/n8cedbd973f47",
     "source": "notecom",
     "type": "article",

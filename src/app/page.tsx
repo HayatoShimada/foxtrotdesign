@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Container } from "@/components/Container";
+import { ChatCard } from "@/components/chat/ChatCard";
 
 export default function Home() {
   return (
@@ -52,6 +53,16 @@ export default function Home() {
                 各種活動から収集したビジュアルアーカイブ.
               </p>
             </Link>
+            <Link
+              href="/timeline"
+              className="block border border-foreground p-4 shadow-brutal-sm hover:shadow-brutal-md transition-shadow"
+            >
+              <h3 className="font-bold mb-2">Timeline →</h3>
+              <p className="text-muted text-xs">
+                時系列で追う活動の記録.
+              </p>
+            </Link>
+            <ChatCard />
           </div>
         </section>
       </div>

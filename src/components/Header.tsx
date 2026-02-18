@@ -1,13 +1,18 @@
+"use client";
+
 import Link from "next/link";
+import { useState } from "react";
 import { ThemeToggle } from "./ThemeToggle";
 import { ChatButton } from "./chat/ChatButton";
 
 export function Header() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   return (
-    <header className="border-b border-border">
+    <header className="border-b border-border relative z-50 bg-background">
       <nav className="max-w-2xl mx-auto px-4 md:px-12 py-6">
         <div className="flex items-center justify-between">
-          <Link href="/" className="font-bold hover:underline">
+          <Link href="/" className="font-bold hover:underline z-50 relative">
             <svg
               className="w-6 h-6"
               viewBox="0 0 32 32"
@@ -20,21 +25,82 @@ export function Header() {
               />
             </svg>
           </Link>
-          <div className="flex items-center gap-4 md:gap-6">
-            <Link href="/research" className="hover:underline">
-              Research
-            </Link>
-            <Link href="/timeline" className="hover:underline">
-              Timeline
-            </Link>
-            <Link href="/images" className="hover:underline">
-              Images
-            </Link>
-            <ChatButton />
-            <ThemeToggle />
+
+          {/* Mobile Menu Button */}
+          <button
+            className="md:hidden z-50 relative p-2"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            aria-label="Toggle menu"
+          >
+            {isMenuOpen ? (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+              </svg>
+            ) : (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+              </svg>
+            )}
+          </button>
+
+          {/* Desktop Navigation */}
+          <div className="hidden md:flex items-center gap-6">
+            <NavItems />
           </div>
         </div>
       </nav>
+
+      {/* Mobile Navigation Overlay */}
+      {isMenuOpen && (
+        <div className="fixed inset-0 bg-background z-40 flex flex-col justify-center items-center md:hidden animate-in fade-in slide-in-from-top-4 duration-200">
+          <div className="flex flex-col items-center gap-8 text-xl">
+            <NavItems onClick={() => setIsMenuOpen(false)} />
+          </div>
+        </div>
+      )}
     </header>
+  );
+}
+
+function NavItems({ onClick }: { onClick?: () => void }) {
+  return (
+    <>
+      <Link href="/research" className="hover:underline" onClick={onClick}>
+        Research
+      </Link>
+      <Link href="/timeline" className="hover:underline" onClick={onClick}>
+        Timeline
+      </Link>
+      <Link href="/images" className="hover:underline" onClick={onClick}>
+        Images
+      </Link>
+      <div onClick={onClick}>
+        <ChatButton />
+      </div>
+      <ThemeToggle />
+    </>
   );
 }
