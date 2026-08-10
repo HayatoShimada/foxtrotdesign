@@ -105,7 +105,7 @@ export async function batchSummarize(
     } else {
       console.log(`  Summarizing ${newGeminiItems.length} new items (note.com/bluesky) with Gemini...`);
       const genAI = new GoogleGenerativeAI(apiKey);
-      const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
+      const model = genAI.getGenerativeModel({ model: "gemini-3.5-flash" });
 
       const batchSize = 5;
       for (let i = 0; i < newGeminiItems.length; i += batchSize) {
@@ -139,7 +139,7 @@ export async function updateNotePrompt(
   }
 
   const genAI = new GoogleGenerativeAI(apiKey);
-  const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
+  const model = genAI.getGenerativeModel({ model: "gemini-3.5-flash" });
 
   const newArticleText = newArticles
     .map((a) => `### ${a.title}\n${a.body}`)

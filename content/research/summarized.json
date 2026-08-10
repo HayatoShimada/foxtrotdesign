@@ -1,5 +1,366 @@
 [
   {
+    "id": "notecom-https://note.com/85_store/n/naa2af8d74a73",
+    "source": "notecom",
+    "title": "Podcastのショート動画化に向けた自動切り抜きアプリの開発",
+    "summary": "リソースの制約から未編集での音声配信を行う配信者において、認知拡大に向けたショート動画の有効性が着目されている。本取り組みでは、限られた時間で効果的なプロモーションを実現するため、自動切り抜き動画作成アプリの開発を進めている。",
+    "url": "https://note.com/85_store/n/naa2af8d74a73",
+    "imageUrls": [
+      "https://assets.st-note.com/production/uploads/images/301235762/rectangle_large_type_2_fdc48273fb531479ba98c9b15e02df2b.png?width=800"
+    ],
+    "publishedAt": "2026-08-07T07:25:56.000Z",
+    "metadata": {
+      "categories": []
+    }
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/nf34784d3d412",
+    "source": "notecom",
+    "title": "85-Storeのスタイリングモデル募集とコンセプト紹介",
+    "summary": "富山県南砺市井波に位置するセレクトショップ「85-Store」は、「もう一度洋服を好きになれる場所」をコンセプトに、安価な古着と新品を融合した独自のミックススタイルを提案している。同店は、自社のスタイリング提案を具現化し広く発信するための媒介として、現在スタイリングモデルの募集を実施している。",
+    "url": "https://note.com/85_store/n/nf34784d3d412",
+    "imageUrls": [
+      "https://assets.st-note.com/production/uploads/images/300757420/rectangle_large_type_2_c31ad069189f82410179e0edd490d8d2.jpeg?width=800"
+    ],
+    "publishedAt": "2026-08-05T13:12:27.000Z",
+    "metadata": {
+      "categories": []
+    }
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/n3ac0e6f11a4d",
+    "source": "notecom",
+    "title": "「85-Store」生誕記念セールの実施概要と割引戦略",
+    "summary": "本公表は、85-Storeが2026年8月5日より開始する「スヌー生誕祭」セールの概要を提示するものである。店頭全品を対象とした一律20%の割引に加え、特定商品「スヌーT」の購入者に対しては25%の優待割引率が適用される。実店舗における販売施策と並行し、オンラインプラットフォームでの展開についても言及されている。",
+    "url": "https://note.com/85_store/n/n3ac0e6f11a4d",
+    "imageUrls": [
+      "https://assets.st-note.com/production/uploads/images/300319456/rectangle_large_type_2_73be899a80e9aaa7fd145352a9223c9d.png?width=800"
+    ],
+    "publishedAt": "2026-08-04T03:43:51.000Z",
+    "metadata": {
+      "categories": []
+    }
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/ne743c0caa4c0",
+    "source": "notecom",
+    "title": "富山県南砺市におけるアパレル店「85-Store」の開業と初期運営",
+    "summary": "本報告は、富山県南砺市井波に開業したアパレル店舗「85-Store」の、開業後約4ヶ月間における運営実態を記述するものである。極めて閑静な地域特性から当初は集客への懸念が存在したものの、地域住民や遠方顧客による支持を獲得し、安定的な初期運営の継続に成功している。本事例は、地方都市における小規模小売店の存続と顧客関係性の構築プロセスを示唆している。",
+    "url": "https://note.com/85_store/n/ne743c0caa4c0",
+    "imageUrls": [
+      "https://assets.st-note.com/production/uploads/images/300065911/rectangle_large_type_2_b6d78ee7f775c4a4f890adcb0c4c9c64.jpeg?width=800",
+      "https://assets.st-note.com/img/1785739681-3aO8H7bjYfBwiXW0KM4zxZJG.png"
+    ],
+    "publishedAt": "2026-08-03T07:11:53.000Z",
+    "metadata": {
+      "categories": []
+    }
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/n5f391a674494",
+    "source": "notecom",
+    "title": "古着プリントTシャツの素材特性と意匠性の多角的分析",
+    "summary": "中古プリントTシャツは、経年変化による優れた柔軟性や米国製ボディ特有の乾燥した質感といった特有の物理的特性を有する。製造ブランドによる仕様の違いが存在する一方で、消費者における製品評価や選択行動においては、プリントの意匠性が極めて重要な決定要因となる。",
+    "url": "https://note.com/85_store/n/n5f391a674494",
+    "imageUrls": [
+      "https://assets.st-note.com/production/uploads/images/295673353/rectangle_large_type_2_e7186667ae98987eaa39f67f733b0f48.jpeg?width=800"
+    ],
+    "publishedAt": "2026-07-19T06:24:35.000Z",
+    "metadata": {
+      "categories": []
+    }
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/nca8ece997bb5",
+    "source": "notecom",
+    "title": "85-StoreへのPaidy導入と決済プロセスの簡素化",
+    "summary": "ECサイト「85-Store」における新たな決済手段として、後払い決済サービス「Paidy」が導入された。これにより、利用者はクレジットカードを必要とせず、メールアドレスと携帯電話番号のみでの決済完了が可能となる。オンライン購買における手続きの簡略化と、決済選択肢の多様化による顧客利便性の向上が期待される。",
+    "url": "https://note.com/85_store/n/nca8ece997bb5",
+    "imageUrls": [
+      "https://assets.st-note.com/production/uploads/images/294434783/rectangle_large_type_2_0459c92349906b1bd8aca9b50fae43ca.png?width=800",
+      "https://assets.st-note.com/img/1784055862-dQJNeSh1PitU4OXuT6sg05Kc.png"
+    ],
+    "publishedAt": "2026-07-14T19:33:42.000Z",
+    "metadata": {
+      "categories": []
+    }
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/n168dada999d0",
+    "source": "notecom",
+    "title": "Freak’s Store初期役員との対話に基づく人生観の探究",
+    "summary": "本稿は、アパレルブランド「Freak’s Store」の黎明期を支え、後に取締役へと昇進した初期メンバーとの一時期における濃密な対話を記録したものである。偶然の契機から始まった対話の分析を通じて、組織の成長プロセスにおける個人のキャリア形成と、それに伴う「人生の温度感」の変遷について客観的に論考する。",
+    "url": "https://note.com/85_store/n/n168dada999d0",
+    "imageUrls": [
+      "https://assets.st-note.com/production/uploads/images/292680373/rectangle_large_type_2_fbaaa6cdba826077b6dfe2c4a7d106c8.png?width=800"
+    ],
+    "publishedAt": "2026-07-08T14:33:18.000Z",
+    "metadata": {
+      "categories": []
+    }
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/n637c463f4ab3",
+    "source": "notecom",
+    "title": "青春の終焉と再始動における時間的流動性の考察",
+    "summary": "本作は、主観的な「青春」の終焉と再定義が織りなす時間的連続性と循環性について言及した記述である。著者は、青春を一過性の静的な期間ではなく、不断に更新される動的なプロセスとして捉え直している。この簡潔な言及は、個人の自己認識における時間意識の流動性と、青年期概念の伸縮性を示唆している。",
+    "url": "https://note.com/85_store/n/n637c463f4ab3",
+    "imageUrls": [
+      "https://assets.st-note.com/production/uploads/images/291441258/rectangle_large_type_2_f88db95fede4ac2c9964e9501be99bf6.jpg?width=800"
+    ],
+    "publishedAt": "2026-07-04T12:44:22.000Z",
+    "metadata": {
+      "categories": []
+    }
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/n55b98e9f73e7",
+    "source": "notecom",
+    "title": "地方セレクトショップによる独自モバイルゲーム開発の事例（28文字）",
+    "summary": "富山県南砺市のアパレルセレクトショップ「85-Store」は、独自のスマートフォン向けゲームアプリ「ハコネコはこちらを見ている」を開発し、App Storeにて配信を開始した。本事業は、従来の衣類販売という枠組みを超えた異分野への新規参入であり、デジタルコンテンツの提供を通じた新たな顧客アプローチの試みとして位置づけられる。",
+    "url": "https://note.com/85_store/n/n55b98e9f73e7",
+    "imageUrls": [
+      "https://assets.st-note.com/production/uploads/images/288640719/rectangle_large_type_2_b667ce7424ad17865b463919134f7652.png?width=800"
+    ],
+    "publishedAt": "2026-06-25T06:33:59.000Z",
+    "metadata": {
+      "categories": []
+    }
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/nb966e6292501",
+    "source": "notecom",
+    "title": "露骨な販促活動における逆説的「美意識」の構築（23文字）",
+    "summary": "本稿は、衣類販売店が実施するSNSフォロワー数に応じた割引キャンペーンを事例に、商業活動における美意識の再定義を考察している。一見すると利己的で洗練さを欠く販促手法を、真摯に実行することで「逆説的な魅力」へと昇華させる、独自の価値転換プロセスが示されている。",
+    "url": "https://note.com/85_store/n/nb966e6292501",
+    "imageUrls": [
+      "https://assets.st-note.com/production/uploads/images/286063739/rectangle_large_type_2_dd3eb75a28e0619ce23edec28cd62b34.jpg?width=800"
+    ],
+    "publishedAt": "2026-06-16T14:31:44.000Z",
+    "metadata": {
+      "categories": []
+    }
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/nf7e5dce040ab",
+    "source": "notecom",
+    "title": "「第2回85-Personal」の開催報告と実践記録",
+    "summary": "本稿は、独自活動の一環として実施された「第2回85-Personal」の開催実績について報告するものである。実施に至るプロセスおよび運営の要点を客観的に記録し、今後の継続的な展開に向けた基礎的知見を提示している。",
+    "url": "https://note.com/85_store/n/nf7e5dce040ab",
+    "imageUrls": [
+      "https://assets.st-note.com/production/uploads/images/285905920/rectangle_large_type_2_6e0b47e73aab2b2a60284785e3d3674a.jpg?width=800"
+    ],
+    "publishedAt": "2026-06-16T03:31:28.000Z",
+    "metadata": {
+      "categories": []
+    }
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/n74e6799970e7",
+    "source": "notecom",
+    "title": "ファッション消費における「一生物」言説への批判的考察",
+    "summary": "本稿は、衣類消費における耐久性や長寿命の追求（いわゆる「一生物」の思想）に対し、ファッション本来の娯楽性や感性的価値の観点から批判的検証を試みるものである。耐久性至上主義が消費者の装う楽しさを制限する可能性を指摘し、一過性の体験価値を包摂したオルタナティブな衣服選択の意義を提起する。",
+    "url": "https://note.com/85_store/n/n74e6799970e7",
+    "imageUrls": [
+      "https://assets.st-note.com/production/uploads/images/283403956/rectangle_large_type_2_fc00eaf24562d66ca10933b52c5717d7.jpg?width=800",
+      "https://assets.st-note.com/img/1780837885-71wptTRrbNEvHkXJ0c3jgauI.png"
+    ],
+    "publishedAt": "2026-06-07T13:21:35.000Z",
+    "metadata": {
+      "categories": []
+    }
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/n121bfb50177a",
+    "source": "notecom",
+    "title": "不完全な遊戯における美学的理想と自己呈示の相克",
+    "summary": "本稿は、ビリヤードが有する洗練された非言語的社交としての美学的理想と、主体の技術的未熟さに起因する現実の乖離を対比的に考察するものである。理想とされる静謐かつ確実な相互作用に対し、現実の遊戯空間では不確実な結果を言語的虚飾によって調停する主体の営みが示される。この乖離の受容こそが、不完全な媒介を通じたコミュニケーションにおける特有のダイナミクスを形成している。",
+    "url": "https://note.com/85_store/n/n121bfb50177a",
+    "imageUrls": [],
+    "publishedAt": "2026-06-01T14:53:17.000Z",
+    "metadata": {
+      "categories": []
+    }
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/n91ff593f86c3",
+    "source": "notecom",
+    "title": "地方古着店「85-Store」の特性とメディア展開",
+    "summary": "富山県南砺市井波に所在する古着・セレクトショップ「85-Store（ハコストア）」は、伝統的な古着と新規商品の調和を特徴とするアパレル店舗である。同店は、商品の提案に留まらず、ポッドキャストなどの音声メディアを用いた独自の情報発信活動を展開している。地方都市における独立系小売店舗のブランディングおよびメディア戦略の一事例として位置づけられる。",
+    "url": "https://note.com/85_store/n/n91ff593f86c3",
+    "imageUrls": [
+      "https://assets.st-note.com/production/uploads/images/281609307/rectangle_large_type_2_7e842dace7ab86e5d41172fd42770442.png?width=800"
+    ],
+    "publishedAt": "2026-06-01T13:59:24.000Z",
+    "metadata": {
+      "categories": []
+    }
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/n736ba80cc5b8",
+    "source": "notecom",
+    "title": "エッセイにおける自己対話と現代的自己探求の機能",
+    "summary": "本稿は高田優美子氏のエッセイを契機として、詩と小説の境界に位置するエッセイという文学形式が持つ「自己との対話」の機能を考察したものである。著者は、言語化困難な内省プロセスを表現する営みとしてエッセイを位置づけ、社会への適応と主体的な自己探求の模索におけるその重要性を指摘している。",
+    "url": "https://note.com/85_store/n/n736ba80cc5b8",
+    "imageUrls": [
+      "https://assets.st-note.com/production/uploads/images/281284131/rectangle_large_type_2_705d0c455fa8701d31ab55790f496a4a.jpg?width=800"
+    ],
+    "publishedAt": "2026-05-31T13:11:00.000Z",
+    "metadata": {
+      "categories": []
+    }
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/n7fe15caab31f",
+    "source": "notecom",
+    "title": "移動空間における脱接続と生産的アウトプットの親和性",
+    "summary": "情報過多な現代において、高速鉄道等の移動時間はSNS等の絶え間ない接続から解放された独自の余白を提供する。この非日常的なオフライン環境は、受動的な情報消費を抑制し、プログラミングや執筆といった主体的な創作活動を促進する契機となる。したがって、旅における移動の本質は空間的転移にとどまらず、自己対話と生産的アウトプットを組織するための創造的時空間の獲得にある。",
+    "url": "https://note.com/85_store/n/n7fe15caab31f",
+    "imageUrls": [],
+    "publishedAt": "2026-05-15T14:14:18.000Z",
+    "metadata": {
+      "categories": []
+    }
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/n5053f79b29a3",
+    "source": "notecom",
+    "title": "祖母による代替的養育と労働現場における幼児随伴の事例",
+    "summary": "本稿は、母親の不在および父親の多忙という家庭環境において、祖母が主要な養育を担った事例を回顧的に記述するものである。養育者は就労と育児を両立させるため、自身の多様な労働現場に幼児を随伴させており、清掃現場や縫製工場における相互行為が記述される。本事例は、家族機能の縮小時における代替的養育の実際と、非日常的な労働空間が幼児期に与えた影響を提示している。",
+    "url": "https://note.com/85_store/n/n5053f79b29a3",
+    "imageUrls": [
+      "https://assets.st-note.com/production/uploads/images/274847327/rectangle_large_type_2_52932ce4742116fa91c174dcae460891.jpeg?width=800"
+    ],
+    "publishedAt": "2026-05-10T13:02:01.000Z",
+    "metadata": {
+      "categories": []
+    }
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/nc880bac508b3",
+    "source": "notecom",
+    "title": "長期連続労働下における未処理業務の解消欲求と主観的充足感",
+    "summary": "本事例は、大型連休中を含め実質的に約50日間の連続勤務に従事する労働者の就労実態と心理的適応を分析したものである。対象者は新規開店に伴う未完了タスクの処理を最優先しており、この業務完遂欲求が休養欲求を上回ることで、過密な労働状況下にあっても良好な主観的ウェルビーイングを維持している。",
+    "url": "https://note.com/85_store/n/nc880bac508b3",
+    "imageUrls": [
+      "https://assets.st-note.com/production/uploads/images/274273692/rectangle_large_type_2_dee08ead80b3fcdbe0753e4266d76850.jpg?width=800",
+      "https://assets.st-note.com/img/1778252461-Yim98MEutChbayLcezwDW12P.jpg"
+    ],
+    "publishedAt": "2026-05-08T15:26:06.000Z",
+    "metadata": {
+      "categories": []
+    }
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/n4708504d8442",
+    "source": "notecom",
+    "title": "古着購買におけるサイズ感の不確実性と試着の必要性",
+    "summary": "古着の選択においては、現代規格との乖離、洗浄に伴う伸縮、製造年代差に起因するサイズ感の不整合が、消費者の購買意思決定における主要な阻害要因となる。本稿は、これらサイズ選択の不確実性を指摘し、顧客が気軽に試着可能な購買環境を構築することの重要性を提示する。",
+    "url": "https://note.com/85_store/n/n4708504d8442",
+    "imageUrls": [
+      "https://assets.st-note.com/production/uploads/images/273009163/rectangle_large_type_2_2496114c773284089cc1b0141c6aaf08.jpg?width=800"
+    ],
+    "publishedAt": "2026-05-04T12:05:16.000Z",
+    "metadata": {
+      "categories": []
+    }
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/n01fb00ce7c40",
+    "source": "notecom",
+    "title": "衣類の充足に伴う価値認識の減退と循環特性",
+    "summary": "本稿は、良質な衣類の蓄積による物質的充足が、個人の価値評価プロセスに与える影響を考察する。物質的な豊かさへの適応は高価値物に対する感応度を低下させ、代替的に安価な物品へ価値を見出すという心理的選好の循環現象を引き起こす。",
+    "url": "https://note.com/85_store/n/n01fb00ce7c40",
+    "imageUrls": [
+      "https://assets.st-note.com/production/uploads/images/272456348/rectangle_large_type_2_e27c7718544c92d5a13265a7e0213594.jpg?width=800",
+      "https://assets.st-note.com/img/1777729644-2jxshtT7avuf49qyzRrb3AVP.jpg"
+    ],
+    "publishedAt": "2026-05-03T13:43:54.000Z",
+    "metadata": {
+      "categories": []
+    }
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/n554e065dbd79",
+    "source": "notecom",
+    "title": "AIの未来像：伴侶としての存在か「機械仕掛けの神」か",
+    "summary": "本稿は、AIアシスタントとの対話を通じて、今後の技術革新の方向性と人間社会におけるAIの役割について考察している。AIが人間を情緒的に支える「友人」となるべきか、あるいは超自然的な問題解決をもたらす「機械仕掛けの神（デウス・エクス・マキナ）」となるべきかという、技術の進化がもたらす哲学的かつ社会的な二面性を論ずる。",
+    "url": "https://note.com/85_store/n/n554e065dbd79",
+    "imageUrls": [
+      "https://assets.st-note.com/production/uploads/images/272057155/rectangle_large_type_2_f84a44c80c41f9798808c14bb7ebea69.png?width=800"
+    ],
+    "publishedAt": "2026-05-01T06:59:57.000Z",
+    "metadata": {
+      "categories": []
+    }
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/n9f1e6acec7f0",
+    "source": "notecom",
+    "title": "「売る・買う」の商業思想とヴィンテージ時計の価値創造",
+    "summary": "本稿は「売る仕事・買う仕事」をテーマに、独自の店舗運営思想やヴィンテージ腕時計をめぐる連載「日差±百年」の言説を分析している。文学的な知見を交えながら、商業活動における主体的自由の探求と、サプライズを伴う空間構築の重要性を指摘する。これらを通じて、販売者と購買者の相互作用から創出される独自の価値体系について考察している。",
+    "url": "https://note.com/85_store/n/n9f1e6acec7f0",
+    "imageUrls": [
+      "https://assets.st-note.com/production/uploads/images/271210218/rectangle_large_type_2_88cccd171a8818fcf4c45909184620a0.png?width=800"
+    ],
+    "publishedAt": "2026-04-28T12:41:55.000Z",
+    "metadata": {
+      "categories": []
+    }
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/n47891dcacb9d",
+    "source": "notecom",
+    "title": "偏愛カーニヴァル出店における運営最適化の実践",
+    "summary": "イベント出店の経験蓄積に伴い、荷造りや什器選定といった物理的準備に加え、精神的余裕などの内面的姿勢の双方が最適化されつつある。本報告では、店舗兼住居スペースを活用し古着屋4店舗が協働したイベント「偏愛カーニヴァル」への参画を通じ、その実践的知見を提示する。",
+    "url": "https://note.com/85_store/n/n47891dcacb9d",
+    "imageUrls": [
+      "https://assets.st-note.com/production/uploads/images/270804745/rectangle_large_type_2_0b06bae04f2088c1c60c17340971b6ce.png?width=800"
+    ],
+    "publishedAt": "2026-04-27T03:31:20.000Z",
+    "metadata": {
+      "categories": []
+    }
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/nb5ed8309ce44",
+    "source": "notecom",
+    "title": "SNS時代の過剰なブランディングとブランド価値の形骸化",
+    "summary": "現代のSNS環境において、ターゲットの絞り込みや意匠の統一、高度な自己言及性を伴う「ブランディング」が過剰に一般化している。本稿は、これらの洗練されたマーケティング手法の定式化と氾濫が、かえってブランド本来の本質的な価値を希薄化させ、形骸化を招いている現状を批判的に分析する。消費者を魅了する手法そのものが目的化することによる、ブランド価値の自律的な崩壊と機能不全について問題提起を行っている。",
+    "url": "https://note.com/85_store/n/nb5ed8309ce44",
+    "imageUrls": [
+      "https://assets.st-note.com/production/uploads/images/269631408/rectangle_large_type_2_2a65ed80e9ba44ad21f5630e528f35f3.png?width=800"
+    ],
+    "publishedAt": "2026-04-23T04:34:23.000Z",
+    "metadata": {
+      "categories": []
+    }
+  },
+  {
+    "id": "notecom-https://note.com/85_store/n/n8b907d1ea97e",
+    "source": "notecom",
+    "title": "「River」を軸とするセレクトショップ間の共同企画と協働生産",
+    "summary": "セレクトショップ「rasiku」が展開するアパレルブランド「River」を対象に、他店舗である「85-Store」との協働体制の実態を述べる。両者は、一部商品の共同企画やカットソー製品における製造ロットの相互負担を通じて、生産効率と開発力を補完し合う協力関係を構築している。この持続的な協働プロセスは、双方のブランド価値および顧客ニーズに合致した製品の安定的供給に寄与している。",
+    "url": "https://note.com/85_store/n/n8b907d1ea97e",
+    "imageUrls": [
+      "https://assets.st-note.com/production/uploads/images/268802449/rectangle_large_type_2_3033dd0b0def51c169b4c6767e33bd33.jpeg?width=800",
+      "https://assets.st-note.com/img/1776649204-4Gnqje5gPJotIOrV8f1MZbap.jpg"
+    ],
+    "publishedAt": "2026-04-20T01:57:54.000Z",
+    "metadata": {
+      "categories": []
+    }
+  },
+  {
+    "id": "bluesky-3mf76uikyhc2z",
+    "source": "bluesky",
+    "title": "[Post] 都市空間への移行と屋外活動を促す行動喚起",
+    "summary": "本投稿は、個人に対して都市空間への外出および屋外活動への参加を直接的に促す行動喚起を行っている。このような簡潔な動機付けは、個人の移動意欲を刺激し、都市部における社会活動の活性化やコミュニティへの関与を促す心理的アプローチとして位置づけられる。",
+    "url": "https://bsky.app/profile/85-store.bsky.social/post/3mf76uikyhc2z",
+    "imageUrls": [],
+    "publishedAt": "2026-02-19T08:36:53.658Z"
+  },
+  {
     "id": "github-commit-005852b",
     "source": "github",
     "title": "foxtrotdesign",

@@ -33,6 +33,59 @@ export default function Home() {
         </section>
 
         <section className="border-t border-border pt-8">
+          <h2 className="text-2xl font-bold mb-2">Focus</h2>
+          <p className="text-muted text-xs mb-4">
+            最近特に力を入れていること.
+          </p>
+          <div className="space-y-4">
+            <a
+              href="https://85-store.com/blog/aymjo79tj"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block border border-foreground p-4 shadow-brutal-sm hover:shadow-brutal-md transition-shadow"
+            >
+              <p className="text-xs text-muted mb-1">Event · 2026.08.23</p>
+              <h3 className="font-bold mb-2">
+                AIの疑問をみんなで解消する会 →
+              </h3>
+              <p className="text-muted text-xs leading-relaxed">
+                8/23(日) @85-Store.現役AIエンジニアと台湾茶を飲みながら,
+                AIの疑問をざっくばらんに語り合う対談・対話会.
+                技術と日常の溝を埋める参加型イベント.
+              </p>
+            </a>
+            <a
+              href="https://85-store.com/hakoneko"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block border border-foreground p-4 shadow-brutal-sm hover:shadow-brutal-md transition-shadow"
+            >
+              <p className="text-xs text-muted mb-1">Game · iOS</p>
+              <h3 className="font-bold mb-2">
+                ハコネコはこちらを見ている →
+              </h3>
+              <p className="text-muted text-xs leading-relaxed">
+                一見キュート,中身はハードなコズミックホラー・マージパズル.
+                増え続けるモフモフから宇宙を救い,最果ての姿で対消滅させよ.
+              </p>
+            </a>
+            <a
+              href="https://github.com/HayatoShimada/assa_movie"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block border border-foreground p-4 shadow-brutal-sm hover:shadow-brutal-md transition-shadow"
+            >
+              <p className="text-xs text-muted mb-1">App · KirinukiStudio</p>
+              <h3 className="font-bold mb-2">assa_movie →</h3>
+              <p className="text-muted text-xs leading-relaxed">
+                長尺の対談・イベント動画から,文字起こし・話者分離・字幕・
+                切り抜きまでを一気通貫で行うローカルGPU対応アプリ.
+              </p>
+            </a>
+          </div>
+        </section>
+
+        <section className="border-t border-border pt-8">
           <h2 className="text-2xl font-bold mb-4">Explore</h2>
           <div className="space-y-4">
             <Link
