@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { ThemeToggle } from "./ThemeToggle";
 
@@ -11,7 +12,11 @@ export function Header() {
     <header className="border-b border-border relative z-50 bg-background">
       <nav className="max-w-2xl mx-auto px-4 md:px-12 py-6">
         <div className="flex items-center justify-between">
-          <Link href="/" className="font-bold hover:underline z-50 relative">
+          <Link
+            href="/"
+            aria-label="Home"
+            className="relative z-50 font-bold hover:underline"
+          >
             <svg
               className="w-6 h-6"
               viewBox="0 0 32 32"
@@ -27,7 +32,7 @@ export function Header() {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden z-50 relative p-2"
+            className="relative z-50 p-2 md:hidden"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
           >
@@ -66,7 +71,7 @@ export function Header() {
           </button>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-6">
+          <div className="hidden items-center gap-4 text-[0.7rem] font-bold uppercase md:flex">
             <NavItems />
           </div>
         </div>
@@ -74,8 +79,8 @@ export function Header() {
 
       {/* Mobile Navigation Overlay */}
       {isMenuOpen && (
-        <div className="fixed inset-0 bg-background z-40 flex flex-col justify-center items-center md:hidden animate-in fade-in slide-in-from-top-4 duration-200">
-          <div className="flex flex-col items-center gap-8 text-xl">
+        <div className="fixed inset-0 z-40 flex flex-col items-center justify-center bg-background duration-200 animate-in fade-in slide-in-from-top-4 md:hidden">
+          <div className="flex flex-col items-center gap-6 text-xl font-bold uppercase">
             <NavItems onClick={() => setIsMenuOpen(false)} />
           </div>
         </div>
@@ -85,17 +90,34 @@ export function Header() {
 }
 
 function NavItems({ onClick }: { onClick?: () => void }) {
+  const pathname = usePathname();
+  const items = [
+    ["/", "Home"],
+    ["/weeknote", "Weeknote"],
+    ["/about", "About"],
+    ["/research", "Research"],
+    ["/timeline", "Timeline"],
+    ["/images", "Images"],
+  ];
+
   return (
     <>
-      <Link href="/research" className="hover:underline" onClick={onClick}>
-        Research
-      </Link>
-      <Link href="/timeline" className="hover:underline" onClick={onClick}>
-        Timeline
-      </Link>
-      <Link href="/images" className="hover:underline" onClick={onClick}>
-        Images
-      </Link>
+      {items.map(([href, label]) => {
+        const isActive =
+          pathname === href || (href !== "/" && pathname.startsWith(`${href}/`));
+
+        return (
+          <Link
+            key={href}
+            href={href}
+            aria-current={isActive ? "page" : undefined}
+            className={isActive ? "underline" : "hover:underline"}
+            onClick={onClick}
+          >
+            {label}
+          </Link>
+        );
+      })}
       <ThemeToggle />
     </>
   );

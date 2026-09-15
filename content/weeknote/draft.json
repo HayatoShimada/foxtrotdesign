@@ -1,0 +1,43 @@
+{
+  "status": "draft",
+  "issue": 2,
+  "publishedAt": null,
+  "periodStart": "2026-09-09",
+  "periodEnd": "2026-09-15",
+  "made": [
+    {
+      "source": "github",
+      "title": "foxtrotdesign",
+      "excerpt": "refine chatbot Japanese tone",
+      "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/e8d2bbed92782ce583d9168ac7382ef7876aa452",
+      "publishedAt": "2026-09-15T10:59:11Z"
+    },
+    {
+      "source": "notecom",
+      "title": "【連載】評論失格〜それでも今キミが好きだ〜(1) PENNY FARTHINGのスイングトップ",
+      "excerpt": "PENNY FARTHINGというのは前輪が大きいクラシックな自転車の総称らしい。 ギアという概念がまだ持ち込まれていない時代のエンジニアリングの中で、象徴的なデザインから様々なモチーフに使われているのは、技術者としては感慨深いモノがあったりするのだが、その名称をブランド名に冠したスイングトップを購入した。 私は社会人としてフィジカルAIという先端技術を、現…",
+      "url": "https://note.com/85_store/n/n5985710838af",
+      "publishedAt": "2026-09-14T12:29:02.000Z",
+      "imageUrl": "https://assets.st-note.com/production/uploads/images/313693095/rectangle_large_type_2_69fad10c8652dd3d2da882362fe13d54.jpg?width=800"
+    },
+    {
+      "source": "notecom",
+      "title": "価値に関する3つの話",
+      "excerpt": "洋服屋をやっていると、色んな人の洋服に対する価値観に触れる事ができて面白いです。 セールになると必ず靴を3足買って、それを1年通して履き潰し、また1年後にもう3足買っていく人。 続きをみる",
+      "url": "https://note.com/85_store/n/ne657c13bbb68",
+      "publishedAt": "2026-09-13T18:06:02.000Z"
+    }
+  ],
+  "found": {
+    "source": "notecom",
+    "title": "古着の\"グラフチェックシャツ\"集めました",
+    "excerpt": "85-Storeの古着仕入れは1~2ヶ月に1回のスパンです。 その仕入れの中で、オープンしてから継続的に集めてきたアイテムの一つが「グラフチェックシャツ」になります。 グラフチェックとは？ 続きをみる",
+    "url": "https://note.com/85_store/n/n8aa8b41bcf7e",
+    "publishedAt": "2026-09-15T08:58:48.000Z",
+    "imageUrl": "https://assets.st-note.com/production/uploads/images/313963915/rectangle_large_type_2_7810aa9bf8c8b9e82513985818d838be.png?width=800"
+  },
+  "why": "",
+  "nextQuestion": "",
+  "publishTo": "content/weeknote/issues/002.json",
+  "note": "WHY（100〜200字）とNEXT QUESTIONを本人確認後に追記し、statusをpublished、publishedAtを公開日にしてpublishToへ保存すると公開されます。"
+}
