@@ -1,8 +1,15 @@
 import Link from "next/link";
 import { Container } from "@/components/Container";
 import { ChatCard } from "@/components/chat/ChatCard";
+import {
+  formatIssueNumber,
+  formatJapaneseDate,
+  getLatestWeeknote,
+} from "@/lib/weeknote";
 
-export default function Home() {
+export default async function Home() {
+  const latestWeeknote = await getLatestWeeknote();
+
   return (
     <Container>
       <div className="space-y-8">
@@ -15,6 +22,54 @@ export default function Home() {
             Shimadaによるクリエイティブとエンジニアリングの交差点.<br />
             アパレルからウェブ開発,デザインまで,技術と美学を融合させた活動を展開しています.
           </p>
+        </section>
+
+        <section className="border-t border-foreground pt-8">
+          <div className="mb-4 flex items-end justify-between gap-4">
+            <div>
+              <p className="mb-1 text-xs font-bold tracking-[0.2em]">
+                THIS WEEK
+              </p>
+              <h2 className="font-serif text-3xl font-bold">WEEKNOTE</h2>
+            </div>
+            {latestWeeknote && (
+              <p className="text-right text-xs text-muted">
+                #{formatIssueNumber(latestWeeknote.issue)}
+                <br />
+                {formatJapaneseDate(latestWeeknote.publishedAt)}
+              </p>
+            )}
+          </div>
+
+          {latestWeeknote ? (
+            <Link
+              href={`/weeknote/${formatIssueNumber(latestWeeknote.issue)}`}
+              className="block border border-foreground p-5 shadow-brutal-sm transition-shadow hover:shadow-brutal-md"
+            >
+              <div className="mb-5">
+                <p className="mb-2 text-[0.65rem] font-bold tracking-[0.2em]">
+                  WHY
+                </p>
+                <p className="whitespace-pre-line leading-relaxed">
+                  {latestWeeknote.why}
+                </p>
+              </div>
+              <div className="border-t border-border pt-4">
+                <p className="mb-1 text-[0.65rem] font-bold tracking-[0.2em]">
+                  NEXT QUESTION
+                </p>
+                <p className="font-bold">{latestWeeknote.nextQuestion} →</p>
+              </div>
+            </Link>
+          ) : (
+            <Link
+              href="/weeknote"
+              className="block border border-foreground p-5 shadow-brutal-sm transition-shadow hover:shadow-brutal-md"
+            >
+              <p className="mb-1 text-xs text-muted">ISSUE #001</p>
+              <p className="font-bold">最初のWHYとNEXT QUESTIONを準備中 →</p>
+            </Link>
+          )}
         </section>
 
         <section className="border-t border-border pt-8">
@@ -88,6 +143,15 @@ export default function Home() {
         <section className="border-t border-border pt-8">
           <h2 className="text-2xl font-bold mb-4">Explore</h2>
           <div className="space-y-4">
+            <Link
+              href="/weeknote"
+              className="block border border-foreground p-4 shadow-brutal-sm hover:shadow-brutal-md transition-shadow"
+            >
+              <h3 className="font-bold mb-2">WEEKNOTE →</h3>
+              <p className="text-muted text-xs">
+                一週間の制作と、次に考える問い。
+              </p>
+            </Link>
             <Link
               href="/research"
               className="block border border-foreground p-4 shadow-brutal-sm hover:shadow-brutal-md transition-shadow"

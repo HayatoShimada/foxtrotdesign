@@ -4,11 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "tsx src/scripts/aggregate-content.ts && next build",
+    "build": "npm run aggregate && next build",
     "start": "next start",
     "lint": "next lint",
-    "aggregate": "tsx src/scripts/aggregate-content.ts",
-    "aggregate:fresh": "tsx src/scripts/aggregate-content.ts --no-cache"
+    "aggregate": "tsx src/scripts/aggregate-content.ts && npm run weeknote:draft",
+    "aggregate:fresh": "tsx src/scripts/aggregate-content.ts --no-cache && npm run weeknote:draft",
+    "weeknote:draft": "tsx src/scripts/generate-weeknote-draft.ts"
   },
   "repository": {
     "type": "git",

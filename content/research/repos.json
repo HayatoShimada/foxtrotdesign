@@ -4,34 +4,34 @@
     "description": "Hayato Shimada の活動をまとめたポートフォリオサイト。 note.com と GitHub のコンテンツを Gemini AI で要約し、ミニマルなデザインで表示する。",
     "language": "TypeScript",
     "url": "https://github.com/HayatoShimada/foxtrotdesign",
-    "updatedAt": "2026-02-18T04:06:58Z"
+    "updatedAt": "2026-09-15T11:05:18Z"
   },
   {
-    "name": "gemini_robo",
-    "description": "gemini roboticsとrealsenceで3次元空間上の点群を取得する、ros2システムです。",
+    "name": "mirai_rss",
+    "description": "富山県南砺市井波で空き家活用・事業を始める個人事業主（ミライ店主会）向けのAIニュースキュレーションBot",
     "language": "Python",
-    "url": "https://github.com/HayatoShimada/gemini_robo",
-    "updatedAt": "2026-02-17T04:56:48Z"
+    "url": "https://github.com/HayatoShimada/mirai_rss",
+    "updatedAt": "2026-09-14T19:05:54Z"
   },
   {
-    "name": "nanto_event",
-    "description": "南砺市のイベント管理ウェブサイトです。",
+    "name": "workshop",
+    "description": null,
+    "language": "Python",
+    "url": "https://github.com/HayatoShimada/workshop",
+    "updatedAt": "2026-09-05T01:11:58Z"
+  },
+  {
+    "name": "85store",
+    "description": "85storeは、Next.js 15、TypeScript、Tailwind CSSで構築されたセレクトショップのウェブサイトです。 商品管理にShopify、コンテンツ管理にNotionを活用し、高速で管理しやすいECサイトを実現しています。",
     "language": "TypeScript",
-    "url": "https://github.com/HayatoShimada/nanto_event",
-    "updatedAt": "2026-02-16T07:24:09Z"
+    "url": "https://github.com/HayatoShimada/85store",
+    "updatedAt": "2026-08-31T01:26:21Z"
   },
   {
-    "name": "trackdlo2",
-    "description": "ROS2 Humble + Gazebo Fortress ベースの変形線状物体 (DLO: Deformable Linear Object) リアルタイム追跡・操作システム。 RGB-D カメラで DLO を認識・追跡し、UR5 ロボットアームで端点間を自律的に往復する。",
-    "language": "C++",
-    "url": "https://github.com/HayatoShimada/trackdlo2",
-    "updatedAt": "2026-02-15T23:42:49Z"
-  },
-  {
-    "name": "news_tracker",
-    "description": "GitHub の開発活動を毎日分析し、学習すべきこと・関連ニュース・次のアクション・プロジェクトアイデアを Notion に自動投稿するツールです。",
-    "language": "Python",
-    "url": "https://github.com/HayatoShimada/news_tracker",
-    "updatedAt": "2026-02-13T14:07:01Z"
+    "name": "yurt_reserve",
+    "description": null,
+    "language": "TypeScript",
+    "url": "https://github.com/HayatoShimada/yurt_reserve",
+    "updatedAt": "2026-08-16T23:16:57Z"
   }
 ]

@@ -87,6 +87,9 @@ export function Header() {
 function NavItems({ onClick }: { onClick?: () => void }) {
   return (
     <>
+      <Link href="/weeknote" className="hover:underline" onClick={onClick}>
+        Weeknote
+      </Link>
       <Link href="/research" className="hover:underline" onClick={onClick}>
         Research
       </Link>
