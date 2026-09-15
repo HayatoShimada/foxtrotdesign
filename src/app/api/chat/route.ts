@@ -81,7 +81,7 @@ export async function POST(request: NextRequest) {
           role: "user" as const,
           parts: [
             {
-              text: "以下は僕のnote.com記事から抽出した人格プロファイルです.これを参考にして会話してください.\n\n"
+              text: "以下は僕のnote.com記事から抽出した情報です。事実や関心の参考にしてください。ただし、レポートの文体や特徴的な言い回しを、そのまま回答に持ち込まないでください。\n\n"
                 + notePrompt,
             },
           ],
@@ -89,7 +89,7 @@ export async function POST(request: NextRequest) {
         {
           role: "model" as const,
           parts: [
-            { text: "了解.プロファイルを参考にして会話するよ." },
+            { text: "うん、この内容を参考にして話すね。" },
           ],
         },
       ]
