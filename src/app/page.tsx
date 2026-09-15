@@ -1,10 +1,11 @@
 import Link from "next/link";
 import { Container } from "@/components/Container";
-import { ChatCard } from "@/components/chat/ChatCard";
 import {
   formatIssueNumber,
   formatJapaneseDate,
+  formatJapaneseDateRange,
   getLatestWeeknote,
+  weeknoteSourceLabels,
 } from "@/lib/weeknote";
 
 export default async function Home() {
@@ -12,185 +13,117 @@ export default async function Home() {
 
   return (
     <Container>
-      <div className="space-y-8">
-        <section>
-          <h1 className="text-5xl md:text-6xl font-serif font-bold mb-6">
-            foxtrotdesign
-          </h1>
-          <p className="text-base leading-relaxed">
-            Hayato
-            Shimadaによるクリエイティブとエンジニアリングの交差点.<br />
-            アパレルからウェブ開発,デザインまで,技術と美学を融合させた活動を展開しています.
-          </p>
-        </section>
+      <div className="space-y-12">
+        {latestWeeknote ? (
+          <article>
+            <header className="border-b border-foreground pb-8">
+              <div className="mb-8 flex items-start justify-between gap-6">
+                <div>
+                  <p className="mb-2 text-xs font-bold tracking-[0.2em]">
+                    LATEST WEEKNOTE
+                  </p>
+                  <h1 className="font-serif text-5xl font-bold md:text-6xl">
+                    #{formatIssueNumber(latestWeeknote.issue)}
+                  </h1>
+                </div>
+                <p className="text-right text-xs text-muted">
+                  {formatJapaneseDate(latestWeeknote.publishedAt)}
+                  <br />
+                  {formatJapaneseDateRange(
+                    latestWeeknote.periodStart,
+                    latestWeeknote.periodEnd
+                  )}
+                </p>
+              </div>
+              <p className="font-serif text-3xl font-bold leading-relaxed md:text-4xl">
+                {latestWeeknote.nextQuestion}
+              </p>
+            </header>
+
+            <section className="grid gap-5 border-b border-foreground py-8 md:grid-cols-[8rem_1fr]">
+              <h2 className="text-xs font-bold tracking-[0.2em]">01 / MADE</h2>
+              <div className="divide-y divide-border">
+                {latestWeeknote.made.map((entry) => (
+                  <a
+                    key={entry.url}
+                    href={entry.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-start justify-between gap-4 py-3 first:pt-0 last:pb-0 hover:underline"
+                  >
+                    <span className="font-bold">{entry.title} ↗</span>
+                    <span className="shrink-0 text-[0.65rem] text-muted">
+                      {weeknoteSourceLabels[entry.source]}
+                    </span>
+                  </a>
+                ))}
+              </div>
+            </section>
+
+            <section className="grid gap-5 border-b border-foreground py-8 md:grid-cols-[8rem_1fr]">
+              <h2 className="text-xs font-bold tracking-[0.2em]">02 / FOUND</h2>
+              <a
+                href={latestWeeknote.found.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-bold hover:underline"
+              >
+                {latestWeeknote.found.title} ↗
+              </a>
+            </section>
+
+            <section className="grid gap-5 border-b border-foreground py-8 md:grid-cols-[8rem_1fr]">
+              <h2 className="text-xs font-bold tracking-[0.2em]">03 / WHY</h2>
+              <p className="whitespace-pre-line leading-relaxed">
+                {latestWeeknote.why}
+              </p>
+            </section>
+
+            <section className="grid gap-5 py-8 md:grid-cols-[8rem_1fr]">
+              <h2 className="text-xs font-bold tracking-[0.2em]">
+                04 / NEXT QUESTION
+              </h2>
+              <div>
+                <p className="mb-6 font-serif text-2xl font-bold leading-relaxed">
+                  {latestWeeknote.nextQuestion}
+                </p>
+                <Link
+                  href={`/weeknote/${formatIssueNumber(latestWeeknote.issue)}`}
+                  className="inline-block border border-foreground px-4 py-2 font-bold shadow-brutal-sm transition-shadow hover:shadow-brutal-md"
+                >
+                  ISSUE #{formatIssueNumber(latestWeeknote.issue)} を読む →
+                </Link>
+              </div>
+            </section>
+          </article>
+        ) : (
+          <section className="border border-foreground p-6 shadow-brutal-sm">
+            <p className="mb-2 text-xs font-bold tracking-[0.2em]">WEEKNOTE</p>
+            <h1 className="mb-3 font-serif text-4xl font-bold">創刊準備中</h1>
+            <Link href="/weeknote" className="font-bold hover:underline">
+              WEEKNOTEについて →
+            </Link>
+          </section>
+        )}
 
         <section className="border-t border-foreground pt-8">
-          <div className="mb-4 flex items-end justify-between gap-4">
-            <div>
-              <p className="mb-1 text-xs font-bold tracking-[0.2em]">
-                THIS WEEK
-              </p>
-              <h2 className="font-serif text-3xl font-bold">WEEKNOTE</h2>
-            </div>
-            {latestWeeknote && (
-              <p className="text-right text-xs text-muted">
-                #{formatIssueNumber(latestWeeknote.issue)}
-                <br />
-                {formatJapaneseDate(latestWeeknote.publishedAt)}
-              </p>
-            )}
-          </div>
-
-          {latestWeeknote ? (
-            <Link
-              href={`/weeknote/${formatIssueNumber(latestWeeknote.issue)}`}
-              className="block border border-foreground p-5 shadow-brutal-sm transition-shadow hover:shadow-brutal-md"
-            >
-              <div className="mb-5">
-                <p className="mb-2 text-[0.65rem] font-bold tracking-[0.2em]">
-                  WHY
-                </p>
-                <p className="whitespace-pre-line leading-relaxed">
-                  {latestWeeknote.why}
-                </p>
-              </div>
-              <div className="border-t border-border pt-4">
-                <p className="mb-1 text-[0.65rem] font-bold tracking-[0.2em]">
-                  NEXT QUESTION
-                </p>
-                <p className="font-bold">{latestWeeknote.nextQuestion} →</p>
-              </div>
-            </Link>
-          ) : (
-            <Link
-              href="/weeknote"
-              className="block border border-foreground p-5 shadow-brutal-sm transition-shadow hover:shadow-brutal-md"
-            >
-              <p className="mb-1 text-xs text-muted">ISSUE #001</p>
-              <p className="font-bold">最初のWHYとNEXT QUESTIONを準備中 →</p>
-            </Link>
-          )}
-        </section>
-
-        <section className="border-t border-border pt-8">
-          <h2 className="text-2xl font-bold mb-4">About</h2>
-          <div className="space-y-4 text-muted">
-            <p>
-              <strong className="text-foreground">foxtrotdesign</strong>
-              は,プロボノ活動として運営するクリエイティブプロジェクトの総称です.<br />
-              ウェブサイト制作,グラフィックデザイン,空間デザインなど,様々な形で表現を追求しています.
-            </p>
-            <p>
-              エンジニアとしては,Next.js,TypeScript,C#などを用いたフルスタック開発に従事.<br />
-              アパレルでの経験を活かし,フィジカルとデジタルの境界を探求しています.
-            </p>
-          </div>
-        </section>
-
-        <section className="border-t border-border pt-8">
-          <h2 className="text-2xl font-bold mb-2">Focus</h2>
-          <p className="text-muted text-xs mb-4">
-            最近特に力を入れていること.
-          </p>
-          <div className="space-y-4">
-            <a
-              href="https://85-store.com/blog/aymjo79tj"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block border border-foreground p-4 shadow-brutal-sm hover:shadow-brutal-md transition-shadow"
-            >
-              <p className="text-xs text-muted mb-1">Event · 2026.08.23</p>
-              <h3 className="font-bold mb-2">
-                AIの疑問をみんなで解消する会 →
-              </h3>
-              <p className="text-muted text-xs leading-relaxed">
-                8/23(日) @85-Store.現役AIエンジニアと台湾茶を飲みながら,
-                AIの疑問をざっくばらんに語り合う対談・対話会.
-                技術と日常の溝を埋める参加型イベント.
-              </p>
-            </a>
-            <a
-              href="https://85-store.com/hakoneko"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block border border-foreground p-4 shadow-brutal-sm hover:shadow-brutal-md transition-shadow"
-            >
-              <p className="text-xs text-muted mb-1">Game · iOS</p>
-              <h3 className="font-bold mb-2">
-                ハコネコはこちらを見ている →
-              </h3>
-              <p className="text-muted text-xs leading-relaxed">
-                一見キュート,中身はハードなコズミックホラー・マージパズル.
-                増え続けるモフモフから宇宙を救い,最果ての姿で対消滅させよ.
-              </p>
-            </a>
-            <a
-              href="https://github.com/HayatoShimada/assa_movie"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block border border-foreground p-4 shadow-brutal-sm hover:shadow-brutal-md transition-shadow"
-            >
-              <p className="text-xs text-muted mb-1">App · KirinukiStudio</p>
-              <h3 className="font-bold mb-2">assa_movie →</h3>
-              <p className="text-muted text-xs leading-relaxed">
-                長尺の対談・イベント動画から,文字起こし・話者分離・字幕・
-                切り抜きまでを一気通貫で行うローカルGPU対応アプリ.
-              </p>
-            </a>
-          </div>
-        </section>
-
-        <section className="border-t border-border pt-8">
-          <h2 className="text-2xl font-bold mb-4">Explore</h2>
-          <div className="space-y-4">
-            <Link
-              href="/weeknote"
-              className="block border border-foreground p-4 shadow-brutal-sm hover:shadow-brutal-md transition-shadow"
-            >
-              <h3 className="font-bold mb-2">WEEKNOTE →</h3>
-              <p className="text-muted text-xs">
-                一週間の制作と、次に考える問い。
-              </p>
-            </Link>
-            <Link
-              href="/research"
-              className="block border border-foreground p-4 shadow-brutal-sm hover:shadow-brutal-md transition-shadow"
-            >
-              <h3 className="font-bold mb-2">Research →</h3>
-              <p className="text-muted text-xs">
-                note.com,GitHub,Blueskyでの活動のまとめ.
-              </p>
-            </Link>
-            <Link
-              href="/images"
-              className="block border border-foreground p-4 shadow-brutal-sm hover:shadow-brutal-md transition-shadow"
-            >
-              <h3 className="font-bold mb-2">Images →</h3>
-              <p className="text-muted text-xs">
-                各種活動から収集したビジュアルアーカイブ.
-              </p>
-            </Link>
-            <Link
-              href="https://85-store.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block border border-foreground p-4 shadow-brutal-sm hover:shadow-brutal-md transition-shadow"
-            >
-              <h3 className="font-bold mb-2">85-Store →</h3>
-              <p className="text-muted text-xs">
-                Vintage & New Clothing Select Shop.
-              </p>
-            </Link>
-            <Link
-              href="/timeline"
-              className="block border border-foreground p-4 shadow-brutal-sm hover:shadow-brutal-md transition-shadow"
-            >
-              <h3 className="font-bold mb-2">Timeline →</h3>
-              <p className="text-muted text-xs">
-                時系列で追う活動の記録.
-              </p>
-            </Link>
-            <ChatCard />
+          <p className="mb-4 text-xs font-bold tracking-[0.2em]">DIRECTORY</p>
+          <div className="grid grid-cols-2 border-l border-t border-foreground md:grid-cols-5">
+            {[
+              ["/weeknote", "WEEKNOTE"],
+              ["/about", "ABOUT"],
+              ["/research", "RESEARCH"],
+              ["/timeline", "TIMELINE"],
+              ["/images", "IMAGES"],
+            ].map(([href, label]) => (
+              <Link
+                key={href}
+                href={href}
+                className="border-b border-r border-foreground p-3 text-xs font-bold hover:bg-foreground hover:text-background"
+              >
+                {label} →
+              </Link>
+            ))}
           </div>
         </section>
       </div>
