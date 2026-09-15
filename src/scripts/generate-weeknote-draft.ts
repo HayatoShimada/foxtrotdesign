@@ -210,7 +210,6 @@ async function main() {
     found: foundCandidate ? toEntry(foundCandidate) : null,
     why: "",
     nextQuestion: "",
-    generatedAt: new Date().toISOString(),
     publishTo: `content/weeknote/issues/${formatIssueNumber(nextIssue)}.json`,
     note: "WHY（100〜200字）とNEXT QUESTIONを本人確認後に追記し、statusをpublished、publishedAtを公開日にしてpublishToへ保存すると公開されます。",
   };

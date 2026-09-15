@@ -4,26 +4,29 @@ import { useEffect, useState } from "react";
 
 type Theme = "light" | "dark" | "system";
 
+function applyTheme(theme: Theme) {
+  const isDark =
+    theme === "dark" ||
+    (theme === "system" &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches);
+
+  document.documentElement.classList.toggle("dark", isDark);
+}
+
 export function ThemeToggle() {
   const [theme, setTheme] = useState<Theme>("system");
 
   useEffect(() => {
     const stored = localStorage.getItem("theme") as Theme | null;
     if (stored) {
+      // The persisted preference is only available after client hydration.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setTheme(stored);
       applyTheme(stored);
     } else {
       applyTheme("system");
     }
   }, []);
-
-  function applyTheme(t: Theme) {
-    const isDark =
-      t === "dark" ||
-      (t === "system" && window.matchMedia("(prefers-color-scheme: dark)").matches);
-
-    document.documentElement.classList.toggle("dark", isDark);
-  }
 
   function cycle() {
     const next: Theme =

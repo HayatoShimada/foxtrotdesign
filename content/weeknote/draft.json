@@ -38,7 +38,6 @@
   },
   "why": "",
   "nextQuestion": "",
-  "generatedAt": "2026-09-15T11:56:01.328Z",
   "publishTo": "content/weeknote/issues/002.json",
   "note": "WHY（100〜200字）とNEXT QUESTIONを本人確認後に追記し、statusをpublished、publishedAtを公開日にしてpublishToへ保存すると公開されます。"
 }
