@@ -23,9 +23,9 @@ NEXT QUESTION:
 公開JSONは、MADEを1〜3件、FOUNDを1件、WHYを100〜200字、
 NEXT QUESTIONを1件含む場合だけビルドに使われます。
 
-## HayatoShimada AI が考えたこと
+## 次の問いへの追記
 
-思考の収集と公開はWEEKNOTE本体とは別の手動フローです。日次集約や
+追記の収集と公開はWEEKNOTE本体とは別の手動フローです。日次集約や
 サイトのAIチャットから公開されることはありません。
 
 ### 1. 安価な資料から下書きを追記する
@@ -62,6 +62,7 @@ npm run weeknote:thought:publish -- \
   --confirmed-in-project-chat
 ```
 
-追加された思考だけが個別号のNEXT QUESTION内に表示されます。下書きの
-修正も公開操作もProjectチャットでの依頼を起点に行い、サイトの
-HayatoShimada AIチャットには接続しません。
+追加された思考だけが各ページのNEXT QUESTIONに同じ組版で続けて表示
+されます。見出しや署名で書き手を分けません。下書きの修正も公開操作も
+Projectチャットでの依頼を起点に行い、サイトのHayatoShimada AIチャット
+には接続しません。

@@ -213,7 +213,7 @@ ${sources}`;
           })
           .join("\n\n");
 
-  return `# WEEKNOTE #${issueNumber} — HayatoShimada AI thought drafts
+  return `# WEEKNOTE #${issueNumber} — 追記の公開前確認
 
 > このファイルは下書きです。WEEKNOTEの公開号からは読み込まれません。
 > ProjectチャットでHayatoのOKを受けるまで公開しないでください。

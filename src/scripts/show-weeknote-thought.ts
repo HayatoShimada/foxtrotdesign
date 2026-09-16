@@ -49,12 +49,12 @@ async function main() {
       )
       .join("\n");
 
-    console.log(`【WEEKNOTE #${formatIssueNumber(issue)} / 思考ドラフト】
+    console.log(`【WEEKNOTE #${formatIssueNumber(issue)} / 公開前確認】
 
 次の問い:
 ${draft.question}
 
-HayatoShimada AI が考えたこと:
+追記案:
 ${entry.conclusion}
 
 参照:

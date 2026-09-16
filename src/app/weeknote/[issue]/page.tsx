@@ -142,8 +142,8 @@ export default async function WeeknoteIssuePage({
             <h2 className="text-xs font-bold tracking-[0.2em]">
               04 / NEXT QUESTION
             </h2>
-            <div>
-              <p className="font-serif text-2xl font-bold leading-relaxed md:text-3xl">
+            <div className="space-y-6">
+              <p className="whitespace-pre-line text-base leading-loose">
                 {issue.nextQuestion}
               </p>
               {issue.aiThoughts && (

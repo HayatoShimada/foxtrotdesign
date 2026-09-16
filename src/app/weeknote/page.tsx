@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Container } from "@/components/Container";
+import { WeeknoteThoughts } from "@/components/weeknote/WeeknoteThoughts";
 import {
   formatIssueNumber,
   formatJapaneseDate,
@@ -50,14 +51,14 @@ export default async function WeeknotePage() {
             <p className="mb-3 text-xs font-bold tracking-[0.2em]">
               LATEST ISSUE
             </p>
-            <Link
-              href={`/weeknote/${formatIssueNumber(latest.issue)}`}
-              className="group block border border-foreground p-5 md:p-7 shadow-brutal-sm transition-shadow hover:shadow-brutal-md"
-            >
+            <article className="border border-foreground p-5 shadow-brutal-sm md:p-7">
               <div className="mb-8 flex items-start justify-between gap-6">
-                <p className="font-serif text-4xl font-bold">
-                  #{formatIssueNumber(latest.issue)}
-                </p>
+                <Link
+                  href={`/weeknote/${formatIssueNumber(latest.issue)}`}
+                  className="font-serif text-4xl font-bold hover:underline"
+                >
+                  #{formatIssueNumber(latest.issue)} →
+                </Link>
                 <div className="text-right text-xs text-muted">
                   <p>{formatJapaneseDate(latest.publishedAt)}</p>
                   <p>
@@ -68,18 +69,29 @@ export default async function WeeknotePage() {
                   </p>
                 </div>
               </div>
-              <p className="mb-6 whitespace-pre-line text-base leading-relaxed">
+              <p className="mb-6 whitespace-pre-line text-base leading-loose">
                 {latest.why}
               </p>
               <div className="border-t border-border pt-4">
-                <p className="mb-1 text-[0.65rem] font-bold tracking-[0.2em]">
+                <p className="mb-4 text-[0.65rem] font-bold tracking-[0.2em]">
                   NEXT QUESTION
                 </p>
-                <p className="font-bold group-hover:underline">
-                  {latest.nextQuestion} →
-                </p>
+                <div className="space-y-6">
+                  <p className="whitespace-pre-line text-base leading-loose">
+                    {latest.nextQuestion}
+                  </p>
+                  {latest.aiThoughts && (
+                    <WeeknoteThoughts thoughts={latest.aiThoughts} />
+                  )}
+                  <Link
+                    href={`/weeknote/${formatIssueNumber(latest.issue)}`}
+                    className="inline-block text-xs font-bold hover:underline"
+                  >
+                    ISSUE #{formatIssueNumber(latest.issue)} を読む →
+                  </Link>
+                </div>
               </div>
-            </Link>
+            </article>
           </section>
         ) : (
           <section className="border border-foreground p-6 shadow-brutal-sm">
