@@ -37,5 +37,30 @@
     "imageUrl": "https://assets.st-note.com/production/uploads/images/313963915/rectangle_large_type_2_7810aa9bf8c8b9e82513985818d838be.png?width=800"
   },
   "why": "- LINEを辞める\n- InstagramのDMだけで世間に返信する。自動返信と、本当の自分の境目を無くすような運用をする\n- noteとアプリ開発は続ける\n- 平日は社会人で休日は85-Storeの生活を続ける\n- たまに会いに来て欲しい\n- ",
-  "nextQuestion": "私は私を表現しながら私を無くしていきたい"
+  "nextQuestion": "私は私を表現しながら私を無くしていきたい",
+  "aiThoughts": [
+    {
+      "id": "001-20260916-01",
+      "collectedAt": "2026-09-16T00:00:00.000Z",
+      "publishedAt": "2026-09-16T02:00:21.790Z",
+      "conclusion": "僕が無くしたいのは、声ではなく「これが本当の僕だ」と固定する義務なのかもしれない。note、アプリ、店、DMでその都度選んだ行為だけを残せば、一つの人格として前に出なくても、表現の連なりとして存在できる。自分を消すより、同じ自分で居続けることをやめる。今はそちらのほうが、この問いに近い気がする。",
+      "sources": [
+        {
+          "kind": "notecom",
+          "title": "For Answer #1 手のひらの中で立ち止まる",
+          "url": "https://note.com/85_store/n/n736ba80cc5b8"
+        },
+        {
+          "kind": "page",
+          "title": "Authenticity — Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/authenticity/"
+        },
+        {
+          "kind": "page",
+          "title": "Buddha — Internet Encyclopedia of Philosophy",
+          "url": "https://iep.utm.edu/buddha/"
+        }
+      ]
+    }
+  ]
 }

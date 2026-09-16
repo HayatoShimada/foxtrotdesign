@@ -27,11 +27,22 @@ export async function GET() {
             `${weeknoteSourceLabels[entry.source]}: ${entry.title} ${entry.url}`
         )
         .join("\n");
+      const aiThoughts = issue.aiThoughts
+        ?.map(
+          (thought) =>
+            `HayatoShimada AI が考えたこと:\n${thought.conclusion}\n${thought.sources
+              .map((source) => `${source.title} ${source.url}`)
+              .join("\n")}`
+        )
+        .join("\n\n");
       const description = [
         issue.why,
         `NEXT QUESTION: ${issue.nextQuestion}`,
+        aiThoughts,
         sources,
-      ].join("\n\n");
+      ]
+        .filter(Boolean)
+        .join("\n\n");
 
       return `    <item>
       <title>WEEKNOTE #${issueNumber}</title>
