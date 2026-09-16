@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Container } from "@/components/Container";
+import { WeeknoteThoughts } from "@/components/weeknote/WeeknoteThoughts";
 import {
   formatIssueNumber,
   formatJapaneseDate,
@@ -17,7 +18,7 @@ export default async function Home() {
         {latestWeeknote ? (
           <article>
             <header className="border-b border-foreground pb-8">
-              <div className="mb-8 flex items-start justify-between gap-6">
+              <div className="flex items-start justify-between gap-6">
                 <div>
                   <p className="mb-2 text-xs font-bold tracking-[0.2em]">
                     LATEST WEEKNOTE
@@ -35,9 +36,6 @@ export default async function Home() {
                   )}
                 </p>
               </div>
-              <p className="font-serif text-3xl font-bold leading-relaxed md:text-4xl">
-                {latestWeeknote.nextQuestion}
-              </p>
             </header>
 
             <section className="grid gap-5 border-b border-foreground py-8 md:grid-cols-[8rem_1fr]">
@@ -74,7 +72,7 @@ export default async function Home() {
 
             <section className="grid gap-5 border-b border-foreground py-8 md:grid-cols-[8rem_1fr]">
               <h2 className="text-xs font-bold tracking-[0.2em]">03 / WHY</h2>
-              <p className="whitespace-pre-line leading-relaxed">
+              <p className="whitespace-pre-line text-base leading-loose">
                 {latestWeeknote.why}
               </p>
             </section>
@@ -83,10 +81,13 @@ export default async function Home() {
               <h2 className="text-xs font-bold tracking-[0.2em]">
                 04 / NEXT QUESTION
               </h2>
-              <div>
-                <p className="mb-6 font-serif text-2xl font-bold leading-relaxed">
+              <div className="space-y-6">
+                <p className="whitespace-pre-line text-base leading-loose">
                   {latestWeeknote.nextQuestion}
                 </p>
+                {latestWeeknote.aiThoughts && (
+                  <WeeknoteThoughts thoughts={latestWeeknote.aiThoughts} />
+                )}
                 <Link
                   href={`/weeknote/${formatIssueNumber(latestWeeknote.issue)}`}
                   className="inline-block border border-foreground px-4 py-2 font-bold shadow-brutal-sm transition-shadow hover:shadow-brutal-md"

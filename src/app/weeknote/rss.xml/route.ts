@@ -27,10 +27,10 @@ export async function GET() {
             `${weeknoteSourceLabels[entry.source]}: ${entry.title} ${entry.url}`
         )
         .join("\n");
-      const aiThoughts = issue.aiThoughts
+      const collectedThoughts = issue.aiThoughts
         ?.map(
           (thought) =>
-            `HayatoShimada AI が考えたこと:\n${thought.conclusion}\n${thought.sources
+            `${thought.conclusion}\n${thought.sources
               .map((source) => `${source.title} ${source.url}`)
               .join("\n")}`
         )
@@ -38,7 +38,7 @@ export async function GET() {
       const description = [
         issue.why,
         `NEXT QUESTION: ${issue.nextQuestion}`,
-        aiThoughts,
+        collectedThoughts,
         sources,
       ]
         .filter(Boolean)
