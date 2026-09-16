@@ -1,5 +1,9 @@
 import fs from "fs/promises";
 import path from "path";
+import {
+  isWeeknoteThought,
+  WeeknoteThought,
+} from "./weeknote-thought";
 
 export type WeeknoteSource = "notecom" | "github" | "bluesky";
 
@@ -22,6 +26,7 @@ export interface WeeknoteIssue {
   found: WeeknoteEntry;
   why: string;
   nextQuestion: string;
+  aiThoughts?: WeeknoteThought[];
 }
 
 const weeknoteDirectory = path.join(
@@ -103,7 +108,10 @@ function parsePublishedIssue(
     whyLength >= 100 &&
     whyLength <= 200 &&
     typeof issue.nextQuestion === "string" &&
-    issue.nextQuestion.trim().length > 0;
+    issue.nextQuestion.trim().length > 0 &&
+    (issue.aiThoughts === undefined ||
+      (Array.isArray(issue.aiThoughts) &&
+        issue.aiThoughts.every(isWeeknoteThought)));
 
   if (!isValid) {
     throw new Error(

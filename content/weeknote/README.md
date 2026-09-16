@@ -22,3 +22,46 @@ NEXT QUESTION:
 
 公開JSONは、MADEを1〜3件、FOUNDを1件、WHYを100〜200字、
 NEXT QUESTIONを1件含む場合だけビルドに使われます。
+
+## HayatoShimada AI が考えたこと
+
+思考の収集と公開はWEEKNOTE本体とは別の手動フローです。日次集約や
+サイトのAIチャットから公開されることはありません。
+
+### 1. 安価な資料から下書きを追記する
+
+号ごとの公開ページ／RSS設定は `thoughts/sources/NNN.json` に置きます。
+既存のGitHub・note集約も併用し、Gemini Flashで短い結論と2〜4件の
+根拠リンクを作ります。同じ号で再実行すると、日付付きの新しい下書きが
+追記されます。
+
+```bash
+npm run weeknote:thought:collect -- --issue 1
+```
+
+下書きは `thoughts/drafts/NNN.json` と `.md` にだけ保存され、サイトは
+読み込みません。
+
+### 2. Projectチャットで確認する
+
+コーディネーターが次の出力をfoxtrot Projectチャットへ貼ります。
+
+```bash
+npm run weeknote:thought:show -- --issue 1
+```
+
+### 3. HayatoのOK後だけ公開する
+
+OKを受けた下書きIDを明示して、公開済みの号へ追加します。確認フラグが
+ない場合、このコマンドは何も変更せず失敗します。
+
+```bash
+npm run weeknote:thought:publish -- \
+  --issue 1 \
+  --entry 001-20260916-01 \
+  --confirmed-in-project-chat
+```
+
+追加された思考だけが個別号のNEXT QUESTION内に表示されます。下書きの
+修正も公開操作もProjectチャットでの依頼を起点に行い、サイトの
+HayatoShimada AIチャットには接続しません。

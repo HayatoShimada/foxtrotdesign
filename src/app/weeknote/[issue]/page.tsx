@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Container } from "@/components/Container";
+import { WeeknoteThoughts } from "@/components/weeknote/WeeknoteThoughts";
 import {
   formatIssueNumber,
   formatJapaneseDate,
@@ -141,9 +142,14 @@ export default async function WeeknoteIssuePage({
             <h2 className="text-xs font-bold tracking-[0.2em]">
               04 / NEXT QUESTION
             </h2>
-            <p className="font-serif text-2xl font-bold leading-relaxed md:text-3xl">
-              {issue.nextQuestion}
-            </p>
+            <div>
+              <p className="font-serif text-2xl font-bold leading-relaxed md:text-3xl">
+                {issue.nextQuestion}
+              </p>
+              {issue.aiThoughts && (
+                <WeeknoteThoughts thoughts={issue.aiThoughts} />
+              )}
+            </div>
           </section>
         </div>
       </article>
