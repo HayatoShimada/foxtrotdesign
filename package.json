@@ -12,7 +12,8 @@
     "weeknote:draft": "tsx src/scripts/generate-weeknote-draft.ts",
     "weeknote:thought:collect": "tsx src/scripts/collect-weeknote-thought.ts",
     "weeknote:thought:show": "tsx src/scripts/show-weeknote-thought.ts",
-    "weeknote:thought:publish": "tsx src/scripts/publish-weeknote-thought.ts"
+    "weeknote:thought:publish": "tsx src/scripts/publish-weeknote-thought.ts",
+    "check:disclosure": "node scripts/check-disclosure.mjs"
   },
   "repository": {
     "type": "git",
