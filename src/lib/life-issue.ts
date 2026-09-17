@@ -67,7 +67,8 @@ function isLifeIssueEntry(value: unknown): value is LifeIssueEntry {
   return (
     (entry.source === "github" ||
       entry.source === "notecom" ||
-      entry.source === "bluesky") &&
+      entry.source === "bluesky" ||
+      entry.source === "zenn") &&
     typeof entry.title === "string" &&
     entry.title.trim().length > 0 &&
     typeof entry.excerpt === "string" &&
@@ -79,7 +80,7 @@ function isLifeIssueEntry(value: unknown): value is LifeIssueEntry {
   );
 }
 
-function parsePublishedIssue(
+export function parsePublishedIssue(
   value: unknown,
   fileName: string
 ): LifeIssue {

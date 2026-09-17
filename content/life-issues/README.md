@@ -15,10 +15,18 @@ NEXT QUESTION:
 ```
 
 1. `draft.json` の `why` と `nextQuestion` に本人の文を入れる
-2. `status` を `published`、`publishedAt` を公開日にする
-3. `publishTo` が示す `content/life-issues/issues/NNN.json` へ保存する
-4. `publishTo`、`note` を公開JSONから削除する
-5. ビルドを確認してデプロイする
+2. 本人の OK を受けてから公開スクリプトを実行する。
+   `status` / `publishedAt` の書き換え、`publishTo` / `note` の除去、
+   `issues/NNN.json` への保存と検証をまとめて行う
+
+   ```bash
+   npm run life-issue:publish -- --confirmed-in-project-chat
+   ```
+
+3. `npm run check:disclosure` を通し、コミットしてデプロイする
+
+Claude Code からは `.claude/skills/life-issue/SKILL.md` の手順
+（「issueをまとめて」で起動）が同じ流れを実行する。
 
 公開JSONは、MADEを1〜3件、FOUNDを1件、WHYを100〜200字、
 NEXT QUESTIONを1件含む場合だけビルドに使われます。

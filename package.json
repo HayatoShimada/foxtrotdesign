@@ -10,6 +10,7 @@
     "aggregate": "tsx src/scripts/aggregate-content.ts && npm run life-issue:draft",
     "aggregate:fresh": "tsx src/scripts/aggregate-content.ts --no-cache && npm run life-issue:draft",
     "life-issue:draft": "tsx src/scripts/generate-life-issue-draft.ts",
+    "life-issue:publish": "tsx src/scripts/publish-life-issue.ts",
     "life-issue:thought:collect": "tsx src/scripts/collect-life-issue-thought.ts",
     "life-issue:thought:show": "tsx src/scripts/show-life-issue-thought.ts",
     "life-issue:thought:publish": "tsx src/scripts/publish-life-issue-thought.ts",

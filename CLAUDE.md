@@ -25,7 +25,11 @@ npm run aggregate  # Fetch content from GitHub/note.com and summarize with Gemin
 npm run reading:sync       # (Pi only) project SilverBullet reading tasks into content/research/reading.json
 npm run suggest:generate   # Ask Gemini for next reads → content/research/suggested.json (status: draft)
 npm run suggest:publish    # Flip the draft to published; nothing shows on /input until this runs
+npm run life-issue:publish -- --confirmed-in-project-chat   # Validate draft.json and write issues/NNN.json
 ```
+
+The `life-issue` Skill (`.claude/skills/life-issue/SKILL.md`) runs the whole issue cycle:
+collect the diff since the last issue, draft WHY / NEXT QUESTION, publish only after Hayato's OK.
 
 ## Architecture
 
