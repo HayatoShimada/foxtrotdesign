@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T09:20:55.776Z",
+  "generatedAt": "2026-09-17T09:30:00.591Z",
   "question": "私は私を表現しながら私を無くしていきたい",
   "windowDays": 7,
   "items": [
@@ -11,21 +11,21 @@
       "category": "slides",
       "publishedAt": "2026-09-17T00:11:44.000Z",
       "relevance": 85,
-      "importance": 60,
-      "score": 80,
-      "reason": "「脱領土化」というドゥルーズの概念を通じ、知的創造における主体の解体や「私を無くしていく」表現のあり方を考える上で極めて示唆に富む内容です。"
+      "importance": 70,
+      "score": 82,
+      "reason": "ドゥルーズの「脱領土化」概念を用い、知的創造における主体の分散や責任を論じる内容は、「私を表現しながら私を無くしていく」という問いに強く共鳴します。"
     },
     {
-      "title": "Hermes Agentで、AIが調べて記事を書くブログを作った話",
-      "url": "https://speakerdeck.com/blueb/hermes-agent-de-ai-ga-shirabe-te-kiji-o-kaku-o-tsukuta-hanashi",
-      "sourceId": "speakerdeck-com-c-technology",
-      "sourceName": "Speaker Deck Technology",
-      "category": "slides",
-      "publishedAt": "2026-09-16T14:26:34.000Z",
-      "relevance": 65,
-      "importance": 45,
-      "score": 61,
-      "reason": "AIに執筆を委ねる試みは、自動返信と自分の境界を無くす運用の参考になり、「私を表現しながら私を無くす」という脱主体的な表現の実践に繋がります。"
+      "title": "【9/30 18時〜】2000年代生まれは「声の文化」をどう捉え、研究するのか？「私の声」「その人らしさ」「キャラクタ性」をめぐる3つの研究から——水上遼人、山本崚太、劉承旻／無料＠オンライン【声遊楽クロスダイアローグ #14】",
+      "url": "https://desilo.substack.com/p/seiyugaku-14",
+      "sourceId": "desilo-substack-com",
+      "sourceName": "De-Silo",
+      "category": "discovered",
+      "publishedAt": "2026-09-15T22:01:31.000Z",
+      "relevance": 85,
+      "importance": 60,
+      "score": 80,
+      "reason": "「私の声」や「その人らしさ」をめぐる議論は、自動返信と本当の自分の境目を無くし、表現しながら私を無くしたいというペルソナや自己表現の問いに直結します。"
     },
     {
       "title": "Part-human part-mouse brain developed in science breakthrough",
@@ -37,31 +37,19 @@
       "relevance": 50,
       "importance": 80,
       "score": 56,
-      "reason": "人間とマウスの脳を融合させる技術は、自己と他者、人間と非人間の境界を曖昧にし、「私」という存在の輪郭や身体の再統合を問い直す契機となります。"
+      "reason": "人間とマウスのハイブリッド脳の開発は、自己の境界や「私とは何か」という問い、身体と世界の再統合というテーマに生物学的な視点から直接つながる。"
     },
     {
-      "title": "Physical AIでモデリングはどう変わるか/How Physical AI Will Change Modeling",
-      "url": "https://speakerdeck.com/stktu/how-physical-ai-will-change-modeling",
-      "sourceId": "speakerdeck-com-c-research",
-      "sourceName": "Speaker Deck Research",
-      "category": "slides",
-      "publishedAt": "2026-09-16T13:08:50.000Z",
-      "relevance": 45,
-      "importance": 55,
-      "score": 47,
-      "reason": "読書予定本『現れる存在』のテーマである身体と世界の相互作用に対し、物理的身体を持つAIのモデリングは、自己と世界の境界を捉え直す技術的視点を提供します。"
-    },
-    {
-      "title": "Do Social Patterns Hold in Synthetic Data? Analyzing Cyberbullying Dynamics in LLM-Generated and Authentic Dialogues",
-      "url": "https://arxiv.org/abs/2609.17549",
-      "sourceId": "rss-arxiv-org-rss-cs-cl",
-      "sourceName": "arXiv cs.CL",
-      "category": "research",
-      "publishedAt": "2026-09-17T04:00:00.000Z",
-      "relevance": 45,
+      "title": "一般社団法人デサイロ、コクヨが始動した「We-Being Project」にリサーチパートナーとして参画。「わたしたち」目線で幸せを捉え直す活動を支援",
+      "url": "https://desilo.substack.com/p/we-being-project",
+      "sourceId": "desilo-substack-com",
+      "sourceName": "De-Silo",
+      "category": "discovered",
+      "publishedAt": "2026-09-17T08:02:48.000Z",
+      "relevance": 55,
       "importance": 50,
-      "score": 46,
-      "reason": "生成された対話と本物の対話の比較は、自動返信と本当の自分の境界を曖昧にする運用の試みにおいて、自己の「本物性」を問い直す契機となります。"
+      "score": 54,
+      "reason": "「わたしたち」という主語で幸せを捉え直す試みは、個人の境界を越えて「私を無くしていきたい」という問いや、分人主義的な自己観と深く響き合います。"
     },
     {
       "title": "How Fyxer built an AI executive assistant people trust",
@@ -70,22 +58,22 @@
       "sourceName": "OpenAI",
       "category": "vendor",
       "publishedAt": "2026-09-14T12:00:00.000Z",
-      "relevance": 45,
-      "importance": 50,
-      "score": 46,
-      "reason": "「自動返信と本当の自分の境目を無くす」というメモに対し、信頼されるAIアシスタントの構築事例は、自己の代理やペルソナの運用を考える参考になります。"
+      "relevance": 50,
+      "importance": 55,
+      "score": 51,
+      "reason": "自動返信と本当の自分の境目を無くす運用を目指すメモに対し、信頼されるAIアシスタントの構築事例は、自己の表現を他者に委ねるプロセスの参考になります。"
     },
     {
-      "title": "Learning Heterogeneous Preferences",
-      "url": "https://arxiv.org/abs/2609.17847",
-      "sourceId": "rss-arxiv-org-rss-cs-ai",
-      "sourceName": "arXiv cs.AI",
-      "category": "research",
-      "publishedAt": "2026-09-17T04:00:00.000Z",
-      "relevance": 45,
-      "importance": 35,
-      "score": 43,
-      "reason": "異質な好みの学習は、単一の「個人」ではなく、状況に応じて異なる複数の「分人」やペルソナを持つ自己のあり方、多様な選好の共存を考える手がかりになります。"
+      "title": "10秒ずつ届く推し",
+      "url": "https://speakerdeck.com/yuzneri/10-byou-zutsu-todoku-oshi",
+      "sourceId": "speakerdeck-com-c-technology",
+      "sourceName": "Speaker Deck Technology",
+      "category": "slides",
+      "publishedAt": "2026-09-17T09:18:13.000Z",
+      "relevance": 50,
+      "importance": 40,
+      "score": 48,
+      "reason": "10秒ずつ届くという断片的な表現や関係性のあり方は、InstagramのDMによる限定的な発信や、自己を切り分けて表現し分人化していく生き方に通じます。"
     },
     {
       "title": "CapMem: A Benchmark for Caption-Based Episodic Memory in Egocentric Video",
@@ -94,22 +82,10 @@
       "sourceName": "arXiv cs.AI",
       "category": "research",
       "publishedAt": "2026-09-17T04:00:00.000Z",
-      "relevance": 40,
-      "importance": 45,
-      "score": 41,
-      "reason": "自己中心的な映像からエピソード記憶を扱う研究は、主観的な「視点」や「自己」の記憶がどのように構成され、表現されるかという問いに深く関わります。"
-    },
-    {
-      "title": "Faking Good and Faking Bad in LLMs: Response Distortion Across Dark Triad Personality Traits",
-      "url": "https://arxiv.org/abs/2609.17534",
-      "sourceId": "rss-arxiv-org-rss-cs-cl",
-      "sourceName": "arXiv cs.CL",
-      "category": "research",
-      "publishedAt": "2026-09-17T04:00:00.000Z",
-      "relevance": 40,
-      "importance": 45,
-      "score": 41,
-      "reason": "LLMにおける人格（ペルソナ）の歪曲や偽装に関する研究は、自動返信と本当の自分の境目を無くすようなペルソナの運用を考える上で参考になります。"
+      "relevance": 45,
+      "importance": 55,
+      "score": 47,
+      "reason": "一人称視点（自己の視点）の映像からエピソード記憶を扱う研究は、自己の認知や「現れる存在」における脳・身体・世界の再統合の議論と深く結びつく。"
     },
     {
       "title": "Does Moral Reasoning Training Help or Hurt? Red-Teaming RL-Trained Ethical Agents with Persona Attacks",
@@ -118,22 +94,10 @@
       "sourceName": "arXiv cs.CL",
       "category": "research",
       "publishedAt": "2026-09-17T04:00:00.000Z",
-      "relevance": 40,
-      "importance": 45,
-      "score": 41,
-      "reason": "ペルソナ攻撃に対するエージェントの挙動は、自己を表現しつつペルソナを操作・変容させていく「分人」や「ペルソナ」の概念を考える手がかりになります。"
-    },
-    {
-      "title": "How workers are unlocking new ways of working",
-      "url": "https://openai.com/index/unlocking-new-ways-of-working",
-      "sourceId": "openai-com-news",
-      "sourceName": "OpenAI",
-      "category": "vendor",
-      "publishedAt": "2026-09-16T09:00:00.000Z",
-      "relevance": 40,
-      "importance": 45,
-      "score": 41,
-      "reason": "平日は社会人、休日は別店舗を運営するマルチな働き方に対し、AIを活用した新しい働き方の事例は、複数の「分人」を切り替えて生きるヒントになります。"
+      "relevance": 45,
+      "importance": 50,
+      "score": 46,
+      "reason": "「ペルソナ」への攻撃や倫理的エージェントの訓練に関する議論は、自動返信と本当の自分の境目を無くすというペルソナの運用や自己表現の問いに重なります。"
     },
     {
       "title": "『時間がない』を意志ではなく仕組みで解決する — iPhoneショートカットで集中時間を守る",
@@ -142,10 +106,22 @@
       "sourceName": "Qiita",
       "category": "community",
       "publishedAt": "2026-09-15T11:45:26.000Z",
+      "relevance": 45,
+      "importance": 40,
+      "score": 44,
+      "reason": "意志ではなく仕組みで時間を制御するアプローチは、自動返信を用いて自己の境界を曖昧にしようとする本人の生活設計や運用の試みと強く響き合います。"
+    },
+    {
+      "title": "Hermes Agentで、AIが調べて記事を書くブログを作った話",
+      "url": "https://speakerdeck.com/blueb/hermes-agent-de-ai-ga-shirabe-te-kiji-o-kaku-o-tsukuta-hanashi",
+      "sourceId": "speakerdeck-com-c-technology",
+      "sourceName": "Speaker Deck Technology",
+      "category": "slides",
+      "publishedAt": "2026-09-16T14:26:34.000Z",
       "relevance": 40,
-      "importance": 35,
-      "score": 39,
-      "reason": "「意志ではなく仕組みで解決する」というアプローチは、自動返信の導入など、自己の運用をシステム化して「私を無くしていく」試みと親和性があります。"
+      "importance": 50,
+      "score": 42,
+      "reason": "AIにブログ記事を書かせる試みは、noteでの自己表現を続けつつ、自動返信のように「本当の自分」とAIの境目を無くしていく実践の参考になります。"
     }
   ]
 }
