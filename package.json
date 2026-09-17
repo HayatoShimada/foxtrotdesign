@@ -13,7 +13,8 @@
     "life-issue:thought:collect": "tsx src/scripts/collect-life-issue-thought.ts",
     "life-issue:thought:show": "tsx src/scripts/show-life-issue-thought.ts",
     "life-issue:thought:publish": "tsx src/scripts/publish-life-issue-thought.ts",
-    "check:disclosure": "node scripts/check-disclosure.mjs"
+    "check:disclosure": "node scripts/check-disclosure.mjs",
+    "reading:sync": "tsx src/scripts/generate-reading-list.ts"
   },
   "repository": {
     "type": "git",

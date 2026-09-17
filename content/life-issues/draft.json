@@ -8,9 +8,9 @@
     {
       "source": "github",
       "title": "foxtrotdesign",
-      "excerpt": "feat: Zenn を集約対象に追加",
-      "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/a8b9f6654c49ca54fa4d6ba2867e4f2e49e28774",
-      "publishedAt": "2026-09-17T06:04:34Z"
+      "excerpt": "refactor: サイトを LIFE ISSUES → INPUT → OUTPUT の循環として再構成",
+      "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/7fef41a8a69663009a7bb6f3c6ae8c9458e8c43a",
+      "publishedAt": "2026-09-17T06:32:23Z"
     },
     {
       "source": "notecom",

@@ -1,5 +1,20 @@
 [
   {
+    "id": "github-commit-7fef41a",
+    "source": "github",
+    "title": "foxtrotdesign",
+    "summary": "refactor: サイトを LIFE ISSUES → INPUT → OUTPUT の循環として再構成\n\n/research と /timeline は名前と中身が食い違っていた。/research は\n178件のコンテンツを読み込みながらリポジトリ5件しか表示せず、/timeline が\n実質の全コンテンツ一覧だった。両者はローダー約50行を verbatim に重複させ、\nUI コンポーネ",
+    "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/7fef41a8a69663009a7bb6f3c6ae8c9458e8c43a",
+    "imageUrls": [],
+    "publishedAt": "2026-09-17T06:32:23Z",
+    "metadata": {
+      "repo": "foxtrotdesign",
+      "repoUrl": "https://github.com/HayatoShimada/foxtrotdesign",
+      "sha": "7fef41a",
+      "language": "TypeScript"
+    }
+  },
+  {
     "id": "github-commit-a8b9f66",
     "source": "github",
     "title": "foxtrotdesign",

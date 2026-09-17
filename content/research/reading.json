@@ -1,0 +1,30 @@
+[
+  {
+    "title": "PoseCNN: A Convolutional Neural Network for 6D Object Pose Estimation in Cluttered Scenes",
+    "url": "https://arxiv.org/html/1711.00199v3",
+    "kind": "paper",
+    "done": false,
+    "completedAt": null
+  },
+  {
+    "title": "深層学習を使用したビン ピッキングの 6-DoF 姿勢推定の実行",
+    "url": "https://jp.mathworks.com/help/vision/ug/example-PoseEstimationForBinPickingUsingDeepLearningExample.html",
+    "kind": "paper",
+    "done": false,
+    "completedAt": null
+  },
+  {
+    "title": "Uni6D: A Unified CNN Framework without Projection Breakdown for 6D Pose Estimation",
+    "url": "https://arxiv.org/html/2203.14531v2",
+    "kind": "paper",
+    "done": false,
+    "completedAt": null
+  },
+  {
+    "title": "Gradient Response Maps for Real-Time Detection of Texture-Less Objects",
+    "url": "https://infoscience.epfl.ch/server/api/core/bitstreams/89c82f40-406c-4553-b5ed-8f10c28a7280/content",
+    "kind": "paper",
+    "done": false,
+    "completedAt": null
+  }
+]

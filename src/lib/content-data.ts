@@ -1,6 +1,6 @@
 import fs from "fs/promises";
 import path from "path";
-import { SummarizedContent, GitHubRepo } from "./types";
+import { SummarizedContent, GitHubRepo, ReadingItem } from "./types";
 
 // /input と /output が同じデータを別の切り口で見せる。
 // ローダーは一箇所に置き、両ページから使う。
@@ -27,6 +27,22 @@ export async function getRepos(): Promise<GitHubRepo[]> {
   try {
     const raw = await fs.readFile(
       path.join(researchDirectory, "repos.json"),
+      "utf-8"
+    );
+    return JSON.parse(raw);
+  } catch {
+    return [];
+  }
+}
+
+/**
+ * 読書リスト。Pi 上で `npm run reading:sync` が SilverBullet から生成したもの。
+ * Vercel 上では生成できないため、コミット済みの JSON をそのまま読む。
+ */
+export async function getReadingList(): Promise<ReadingItem[]> {
+  try {
+    const raw = await fs.readFile(
+      path.join(researchDirectory, "reading.json"),
       "utf-8"
     );
     return JSON.parse(raw);
