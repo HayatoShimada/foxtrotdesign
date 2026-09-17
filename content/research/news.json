@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T09:46:08.502Z",
+  "generatedAt": "2026-09-17T21:02:28.845Z",
   "question": "私は私を表現しながら私を無くしていきたい",
   "windowDays": 7,
   "items": [
@@ -38,6 +38,18 @@
       "importance": 60,
       "score": 72,
       "reason": "知的創造過程の「脱領土化」と責任の再定義は、表現を通じて私を無くしていく、ドゥルーズ的な生成変化の哲学と強く共鳴します。"
+    },
+    {
+      "title": "デカルト・キャンパスで暮らす",
+      "url": "http://embodiedapproachj.blogspot.com/2026/09/blog-post.html",
+      "sourceId": "embodiedapproachj-blogspot-com-feeds-posts-default",
+      "sourceName": "田中彰吾の哲学＆心理学研究室",
+      "category": "discovered",
+      "publishedAt": "2026-09-17T12:01:59.770Z",
+      "relevance": 75,
+      "importance": 50,
+      "score": 70,
+      "reason": "デカルト的二元論や心身論の文脈は、自己の存在や「現れる存在」という読書傾向、私を無くしていくという問いに深く共鳴します。"
     },
     {
       "title": "接触は増えるのに、なぜ関係は深まらないのか——デジタルと信頼の構造",
@@ -122,6 +134,18 @@
       "importance": 45,
       "score": 53,
       "reason": "「わたしたち」という目線で幸せを捉え直す試みは、個人から分人への移行や、私を無くしていく問いと親和性があります。"
+    },
+    {
+      "title": "AIで社員の自主発信に広報目線を組み込む",
+      "url": "https://speakerdeck.com/_mossann_t/ai-de-shain-no-jishu-hasshin-ni-kouhou-mesen-o-kumikomu",
+      "sourceId": "speakerdeck-com-c-technology",
+      "sourceName": "Speaker Deck Technology",
+      "category": "slides",
+      "publishedAt": "2026-09-17T11:39:08.000Z",
+      "relevance": 55,
+      "importance": 35,
+      "score": 51,
+      "reason": "「自分を表現しながら自分を無くす」問いに対し、個人の自主発信に他者の目線（広報）を組み込むシステムは親和性が高い。"
     },
     {
       "title": "Do Social Patterns Hold in Synthetic Data? Analyzing Cyberbullying Dynamics in LLM-Generated and Authentic Dialogues",
@@ -220,6 +244,30 @@
       "reason": "身体の変化やコンディションを「読む」というテーマは、自己の身体と世界の再統合を考える読書傾向と関連します。"
     },
     {
+      "title": "AI時代における_iOS設計の守り方と人間の役割",
+      "url": "https://speakerdeck.com/techtver/iosdc2026",
+      "sourceId": "speakerdeck-com-c-programming",
+      "sourceName": "Speaker Deck Programming",
+      "category": "slides",
+      "publishedAt": "2026-09-17T10:55:11.000Z",
+      "relevance": 45,
+      "importance": 40,
+      "score": 44,
+      "reason": "AI時代における人間の役割というテーマは、自己の表現と自動返信の境界を無くすという本人のメモや、主体性を問う読書傾向に繋がります。"
+    },
+    {
+      "title": "24時間動き続けるAIエージェント：途中で「死なない」ようにする設計",
+      "url": "https://qiita.com/Ikegamik_genee/items/a628f20cd7fe262cbeb4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "sourceId": "qiita-com-popular-items",
+      "sourceName": "Qiita",
+      "category": "community",
+      "publishedAt": "2026-09-17T03:06:19.000Z",
+      "relevance": 45,
+      "importance": 40,
+      "score": 44,
+      "reason": "自動返信と自分の境目を無くす運用を目指すメモに対し、死なずに動き続けるエージェントの設計思想は参考になる。"
+    },
+    {
       "title": "アカウントが増え、管理者は知らない——DXが生む権限の空白をどう埋めるか",
       "url": "https://argora.io/media/digital/2026-09-16-dx-kengen-kanri-no-kuuhaku",
       "sourceId": "argora-io",
@@ -244,16 +292,16 @@
       "reason": "1on1における対話や関係性の課題は、自己の表現や他者との境界、分人的なコミュニケーションのあり方を考える契機となる。"
     },
     {
-      "title": "Manage end-user OAuth consent for AI agents with Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/manage-end-user-oauth-consent-for-ai-agents-with-amazon-bedrock-agentcore/",
-      "sourceId": "aws-amazon-com-blogs-machine-learning",
-      "sourceName": "AWS Machine Learning",
-      "category": "vendor",
-      "publishedAt": "2026-09-14T20:35:45.000Z",
+      "title": "Humans and AI in the Feedback Loop of Software Development",
+      "url": "https://speakerdeck.com/ewolff/humans-and-ai-in-the-feedback-loop-of-software-development",
+      "sourceId": "speakerdeck-com-c-technology",
+      "sourceName": "Speaker Deck Technology",
+      "category": "slides",
+      "publishedAt": "2026-09-17T18:41:54.000Z",
       "relevance": 45,
-      "importance": 40,
-      "score": 44,
-      "reason": "AIエージェントのユーザー同意管理は、自動返信と自己の境界を曖昧にする運用の主体性やアイデンティティの管理に繋がる。"
+      "importance": 35,
+      "score": 43,
+      "reason": "人間とAIのフィードバックループは、自動返信と本当の自分の境目を無くしていくという本人の運用メモに直接重なる。"
     },
     {
       "title": "Learning Heterogeneous Preferences",
@@ -290,6 +338,18 @@
       "importance": 45,
       "score": 41,
       "reason": "「見えないものを見えるようにする」という視点は、自己の境界や感性を表現するアプローチと親和性があります。"
+    },
+    {
+      "title": "Launch HN: Skillsync (YC W26) – AI chat sessions made portable across agents",
+      "url": "https://news.ycombinator.com/item?id=49743049",
+      "sourceId": "hnrss-org-frontpage",
+      "sourceName": "Hacker News",
+      "category": "developer",
+      "publishedAt": "2026-09-17T16:22:15.000Z",
+      "relevance": 40,
+      "importance": 35,
+      "score": 39,
+      "reason": "エージェント間でポータブルなAIチャットは、自分の分身やペルソナを外部に委ね、自己を分散させる試みと繋がる。"
     },
     {
       "title": "CapMem: A Benchmark for Caption-Based Episodic Memory in Egocentric Video",
