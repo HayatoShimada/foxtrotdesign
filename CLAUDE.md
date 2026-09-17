@@ -36,9 +36,16 @@ npm run aggregate  # Fetch content from GitHub/note.com and summarize with Gemin
 
 ### Pages
 
-- `/` — Home with intro and navigation cards
-- `/research` — Chronological list of AI-summarized content from all sources
+The site is organized as a cycle: **LIFE ISSUES → INPUT → OUTPUT → LIFE ISSUES**.
+Each issue's `nextQuestion` drives what gets read (INPUT), which drives what gets made (OUTPUT),
+which is reflected on in the next issue.
+
+- `/` — Home with the latest issue and a directory
+- `/life-issues` — Irregular issues: MADE / FOUND / WHY / NEXT QUESTION (`/life-issues/[issue]`, RSS at `/life-issues/rss.xml`)
+- `/input` — Current question, reading list (papers/books), AI suggestions
+- `/output` — Activity timeline, repositories, all aggregated content (GitHub / note.com / Zenn / Bluesky)
 - `/images` — Grid of image-bearing content items
+- `/about` — Profile and explore cards
 
 ### Key Directories
 

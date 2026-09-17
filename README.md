@@ -46,9 +46,15 @@ npm run lint             # ESLint
 
 ## Pages
 
-- **/** — foxtrotdesign の紹介
-- **/research** — 全ソースのコンテンツを時系列で表示
-- **/images** — note.com 記事の画像一覧
+サイト全体は **LIFE ISSUES → INPUT → OUTPUT → LIFE ISSUES** の循環で構成される。
+各号の「次の問い」が INPUT（読むもの）を決め、それが OUTPUT（つくるもの）になり、次の号で振り返る。
+
+- **/** — foxtrotdesign の紹介と最新号
+- **/life-issues** — 不定期発行の号（MADE / FOUND / WHY / NEXT QUESTION）
+- **/input** — いまの問い、読書リスト、AIからの提案
+- **/output** — 活動タイムライン、リポジトリ、全ソースのコンテンツ一覧
+- **/images** — 各ソースから収集した画像一覧
+- **/about** — プロフィール
 
 ## Deploy
 

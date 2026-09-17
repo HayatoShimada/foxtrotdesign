@@ -107,12 +107,21 @@ export default function AboutPage() {
               </p>
             </Link>
             <Link
-              href="/research"
+              href="/input"
               className="block border border-foreground p-4 shadow-brutal-sm transition-shadow hover:shadow-brutal-md"
             >
-              <h3 className="mb-2 font-bold">Research →</h3>
+              <h3 className="mb-2 font-bold">INPUT →</h3>
               <p className="text-xs text-muted">
-                note.com,GitHub,Blueskyでの活動のまとめ.
+                いまの問いに答えるために読むもの.
+              </p>
+            </Link>
+            <Link
+              href="/output"
+              className="block border border-foreground p-4 shadow-brutal-sm transition-shadow hover:shadow-brutal-md"
+            >
+              <h3 className="mb-2 font-bold">OUTPUT →</h3>
+              <p className="text-xs text-muted">
+                GitHub,note.com,Zenn,Blueskyでつくったものの記録.
               </p>
             </Link>
             <Link
@@ -123,13 +132,6 @@ export default function AboutPage() {
               <p className="text-xs text-muted">
                 各種活動から収集したビジュアルアーカイブ.
               </p>
-            </Link>
-            <Link
-              href="/timeline"
-              className="block border border-foreground p-4 shadow-brutal-sm transition-shadow hover:shadow-brutal-md"
-            >
-              <h3 className="mb-2 font-bold">Timeline →</h3>
-              <p className="text-xs text-muted">時系列で追う活動の記録.</p>
             </Link>
             <a
               href="https://85-store.com"

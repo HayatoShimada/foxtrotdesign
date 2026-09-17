@@ -10,7 +10,6 @@ export function RepoList({
 }) {
   return (
     <div>
-      <h2 className="font-serif font-bold text-lg mb-4">Repositories</h2>
       <div className="divide-y divide-border border-y border-border">
         {repos.map((repo) => {
           const latestCommit = repo.commits && repo.commits.length > 0 ? repo.commits[0] : null;

@@ -89,8 +89,8 @@ export function ActivityTimeline({ repos }: { repos: GitHubRepo[] }) {
 
     return (
         <div className="w-full">
-            <div className="flex items-center justify-between mb-6">
-                <h2 className="font-serif font-bold text-lg">Activity Timeline</h2>
+            {/* 見出しは呼び出し側の 01 / ACTIVITY が担う。ここは期間切替だけ右寄せで置く */}
+            <div className="flex items-center justify-end mb-6">
                 <div className="flex gap-2 text-sm">
                     {(["1w", "1m", "1y"] as Period[]).map((p) => (
                         <button

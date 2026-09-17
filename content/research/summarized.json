@@ -1,5 +1,35 @@
 [
   {
+    "id": "github-commit-a8b9f66",
+    "source": "github",
+    "title": "foxtrotdesign",
+    "summary": "feat: Zenn を集約対象に追加\n\nzenn.dev/85store の RSS を GitHub / note.com / Bluesky と同じ扱いで取り込む。\n\n- src/lib/aggregators/zenn.ts を追加（notecom.ts と同じ rss-parser 方式、\n  OGP 画像は enclosure から取得）\n- batchSummarize の分岐に z",
+    "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/a8b9f6654c49ca54fa4d6ba2867e4f2e49e28774",
+    "imageUrls": [],
+    "publishedAt": "2026-09-17T06:04:34Z",
+    "metadata": {
+      "repo": "foxtrotdesign",
+      "repoUrl": "https://github.com/HayatoShimada/foxtrotdesign",
+      "sha": "a8b9f66",
+      "language": "TypeScript"
+    }
+  },
+  {
+    "id": "github-commit-6619eec",
+    "source": "github",
+    "title": "foxtrotdesign",
+    "summary": "refactor: weeknote を Life Issues に改名\n\n「weeknote」という名前が毎週更新を含意し、不定期に書きたい実際の運用と\n合っていなかった。雑誌の号のように不定期発行する形に読み替える。\n\n- URL: /weeknote → /life-issues（リダイレクトは作らない）\n- 表示名: WEEKNOTE → LIFE ISSUES\n- RSS: /life-",
+    "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/6619eecc4262fec1b9abb7fc638dd6bf9bd283da",
+    "imageUrls": [],
+    "publishedAt": "2026-09-17T06:00:17Z",
+    "metadata": {
+      "repo": "foxtrotdesign",
+      "repoUrl": "https://github.com/HayatoShimada/foxtrotdesign",
+      "sha": "6619eec",
+      "language": "TypeScript"
+    }
+  },
+  {
     "id": "github-commit-a9a1839",
     "source": "github",
     "title": "foxtrotdesign",

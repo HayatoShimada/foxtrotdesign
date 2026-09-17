@@ -91,13 +91,14 @@ export function Header() {
 
 function NavItems({ onClick }: { onClick?: () => void }) {
   const pathname = usePathname();
+  // 並びは LIFE ISSUES → INPUT → OUTPUT の循環に合わせる
   const items = [
     ["/", "Home"],
     ["/life-issues", "Life Issues"],
-    ["/about", "About"],
-    ["/research", "Research"],
-    ["/timeline", "Timeline"],
+    ["/input", "Input"],
+    ["/output", "Output"],
     ["/images", "Images"],
+    ["/about", "About"],
   ];
 
   return (

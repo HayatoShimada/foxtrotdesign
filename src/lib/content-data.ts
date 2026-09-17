@@ -1,0 +1,60 @@
+import fs from "fs/promises";
+import path from "path";
+import { SummarizedContent, GitHubRepo } from "./types";
+
+// /input と /output が同じデータを別の切り口で見せる。
+// ローダーは一箇所に置き、両ページから使う。
+
+const researchDirectory = path.join(process.cwd(), "content", "research");
+
+export async function getResearchContent(): Promise<SummarizedContent[]> {
+  try {
+    const raw = await fs.readFile(
+      path.join(researchDirectory, "summarized.json"),
+      "utf-8"
+    );
+    const data: SummarizedContent[] = JSON.parse(raw);
+    return data.sort(
+      (a, b) =>
+        new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
+    );
+  } catch {
+    return [];
+  }
+}
+
+export async function getRepos(): Promise<GitHubRepo[]> {
+  try {
+    const raw = await fs.readFile(
+      path.join(researchDirectory, "repos.json"),
+      "utf-8"
+    );
+    return JSON.parse(raw);
+  } catch {
+    return [];
+  }
+}
+
+/**
+ * リポジトリに、そのリポジトリのコミットを新しい順で全件付ける。
+ * 以前はここで 10 件に切っていたが、ActivityTimeline が期間で絞る前に
+ * 切ってしまうため 1y 表示でも 10 個までしか出なかった。
+ * RepoList は先頭 1 件しか使わないので、切らずに渡して使う側で絞る。
+ */
+export async function getReposWithCommits(): Promise<{
+  items: SummarizedContent[];
+  repos: GitHubRepo[];
+}> {
+  const [items, repos] = await Promise.all([getResearchContent(), getRepos()]);
+
+  const withCommits = repos.map((repo) => ({
+    ...repo,
+    commits: items.filter(
+      (item) =>
+        item.source === "github" &&
+        (item.metadata?.repo === repo.name || item.title === repo.name)
+    ),
+  }));
+
+  return { items, repos: withCommits };
+}

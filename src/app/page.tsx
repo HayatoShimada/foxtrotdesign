@@ -112,10 +112,10 @@ export default async function Home() {
           <div className="grid grid-cols-2 border-l border-t border-foreground md:grid-cols-5">
             {[
               ["/life-issues", "LIFE ISSUES"],
-              ["/about", "ABOUT"],
-              ["/research", "RESEARCH"],
-              ["/timeline", "TIMELINE"],
+              ["/input", "INPUT"],
+              ["/output", "OUTPUT"],
               ["/images", "IMAGES"],
+              ["/about", "ABOUT"],
             ].map(([href, label]) => (
               <Link
                 key={href}
