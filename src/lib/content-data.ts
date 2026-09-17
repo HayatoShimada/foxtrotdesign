@@ -5,6 +5,7 @@ import {
   GitHubRepo,
   ReadingItem,
   SuggestedReading,
+  NewsReport,
 } from "./types";
 
 // /input と /output が同じデータを別の切り口で見せる。
@@ -68,6 +69,23 @@ export async function getSuggestedReading(): Promise<SuggestedReading | null> {
     );
     const data: SuggestedReading = JSON.parse(raw);
     return data.status === "published" ? data : null;
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * いまの問いに関係するニュース。Pi の timer が `news:sync` で毎日書き換えて push する。
+ * Vercel は読むだけ。
+ */
+export async function getNewsReport(): Promise<NewsReport | null> {
+  try {
+    const raw = await fs.readFile(
+      path.join(researchDirectory, "news.json"),
+      "utf-8"
+    );
+    const data: NewsReport = JSON.parse(raw);
+    return data.items.length > 0 ? data : null;
   } catch {
     return null;
   }

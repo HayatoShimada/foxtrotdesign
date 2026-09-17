@@ -26,6 +26,9 @@ npm run reading:sync       # (Pi only) project SilverBullet reading tasks into c
 npm run suggest:generate   # Ask Gemini for next reads → content/research/suggested.json (status: draft)
 npm run suggest:publish    # Flip the draft to published; nothing shows on /input until this runs
 npm run life-issue:publish -- --confirmed-in-project-chat   # Validate draft.json and write issues/NNN.json
+npm run news:sync          # (Pi timer) fetch RSS sources, score by relevance to the current question → news.json
+npm run news:evolve        # (Pi timer) promote/stop sources by contribution → news-sources.json
+npm run news:discover      # (Pi timer, weekly) Gemini Search Grounding → new candidate feeds
 ```
 
 The `life-issue` Skill (`.claude/skills/life-issue/SKILL.md`) runs the whole issue cycle:
@@ -40,6 +43,10 @@ collect the diff since the last issue, draft WHY / NEXT QUESTION, publish only a
 3. **Build script** (`src/scripts/aggregate-content.ts`) orchestrates fetch → summarize → save to `content/research/`
 4. Pages read from `content/research/summarized.json` and `images.json` at build time
 5. Vercel cron (`/api/aggregate`) triggers daily refresh at 3:00 UTC
+6. **News** (`/input` 03 / NEWS) is written by the Pi, not by the Vercel build: `scripts/news-cron.sh`
+   runs `news:sync` → `news:evolve` (→ `news:discover` on Sundays) and pushes
+   `content/research/news*.json` + `source-discoveries.json`. Source state (active / candidate / stopped)
+   lives in git, so it accumulates across runs. Seeds are never stopped for low contribution
 
 ### Pages
 

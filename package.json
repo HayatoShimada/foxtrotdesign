@@ -17,7 +17,10 @@
     "check:disclosure": "node scripts/check-disclosure.mjs",
     "reading:sync": "tsx src/scripts/generate-reading-list.ts",
     "suggest:generate": "tsx src/scripts/suggest-reading.ts",
-    "suggest:publish": "tsx src/scripts/suggest-reading.ts --publish"
+    "suggest:publish": "tsx src/scripts/suggest-reading.ts --publish",
+    "news:sync": "tsx src/scripts/news-sync.ts",
+    "news:evolve": "tsx src/scripts/news-evolve.ts",
+    "news:discover": "tsx src/scripts/news-discover.ts"
   },
   "repository": {
     "type": "git",

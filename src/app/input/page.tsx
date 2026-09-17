@@ -3,14 +3,20 @@ import { Container } from "@/components/Container";
 import { CycleNext } from "@/components/CycleNext";
 import { ReadingList } from "@/components/research/ReadingList";
 import { SuggestedList } from "@/components/research/SuggestedList";
-import { getReadingList, getSuggestedReading } from "@/lib/content-data";
+import { NewsList } from "@/components/research/NewsList";
+import {
+  getReadingList,
+  getNewsReport,
+  getSuggestedReading,
+} from "@/lib/content-data";
 import { formatIssueNumber, getLatestLifeIssue } from "@/lib/life-issue";
 
 export default async function InputPage() {
-  const [latest, reading, suggested] = await Promise.all([
+  const [latest, reading, suggested, news] = await Promise.all([
     getLatestLifeIssue(),
     getReadingList(),
     getSuggestedReading(),
+    getNewsReport(),
   ]);
 
   return (
@@ -58,6 +64,15 @@ export default async function InputPage() {
             <SuggestedList data={suggested} />
           ) : (
             <p className="text-muted text-center py-12">提案はまだありません.</p>
+          )}
+        </section>
+
+        <section className="border-t border-foreground pt-8">
+          <p className="mb-4 text-xs font-bold tracking-[0.2em]">03 / NEWS</p>
+          {news ? (
+            <NewsList data={news} />
+          ) : (
+            <p className="text-muted text-center py-12">ニュースはまだありません.</p>
           )}
         </section>
 

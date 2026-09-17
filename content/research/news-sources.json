@@ -1,0 +1,762 @@
+[
+  {
+    "id": "zenn-dev",
+    "name": "Zenn",
+    "url": "https://zenn.dev/feed",
+    "category": "community",
+    "status": "active",
+    "origin": "seed",
+    "addedAt": "2026-09-17T09:08:49.492Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 2,
+      "fetched": 30,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "qiita-com-popular-items",
+    "name": "Qiita",
+    "url": "https://qiita.com/popular-items/feed",
+    "category": "community",
+    "status": "active",
+    "origin": "seed",
+    "addedAt": "2026-09-17T09:08:49.493Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 2,
+      "fetched": 30,
+      "adopted": 1,
+      "lastAdoptedAt": "2026-09-17T09:20:55.776Z",
+      "runsAtLastAdoption": 2,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "openai-com-news",
+    "name": "OpenAI",
+    "url": "https://openai.com/news/rss.xml",
+    "category": "vendor",
+    "status": "active",
+    "origin": "seed",
+    "addedAt": "2026-09-17T09:08:49.493Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 2,
+      "fetched": 22,
+      "adopted": 3,
+      "lastAdoptedAt": "2026-09-17T09:20:55.776Z",
+      "runsAtLastAdoption": 2,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "anthropic-com-news",
+    "name": "Anthropic",
+    "url": "https://www.anthropic.com/news",
+    "category": "vendor",
+    "status": "stopped",
+    "origin": "seed",
+    "addedAt": "2026-09-17T09:08:49.493Z",
+    "stoppedAt": "2026-09-17T09:08:49.493Z",
+    "stoppedReason": "feed not found: no RSS/Atom published (2026-09)",
+    "stats": {
+      "runs": 0,
+      "fetched": 0,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "blog-google-technology-ai",
+    "name": "Google AI",
+    "url": "https://blog.google/technology/ai/rss/",
+    "category": "vendor",
+    "status": "active",
+    "origin": "seed",
+    "addedAt": "2026-09-17T09:08:49.493Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 2,
+      "fetched": 14,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "deepmind-google-blog",
+    "name": "Google DeepMind",
+    "url": "https://deepmind.google/blog/rss.xml",
+    "category": "vendor",
+    "status": "active",
+    "origin": "seed",
+    "addedAt": "2026-09-17T09:08:49.493Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 2,
+      "fetched": 2,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "huggingface-co-blog",
+    "name": "Hugging Face",
+    "url": "https://huggingface.co/blog/feed.xml",
+    "category": "vendor",
+    "status": "active",
+    "origin": "seed",
+    "addedAt": "2026-09-17T09:08:49.493Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 2,
+      "fetched": 2,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "blogs-microsoft-com",
+    "name": "Microsoft Blog",
+    "url": "https://blogs.microsoft.com/feed/",
+    "category": "vendor",
+    "status": "active",
+    "origin": "seed",
+    "addedAt": "2026-09-17T09:08:49.493Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 2,
+      "fetched": 2,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "ai-meta-com-blog",
+    "name": "Meta AI",
+    "url": "https://ai.meta.com/blog/",
+    "category": "vendor",
+    "status": "stopped",
+    "origin": "seed",
+    "addedAt": "2026-09-17T09:08:49.493Z",
+    "stoppedAt": "2026-09-17T09:08:49.493Z",
+    "stoppedReason": "feed not found: no RSS/Atom published (2026-09)",
+    "stats": {
+      "runs": 0,
+      "fetched": 0,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "mistral-ai-news",
+    "name": "Mistral AI",
+    "url": "https://mistral.ai/news/rss",
+    "category": "vendor",
+    "status": "active",
+    "origin": "seed",
+    "addedAt": "2026-09-17T09:08:49.493Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 2,
+      "fetched": 4,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "blogs-nvidia-com",
+    "name": "NVIDIA",
+    "url": "https://blogs.nvidia.com/feed/",
+    "category": "vendor",
+    "status": "active",
+    "origin": "seed",
+    "addedAt": "2026-09-17T09:08:49.493Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 2,
+      "fetched": 24,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "aws-amazon-com-blogs-machine-learning",
+    "name": "AWS Machine Learning",
+    "url": "https://aws.amazon.com/blogs/machine-learning/feed/",
+    "category": "vendor",
+    "status": "active",
+    "origin": "seed",
+    "addedAt": "2026-09-17T09:08:49.493Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 2,
+      "fetched": 30,
+      "adopted": 1,
+      "lastAdoptedAt": "2026-09-17T09:10:17.440Z",
+      "runsAtLastAdoption": 1,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "github-blog-ai-and-ml",
+    "name": "GitHub Blog AI/ML",
+    "url": "https://github.blog/ai-and-ml/feed/",
+    "category": "developer",
+    "status": "active",
+    "origin": "seed",
+    "addedAt": "2026-09-17T09:08:49.493Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 2,
+      "fetched": 6,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "blog-langchain-com",
+    "name": "LangChain",
+    "url": "https://blog.langchain.com/rss.xml",
+    "category": "developer",
+    "status": "active",
+    "origin": "seed",
+    "addedAt": "2026-09-17T09:08:49.493Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 2,
+      "fetched": 12,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "medium-com-feed-llamaindex-blog",
+    "name": "LlamaIndex",
+    "url": "https://medium.com/feed/llamaindex-blog",
+    "category": "developer",
+    "status": "active",
+    "origin": "seed",
+    "addedAt": "2026-09-17T09:08:49.493Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 2,
+      "fetched": 0,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "hnrss-org-frontpage",
+    "name": "Hacker News",
+    "url": "https://hnrss.org/frontpage",
+    "category": "developer",
+    "status": "active",
+    "origin": "seed",
+    "addedAt": "2026-09-17T09:08:49.493Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 2,
+      "fetched": 30,
+      "adopted": 2,
+      "lastAdoptedAt": "2026-09-17T09:20:55.776Z",
+      "runsAtLastAdoption": 2,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "rss-arxiv-org-rss-cs-ai",
+    "name": "arXiv cs.AI",
+    "url": "https://rss.arxiv.org/rss/cs.AI",
+    "category": "research",
+    "status": "active",
+    "origin": "seed",
+    "addedAt": "2026-09-17T09:08:49.493Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 2,
+      "fetched": 30,
+      "adopted": 2,
+      "lastAdoptedAt": "2026-09-17T09:20:55.776Z",
+      "runsAtLastAdoption": 2,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "rss-arxiv-org-rss-cs-cl",
+    "name": "arXiv cs.CL",
+    "url": "https://rss.arxiv.org/rss/cs.CL",
+    "category": "research",
+    "status": "active",
+    "origin": "seed",
+    "addedAt": "2026-09-17T09:08:49.493Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 2,
+      "fetched": 30,
+      "adopted": 3,
+      "lastAdoptedAt": "2026-09-17T09:20:55.776Z",
+      "runsAtLastAdoption": 2,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "microsoft-com-en-us-research",
+    "name": "Microsoft Research",
+    "url": "https://www.microsoft.com/en-us/research/feed/",
+    "category": "research",
+    "status": "active",
+    "origin": "seed",
+    "addedAt": "2026-09-17T09:08:49.493Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 2,
+      "fetched": 0,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "techcrunch-com-category-artificial-intelligence",
+    "name": "TechCrunch AI",
+    "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+    "category": "media",
+    "status": "active",
+    "origin": "seed",
+    "addedAt": "2026-09-17T09:08:49.493Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 2,
+      "fetched": 30,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "venturebeat-com-category-ai",
+    "name": "VentureBeat AI",
+    "url": "https://venturebeat.com/category/ai/feed/",
+    "category": "media",
+    "status": "active",
+    "origin": "seed",
+    "addedAt": "2026-09-17T09:08:49.493Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 2,
+      "fetched": 0,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 2,
+      "lastError": "Status code 429"
+    }
+  },
+  {
+    "id": "technologyreview-com-topic-artificial-intelligence",
+    "name": "MIT Technology Review AI",
+    "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+    "category": "media",
+    "status": "active",
+    "origin": "seed",
+    "addedAt": "2026-09-17T09:08:49.493Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 2,
+      "fetched": 12,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "importai-substack-com",
+    "name": "Import AI",
+    "url": "https://importai.substack.com/feed",
+    "category": "newsletter",
+    "status": "active",
+    "origin": "seed",
+    "addedAt": "2026-09-17T09:08:49.493Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 2,
+      "fetched": 0,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "deeplearning-ai-the-batch",
+    "name": "The Batch",
+    "url": "https://www.deeplearning.ai/the-batch/",
+    "category": "newsletter",
+    "status": "stopped",
+    "origin": "seed",
+    "addedAt": "2026-09-17T09:08:49.493Z",
+    "stoppedAt": "2026-09-17T09:08:49.493Z",
+    "stoppedReason": "feed not found: no RSS/Atom published (2026-09)",
+    "stats": {
+      "runs": 0,
+      "fetched": 0,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "speakerdeck-com-c-technology",
+    "name": "Speaker Deck Technology",
+    "url": "https://speakerdeck.com/c/technology.atom",
+    "category": "slides",
+    "status": "active",
+    "origin": "seed",
+    "addedAt": "2026-09-17T09:08:49.493Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 2,
+      "fetched": 30,
+      "adopted": 3,
+      "lastAdoptedAt": "2026-09-17T09:20:55.776Z",
+      "runsAtLastAdoption": 2,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "speakerdeck-com-c-programming",
+    "name": "Speaker Deck Programming",
+    "url": "https://speakerdeck.com/c/programming.atom",
+    "category": "slides",
+    "status": "active",
+    "origin": "seed",
+    "addedAt": "2026-09-17T09:08:49.494Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 2,
+      "fetched": 30,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "speakerdeck-com-c-research",
+    "name": "Speaker Deck Research",
+    "url": "https://speakerdeck.com/c/research.atom",
+    "category": "slides",
+    "status": "active",
+    "origin": "seed",
+    "addedAt": "2026-09-17T09:08:49.494Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 2,
+      "fetched": 30,
+      "adopted": 2,
+      "lastAdoptedAt": "2026-09-17T09:20:55.776Z",
+      "runsAtLastAdoption": 2,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "speakerdeck-com-c-science",
+    "name": "Speaker Deck Science",
+    "url": "https://speakerdeck.com/c/science.atom",
+    "category": "slides",
+    "status": "active",
+    "origin": "seed",
+    "addedAt": "2026-09-17T09:08:49.494Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 2,
+      "fetched": 8,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "meandyou-net",
+    "name": "me and you little magazine & club",
+    "url": "https://meandyou.net/feed",
+    "category": "discovered",
+    "status": "candidate",
+    "origin": "search",
+    "addedAt": "2026-09-17T09:26:19.329Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 0,
+      "fetched": 0,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "kangaeruhito-jp",
+    "name": "考える人",
+    "url": "https://kangaeruhito.jp/feed",
+    "category": "discovered",
+    "status": "candidate",
+    "origin": "search",
+    "addedAt": "2026-09-17T09:26:19.694Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 0,
+      "fetched": 0,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "k-hirano-com",
+    "name": "平野啓一郎公式サイト",
+    "url": "https://k-hirano.com/feed",
+    "category": "discovered",
+    "status": "candidate",
+    "origin": "search",
+    "addedAt": "2026-09-17T09:26:22.546Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 0,
+      "fetched": 0,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "linkingsociety-hitachi-co-jp-rss-rss20",
+    "name": "Linking Society",
+    "url": "https://linkingsociety.hitachi.co.jp/_rss/rss20.xml",
+    "category": "discovered",
+    "status": "candidate",
+    "origin": "search",
+    "addedAt": "2026-09-17T09:26:23.383Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 0,
+      "fetched": 0,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "dividualism-k-hirano-com",
+    "name": "分人主義",
+    "url": "https://dividualism.k-hirano.com/feed",
+    "category": "discovered",
+    "status": "candidate",
+    "origin": "search",
+    "addedAt": "2026-09-17T09:26:25.009Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 0,
+      "fetched": 0,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "realsound-jp-tech",
+    "name": "リアルサウンド",
+    "url": "https://realsound.jp/tech/atom.xml",
+    "category": "discovered",
+    "status": "candidate",
+    "origin": "search",
+    "addedAt": "2026-09-17T09:26:27.833Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 0,
+      "fetched": 0,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "axismag-jp",
+    "name": "AXIS Web | デザインの視点で、人間の可能性や創造性を伝えるメディア",
+    "url": "https://www.axismag.jp/feed",
+    "category": "discovered",
+    "status": "candidate",
+    "origin": "search",
+    "addedAt": "2026-09-17T09:26:29.012Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 0,
+      "fetched": 0,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "embodiedapproachj-blogspot-com-feeds-posts-default",
+    "name": "田中彰吾の哲学＆心理学研究室",
+    "url": "http://embodiedapproachj.blogspot.com/feeds/posts/default",
+    "category": "discovered",
+    "status": "candidate",
+    "origin": "search",
+    "addedAt": "2026-09-17T09:26:33.289Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 0,
+      "fetched": 0,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "desilo-substack-com",
+    "name": "De-Silo",
+    "url": "https://desilo.substack.com/feed",
+    "category": "discovered",
+    "status": "candidate",
+    "origin": "search",
+    "addedAt": "2026-09-17T09:26:35.142Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 0,
+      "fetched": 0,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "deepbluedragon-hatenadiary-com",
+    "name": "hatenadiary.com",
+    "url": "https://deepbluedragon.hatenadiary.com/feed",
+    "category": "discovered",
+    "status": "candidate",
+    "origin": "search",
+    "addedAt": "2026-09-17T09:26:35.474Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 0,
+      "fetched": 0,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  }
+]

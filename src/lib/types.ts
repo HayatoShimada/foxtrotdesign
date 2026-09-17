@@ -49,6 +49,71 @@ export interface SuggestedReading {
   items: SuggestedItem[];
 }
 
+/** ニュースの巡回先。Pi の timer が状態を書き換え、git で持ち回る */
+export type NewsCategory =
+  | "community"
+  | "vendor"
+  | "developer"
+  | "research"
+  | "media"
+  | "newsletter"
+  | "slides"
+  | "discovered";
+
+export interface NewsSource {
+  id: string;
+  name: string;
+  url: string;
+  category: NewsCategory;
+  status: "active" | "candidate" | "stopped";
+  origin: "seed" | "search";
+  addedAt: string;
+  stoppedAt: string | null;
+  stoppedReason: string | null;
+  stats: {
+    runs: number;
+    fetched: number;
+    adopted: number;
+    lastAdoptedAt: string | null;
+    /** active(search) の停止判定用。直近の採用時点の runs */
+    runsAtLastAdoption: number;
+    consecutiveErrors: number;
+    lastError: string | null;
+  };
+}
+
+/** Search Grounding で見つけたページと、RSS 自動検出の結果 */
+export interface SourceDiscovery {
+  foundAt: string;
+  query: string;
+  title: string;
+  url: string;
+  feedUrl: string | null;
+  result: "registered" | "no-feed" | "duplicate" | "invalid";
+  sourceId: string | null;
+}
+
+/** いまの問いに関係するニュース。スコアは関連性 ≫ 社会的重要度 */
+export interface NewsReportItem {
+  title: string;
+  url: string;
+  sourceId: string;
+  sourceName: string;
+  category: NewsCategory;
+  publishedAt: string;
+  relevance: number;
+  importance: number;
+  score: number;
+  reason: string;
+}
+
+export interface NewsReport {
+  generatedAt: string;
+  question: string;
+  windowDays: number;
+  items: NewsReportItem[];
+}
+
 export interface GitHubRepo {
   name: string;
   description: string | null;
