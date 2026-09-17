@@ -1,26 +1,26 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Container } from "@/components/Container";
-import { WeeknoteThoughts } from "@/components/weeknote/WeeknoteThoughts";
+import { LifeIssueThoughts } from "@/components/life-issues/LifeIssueThoughts";
 import {
   formatIssueNumber,
   formatJapaneseDate,
   formatJapaneseDateRange,
-  getPublishedWeeknotes,
-} from "@/lib/weeknote";
+  getPublishedLifeIssues,
+} from "@/lib/life-issue";
 
 export const metadata: Metadata = {
-  title: "WEEKNOTE | foxtrotdesign",
-  description: "Hayato Shimadaの一週間の制作と、次に考える問い。",
+  title: "LIFE ISSUES | foxtrotdesign",
+  description: "Hayato Shimadaのつくったものと、次に考える問い。",
   alternates: {
     types: {
-      "application/rss+xml": "/weeknote/rss.xml",
+      "application/rss+xml": "/life-issues/rss.xml",
     },
   },
 };
 
-export default async function WeeknotePage() {
-  const issues = await getPublishedWeeknotes();
+export default async function LifeIssueIndexPage() {
+  const issues = await getPublishedLifeIssues();
   const [latest, ...archive] = issues;
 
   return (
@@ -28,21 +28,21 @@ export default async function WeeknotePage() {
       <div className="space-y-12">
         <header className="space-y-4">
           <div className="flex items-center justify-between gap-4 text-xs">
-            <p className="font-bold tracking-[0.2em]">WEEKLY / FRIDAY</p>
+            <p className="font-bold tracking-[0.2em]">IRREGULAR</p>
             <a
-              href="/weeknote/rss.xml"
+              href="/life-issues/rss.xml"
               className="text-muted hover:text-foreground hover:underline"
             >
               RSS ↗
             </a>
           </div>
           <h1 className="text-5xl md:text-6xl font-serif font-bold">
-            WEEKNOTE
+            LIFE ISSUES
           </h1>
           <p className="max-w-xl text-muted leading-relaxed">
             つくったものと、次の問い。
             <br />
-            GitHub、note、画像を一週間ごとに束ねた公開制作ログです。
+            GitHub、note、Zenn、画像を一号ずつ束ねた公開制作ログです。
           </p>
         </header>
 
@@ -54,7 +54,7 @@ export default async function WeeknotePage() {
             <article className="border border-foreground p-5 shadow-brutal-sm md:p-7">
               <div className="mb-8 flex items-start justify-between gap-6">
                 <Link
-                  href={`/weeknote/${formatIssueNumber(latest.issue)}`}
+                  href={`/life-issues/${formatIssueNumber(latest.issue)}`}
                   className="font-serif text-4xl font-bold hover:underline"
                 >
                   #{formatIssueNumber(latest.issue)} →
@@ -81,10 +81,10 @@ export default async function WeeknotePage() {
                     {latest.nextQuestion}
                   </p>
                   {latest.aiThoughts && (
-                    <WeeknoteThoughts thoughts={latest.aiThoughts} />
+                    <LifeIssueThoughts thoughts={latest.aiThoughts} />
                   )}
                   <Link
-                    href={`/weeknote/${formatIssueNumber(latest.issue)}`}
+                    href={`/life-issues/${formatIssueNumber(latest.issue)}`}
                     className="inline-block text-xs font-bold hover:underline"
                   >
                     ISSUE #{formatIssueNumber(latest.issue)} を読む →
@@ -114,7 +114,7 @@ export default async function WeeknotePage() {
               {archive.map((issue) => (
                 <Link
                   key={issue.issue}
-                  href={`/weeknote/${formatIssueNumber(issue.issue)}`}
+                  href={`/life-issues/${formatIssueNumber(issue.issue)}`}
                   className="grid grid-cols-[5rem_1fr] gap-4 border-b border-border py-5 hover:underline"
                 >
                   <span className="font-serif text-xl font-bold">

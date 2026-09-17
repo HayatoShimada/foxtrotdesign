@@ -1,8 +1,8 @@
 import {
   formatIssueNumber,
-  getPublishedWeeknotes,
-  weeknoteSourceLabels,
-} from "@/lib/weeknote";
+  getPublishedLifeIssues,
+  lifeIssueSourceLabels,
+} from "@/lib/life-issue";
 
 const siteUrl = "https://foxtrotdesign.dev";
 
@@ -16,15 +16,15 @@ function escapeXml(value: string): string {
 }
 
 export async function GET() {
-  const issues = await getPublishedWeeknotes();
+  const issues = await getPublishedLifeIssues();
   const items = issues
     .map((issue) => {
       const issueNumber = formatIssueNumber(issue.issue);
-      const url = `${siteUrl}/weeknote/${issueNumber}`;
+      const url = `${siteUrl}/life-issues/${issueNumber}`;
       const sources = [...issue.made, issue.found]
         .map(
           (entry) =>
-            `${weeknoteSourceLabels[entry.source]}: ${entry.title} ${entry.url}`
+            `${lifeIssueSourceLabels[entry.source]}: ${entry.title} ${entry.url}`
         )
         .join("\n");
       const collectedThoughts = issue.aiThoughts
@@ -45,7 +45,7 @@ export async function GET() {
         .join("\n\n");
 
       return `    <item>
-      <title>WEEKNOTE #${issueNumber}</title>
+      <title>LIFE ISSUES #${issueNumber}</title>
       <link>${url}</link>
       <guid isPermaLink="true">${url}</guid>
       <pubDate>${new Date(issue.publishedAt).toUTCString()}</pubDate>
@@ -60,12 +60,12 @@ export async function GET() {
   const xml = `<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>WEEKNOTE — foxtrotdesign</title>
-    <link>${siteUrl}/weeknote</link>
-    <description>Hayato Shimadaの一週間の制作と、次に考える問い。</description>
+    <title>LIFE ISSUES — foxtrotdesign</title>
+    <link>${siteUrl}/life-issues</link>
+    <description>Hayato Shimadaのつくったものと、次に考える問い。</description>
     <language>ja</language>
     <lastBuildDate>${latestBuildDate}</lastBuildDate>
-    <atom:link href="${siteUrl}/weeknote/rss.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="${siteUrl}/life-issues/rss.xml" rel="self" type="application/rss+xml" />
 ${items}
   </channel>
 </rss>`;

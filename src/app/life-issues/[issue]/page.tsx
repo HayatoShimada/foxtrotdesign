@@ -3,22 +3,22 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Container } from "@/components/Container";
-import { WeeknoteThoughts } from "@/components/weeknote/WeeknoteThoughts";
+import { LifeIssueThoughts } from "@/components/life-issues/LifeIssueThoughts";
 import {
   formatIssueNumber,
   formatJapaneseDate,
   formatJapaneseDateRange,
-  getPublishedWeeknotes,
-  getWeeknote,
-  WeeknoteEntry,
-  weeknoteSourceLabels,
-} from "@/lib/weeknote";
+  getPublishedLifeIssues,
+  getLifeIssue,
+  LifeIssueEntry,
+  lifeIssueSourceLabels,
+} from "@/lib/life-issue";
 
-interface WeeknoteIssuePageProps {
+interface LifeIssuePageProps {
   params: Promise<{ issue: string }>;
 }
 
-function SourceLink({ entry }: { entry: WeeknoteEntry }) {
+function SourceLink({ entry }: { entry: LifeIssueEntry }) {
   return (
     <a
       href={entry.url}
@@ -29,7 +29,7 @@ function SourceLink({ entry }: { entry: WeeknoteEntry }) {
       <div className="mb-2 flex items-start justify-between gap-4">
         <h3 className="font-bold group-hover:underline">{entry.title} ↗</h3>
         <span className="shrink-0 border border-border px-2 py-0.5 text-[0.65rem] text-muted">
-          {weeknoteSourceLabels[entry.source]}
+          {lifeIssueSourceLabels[entry.source]}
         </span>
       </div>
       {entry.excerpt && (
@@ -40,7 +40,7 @@ function SourceLink({ entry }: { entry: WeeknoteEntry }) {
 }
 
 export async function generateStaticParams() {
-  const issues = await getPublishedWeeknotes();
+  const issues = await getPublishedLifeIssues();
   return issues.map((issue) => ({
     issue: formatIssueNumber(issue.issue),
   }));
@@ -48,23 +48,23 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({
   params,
-}: WeeknoteIssuePageProps): Promise<Metadata> {
+}: LifeIssuePageProps): Promise<Metadata> {
   const { issue: issueNumber } = await params;
-  const issue = await getWeeknote(issueNumber);
+  const issue = await getLifeIssue(issueNumber);
 
   if (!issue) return {};
 
   return {
-    title: `WEEKNOTE #${formatIssueNumber(issue.issue)} | foxtrotdesign`,
+    title: `LIFE ISSUES #${formatIssueNumber(issue.issue)} | foxtrotdesign`,
     description: `${issue.why} NEXT QUESTION: ${issue.nextQuestion}`,
   };
 }
 
-export default async function WeeknoteIssuePage({
+export default async function LifeIssueDetailPage({
   params,
-}: WeeknoteIssuePageProps) {
+}: LifeIssuePageProps) {
   const { issue: issueNumber } = await params;
-  const issue = await getWeeknote(issueNumber);
+  const issue = await getLifeIssue(issueNumber);
 
   if (!issue) notFound();
 
@@ -73,10 +73,10 @@ export default async function WeeknoteIssuePage({
       <article>
         <header className="mb-12">
           <Link
-            href="/weeknote"
+            href="/life-issues"
             className="mb-5 inline-block text-xs text-muted hover:text-foreground hover:underline"
           >
-            ← WEEKNOTE
+            ← LIFE ISSUES
           </Link>
           <div className="mb-5 flex items-start justify-between gap-6">
             <h1 className="font-serif text-5xl font-bold md:text-6xl">
@@ -147,7 +147,7 @@ export default async function WeeknoteIssuePage({
                 {issue.nextQuestion}
               </p>
               {issue.aiThoughts && (
-                <WeeknoteThoughts thoughts={issue.aiThoughts} />
+                <LifeIssueThoughts thoughts={issue.aiThoughts} />
               )}
             </div>
           </section>

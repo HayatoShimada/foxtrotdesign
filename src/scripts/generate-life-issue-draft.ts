@@ -3,18 +3,18 @@ import path from "path";
 import { ContentItem, SummarizedContent } from "../lib/types";
 import {
   formatIssueNumber,
-  WeeknoteEntry,
-  WeeknoteSource,
-} from "../lib/weeknote";
+  LifeIssueEntry,
+  LifeIssueSource,
+} from "../lib/life-issue";
 
 const DAY_IN_MS = 24 * 60 * 60 * 1000;
 const researchDirectory = path.join(process.cwd(), "content", "research");
-const weeknoteDirectory = path.join(process.cwd(), "content", "weeknote");
-const issueDirectory = path.join(weeknoteDirectory, "issues");
+const lifeIssueDirectory = path.join(process.cwd(), "content", "life-issues");
+const issueDirectory = path.join(lifeIssueDirectory, "issues");
 
 interface DraftCandidate {
   id: string;
-  source: WeeknoteSource;
+  source: LifeIssueSource;
   title: string;
   excerpt: string;
   url: string;
@@ -40,7 +40,7 @@ function clip(text: string, length = 180): string {
     : normalized;
 }
 
-function toEntry(candidate: DraftCandidate): WeeknoteEntry {
+function toEntry(candidate: DraftCandidate): LifeIssueEntry {
   const excerpt =
     candidate.source === "github"
       ? candidate.excerpt.split(/\r?\n/, 1)[0]
@@ -98,14 +98,14 @@ function getJapanDate(): string {
 }
 
 function getPeriod() {
-  const periodEnd = process.env.WEEKNOTE_END_DATE || getJapanDate();
+  const periodEnd = process.env.LIFE_ISSUE_END_DATE || getJapanDate();
   if (!/^\d{4}-\d{2}-\d{2}$/.test(periodEnd)) {
-    throw new Error("WEEKNOTE_END_DATEはYYYY-MM-DD形式で指定してください");
+    throw new Error("LIFE_ISSUE_END_DATEはYYYY-MM-DD形式で指定してください");
   }
 
   const endDate = new Date(`${periodEnd}T00:00:00Z`);
   if (Number.isNaN(endDate.getTime())) {
-    throw new Error("WEEKNOTE_END_DATEは実在する日付を指定してください");
+    throw new Error("LIFE_ISSUE_END_DATEは実在する日付を指定してください");
   }
 
   const periodStart = isoDate(new Date(endDate.getTime() - 6 * DAY_IN_MS));
@@ -183,7 +183,7 @@ async function main() {
     ...recent.filter((item) => item.source !== "github"),
     ...recent.filter(isRoutineGitHubCandidate),
   ];
-  const made: WeeknoteEntry[] = [];
+  const made: LifeIssueEntry[] = [];
   const usedProjects = new Set<string>();
 
   for (const candidate of madeCandidates) {
@@ -210,18 +210,18 @@ async function main() {
     found: foundCandidate ? toEntry(foundCandidate) : null,
     why: "",
     nextQuestion: "",
-    publishTo: `content/weeknote/issues/${formatIssueNumber(nextIssue)}.json`,
+    publishTo: `content/life-issues/issues/${formatIssueNumber(nextIssue)}.json`,
     note: "WHY（100〜200字）とNEXT QUESTIONを本人確認後に追記し、statusをpublished、publishedAtを公開日にしてpublishToへ保存すると公開されます。",
   };
 
   await fs.mkdir(issueDirectory, { recursive: true });
   await fs.writeFile(
-    path.join(weeknoteDirectory, "draft.json"),
+    path.join(lifeIssueDirectory, "draft.json"),
     `${JSON.stringify(draft, null, 2)}\n`
   );
 
   console.log(
-    `WEEKNOTE #${formatIssueNumber(nextIssue)} draft: ${made.length} MADE / ${
+    `LIFE ISSUES #${formatIssueNumber(nextIssue)} draft: ${made.length} MADE / ${
       foundCandidate ? "1" : "0"
     } FOUND (${period.periodStart} — ${period.periodEnd})`
   );

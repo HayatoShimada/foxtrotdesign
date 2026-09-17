@@ -2,15 +2,15 @@
   "status": "draft",
   "issue": 2,
   "publishedAt": null,
-  "periodStart": "2026-09-09",
-  "periodEnd": "2026-09-15",
+  "periodStart": "2026-09-11",
+  "periodEnd": "2026-09-17",
   "made": [
     {
       "source": "github",
       "title": "foxtrotdesign",
-      "excerpt": "refine chatbot Japanese tone",
-      "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/e8d2bbed92782ce583d9168ac7382ef7876aa452",
-      "publishedAt": "2026-09-15T10:59:11Z"
+      "excerpt": "feat: フッターに Zenn へのリンクを追加",
+      "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/a9a1839c7e6101a66186565d1fe899b692ab9a7a",
+      "publishedAt": "2026-09-17T05:20:43Z"
     },
     {
       "source": "notecom",
@@ -38,6 +38,6 @@
   },
   "why": "",
   "nextQuestion": "",
-  "publishTo": "content/weeknote/issues/002.json",
+  "publishTo": "content/life-issues/issues/002.json",
   "note": "WHY（100〜200字）とNEXT QUESTIONを本人確認後に追記し、statusをpublished、publishedAtを公開日にしてpublishToへ保存すると公開されます。"
 }

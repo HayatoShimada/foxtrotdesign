@@ -1,14 +1,14 @@
 import fs from "fs/promises";
 import path from "path";
 import {
-  isWeeknoteThought,
-  WeeknoteThought,
-} from "./weeknote-thought";
+  isLifeIssueThought,
+  LifeIssueThought,
+} from "./life-issue-thought";
 
-export type WeeknoteSource = "notecom" | "github" | "bluesky";
+export type LifeIssueSource = "notecom" | "github" | "bluesky";
 
-export interface WeeknoteEntry {
-  source: WeeknoteSource;
+export interface LifeIssueEntry {
+  source: LifeIssueSource;
   title: string;
   excerpt: string;
   url: string;
@@ -16,27 +16,27 @@ export interface WeeknoteEntry {
   imageUrl?: string;
 }
 
-export interface WeeknoteIssue {
+export interface LifeIssue {
   status: "published";
   issue: number;
   publishedAt: string;
   periodStart: string;
   periodEnd: string;
-  made: WeeknoteEntry[];
-  found: WeeknoteEntry;
+  made: LifeIssueEntry[];
+  found: LifeIssueEntry;
   why: string;
   nextQuestion: string;
-  aiThoughts?: WeeknoteThought[];
+  aiThoughts?: LifeIssueThought[];
 }
 
-const weeknoteDirectory = path.join(
+const lifeIssueDirectory = path.join(
   process.cwd(),
   "content",
-  "weeknote",
+  "life-issues",
   "issues"
 );
 
-export const weeknoteSourceLabels: Record<WeeknoteSource, string> = {
+export const lifeIssueSourceLabels: Record<LifeIssueSource, string> = {
   github: "GitHub",
   notecom: "note.com",
   bluesky: "Bluesky",
@@ -59,7 +59,7 @@ export function formatJapaneseDateRange(start: string, end: string): string {
   return `${formatJapaneseDate(start)} — ${formatJapaneseDate(end)}`;
 }
 
-function isWeeknoteEntry(value: unknown): value is WeeknoteEntry {
+function isLifeIssueEntry(value: unknown): value is LifeIssueEntry {
   if (!value || typeof value !== "object") return false;
 
   const entry = value as Record<string, unknown>;
@@ -81,9 +81,9 @@ function isWeeknoteEntry(value: unknown): value is WeeknoteEntry {
 function parsePublishedIssue(
   value: unknown,
   fileName: string
-): WeeknoteIssue {
+): LifeIssue {
   if (!value || typeof value !== "object") {
-    throw new Error(`${fileName}: WEEKNOTEのJSON形式が正しくありません`);
+    throw new Error(`${fileName}: LIFE ISSUESのJSON形式が正しくありません`);
   }
 
   const issue = value as Record<string, unknown>;
@@ -103,15 +103,15 @@ function parsePublishedIssue(
     Array.isArray(issue.made) &&
     issue.made.length > 0 &&
     issue.made.length <= 3 &&
-    issue.made.every(isWeeknoteEntry) &&
-    isWeeknoteEntry(issue.found) &&
+    issue.made.every(isLifeIssueEntry) &&
+    isLifeIssueEntry(issue.found) &&
     whyLength >= 100 &&
     whyLength <= 200 &&
     typeof issue.nextQuestion === "string" &&
     issue.nextQuestion.trim().length > 0 &&
     (issue.aiThoughts === undefined ||
       (Array.isArray(issue.aiThoughts) &&
-        issue.aiThoughts.every(isWeeknoteThought)));
+        issue.aiThoughts.every(isLifeIssueThought)));
 
   if (!isValid) {
     throw new Error(
@@ -119,7 +119,7 @@ function parsePublishedIssue(
     );
   }
 
-  const parsed = issue as unknown as WeeknoteIssue;
+  const parsed = issue as unknown as LifeIssue;
   if (`${formatIssueNumber(parsed.issue)}.json` !== fileName) {
     throw new Error(`${fileName}: ファイル名とissue番号が一致していません`);
   }
@@ -127,11 +127,11 @@ function parsePublishedIssue(
   return parsed;
 }
 
-export async function getPublishedWeeknotes(): Promise<WeeknoteIssue[]> {
+export async function getPublishedLifeIssues(): Promise<LifeIssue[]> {
   let fileNames: string[];
 
   try {
-    fileNames = await fs.readdir(weeknoteDirectory);
+    fileNames = await fs.readdir(lifeIssueDirectory);
   } catch (error) {
     if ((error as NodeJS.ErrnoException).code === "ENOENT") return [];
     throw error;
@@ -142,7 +142,7 @@ export async function getPublishedWeeknotes(): Promise<WeeknoteIssue[]> {
       .filter((fileName) => /^\d{3}\.json$/.test(fileName))
       .map(async (fileName) => {
         const raw = await fs.readFile(
-          path.join(weeknoteDirectory, fileName),
+          path.join(lifeIssueDirectory, fileName),
           "utf-8"
         );
         return parsePublishedIssue(JSON.parse(raw), fileName);
@@ -152,17 +152,17 @@ export async function getPublishedWeeknotes(): Promise<WeeknoteIssue[]> {
   return issues.sort((a, b) => b.issue - a.issue);
 }
 
-export async function getLatestWeeknote(): Promise<WeeknoteIssue | null> {
-  const issues = await getPublishedWeeknotes();
+export async function getLatestLifeIssue(): Promise<LifeIssue | null> {
+  const issues = await getPublishedLifeIssues();
   return issues[0] ?? null;
 }
 
-export async function getWeeknote(
+export async function getLifeIssue(
   issueNumber: string
-): Promise<WeeknoteIssue | null> {
+): Promise<LifeIssue | null> {
   if (!/^\d{3}$/.test(issueNumber)) return null;
 
-  const issues = await getPublishedWeeknotes();
+  const issues = await getPublishedLifeIssues();
   return (
     issues.find((issue) => formatIssueNumber(issue.issue) === issueNumber) ??
     null

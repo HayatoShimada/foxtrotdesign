@@ -1,12 +1,12 @@
 import {
   thoughtSourceLabels,
-  WeeknoteThought,
-} from "@/lib/weeknote-thought";
+  LifeIssueThought,
+} from "@/lib/life-issue-thought";
 
-export function WeeknoteThoughts({
+export function LifeIssueThoughts({
   thoughts,
 }: {
-  thoughts: WeeknoteThought[];
+  thoughts: LifeIssueThought[];
 }) {
   if (thoughts.length === 0) return null;
 

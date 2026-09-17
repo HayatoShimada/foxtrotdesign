@@ -7,16 +7,16 @@ import Parser from "rss-parser";
 import {
   getThoughtSourceConfigPath,
   readThoughtDraft,
-  WeeknoteThoughtDraft,
-  WeeknoteThoughtDraftEntry,
-  WeeknoteThoughtSourceKind,
+  LifeIssueThoughtDraft,
+  LifeIssueThoughtDraftEntry,
+  LifeIssueThoughtSourceKind,
   writeThoughtDraft,
-} from "../lib/weeknote-thought";
+} from "../lib/life-issue-thought";
 import {
   formatIssueNumber,
-  getWeeknote,
-  WeeknoteIssue,
-} from "../lib/weeknote";
+  getLifeIssue,
+  LifeIssue,
+} from "../lib/life-issue";
 import { NoteArticle } from "../lib/aggregators/notecom";
 import { SummarizedContent } from "../lib/types";
 
@@ -35,7 +35,7 @@ interface ThoughtSourceConfig {
 
 interface Evidence {
   id: string;
-  kind: WeeknoteThoughtSourceKind;
+  kind: LifeIssueThoughtSourceKind;
   title: string;
   url: string;
   content: string;
@@ -49,7 +49,7 @@ interface GeminiThought {
 const parser = new Parser();
 const researchDirectory = `${process.cwd()}/content/research`;
 const modelName =
-  process.env.WEEKNOTE_THOUGHT_MODEL || "gemini-3.5-flash";
+  process.env.LIFE_ISSUE_THOUGHT_MODEL || "gemini-3.5-flash";
 
 function getArgument(name: string): string | undefined {
   const index = process.argv.indexOf(`--${name}`);
@@ -60,7 +60,7 @@ function requireIssueNumber(): number {
   const value = getArgument("issue");
   const issue = Number(value);
   if (!value || !Number.isInteger(issue) || issue < 1) {
-    throw new Error("--issue に公開済みWEEKNOTEの号数を指定してください");
+    throw new Error("--issue に公開済みLIFE ISSUESの号数を指定してください");
   }
   return issue;
 }
@@ -114,7 +114,7 @@ function pageTitle(html: string, fallback: string): string {
 async function fetchText(url: string): Promise<string> {
   const response = await fetch(url, {
     headers: {
-      "User-Agent": "foxtrotdesign-weeknote-thought/1.0",
+      "User-Agent": "foxtrotdesign-life-issue-thought/1.0",
     },
     signal: AbortSignal.timeout(15_000),
   });
@@ -232,9 +232,9 @@ async function collectEvidence(
 }
 
 function buildPrompt(
-  issue: WeeknoteIssue,
+  issue: LifeIssue,
   evidence: Evidence[],
-  draft: WeeknoteThoughtDraft | null
+  draft: LifeIssueThoughtDraft | null
 ): string {
   const previous = draft?.entries
     .map((entry) => `- ${entry.conclusion}`)
@@ -246,7 +246,7 @@ function buildPrompt(
     )
     .join("\n\n---\n\n");
 
-  return `あなたはHayatoShimada AIです。WEEKNOTEの「次の問い」について、収集資料を読んで短く考えてください。
+  return `あなたはHayatoShimada AIです。LIFE ISSUESの「次の問い」について、収集資料を読んで短く考えてください。
 
 話し方:
 - 友人や店頭のお客さんと話すような、肩の力が抜けた自然な日本語
@@ -316,7 +316,7 @@ function parseGeminiThought(
 function nextEntryId(
   issue: number,
   collectedAt: string,
-  draft: WeeknoteThoughtDraft | null
+  draft: LifeIssueThoughtDraft | null
 ): string {
   const date = collectedAt.slice(0, 10).replaceAll("-", "");
   const prefix = `${formatIssueNumber(issue)}-${date}-`;
@@ -329,13 +329,13 @@ function nextEntryId(
 async function main() {
   const issueNumber = requireIssueNumber();
   const [issue, config, existingDraft] = await Promise.all([
-    getWeeknote(formatIssueNumber(issueNumber)),
+    getLifeIssue(formatIssueNumber(issueNumber)),
     readJson<ThoughtSourceConfig>(getThoughtSourceConfigPath(issueNumber)),
     readThoughtDraft(issueNumber),
   ]);
 
   if (!issue) {
-    throw new Error(`WEEKNOTE #${formatIssueNumber(issueNumber)} は未公開です`);
+    throw new Error(`LIFE ISSUES #${formatIssueNumber(issueNumber)} は未公開です`);
   }
   if (config.issue !== issueNumber) {
     throw new Error("思考ソース設定のissueが一致していません");
@@ -352,7 +352,7 @@ async function main() {
   }
 
   console.log(
-    `Collecting cheap sources for WEEKNOTE #${formatIssueNumber(issueNumber)}...`
+    `Collecting cheap sources for LIFE ISSUES #${formatIssueNumber(issueNumber)}...`
   );
   const evidence = await collectEvidence(config);
   if (evidence.length < 2) {
@@ -374,12 +374,12 @@ async function main() {
   const generated = parseGeminiThought(result.response.text(), evidence);
   const evidenceById = new Map(evidence.map((item) => [item.id, item]));
   const collectedAt =
-    process.env.WEEKNOTE_THOUGHT_DATE || new Date().toISOString();
+    process.env.LIFE_ISSUE_THOUGHT_DATE || new Date().toISOString();
   if (Number.isNaN(Date.parse(collectedAt))) {
-    throw new Error("WEEKNOTE_THOUGHT_DATEはISO 8601形式で指定してください");
+    throw new Error("LIFE_ISSUE_THOUGHT_DATEはISO 8601形式で指定してください");
   }
 
-  const entry: WeeknoteThoughtDraftEntry = {
+  const entry: LifeIssueThoughtDraftEntry = {
     id: nextEntryId(issueNumber, collectedAt, existingDraft),
     status: "draft",
     collectedAt,
@@ -394,7 +394,7 @@ async function main() {
       };
     }),
   };
-  const draft: WeeknoteThoughtDraft = {
+  const draft: LifeIssueThoughtDraft = {
     issue: issueNumber,
     question: issue.nextQuestion,
     model: modelName,
@@ -404,7 +404,7 @@ async function main() {
   await writeThoughtDraft(draft);
   console.log(`Drafted ${entry.id} with ${entry.sources.length} sources.`);
   console.log(
-    `Review with: npm run weeknote:thought:show -- --issue ${issueNumber} --entry ${entry.id}`
+    `Review with: npm run life-issue:thought:show -- --issue ${issueNumber} --entry ${entry.id}`
   );
   console.log("Nothing was published.");
 }

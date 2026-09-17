@@ -93,7 +93,7 @@ function NavItems({ onClick }: { onClick?: () => void }) {
   const pathname = usePathname();
   const items = [
     ["/", "Home"],
-    ["/weeknote", "Weeknote"],
+    ["/life-issues", "Life Issues"],
     ["/about", "About"],
     ["/research", "Research"],
     ["/timeline", "Timeline"],

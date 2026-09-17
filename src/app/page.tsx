@@ -1,38 +1,38 @@
 import Link from "next/link";
 import { Container } from "@/components/Container";
-import { WeeknoteThoughts } from "@/components/weeknote/WeeknoteThoughts";
+import { LifeIssueThoughts } from "@/components/life-issues/LifeIssueThoughts";
 import {
   formatIssueNumber,
   formatJapaneseDate,
   formatJapaneseDateRange,
-  getLatestWeeknote,
-  weeknoteSourceLabels,
-} from "@/lib/weeknote";
+  getLatestLifeIssue,
+  lifeIssueSourceLabels,
+} from "@/lib/life-issue";
 
 export default async function Home() {
-  const latestWeeknote = await getLatestWeeknote();
+  const latestLifeIssue = await getLatestLifeIssue();
 
   return (
     <Container>
       <div className="space-y-12">
-        {latestWeeknote ? (
+        {latestLifeIssue ? (
           <article>
             <header className="border-b border-foreground pb-8">
               <div className="flex items-start justify-between gap-6">
                 <div>
                   <p className="mb-2 text-xs font-bold tracking-[0.2em]">
-                    LATEST WEEKNOTE
+                    LATEST LIFE ISSUES
                   </p>
                   <h1 className="font-serif text-5xl font-bold md:text-6xl">
-                    #{formatIssueNumber(latestWeeknote.issue)}
+                    #{formatIssueNumber(latestLifeIssue.issue)}
                   </h1>
                 </div>
                 <p className="text-right text-xs text-muted">
-                  {formatJapaneseDate(latestWeeknote.publishedAt)}
+                  {formatJapaneseDate(latestLifeIssue.publishedAt)}
                   <br />
                   {formatJapaneseDateRange(
-                    latestWeeknote.periodStart,
-                    latestWeeknote.periodEnd
+                    latestLifeIssue.periodStart,
+                    latestLifeIssue.periodEnd
                   )}
                 </p>
               </div>
@@ -41,7 +41,7 @@ export default async function Home() {
             <section className="grid gap-5 border-b border-foreground py-8 md:grid-cols-[8rem_1fr]">
               <h2 className="text-xs font-bold tracking-[0.2em]">01 / MADE</h2>
               <div className="divide-y divide-border">
-                {latestWeeknote.made.map((entry) => (
+                {latestLifeIssue.made.map((entry) => (
                   <a
                     key={entry.url}
                     href={entry.url}
@@ -51,7 +51,7 @@ export default async function Home() {
                   >
                     <span className="font-bold">{entry.title} ↗</span>
                     <span className="shrink-0 text-[0.65rem] text-muted">
-                      {weeknoteSourceLabels[entry.source]}
+                      {lifeIssueSourceLabels[entry.source]}
                     </span>
                   </a>
                 ))}
@@ -61,19 +61,19 @@ export default async function Home() {
             <section className="grid gap-5 border-b border-foreground py-8 md:grid-cols-[8rem_1fr]">
               <h2 className="text-xs font-bold tracking-[0.2em]">02 / FOUND</h2>
               <a
-                href={latestWeeknote.found.url}
+                href={latestLifeIssue.found.url}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-bold hover:underline"
               >
-                {latestWeeknote.found.title} ↗
+                {latestLifeIssue.found.title} ↗
               </a>
             </section>
 
             <section className="grid gap-5 border-b border-foreground py-8 md:grid-cols-[8rem_1fr]">
               <h2 className="text-xs font-bold tracking-[0.2em]">03 / WHY</h2>
               <p className="whitespace-pre-line text-base leading-loose">
-                {latestWeeknote.why}
+                {latestLifeIssue.why}
               </p>
             </section>
 
@@ -83,26 +83,26 @@ export default async function Home() {
               </h2>
               <div className="space-y-6">
                 <p className="whitespace-pre-line text-base leading-loose">
-                  {latestWeeknote.nextQuestion}
+                  {latestLifeIssue.nextQuestion}
                 </p>
-                {latestWeeknote.aiThoughts && (
-                  <WeeknoteThoughts thoughts={latestWeeknote.aiThoughts} />
+                {latestLifeIssue.aiThoughts && (
+                  <LifeIssueThoughts thoughts={latestLifeIssue.aiThoughts} />
                 )}
                 <Link
-                  href={`/weeknote/${formatIssueNumber(latestWeeknote.issue)}`}
+                  href={`/life-issues/${formatIssueNumber(latestLifeIssue.issue)}`}
                   className="inline-block border border-foreground px-4 py-2 font-bold shadow-brutal-sm transition-shadow hover:shadow-brutal-md"
                 >
-                  ISSUE #{formatIssueNumber(latestWeeknote.issue)} を読む →
+                  ISSUE #{formatIssueNumber(latestLifeIssue.issue)} を読む →
                 </Link>
               </div>
             </section>
           </article>
         ) : (
           <section className="border border-foreground p-6 shadow-brutal-sm">
-            <p className="mb-2 text-xs font-bold tracking-[0.2em]">WEEKNOTE</p>
+            <p className="mb-2 text-xs font-bold tracking-[0.2em]">LIFE ISSUES</p>
             <h1 className="mb-3 font-serif text-4xl font-bold">創刊準備中</h1>
-            <Link href="/weeknote" className="font-bold hover:underline">
-              WEEKNOTEについて →
+            <Link href="/life-issues" className="font-bold hover:underline">
+              LIFE ISSUESについて →
             </Link>
           </section>
         )}
@@ -111,7 +111,7 @@ export default async function Home() {
           <p className="mb-4 text-xs font-bold tracking-[0.2em]">DIRECTORY</p>
           <div className="grid grid-cols-2 border-l border-t border-foreground md:grid-cols-5">
             {[
-              ["/weeknote", "WEEKNOTE"],
+              ["/life-issues", "LIFE ISSUES"],
               ["/about", "ABOUT"],
               ["/research", "RESEARCH"],
               ["/timeline", "TIMELINE"],

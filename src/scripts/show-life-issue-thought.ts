@@ -1,8 +1,8 @@
 import {
   readThoughtDraft,
   thoughtSourceLabels,
-} from "../lib/weeknote-thought";
-import { formatIssueNumber } from "../lib/weeknote";
+} from "../lib/life-issue-thought";
+import { formatIssueNumber } from "../lib/life-issue";
 
 function getArgument(name: string): string | undefined {
   const index = process.argv.indexOf(`--${name}`);
@@ -13,7 +13,7 @@ function requireIssueNumber(): number {
   const value = getArgument("issue");
   const issue = Number(value);
   if (!value || !Number.isInteger(issue) || issue < 1) {
-    throw new Error("--issue にWEEKNOTEの号数を指定してください");
+    throw new Error("--issue にLIFE ISSUESの号数を指定してください");
   }
   return issue;
 }
@@ -24,7 +24,7 @@ async function main() {
   const draft = await readThoughtDraft(issue);
   if (!draft) {
     throw new Error(
-      `WEEKNOTE #${formatIssueNumber(issue)} の思考ドラフトがありません`
+      `LIFE ISSUES #${formatIssueNumber(issue)} の思考ドラフトがありません`
     );
   }
 
@@ -49,7 +49,7 @@ async function main() {
       )
       .join("\n");
 
-    console.log(`【WEEKNOTE #${formatIssueNumber(issue)} / 公開前確認】
+    console.log(`【LIFE ISSUES #${formatIssueNumber(issue)} / 公開前確認】
 
 次の問い:
 ${draft.question}
@@ -62,7 +62,7 @@ ${sources}
 
 下書きID: ${entry.id}
 
-この追記をWEEKNOTEで公開してよければ「OK」と返信してください。
+この追記をLIFE ISSUESで公開してよければ「OK」と返信してください。
 直したい場合は、その内容をこのProjectチャットに書いてください。
 ---
 `);

@@ -98,12 +98,12 @@ export default function AboutPage() {
           <h2 className="mb-4 text-2xl font-bold">Explore</h2>
           <div className="space-y-4">
             <Link
-              href="/weeknote"
+              href="/life-issues"
               className="block border border-foreground p-4 shadow-brutal-sm transition-shadow hover:shadow-brutal-md"
             >
-              <h3 className="mb-2 font-bold">WEEKNOTE →</h3>
+              <h3 className="mb-2 font-bold">LIFE ISSUES →</h3>
               <p className="text-xs text-muted">
-                一週間の制作と、次に考える問い。
+                つくったものと、次に考える問い。
               </p>
             </Link>
             <Link

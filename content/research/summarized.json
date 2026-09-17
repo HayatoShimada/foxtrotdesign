@@ -1,5 +1,80 @@
 [
   {
+    "id": "github-commit-a9a1839",
+    "source": "github",
+    "title": "foxtrotdesign",
+    "summary": "feat: フッターに Zenn へのリンクを追加\n\nzenn.dev/85store へのリンクを GitHub / note.com / Bluesky と同じ形で追加。\nロゴは公式のものを使い、fill を currentColor にしてライト/ダークの\n両テーマで色が追従するようにした。\n\nCo-Authored-By: Claude Opus 5 (1M context) <norep",
+    "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/a9a1839c7e6101a66186565d1fe899b692ab9a7a",
+    "imageUrls": [],
+    "publishedAt": "2026-09-17T05:20:43Z",
+    "metadata": {
+      "repo": "foxtrotdesign",
+      "repoUrl": "https://github.com/HayatoShimada/foxtrotdesign",
+      "sha": "a9a1839",
+      "language": "TypeScript"
+    }
+  },
+  {
+    "id": "github-commit-c600cb1",
+    "source": "github",
+    "title": "foxtrotdesign",
+    "summary": "Merge pull request #7 from HayatoShimada/cursor/unify-weeknote-voice-41e8\n\nWEEKNOTEの思考をひとつの声として表示する",
+    "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/c600cb1474dfce7aa2aedba7fa58388f1cc5310a",
+    "imageUrls": [],
+    "publishedAt": "2026-09-16T16:02:10Z",
+    "metadata": {
+      "repo": "foxtrotdesign",
+      "repoUrl": "https://github.com/HayatoShimada/foxtrotdesign",
+      "sha": "c600cb1",
+      "language": "TypeScript"
+    }
+  },
+  {
+    "id": "github-commit-634cfcb",
+    "source": "github",
+    "title": "foxtrotdesign",
+    "summary": "feat: add disclosure policy and pre-commit guard\n\n公開サイトへ非公開情報が出ないようにする二層の仕組みを追加。\n\n- AGENTS.md: エージェント向けの情報取り扱い規約。参照してよい\n  非公開ソース(/srv/silverbullet*)と、公開してはいけない情報を定義\n- .cursor/rules/disclosure.mdc: Cur",
+    "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/634cfcbb456384f33bb0e4c9e119f1458d25b31f",
+    "imageUrls": [],
+    "publishedAt": "2026-09-16T09:16:44Z",
+    "metadata": {
+      "repo": "foxtrotdesign",
+      "repoUrl": "https://github.com/HayatoShimada/foxtrotdesign",
+      "sha": "634cfcb",
+      "language": "TypeScript"
+    }
+  },
+  {
+    "id": "github-commit-a8fa0dc",
+    "source": "github",
+    "title": "foxtrotdesign",
+    "summary": "Unify WEEKNOTE thought presentation\n\nCo-authored-by: HayatoShimada <HayatoShimada@users.noreply.github.com>",
+    "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/a8fa0dcb739077e4946408d2b9d5610ce536e80f",
+    "imageUrls": [],
+    "publishedAt": "2026-09-16T02:20:50Z",
+    "metadata": {
+      "repo": "foxtrotdesign",
+      "repoUrl": "https://github.com/HayatoShimada/foxtrotdesign",
+      "sha": "a8fa0dc",
+      "language": "TypeScript"
+    }
+  },
+  {
+    "id": "github-commit-08c83e6",
+    "source": "github",
+    "title": "foxtrotdesign",
+    "summary": "Merge pull request #6 from HayatoShimada/cursor/ai-thought-collector-56bf\n\nCo-authored-by: HayatoShimada <HayatoShimada@users.noreply.github.com>",
+    "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/08c83e6f517db99477b50c2a2310ee4469fdff7b",
+    "imageUrls": [],
+    "publishedAt": "2026-09-16T02:01:39Z",
+    "metadata": {
+      "repo": "foxtrotdesign",
+      "repoUrl": "https://github.com/HayatoShimada/foxtrotdesign",
+      "sha": "08c83e6",
+      "language": "TypeScript"
+    }
+  },
+  {
     "id": "github-commit-f845127",
     "source": "github",
     "title": "foxtrotdesign",

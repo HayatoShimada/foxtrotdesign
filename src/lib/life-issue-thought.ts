@@ -1,42 +1,42 @@
 import fs from "fs/promises";
 import path from "path";
 
-export type WeeknoteThoughtSourceKind = "github" | "notecom" | "rss" | "page";
+export type LifeIssueThoughtSourceKind = "github" | "notecom" | "rss" | "page";
 
-export interface WeeknoteThoughtSource {
-  kind: WeeknoteThoughtSourceKind;
+export interface LifeIssueThoughtSource {
+  kind: LifeIssueThoughtSourceKind;
   title: string;
   url: string;
 }
 
-export interface WeeknoteThought {
+export interface LifeIssueThought {
   id: string;
   collectedAt: string;
   publishedAt: string;
   conclusion: string;
-  sources: WeeknoteThoughtSource[];
+  sources: LifeIssueThoughtSource[];
 }
 
-export interface WeeknoteThoughtDraftEntry {
+export interface LifeIssueThoughtDraftEntry {
   id: string;
   status: "draft" | "published";
   collectedAt: string;
   publishedAt?: string;
   conclusion: string;
-  sources: WeeknoteThoughtSource[];
+  sources: LifeIssueThoughtSource[];
 }
 
-export interface WeeknoteThoughtDraft {
+export interface LifeIssueThoughtDraft {
   issue: number;
   question: string;
   model: string;
-  entries: WeeknoteThoughtDraftEntry[];
+  entries: LifeIssueThoughtDraftEntry[];
 }
 
 const thoughtDirectory = path.join(
   process.cwd(),
   "content",
-  "weeknote",
+  "life-issues",
   "thoughts"
 );
 
@@ -44,7 +44,7 @@ function formatIssueNumber(issue: number): string {
   return String(issue).padStart(3, "0");
 }
 
-export const thoughtSourceLabels: Record<WeeknoteThoughtSourceKind, string> = {
+export const thoughtSourceLabels: Record<LifeIssueThoughtSourceKind, string> = {
   github: "GitHub",
   notecom: "note.com",
   rss: "RSS",
@@ -75,9 +75,9 @@ export function getThoughtSourceConfigPath(issue: number): string {
   );
 }
 
-export function isWeeknoteThoughtSource(
+export function isLifeIssueThoughtSource(
   value: unknown
-): value is WeeknoteThoughtSource {
+): value is LifeIssueThoughtSource {
   if (!value || typeof value !== "object") return false;
 
   const source = value as Record<string, unknown>;
@@ -109,14 +109,14 @@ function hasValidThoughtContent(value: Record<string, unknown>): boolean {
     Array.isArray(value.sources) &&
     value.sources.length >= 2 &&
     value.sources.length <= 4 &&
-    value.sources.every(isWeeknoteThoughtSource) &&
+    value.sources.every(isLifeIssueThoughtSource) &&
     new Set(
-      (value.sources as WeeknoteThoughtSource[]).map((source) => source.url)
+      (value.sources as LifeIssueThoughtSource[]).map((source) => source.url)
     ).size === value.sources.length
   );
 }
 
-export function isWeeknoteThought(value: unknown): value is WeeknoteThought {
+export function isLifeIssueThought(value: unknown): value is LifeIssueThought {
   if (!value || typeof value !== "object") return false;
 
   const thought = value as Record<string, unknown>;
@@ -130,7 +130,7 @@ export function isWeeknoteThought(value: unknown): value is WeeknoteThought {
 export function parseThoughtDraft(
   value: unknown,
   expectedIssue?: number
-): WeeknoteThoughtDraft {
+): LifeIssueThoughtDraft {
   if (!value || typeof value !== "object") {
     throw new Error("思考ドラフトのJSON形式が正しくありません");
   }
@@ -163,7 +163,7 @@ export function parseThoughtDraft(
     );
   }
 
-  const parsed = draft as unknown as WeeknoteThoughtDraft;
+  const parsed = draft as unknown as LifeIssueThoughtDraft;
   if (new Set(parsed.entries.map((entry) => entry.id)).size !== entries.length) {
     throw new Error("思考ドラフトのentry idが重複しています");
   }
@@ -173,7 +173,7 @@ export function parseThoughtDraft(
 
 export async function readThoughtDraft(
   issue: number
-): Promise<WeeknoteThoughtDraft | null> {
+): Promise<LifeIssueThoughtDraft | null> {
   try {
     const raw = await fs.readFile(getThoughtDraftPath(issue), "utf-8");
     return parseThoughtDraft(JSON.parse(raw), issue);
@@ -184,7 +184,7 @@ export async function readThoughtDraft(
 }
 
 export function thoughtDraftToMarkdown(
-  draft: WeeknoteThoughtDraft
+  draft: LifeIssueThoughtDraft
 ): string {
   const issueNumber = formatIssueNumber(draft.issue);
   const entries =
@@ -213,9 +213,9 @@ ${sources}`;
           })
           .join("\n\n");
 
-  return `# WEEKNOTE #${issueNumber} — 追記の公開前確認
+  return `# LIFE ISSUES #${issueNumber} — 追記の公開前確認
 
-> このファイルは下書きです。WEEKNOTEの公開号からは読み込まれません。
+> このファイルは下書きです。LIFE ISSUESの公開号からは読み込まれません。
 > ProjectチャットでHayatoのOKを受けるまで公開しないでください。
 
 ## 次の問い
@@ -229,19 +229,19 @@ ${entries}
 確認用テキストは次のコマンドで出力します。
 
 \`\`\`bash
-npm run weeknote:thought:show -- --issue ${draft.issue}
+npm run life-issue:thought:show -- --issue ${draft.issue}
 \`\`\`
 
 OK後、確認された1件だけを公開号へ追加します。
 
 \`\`\`bash
-npm run weeknote:thought:publish -- --issue ${draft.issue} --entry <ENTRY_ID> --confirmed-in-project-chat
+npm run life-issue:thought:publish -- --issue ${draft.issue} --entry <ENTRY_ID> --confirmed-in-project-chat
 \`\`\`
 `;
 }
 
 export async function writeThoughtDraft(
-  draft: WeeknoteThoughtDraft
+  draft: LifeIssueThoughtDraft
 ): Promise<void> {
   parseThoughtDraft(draft, draft.issue);
 

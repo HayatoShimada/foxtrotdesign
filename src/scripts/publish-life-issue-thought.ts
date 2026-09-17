@@ -1,16 +1,16 @@
 import fs from "fs/promises";
 import path from "path";
 import {
-  isWeeknoteThought,
+  isLifeIssueThought,
   readThoughtDraft,
-  WeeknoteThought,
+  LifeIssueThought,
   writeThoughtDraft,
-} from "../lib/weeknote-thought";
+} from "../lib/life-issue-thought";
 import {
   formatIssueNumber,
-  getWeeknote,
-  WeeknoteIssue,
-} from "../lib/weeknote";
+  getLifeIssue,
+  LifeIssue,
+} from "../lib/life-issue";
 
 function getArgument(name: string): string | undefined {
   const index = process.argv.indexOf(`--${name}`);
@@ -21,7 +21,7 @@ function requireIssueNumber(): number {
   const value = getArgument("issue");
   const issue = Number(value);
   if (!value || !Number.isInteger(issue) || issue < 1) {
-    throw new Error("--issue に公開済みWEEKNOTEの号数を指定してください");
+    throw new Error("--issue に公開済みLIFE ISSUESの号数を指定してください");
   }
   return issue;
 }
@@ -42,11 +42,11 @@ async function main() {
   }
 
   const [issue, draft] = await Promise.all([
-    getWeeknote(formatIssueNumber(issueNumber)),
+    getLifeIssue(formatIssueNumber(issueNumber)),
     readThoughtDraft(issueNumber),
   ]);
   if (!issue) {
-    throw new Error(`WEEKNOTE #${formatIssueNumber(issueNumber)} は未公開です`);
+    throw new Error(`LIFE ISSUES #${formatIssueNumber(issueNumber)} は未公開です`);
   }
   if (!draft) {
     throw new Error("思考ドラフトがありません");
@@ -66,26 +66,26 @@ async function main() {
   }
 
   const publishedAt =
-    process.env.WEEKNOTE_THOUGHT_PUBLISHED_AT || new Date().toISOString();
-  const thought: WeeknoteThought = {
+    process.env.LIFE_ISSUE_THOUGHT_PUBLISHED_AT || new Date().toISOString();
+  const thought: LifeIssueThought = {
     id: draftEntry.id,
     collectedAt: draftEntry.collectedAt,
     publishedAt,
     conclusion: draftEntry.conclusion,
     sources: draftEntry.sources,
   };
-  if (!isWeeknoteThought(thought)) {
+  if (!isLifeIssueThought(thought)) {
     throw new Error("公開しようとした思考データが無効です");
   }
 
-  const updatedIssue: WeeknoteIssue = {
+  const updatedIssue: LifeIssue = {
     ...issue,
     aiThoughts: [...(issue.aiThoughts ?? []), thought],
   };
   const issuePath = path.join(
     process.cwd(),
     "content",
-    "weeknote",
+    "life-issues",
     "issues",
     `${formatIssueNumber(issueNumber)}.json`
   );
@@ -104,7 +104,7 @@ async function main() {
   });
 
   console.log(
-    `Published ${entryId} to WEEKNOTE #${formatIssueNumber(issueNumber)}.`
+    `Published ${entryId} to LIFE ISSUES #${formatIssueNumber(issueNumber)}.`
   );
 }
 
