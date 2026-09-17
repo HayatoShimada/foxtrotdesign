@@ -1,7 +1,12 @@
 import fs from "fs/promises";
 import path from "path";
 
-export type LifeIssueThoughtSourceKind = "github" | "notecom" | "rss" | "page";
+export type LifeIssueThoughtSourceKind =
+  | "github"
+  | "notecom"
+  | "zenn"
+  | "rss"
+  | "page";
 
 export interface LifeIssueThoughtSource {
   kind: LifeIssueThoughtSourceKind;
@@ -47,6 +52,7 @@ function formatIssueNumber(issue: number): string {
 export const thoughtSourceLabels: Record<LifeIssueThoughtSourceKind, string> = {
   github: "GitHub",
   notecom: "note.com",
+  zenn: "Zenn",
   rss: "RSS",
   page: "PUBLIC PAGE",
 };

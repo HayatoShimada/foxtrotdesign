@@ -74,8 +74,14 @@ export async function batchSummarize(
 ): Promise<SummarizedContent[]> {
   // GitHub items: use content as-is, no Gemini
   const githubItems = items.filter((item) => item.source === "github");
-  // note.com and Bluesky items: check cache, summarize new ones
-  const geminiSourceItems = items.filter((item) => item.source === "notecom" || item.source === "bluesky");
+  // note.com / Bluesky / Zenn items: check cache, summarize new ones
+  // 新しい source をここに足し忘れると、その source は黙って捨てられる
+  const geminiSourceItems = items.filter(
+    (item) =>
+      item.source === "notecom" ||
+      item.source === "bluesky" ||
+      item.source === "zenn"
+  );
 
   const githubResults = githubItems.map(contentToSummary);
 

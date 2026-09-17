@@ -5,6 +5,7 @@ const sourceLabels: Record<string, string> = {
   notecom: "note.com",
   github: "GitHub",
   bluesky: "Bluesky",
+  zenn: "Zenn",
 };
 
 export function ResearchItem({ item }: { item: SummarizedContent }) {

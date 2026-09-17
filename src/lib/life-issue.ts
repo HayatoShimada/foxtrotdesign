@@ -5,7 +5,7 @@ import {
   LifeIssueThought,
 } from "./life-issue-thought";
 
-export type LifeIssueSource = "notecom" | "github" | "bluesky";
+export type LifeIssueSource = "notecom" | "github" | "bluesky" | "zenn";
 
 export interface LifeIssueEntry {
   source: LifeIssueSource;
@@ -40,6 +40,7 @@ export const lifeIssueSourceLabels: Record<LifeIssueSource, string> = {
   github: "GitHub",
   notecom: "note.com",
   bluesky: "Bluesky",
+  zenn: "Zenn",
 };
 
 export function formatIssueNumber(issue: number): string {

@@ -1,6 +1,6 @@
 export interface ContentItem {
   id: string;
-  source: "notecom" | "github" | "bluesky";
+  source: "notecom" | "github" | "bluesky" | "zenn";
   type: "article" | "commit" | "post";
   title: string;
   content: string;
@@ -12,7 +12,7 @@ export interface ContentItem {
 
 export interface SummarizedContent {
   id: string;
-  source: "notecom" | "github" | "bluesky";
+  source: "notecom" | "github" | "bluesky" | "zenn";
   title: string;
   summary: string;
   url: string;

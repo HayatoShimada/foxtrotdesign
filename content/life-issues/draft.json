@@ -14,27 +14,28 @@
     },
     {
       "source": "notecom",
+      "title": "古着の\"グラフチェックシャツ\"集めました",
+      "excerpt": "85-Storeの古着仕入れは1~2ヶ月に1回のスパンです。 その仕入れの中で、オープンしてから継続的に集めてきたアイテムの一つが「グラフチェックシャツ」になります。 グラフチェックとは？ 続きをみる",
+      "url": "https://note.com/85_store/n/n8aa8b41bcf7e",
+      "publishedAt": "2026-09-15T08:58:48.000Z",
+      "imageUrl": "https://assets.st-note.com/production/uploads/images/313963915/rectangle_large_type_2_7810aa9bf8c8b9e82513985818d838be.png?width=800"
+    },
+    {
+      "source": "notecom",
       "title": "【連載】評論失格〜それでも今キミが好きだ〜(1) PENNY FARTHINGのスイングトップ",
       "excerpt": "PENNY FARTHINGというのは前輪が大きいクラシックな自転車の総称らしい。 ギアという概念がまだ持ち込まれていない時代のエンジニアリングの中で、象徴的なデザインから様々なモチーフに使われているのは、技術者としては感慨深いモノがあったりするのだが、その名称をブランド名に冠したスイングトップを購入した。 私は社会人としてフィジカルAIという先端技術を、現…",
       "url": "https://note.com/85_store/n/n5985710838af",
       "publishedAt": "2026-09-14T12:29:02.000Z",
       "imageUrl": "https://assets.st-note.com/production/uploads/images/313693095/rectangle_large_type_2_69fad10c8652dd3d2da882362fe13d54.jpg?width=800"
-    },
-    {
-      "source": "notecom",
-      "title": "価値に関する3つの話",
-      "excerpt": "洋服屋をやっていると、色んな人の洋服に対する価値観に触れる事ができて面白いです。 セールになると必ず靴を3足買って、それを1年通して履き潰し、また1年後にもう3足買っていく人。 続きをみる",
-      "url": "https://note.com/85_store/n/ne657c13bbb68",
-      "publishedAt": "2026-09-13T18:06:02.000Z"
     }
   ],
   "found": {
-    "source": "notecom",
-    "title": "古着の\"グラフチェックシャツ\"集めました",
-    "excerpt": "85-Storeの古着仕入れは1~2ヶ月に1回のスパンです。 その仕入れの中で、オープンしてから継続的に集めてきたアイテムの一つが「グラフチェックシャツ」になります。 グラフチェックとは？ 続きをみる",
-    "url": "https://note.com/85_store/n/n8aa8b41bcf7e",
-    "publishedAt": "2026-09-15T08:58:48.000Z",
-    "imageUrl": "https://assets.st-note.com/production/uploads/images/313963915/rectangle_large_type_2_7810aa9bf8c8b9e82513985818d838be.png?width=800"
+    "source": "zenn",
+    "title": "【Obsidian・Notion卒業】AIと思考を共有する最適解",
+    "excerpt": "AIエージェントとメモを共有する Claude Codeなどのエージェントとメモ帳を共有している方は結構多いんじゃないでしょうか？ 私自身も、PARA×GTDでタスクとメモを管理しているのですが、その情報をエージェントに使ってもらい、思考を共有しながら日々の仕事をこなしたいと思うのは当然の欲求です。 AI連携メモとしてよく使われているアプリで言えば、Obsi…",
+    "url": "https://zenn.dev/85store/articles/3f0f6a1bd22bb8",
+    "publishedAt": "2026-09-17T03:42:40.000Z",
+    "imageUrl": "https://res.cloudinary.com/zenn/image/upload/s--gZwqyaOD--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%2590Obsidian%25E3%2583%25BBNotion%25E5%258D%2592%25E6%25A5%25AD%25E3%2580%2591AI%25E3%2581%25A8%25E6%2580%259D%25E8%2580%2583%25E3%2582%2592%25E5%2585%25B1%25E6%259C%2589%25E3%2581%2599%25E3%2582%258B%25E6%259C%2580%25E9%2581%25A9%25E8%25A7%25A3%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:85-Store%2520Engineer%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzNmNzI1YjEzZDUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE"
   },
   "why": "",
   "nextQuestion": "",

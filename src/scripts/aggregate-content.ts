@@ -8,6 +8,7 @@ import {
   fetchNoteComFullArticles,
 } from "../lib/aggregators/notecom";
 import { fetchBlueskyPosts } from "../lib/aggregators/bluesky";
+import { fetchZennArticles } from "../lib/aggregators/zenn";
 import { batchSummarize, updateNotePrompt } from "../lib/gemini";
 import { NoteArticle } from "../lib/aggregators/notecom";
 import { ContentItem, SummarizedContent } from "../lib/types";
@@ -39,21 +40,29 @@ async function main() {
   const githubUsername = process.env.GITHUB_USERNAME || "HayatoShimada";
   const noteUsername = process.env.NOTE_COM_USERNAME || "85_store";
   const blueskyHandle = process.env.BLUESKY_HANDLE || "85-store.bsky.social";
+  const zennUsername = process.env.ZENN_USERNAME || "85store";
 
-  const [githubItems, noteItems, blueskyItems, githubRepos] = await Promise.all([
-    fetchGitHubActivity(githubUsername),
-    fetchNoteComArticles(noteUsername),
-    fetchBlueskyPosts(blueskyHandle),
-    fetchGitHubRepos(githubUsername),
-  ]);
+  const [githubItems, noteItems, blueskyItems, zennItems, githubRepos] =
+    await Promise.all([
+      fetchGitHubActivity(githubUsername),
+      fetchNoteComArticles(noteUsername),
+      fetchBlueskyPosts(blueskyHandle),
+      fetchZennArticles(zennUsername),
+      fetchGitHubRepos(githubUsername),
+    ]);
 
-  const allItems: ContentItem[] = [...githubItems, ...noteItems, ...blueskyItems].sort(
+  const allItems: ContentItem[] = [
+    ...githubItems,
+    ...noteItems,
+    ...blueskyItems,
+    ...zennItems,
+  ].sort(
     (a, b) =>
       new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
   );
 
   console.log(
-    `Fetched ${allItems.length} items (GitHub: ${githubItems.length}, note.com: ${noteItems.length}, Bluesky: ${blueskyItems.length})`
+    `Fetched ${allItems.length} items (GitHub: ${githubItems.length}, note.com: ${noteItems.length}, Bluesky: ${blueskyItems.length}, Zenn: ${zennItems.length})`
   );
 
   // Save raw data

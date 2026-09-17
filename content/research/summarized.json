@@ -15,6 +15,20 @@
     }
   },
   {
+    "id": "zenn-https://zenn.dev/85store/articles/3f0f6a1bd22bb8",
+    "source": "zenn",
+    "title": "【Obsidian・Notion卒業】AIと思考を共有する最適解",
+    "summary": "AIエージェントとメモを共有する\nClaude Codeなどのエージェントとメモ帳を共有している方は結構多いんじゃないでしょうか？\n私自身も、PARA×GTDでタスクとメモを管理しているのですが、その情報をエージェントに使ってもらい、思考を共有しながら日々の仕事をこなしたいと思うのは当然の欲求です。\nAI連携メモとしてよく使われているアプリで言えば、Obsidian, Notionあたりかと思われ",
+    "url": "https://zenn.dev/85store/articles/3f0f6a1bd22bb8",
+    "imageUrls": [
+      "https://res.cloudinary.com/zenn/image/upload/s--gZwqyaOD--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%2590Obsidian%25E3%2583%25BBNotion%25E5%258D%2592%25E6%25A5%25AD%25E3%2580%2591AI%25E3%2581%25A8%25E6%2580%259D%25E8%2580%2583%25E3%2582%2592%25E5%2585%25B1%25E6%259C%2589%25E3%2581%2599%25E3%2582%258B%25E6%259C%2580%25E9%2581%25A9%25E8%25A7%25A3%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:85-Store%2520Engineer%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzNmNzI1YjEzZDUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE"
+    ],
+    "publishedAt": "2026-09-17T03:42:40.000Z",
+    "metadata": {
+      "categories": []
+    }
+  },
+  {
     "id": "github-commit-c600cb1",
     "source": "github",
     "title": "foxtrotdesign",
@@ -637,6 +651,20 @@
     }
   },
   {
+    "id": "zenn-https://zenn.dev/85store/articles/ff76b7cc06a822",
+    "source": "zenn",
+    "title": "ローカルGPUで使える\"勝手に切り抜き動画出力アプリ\"を開発した",
+    "summary": "平日は会社員。\n片手間に85-Storeという古着屋を運営しつつ、アプリ開発をしている、85-Storeのはやまると申します。\nhttps://85-store.com/\nお店のファン層に向けて、ビデオポッドキャストを撮って出ししています。\n=> 切り抜き動画も作りたい\n=> 時間がない\n=> GPUはある\nということでKirinuki Studioという長尺動画の切り抜きに特化したアプリを開発中",
+    "url": "https://zenn.dev/85store/articles/ff76b7cc06a822",
+    "imageUrls": [
+      "https://res.cloudinary.com/zenn/image/upload/s--V7vEWGbf--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%25AD%25E3%2583%25BC%25E3%2582%25AB%25E3%2583%25ABGPU%25E3%2581%25A7%25E4%25BD%25BF%25E3%2581%2588%25E3%2582%258B%2522%25E5%258B%259D%25E6%2589%258B%25E3%2581%25AB%25E5%2588%2587%25E3%2582%258A%25E6%258A%259C%25E3%2581%258D%25E5%258B%2595%25E7%2594%25BB%25E5%2587%25BA%25E5%258A%259B%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%2522%25E3%2582%2592%25E9%2596%258B%25E7%2599%25BA%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:85-Store%2520Engineer%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzNmNzI1YjEzZDUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE"
+    ],
+    "publishedAt": "2026-08-13T01:35:33.000Z",
+    "metadata": {
+      "categories": []
+    }
+  },
+  {
     "id": "github-commit-2818cd0",
     "source": "github",
     "title": "foxtrotdesign",
@@ -649,6 +677,20 @@
       "repoUrl": "https://github.com/HayatoShimada/foxtrotdesign",
       "sha": "2818cd0",
       "language": "TypeScript"
+    }
+  },
+  {
+    "id": "zenn-https://zenn.dev/85store/articles/0e64ef2de347eb",
+    "source": "zenn",
+    "title": "ROCm で対談動画の文字起こし・切り抜き自動生成〜CUDA環境からの以降で躓いたところ〜",
+    "summary": "こんにちは。エンジニアをしながら古着屋を運営しているはやまると申します。\nhttps://85-store.com/\n対談動画から文字起こしと切り抜きを作るローカルアプリを個人開発しています。\nもともと NVIDIA の RTX PRO 6000 で動かしていたのですが、開発機を Radeon RX 7900 XTX(ROCm 7.2) に載せ替えたところ、動くと思っていたものが軒並み動かなくなり",
+    "url": "https://zenn.dev/85store/articles/0e64ef2de347eb",
+    "imageUrls": [
+      "https://res.cloudinary.com/zenn/image/upload/s--xTxGn94q--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:ROCm%2520%25E3%2581%25A7%25E5%25AF%25BE%25E8%25AB%2587%25E5%258B%2595%25E7%2594%25BB%25E3%2581%25AE%25E6%2596%2587%25E5%25AD%2597%25E8%25B5%25B7%25E3%2581%2593%25E3%2581%2597%25E3%2583%25BB%25E5%2588%2587%25E3%2582%258A%25E6%258A%259C%25E3%2581%258D%25E8%2587%25AA%25E5%258B%2595%25E7%2594%259F%25E6%2588%2590%25E3%2580%259CCUDA%25E7%2592%25B0%25E5%25A2%2583%25E3%2581%258B%25E3%2582%2589%25E3%2581%25AE%25E4%25BB%25A5%25E9%2599%258D%25E3%2581%25A7%25E8%25BA%2593%25E3%2581%2584%25E3%2581%259F%25E3%2581%25A8%25E3%2581%2593%25E3%2582%258D%25E3%2580%259C%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:85-Store%2520Engineer%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzNmNzI1YjEzZDUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE"
+    ],
+    "publishedAt": "2026-08-08T00:09:30.000Z",
+    "metadata": {
+      "categories": []
     }
   },
   {
@@ -2387,6 +2429,62 @@
       "https://assets.st-note.com/img/1766417253-Z7uwaqgbizcpJHXCS4LhoFlN.jpg"
     ],
     "publishedAt": "2025-12-22T15:47:55.000Z",
+    "metadata": {
+      "categories": []
+    }
+  },
+  {
+    "id": "zenn-https://zenn.dev/85store/articles/b695e0d41bc92c",
+    "source": "zenn",
+    "title": "SNSを辞めた人へ贈るPWA戦略",
+    "summary": "はじめに\n私はfoxtrot design名義で、無償でのウェブ開発を行いながら、セレクトショップを経営しています。\nブログ\nセレクトショップ\n現在近所にある週末アートプレイス　くらし灯様のウェブページを制作中です。\nくらし灯について\nこのSNS時代にInstagramや各種SNSを辞める！と宣言した彼らが今まで持っていなかった\nHP(独自メディア)を制作していくのですが\nSNSのような通知機能が",
+    "url": "https://zenn.dev/85store/articles/b695e0d41bc92c",
+    "imageUrls": [
+      "https://res.cloudinary.com/zenn/image/upload/s--n_euFuo4--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:SNS%25E3%2582%2592%25E8%25BE%259E%25E3%2582%2581%25E3%2581%259F%25E4%25BA%25BA%25E3%2581%25B8%25E8%25B4%2588%25E3%2582%258BPWA%25E6%2588%25A6%25E7%2595%25A5%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:85-Store%2520Engineer%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzNmNzI1YjEzZDUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE"
+    ],
+    "publishedAt": "2025-12-17T06:43:52.000Z",
+    "metadata": {
+      "categories": []
+    }
+  },
+  {
+    "id": "zenn-https://zenn.dev/85store/articles/abc2b8c938f607",
+    "source": "zenn",
+    "title": "NotionをヘッドレスCMS化！Next.jsで構築するStoreサイトのBlog実装と画像有効期限の壁",
+    "summary": "はじめに\n富山県井波で85-Storeという古着を中心とした衣料品店の準備を進めているエンジニアです。\n基本は妻（非エンジニア）が店頭に立ち、EC運営等の実務を行いますが、その業務を少しでも楽にするため、様々なアプリ開発を行っています。\n私自身はWeb開発は仕事としては行っていませんが、趣味程度に様々な開発をやっています。\n普段はFA関連(PLCのラダー, ST言語)の仕事をしています。\n\n 85",
+    "url": "https://zenn.dev/85store/articles/abc2b8c938f607",
+    "imageUrls": [
+      "https://res.cloudinary.com/zenn/image/upload/s--eQSssAI1--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Notion%25E3%2582%2592%25E3%2583%2598%25E3%2583%2583%25E3%2583%2589%25E3%2583%25AC%25E3%2582%25B9CMS%25E5%258C%2596%25EF%25BC%2581Next.js%25E3%2581%25A7%25E6%25A7%258B%25E7%25AF%2589%25E3%2581%2599%25E3%2582%258BStore%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%2588%25E3%2581%25AEBlog%25E5%25AE%259F%25E8%25A3%2585%25E3%2581%25A8%25E7%2594%25BB%25E5%2583%258F%25E6%259C%2589%25E5%258A%25B9%25E6%259C%259F%25E9%2599%2590%25E3%2581%25AE%25E5%25A3%2581%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:85-Store%2520Engineer%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzNmNzI1YjEzZDUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE"
+    ],
+    "publishedAt": "2025-10-10T03:32:07.000Z",
+    "metadata": {
+      "categories": []
+    }
+  },
+  {
+    "id": "zenn-https://zenn.dev/85store/articles/09a4c0ddc4d1fe",
+    "source": "zenn",
+    "title": "デザイナーとの共通言語！音楽系Webサイト向けアニメーション実装と技術スタックの検証",
+    "summary": "概要と制作の背景\nこのたび、Webページ制作の依頼を受ける際、デザイナーに対しどのようなアニメーション表現が可能かを示すための技術デモ用モックアップを制作しました。\nターゲットを音楽系制作会社に設定したため、視覚的な訴求力と先進性を追求すべく、モダンなWebアニメーション技術を深く掘り下げました。本格的なアニメーション制作は初体験であり、本プロジェクトは技術的な習得と表現の可能性の探求を目的として",
+    "url": "https://zenn.dev/85store/articles/09a4c0ddc4d1fe",
+    "imageUrls": [
+      "https://res.cloudinary.com/zenn/image/upload/s--khto8_ym--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%2587%25E3%2582%25B6%25E3%2582%25A4%25E3%2583%258A%25E3%2583%25BC%25E3%2581%25A8%25E3%2581%25AE%25E5%2585%25B1%25E9%2580%259A%25E8%25A8%2580%25E8%25AA%259E%25EF%25BC%2581%25E9%259F%25B3%25E6%25A5%25BD%25E7%25B3%25BBWeb%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%2588%25E5%2590%2591%25E3%2581%2591%25E3%2582%25A2%25E3%2583%258B%25E3%2583%25A1%25E3%2583%25BC%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25B3%25E5%25AE%259F%25E8%25A3%2585%25E3%2581%25A8%25E6%258A%2580%25E8%25A1%2593%25E3%2582%25B9%25E3%2582%25BF%25E3%2583%2583%25E3%2582%25AF%25E3%2581%25AE%25E6%25A4%259C%25E8%25A8%25BC%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:85-Store%2520Engineer%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzNmNzI1YjEzZDUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE"
+    ],
+    "publishedAt": "2025-10-09T09:04:39.000Z",
+    "metadata": {
+      "categories": []
+    }
+  },
+  {
+    "id": "zenn-https://zenn.dev/85store/articles/7c88e9f294df88",
+    "source": "zenn",
+    "title": "Google Calendar × Notion Tasks GAS同期",
+    "summary": "はじめに\n富山県井波で85-Storeという古着を中心とした衣料品店の準備を進めているエンジニアです。\n基本は妻（非エンジニア）が店頭に立ち、EC運営等の実務を行いますが、その業務を少しでも楽にするため、様々なアプリ開発を行っています。\n私自身はWeb開発は仕事としては行っていませんが、趣味程度に様々な開発をやっています。\n普段はFA関連(PLCのラダー, ST言語)の仕事をしています。\n\n 85",
+    "url": "https://zenn.dev/85store/articles/7c88e9f294df88",
+    "imageUrls": [
+      "https://res.cloudinary.com/zenn/image/upload/s--vDbn9DSB--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Google%2520Calendar%2520%25C3%2597%2520Notion%2520Tasks%2520GAS%25E5%2590%258C%25E6%259C%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:85-Store%2520Engineer%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzNmNzI1YjEzZDUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE"
+    ],
+    "publishedAt": "2025-10-09T03:27:30.000Z",
     "metadata": {
       "categories": []
     }
