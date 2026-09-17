@@ -44,14 +44,14 @@ export default async function ImagesPage() {
               href={img.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="block border border-foreground shadow-brutal-sm hover:shadow-brutal-md transition-shadow overflow-hidden"
+              className="group block border border-foreground shadow-brutal-sm hover:shadow-brutal-md transition-shadow overflow-hidden"
             >
               <div className="relative aspect-square bg-gray-100 dark:bg-gray-900">
                 <Image
                   src={img.url}
                   alt={img.alt}
                   fill
-                  className="object-cover"
+                  className="object-cover grayscale transition-[filter] duration-300 group-hover:grayscale-0"
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />
               </div>

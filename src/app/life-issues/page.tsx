@@ -5,7 +5,6 @@ import { LifeIssueThoughts } from "@/components/life-issues/LifeIssueThoughts";
 import {
   formatIssueNumber,
   formatJapaneseDate,
-  formatJapaneseDateRange,
   getPublishedLifeIssues,
 } from "@/lib/life-issue";
 
@@ -59,15 +58,9 @@ export default async function LifeIssueIndexPage() {
                 >
                   #{formatIssueNumber(latest.issue)} →
                 </Link>
-                <div className="text-right text-xs text-muted">
-                  <p>{formatJapaneseDate(latest.publishedAt)}</p>
-                  <p>
-                    {formatJapaneseDateRange(
-                      latest.periodStart,
-                      latest.periodEnd
-                    )}
-                  </p>
-                </div>
+                <p className="text-right text-xs text-muted">
+                  {formatJapaneseDate(latest.publishedAt)}
+                </p>
               </div>
               <p className="mb-6 whitespace-pre-line text-base leading-loose">
                 {latest.why}
