@@ -124,5 +124,230 @@
     "feedUrl": "https://deepbluedragon.hatenadiary.com/feed",
     "result": "registered",
     "sourceId": "deepbluedragon-hatenadiary-com"
+  },
+  {
+    "foundAt": "2026-09-17T09:43:48.867Z",
+    "query": "分人主義 OR dividualism デジタルペルソナ 境界 論考 連載",
+    "title": "hatena.ne.jp",
+    "url": "https://b.hatena.ne.jp/entry/s/linkingsociety.hitachi.co.jp/_ct/17765912",
+    "feedUrl": null,
+    "result": "no-feed",
+    "sourceId": null
+  },
+  {
+    "foundAt": "2026-09-17T09:43:50.136Z",
+    "query": "分人主義 OR dividualism デジタルペルソナ 境界 論考 連載",
+    "title": "forbesjapan.com",
+    "url": "https://forbesjapan.com/articles/detail/79450",
+    "feedUrl": null,
+    "result": "no-feed",
+    "sourceId": null
+  },
+  {
+    "foundAt": "2026-09-17T09:43:51.679Z",
+    "query": "分人主義 OR dividualism デジタルペルソナ 境界 論考 連載",
+    "title": "kai-you.net",
+    "url": "https://premium.kai-you.net/article/393",
+    "feedUrl": null,
+    "result": "no-feed",
+    "sourceId": null
+  },
+  {
+    "foundAt": "2026-09-17T09:43:52.814Z",
+    "query": "分人主義 OR dividualism デジタルペルソナ 境界 論考 連載",
+    "title": "ashi-tano.jp",
+    "url": "https://www.ashi-tano.jp/?p=10143",
+    "feedUrl": "https://www.ashi-tano.jp/?feed=rss2",
+    "result": "registered",
+    "sourceId": "ashi-tano-jp"
+  },
+  {
+    "foundAt": "2026-09-17T09:43:56.087Z",
+    "query": "分人主義 OR dividualism デジタルペルソナ 境界 論考 連載",
+    "title": "idealump.com",
+    "url": "https://idealump.com/service/lab/379",
+    "feedUrl": null,
+    "result": "no-feed",
+    "sourceId": null
+  },
+  {
+    "foundAt": "2026-09-17T09:43:56.581Z",
+    "query": "中平卓馬 \"自己消去\" OR \"主観の排除\" 表現論 批評 blog essays",
+    "title": "blog.jp",
+    "url": "https://tokinowasuremono.blog.jp/archives/cat_50035640.html",
+    "feedUrl": "https://tokinowasuremono.blog.jp/index.rdf",
+    "result": "registered",
+    "sourceId": "tokinowasuremono-blog-jp-index-rdf"
+  },
+  {
+    "foundAt": "2026-09-17T09:44:02.652Z",
+    "query": "中平卓馬 \"自己消去\" OR \"主観の排除\" 表現論 批評 blog essays",
+    "title": "tokinowasuremono.com",
+    "url": "https://www.tokinowasuremono.com/blog/33552/",
+    "feedUrl": null,
+    "result": "no-feed",
+    "sourceId": null
+  },
+  {
+    "foundAt": "2026-09-17T09:44:07.521Z",
+    "query": "中平卓馬 \"自己消去\" OR \"主観の排除\" 表現論 批評 blog essays",
+    "title": "artscape.jp",
+    "url": "https://artscape.jp/artword/6429/",
+    "feedUrl": "https://artscape.jp/feed/",
+    "result": "registered",
+    "sourceId": "artscape-jp"
+  },
+  {
+    "foundAt": "2026-09-17T09:44:08.677Z",
+    "query": "中平卓馬 \"自己消去\" OR \"主観の排除\" 表現論 批評 blog essays",
+    "title": "ipm.jp",
+    "url": "https://www.ipm.jp/ipmj/kohara/kohara72b.html",
+    "feedUrl": null,
+    "result": "no-feed",
+    "sourceId": null
+  },
+  {
+    "foundAt": "2026-09-17T09:44:09.143Z",
+    "query": "中平卓馬 \"自己消去\" OR \"主観の排除\" 表現論 批評 blog essays",
+    "title": "hatenablog.com",
+    "url": "https://tabing.hatenablog.com/entry/nazesyokubutsuzukanka",
+    "feedUrl": "https://tabing.hatenablog.com/feed",
+    "result": "registered",
+    "sourceId": "tabing-hatenablog-com"
+  },
+  {
+    "foundAt": "2026-09-17T09:44:09.472Z",
+    "query": "\"extended mind\" OR \"拡張された心\" 認知科学 身体と環境 メディア 研究機関",
+    "title": "oist.jp",
+    "url": "https://www.oist.jp/ja/research/research-units/ecsu",
+    "feedUrl": null,
+    "result": "no-feed",
+    "sourceId": null
+  },
+  {
+    "foundAt": "2026-09-17T09:44:10.756Z",
+    "query": "\"extended mind\" OR \"拡張された心\" 認知科学 身体と環境 メディア 研究機関",
+    "title": "keio.ac.jp",
+    "url": "https://www.kmd.keio.ac.jp/ja/research/embodied-media/",
+    "feedUrl": null,
+    "result": "no-feed",
+    "sourceId": null
+  },
+  {
+    "foundAt": "2026-09-17T09:44:12.814Z",
+    "query": "\"extended mind\" OR \"拡張された心\" 認知科学 身体と環境 メディア 研究機関",
+    "title": "panasonic.com",
+    "url": "https://tech.panasonic.com/jp/auglab/articles/20191118_2.html",
+    "feedUrl": null,
+    "result": "no-feed",
+    "sourceId": null
+  },
+  {
+    "foundAt": "2026-09-17T09:44:13.805Z",
+    "query": "\"extended mind\" OR \"拡張された心\" 認知科学 身体と環境 メディア 研究機関",
+    "title": "sakura.ne.jp",
+    "url": "https://pooneil.sakura.ne.jp/archives/permalink-001631/",
+    "feedUrl": "https://pooneil.sakura.ne.jp/feed/",
+    "result": "registered",
+    "sourceId": "pooneil-sakura-ne-jp"
+  },
+  {
+    "foundAt": "2026-09-17T09:44:16.796Z",
+    "query": "\"extended mind\" OR \"拡張された心\" 認知科学 身体と環境 メディア 研究機関",
+    "title": "argora.io",
+    "url": "https://argora.io/media/body/2026-08-08-ai-kenkyusha-to-shintaika-ninchi",
+    "feedUrl": "https://argora.io/rss.xml",
+    "result": "registered",
+    "sourceId": "argora-io"
+  },
+  {
+    "foundAt": "2026-09-17T09:44:19.055Z",
+    "query": "\"extended mind\" OR \"拡張された心\" 認知科学 身体と環境 メディア 研究機関",
+    "title": "embodiedsociety.org",
+    "url": "https://embodiedsociety.org/",
+    "feedUrl": null,
+    "result": "no-feed",
+    "sourceId": null
+  },
+  {
+    "foundAt": "2026-09-17T09:44:21.050Z",
+    "query": "ドゥルーズ \"生成変化\" OR \"非人称\" 現代思想 ウェブマガジン 連載",
+    "title": "kawade.co.jp",
+    "url": "https://web.kawade.co.jp/column/162982/",
+    "feedUrl": "https://web.kawade.co.jp/feed",
+    "result": "registered",
+    "sourceId": "web-kawade-co-jp"
+  },
+  {
+    "foundAt": "2026-09-17T09:44:22.468Z",
+    "query": "ドゥルーズ \"生成変化\" OR \"非人称\" 現代思想 ウェブマガジン 連載",
+    "title": "shunjusha.co.jp",
+    "url": "https://haruaki.shunjusha.co.jp/posts/9640",
+    "feedUrl": null,
+    "result": "no-feed",
+    "sourceId": null
+  },
+  {
+    "foundAt": "2026-09-17T09:44:24.226Z",
+    "query": "ドゥルーズ \"生成変化\" OR \"非人称\" 現代思想 ウェブマガジン 連載",
+    "title": "webchikuma.com",
+    "url": "https://www.webchikuma.com/n/n75d6dda74289?gs=30a2ace1bba0a09c71da02737791d438",
+    "feedUrl": "https://www.webchikuma.com/rss",
+    "result": "registered",
+    "sourceId": "webchikuma-com"
+  },
+  {
+    "foundAt": "2026-09-17T09:44:25.834Z",
+    "query": "ドゥルーズ \"生成変化\" OR \"非人称\" 現代思想 ウェブマガジン 連載",
+    "title": "hakusuisha.co.jp",
+    "url": "https://webfrance.hakusuisha.co.jp/posts/617",
+    "feedUrl": null,
+    "result": "no-feed",
+    "sourceId": null
+  },
+  {
+    "foundAt": "2026-09-17T09:44:36.550Z",
+    "query": "ドゥルーズ \"生成変化\" OR \"非人称\" 現代思想 ウェブマガジン 連載",
+    "title": "wakusei2nd.com",
+    "url": "http://wakusei2nd.com/archives/series/%E4%B8%96%E7%95%8C%E6%96%87%E5%AD%A6%E3%81%AE%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3-%E7%B5%82%E7%AB%A0%E3%80%80%E6%99%82%E9%96%93%E2%80%95%E2%80%95%E3%83%8B%E3%83%92%E3%83%AA",
+    "feedUrl": null,
+    "result": "no-feed",
+    "sourceId": null
+  },
+  {
+    "foundAt": "2026-09-17T09:44:37.712Z",
+    "query": "ドゥルーズ \"生成変化\" OR \"非人称\" 現代思想 ウェブマガジン 連載",
+    "title": "suiseisha.net",
+    "url": "https://www.suiseisha.net/_sys/wp/wp-content/uploads/2023/11/%E3%83%88%E3%82%99%E3%82%A5%E3%83%AB%E3%83%BC%E3%82%B9%E3%82%99%E3%83%BB%E3%82%AB%E3%82%99%E3%82%BF%E3%83%AA%E3%81%A8%E7%A7%81%E3%81%9F%E3%81%A1%EF%BC%BF%E8%A9%A6%E3%81%97%E8%AA%AD%E3%81%BF.pdf",
+    "feedUrl": null,
+    "result": "no-feed",
+    "sourceId": null
+  },
+  {
+    "foundAt": "2026-09-17T09:44:38.631Z",
+    "query": "ドゥルーズ \"生成変化\" OR \"非人称\" 現代思想 ウェブマガジン 連載",
+    "title": "repre.org",
+    "url": "https://www.repre.org/repre/vol20/books/01/04.php",
+    "feedUrl": null,
+    "result": "no-feed",
+    "sourceId": null
+  },
+  {
+    "foundAt": "2026-09-17T09:44:39.506Z",
+    "query": "ドゥルーズ \"生成変化\" OR \"非人称\" 現代思想 ウェブマガジン 連載",
+    "title": "exblog.jp",
+    "url": "https://urag.exblog.jp/244564939/",
+    "feedUrl": "https://urag.exblog.jp/index.xml",
+    "result": "registered",
+    "sourceId": "urag-exblog-jp"
+  },
+  {
+    "foundAt": "2026-09-17T09:44:40.452Z",
+    "query": "ドゥルーズ \"生成変化\" OR \"非人称\" 現代思想 ウェブマガジン 連載",
+    "title": "jugem.jp",
+    "url": "https://sanova.jugem.jp/?month=201804",
+    "feedUrl": "https://sanova.jugem.jp/?mode=rss",
+    "result": "registered",
+    "sourceId": "sanova-jugem-jp"
   }
 ]

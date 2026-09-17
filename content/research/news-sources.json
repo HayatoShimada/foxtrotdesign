@@ -10,11 +10,11 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 3,
-      "fetched": 45,
+      "runs": 6,
+      "fetched": 0,
       "adopted": 0,
       "lastAdoptedAt": null,
-      "runsAtLastAdoption": 0,
+      "runsAtLastAdoption": 6,
       "consecutiveErrors": 0,
       "lastError": null
     }
@@ -30,11 +30,11 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 3,
-      "fetched": 45,
-      "adopted": 2,
-      "lastAdoptedAt": "2026-09-17T09:30:00.591Z",
-      "runsAtLastAdoption": 3,
+      "runs": 6,
+      "fetched": 0,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 6,
       "consecutiveErrors": 0,
       "lastError": null
     }
@@ -50,11 +50,11 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 3,
-      "fetched": 33,
-      "adopted": 4,
-      "lastAdoptedAt": "2026-09-17T09:30:00.591Z",
-      "runsAtLastAdoption": 3,
+      "runs": 6,
+      "fetched": 0,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 6,
       "consecutiveErrors": 0,
       "lastError": null
     }
@@ -90,11 +90,11 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 3,
-      "fetched": 21,
+      "runs": 6,
+      "fetched": 0,
       "adopted": 0,
       "lastAdoptedAt": null,
-      "runsAtLastAdoption": 0,
+      "runsAtLastAdoption": 6,
       "consecutiveErrors": 0,
       "lastError": null
     }
@@ -110,11 +110,11 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 3,
-      "fetched": 3,
+      "runs": 6,
+      "fetched": 0,
       "adopted": 0,
       "lastAdoptedAt": null,
-      "runsAtLastAdoption": 0,
+      "runsAtLastAdoption": 6,
       "consecutiveErrors": 0,
       "lastError": null
     }
@@ -130,11 +130,11 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 3,
-      "fetched": 3,
+      "runs": 6,
+      "fetched": 0,
       "adopted": 0,
       "lastAdoptedAt": null,
-      "runsAtLastAdoption": 0,
+      "runsAtLastAdoption": 6,
       "consecutiveErrors": 0,
       "lastError": null
     }
@@ -150,11 +150,11 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 3,
-      "fetched": 3,
+      "runs": 6,
+      "fetched": 0,
       "adopted": 0,
       "lastAdoptedAt": null,
-      "runsAtLastAdoption": 0,
+      "runsAtLastAdoption": 6,
       "consecutiveErrors": 0,
       "lastError": null
     }
@@ -190,11 +190,11 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 3,
-      "fetched": 6,
+      "runs": 6,
+      "fetched": 0,
       "adopted": 0,
       "lastAdoptedAt": null,
-      "runsAtLastAdoption": 0,
+      "runsAtLastAdoption": 6,
       "consecutiveErrors": 0,
       "lastError": null
     }
@@ -210,11 +210,11 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 3,
-      "fetched": 36,
+      "runs": 6,
+      "fetched": 0,
       "adopted": 0,
       "lastAdoptedAt": null,
-      "runsAtLastAdoption": 0,
+      "runsAtLastAdoption": 6,
       "consecutiveErrors": 0,
       "lastError": null
     }
@@ -230,11 +230,11 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 3,
-      "fetched": 45,
-      "adopted": 1,
-      "lastAdoptedAt": "2026-09-17T09:10:17.440Z",
-      "runsAtLastAdoption": 1,
+      "runs": 6,
+      "fetched": 0,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 6,
       "consecutiveErrors": 0,
       "lastError": null
     }
@@ -250,11 +250,11 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 3,
-      "fetched": 9,
+      "runs": 6,
+      "fetched": 0,
       "adopted": 0,
       "lastAdoptedAt": null,
-      "runsAtLastAdoption": 0,
+      "runsAtLastAdoption": 6,
       "consecutiveErrors": 0,
       "lastError": null
     }
@@ -270,11 +270,11 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 3,
-      "fetched": 18,
+      "runs": 6,
+      "fetched": 0,
       "adopted": 0,
       "lastAdoptedAt": null,
-      "runsAtLastAdoption": 0,
+      "runsAtLastAdoption": 6,
       "consecutiveErrors": 0,
       "lastError": null
     }
@@ -290,11 +290,11 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 3,
+      "runs": 6,
       "fetched": 0,
       "adopted": 0,
       "lastAdoptedAt": null,
-      "runsAtLastAdoption": 0,
+      "runsAtLastAdoption": 6,
       "consecutiveErrors": 0,
       "lastError": null
     }
@@ -310,11 +310,11 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 3,
-      "fetched": 45,
-      "adopted": 3,
-      "lastAdoptedAt": "2026-09-17T09:30:00.591Z",
-      "runsAtLastAdoption": 3,
+      "runs": 6,
+      "fetched": 0,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 6,
       "consecutiveErrors": 0,
       "lastError": null
     }
@@ -330,11 +330,11 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 3,
-      "fetched": 45,
-      "adopted": 3,
-      "lastAdoptedAt": "2026-09-17T09:30:00.591Z",
-      "runsAtLastAdoption": 3,
+      "runs": 6,
+      "fetched": 0,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 6,
       "consecutiveErrors": 0,
       "lastError": null
     }
@@ -350,11 +350,11 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 3,
-      "fetched": 45,
-      "adopted": 4,
-      "lastAdoptedAt": "2026-09-17T09:30:00.591Z",
-      "runsAtLastAdoption": 3,
+      "runs": 6,
+      "fetched": 0,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 6,
       "consecutiveErrors": 0,
       "lastError": null
     }
@@ -370,11 +370,11 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 3,
+      "runs": 6,
       "fetched": 0,
       "adopted": 0,
       "lastAdoptedAt": null,
-      "runsAtLastAdoption": 0,
+      "runsAtLastAdoption": 6,
       "consecutiveErrors": 0,
       "lastError": null
     }
@@ -390,11 +390,11 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 3,
-      "fetched": 45,
+      "runs": 6,
+      "fetched": 0,
       "adopted": 0,
       "lastAdoptedAt": null,
-      "runsAtLastAdoption": 0,
+      "runsAtLastAdoption": 6,
       "consecutiveErrors": 0,
       "lastError": null
     }
@@ -410,12 +410,12 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 3,
+      "runs": 6,
       "fetched": 0,
       "adopted": 0,
       "lastAdoptedAt": null,
-      "runsAtLastAdoption": 0,
-      "consecutiveErrors": 3,
+      "runsAtLastAdoption": 6,
+      "consecutiveErrors": 6,
       "lastError": "Status code 429"
     }
   },
@@ -430,11 +430,11 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 3,
-      "fetched": 18,
+      "runs": 6,
+      "fetched": 0,
       "adopted": 0,
       "lastAdoptedAt": null,
-      "runsAtLastAdoption": 0,
+      "runsAtLastAdoption": 6,
       "consecutiveErrors": 0,
       "lastError": null
     }
@@ -450,11 +450,11 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 3,
+      "runs": 6,
       "fetched": 0,
       "adopted": 0,
       "lastAdoptedAt": null,
-      "runsAtLastAdoption": 0,
+      "runsAtLastAdoption": 6,
       "consecutiveErrors": 0,
       "lastError": null
     }
@@ -490,11 +490,11 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 3,
-      "fetched": 45,
-      "adopted": 6,
-      "lastAdoptedAt": "2026-09-17T09:30:00.591Z",
-      "runsAtLastAdoption": 3,
+      "runs": 6,
+      "fetched": 0,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 6,
       "consecutiveErrors": 0,
       "lastError": null
     }
@@ -510,11 +510,11 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 3,
-      "fetched": 45,
+      "runs": 6,
+      "fetched": 0,
       "adopted": 0,
       "lastAdoptedAt": null,
-      "runsAtLastAdoption": 0,
+      "runsAtLastAdoption": 6,
       "consecutiveErrors": 0,
       "lastError": null
     }
@@ -530,11 +530,11 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 3,
-      "fetched": 45,
-      "adopted": 2,
-      "lastAdoptedAt": "2026-09-17T09:20:55.776Z",
-      "runsAtLastAdoption": 2,
+      "runs": 6,
+      "fetched": 0,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 6,
       "consecutiveErrors": 0,
       "lastError": null
     }
@@ -550,11 +550,11 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 3,
-      "fetched": 12,
+      "runs": 6,
+      "fetched": 0,
       "adopted": 0,
       "lastAdoptedAt": null,
-      "runsAtLastAdoption": 0,
+      "runsAtLastAdoption": 6,
       "consecutiveErrors": 0,
       "lastError": null
     }
@@ -570,11 +570,11 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 1,
-      "fetched": 1,
+      "runs": 4,
+      "fetched": 0,
       "adopted": 0,
       "lastAdoptedAt": null,
-      "runsAtLastAdoption": 0,
+      "runsAtLastAdoption": 4,
       "consecutiveErrors": 0,
       "lastError": null
     }
@@ -590,11 +590,11 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 1,
-      "fetched": 2,
+      "runs": 4,
+      "fetched": 0,
       "adopted": 0,
       "lastAdoptedAt": null,
-      "runsAtLastAdoption": 0,
+      "runsAtLastAdoption": 4,
       "consecutiveErrors": 0,
       "lastError": null
     }
@@ -610,11 +610,11 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 1,
+      "runs": 4,
       "fetched": 0,
       "adopted": 0,
       "lastAdoptedAt": null,
-      "runsAtLastAdoption": 0,
+      "runsAtLastAdoption": 4,
       "consecutiveErrors": 0,
       "lastError": null
     }
@@ -630,11 +630,11 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 1,
-      "fetched": 1,
+      "runs": 4,
+      "fetched": 0,
       "adopted": 0,
       "lastAdoptedAt": null,
-      "runsAtLastAdoption": 0,
+      "runsAtLastAdoption": 4,
       "consecutiveErrors": 0,
       "lastError": null
     }
@@ -650,11 +650,11 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 1,
+      "runs": 4,
       "fetched": 0,
       "adopted": 0,
       "lastAdoptedAt": null,
-      "runsAtLastAdoption": 0,
+      "runsAtLastAdoption": 4,
       "consecutiveErrors": 0,
       "lastError": null
     }
@@ -670,13 +670,13 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 1,
-      "fetched": 15,
+      "runs": 4,
+      "fetched": 0,
       "adopted": 0,
       "lastAdoptedAt": null,
-      "runsAtLastAdoption": 0,
-      "consecutiveErrors": 0,
-      "lastError": null
+      "runsAtLastAdoption": 4,
+      "consecutiveErrors": 1,
+      "lastError": "read ECONNRESET"
     }
   },
   {
@@ -690,11 +690,11 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 1,
-      "fetched": 8,
+      "runs": 4,
+      "fetched": 0,
       "adopted": 0,
       "lastAdoptedAt": null,
-      "runsAtLastAdoption": 0,
+      "runsAtLastAdoption": 4,
       "consecutiveErrors": 0,
       "lastError": null
     }
@@ -710,11 +710,11 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 1,
+      "runs": 4,
       "fetched": 0,
       "adopted": 0,
       "lastAdoptedAt": null,
-      "runsAtLastAdoption": 0,
+      "runsAtLastAdoption": 4,
       "consecutiveErrors": 0,
       "lastError": null
     }
@@ -730,11 +730,11 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 1,
-      "fetched": 3,
-      "adopted": 2,
-      "lastAdoptedAt": "2026-09-17T09:30:00.591Z",
-      "runsAtLastAdoption": 1,
+      "runs": 4,
+      "fetched": 0,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 4,
       "consecutiveErrors": 0,
       "lastError": null
     }
@@ -750,7 +750,207 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 1,
+      "runs": 4,
+      "fetched": 0,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 4,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "ashi-tano-jp",
+    "name": "アシタノレシピ　-明日を楽しくするレシピ集-",
+    "url": "https://www.ashi-tano.jp/?feed=rss2",
+    "category": "discovered",
+    "status": "candidate",
+    "origin": "search",
+    "addedAt": "2026-09-17T09:43:52.815Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 0,
+      "fetched": 0,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "tokinowasuremono-blog-jp-index-rdf",
+    "name": "ギャラリー　　ときの忘れもの",
+    "url": "https://tokinowasuremono.blog.jp/index.rdf",
+    "category": "discovered",
+    "status": "candidate",
+    "origin": "search",
+    "addedAt": "2026-09-17T09:43:56.582Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 0,
+      "fetched": 0,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "artscape-jp",
+    "name": "artscape",
+    "url": "https://artscape.jp/feed/",
+    "category": "discovered",
+    "status": "candidate",
+    "origin": "search",
+    "addedAt": "2026-09-17T09:44:07.522Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 0,
+      "fetched": 0,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "tabing-hatenablog-com",
+    "name": "tabing　旅とカメラ",
+    "url": "https://tabing.hatenablog.com/feed",
+    "category": "discovered",
+    "status": "candidate",
+    "origin": "search",
+    "addedAt": "2026-09-17T09:44:09.144Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 0,
+      "fetched": 0,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "pooneil-sakura-ne-jp",
+    "name": "プーニールの脳科学論文コメント",
+    "url": "https://pooneil.sakura.ne.jp/feed/",
+    "category": "discovered",
+    "status": "candidate",
+    "origin": "search",
+    "addedAt": "2026-09-17T09:44:13.805Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 0,
+      "fetched": 0,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "argora-io",
+    "name": "株式会社アルゴラ — メディア",
+    "url": "https://argora.io/rss.xml",
+    "category": "discovered",
+    "status": "candidate",
+    "origin": "search",
+    "addedAt": "2026-09-17T09:44:16.796Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 0,
+      "fetched": 0,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "web-kawade-co-jp",
+    "name": "Web河出",
+    "url": "https://web.kawade.co.jp/feed",
+    "category": "discovered",
+    "status": "candidate",
+    "origin": "search",
+    "addedAt": "2026-09-17T09:44:21.051Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 0,
+      "fetched": 0,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "webchikuma-com",
+    "name": "webちくま（筑摩書房の読みものサイト）",
+    "url": "https://www.webchikuma.com/rss",
+    "category": "discovered",
+    "status": "candidate",
+    "origin": "search",
+    "addedAt": "2026-09-17T09:44:24.226Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 0,
+      "fetched": 0,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "urag-exblog-jp",
+    "name": "URGT-B（ウラゲツブログ）",
+    "url": "https://urag.exblog.jp/index.xml",
+    "category": "discovered",
+    "status": "candidate",
+    "origin": "search",
+    "addedAt": "2026-09-17T09:44:39.507Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 0,
+      "fetched": 0,
+      "adopted": 0,
+      "lastAdoptedAt": null,
+      "runsAtLastAdoption": 0,
+      "consecutiveErrors": 0,
+      "lastError": null
+    }
+  },
+  {
+    "id": "sanova-jugem-jp",
+    "name": "佐野波布一のレビューを集めたよ",
+    "url": "https://sanova.jugem.jp/?mode=rss",
+    "category": "discovered",
+    "status": "candidate",
+    "origin": "search",
+    "addedAt": "2026-09-17T09:44:40.453Z",
+    "stoppedAt": null,
+    "stoppedReason": null,
+    "stats": {
+      "runs": 0,
       "fetched": 0,
       "adopted": 0,
       "lastAdoptedAt": null,

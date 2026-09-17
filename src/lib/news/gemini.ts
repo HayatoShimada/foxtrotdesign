@@ -38,6 +38,80 @@ export async function generateJson<T>(model: GenerativeModel, prompt: string): P
   return parseJson<T>(result.response.text());
 }
 
+export interface RestUsage {
+  prompt: number;
+  output: number;
+  thoughts: number;
+}
+
+// SDK 0.24 には thinkingConfig の型が無い。採点は見出しを見て 0〜100 を付ける機械的な作業で
+// 長い思考は要らないので、REST を直接叩いて思考の予算を絞る。
+// API がこのフィールドを受け付けなければ 1 度だけ外して再試行し、以後は付けない。
+let thinkingSupported = true;
+
+export async function generateJsonRest<T>(
+  apiKey: string,
+  prompt: string,
+  {
+    temperature = 0.3,
+    maxOutputTokens = 16384,
+    thinkingBudget = 512,
+  }: { temperature?: number; maxOutputTokens?: number; thinkingBudget?: number } = {}
+): Promise<{ data: T; usage: RestUsage }> {
+  const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent`;
+
+  const call = async (withThinking: boolean) => {
+    const generationConfig: Record<string, unknown> = {
+      responseMimeType: "application/json",
+      temperature,
+      maxOutputTokens,
+    };
+    if (withThinking) generationConfig.thinkingConfig = { thinkingBudget };
+
+    return fetch(endpoint, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "x-goog-api-key": apiKey },
+      body: JSON.stringify({
+        contents: [{ role: "user", parts: [{ text: prompt }] }],
+        generationConfig,
+      }),
+    });
+  };
+
+  let response = await call(thinkingSupported);
+  if (!response.ok && response.status === 400 && thinkingSupported) {
+    console.warn("  thinkingConfig rejected; retrying without it");
+    thinkingSupported = false;
+    response = await call(false);
+  }
+  if (!response.ok) {
+    throw new Error(`generateContent ${response.status}: ${(await response.text()).slice(0, 200)}`);
+  }
+
+  const body = (await response.json()) as {
+    candidates?: { content?: { parts?: { text?: string }[] }; finishReason?: string }[];
+    usageMetadata?: {
+      promptTokenCount?: number;
+      candidatesTokenCount?: number;
+      thoughtsTokenCount?: number;
+    };
+  };
+  const candidate = body.candidates?.[0];
+  if (candidate?.finishReason && candidate.finishReason !== "STOP") {
+    throw new Error(`Gemini が途中で止まりました: ${candidate.finishReason}`);
+  }
+  const text = candidate?.content?.parts?.map((p) => p.text ?? "").join("") ?? "";
+
+  return {
+    data: parseJson<T>(text),
+    usage: {
+      prompt: body.usageMetadata?.promptTokenCount ?? 0,
+      output: body.usageMetadata?.candidatesTokenCount ?? 0,
+      thoughts: body.usageMetadata?.thoughtsTokenCount ?? 0,
+    },
+  };
+}
+
 // Search Grounding。SDK 0.24 には 3.x 世代の google_search ツールの型が無いので REST を直接叩く。
 export interface GroundedResult {
   text: string;

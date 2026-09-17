@@ -114,6 +114,27 @@ export interface NewsReport {
   items: NewsReportItem[];
 }
 
+/**
+ * Pi ローカルの採点キャッシュ（`data/news-state.json`、git 管理外）。
+ * 7 日窓を毎日走らせると同じ記事が何度も来るので、採点は 1 記事 1 回にする。
+ */
+export interface NewsState {
+  /** `${issue}:${nextQuestion}`。問いが変われば採点は無効になる */
+  questionKey: string;
+  scores: Record<
+    string,
+    {
+      relevance: number;
+      importance: number;
+      reason: string;
+      scoredAt: string;
+      /** 台帳の adopted に計上済みか。1 記事を 1 回だけ数えるため */
+      counted: boolean;
+    }
+  >;
+  lastDiscovery: { questionKey: string; at: string } | null;
+}
+
 export interface GitHubRepo {
   name: string;
   description: string | null;

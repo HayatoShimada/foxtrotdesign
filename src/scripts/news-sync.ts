@@ -7,8 +7,14 @@ import { formatIssueNumber, getLatestLifeIssue } from "../lib/life-issue";
 import { NewsReport, NewsSource, SuggestedReading } from "../lib/types";
 import { loadSources, saveSources } from "../lib/news/sources";
 import { fetchFeed, FeedEntry } from "../lib/news/feeds";
-import { getApiKey, getJsonModel, modelName } from "../lib/news/gemini";
-import { scoreCandidates, RELEVANCE_THRESHOLD } from "../lib/news/score";
+import { getApiKey, modelName } from "../lib/news/gemini";
+import {
+  scoreCandidates,
+  RELEVANCE_THRESHOLD,
+  RELEVANCE_WEIGHT,
+  IMPORTANCE_WEIGHT,
+} from "../lib/news/score";
+import { loadState, saveState, questionKeyOf } from "../lib/news/state";
 
 // 巡回先から記事を集め、いまの問いとの関連でスコアリングして news.json に書く。
 // Pi の timer が毎日実行し、結果を commit / push する。Vercel は読むだけ。
@@ -32,7 +38,12 @@ function normalizeTitle(title: string): string {
   return title.replace(/[\s　]+/g, "").toLowerCase();
 }
 
-async function collect(sources: NewsSource[]): Promise<FeedEntry[]> {
+/**
+ * 7 日窓を毎日まわすので、同じ記事が何度も返ってくる。
+ * `stats.fetched` は「このソースが新しく持ってきた記事の数」にしたいので、
+ * 採点キャッシュに無い URL だけを数える（毎回数え直すと収穫率が測れない）。
+ */
+async function collect(sources: NewsSource[], known: Set<string>): Promise<FeedEntry[]> {
   const targets = sources.filter((s) => s.status !== "stopped");
   const results = await Promise.all(
     targets.map((source) => fetchFeed(source, { limit: PER_SOURCE, sinceDays: WINDOW_DAYS }))
@@ -53,15 +64,18 @@ async function collect(sources: NewsSource[]): Promise<FeedEntry[]> {
     }
     source.stats.consecutiveErrors = 0;
     source.stats.lastError = null;
-    source.stats.fetched += fetched.length;
-    console.log(`  ✓ ${source.name}: ${fetched.length}`);
+
+    let added = 0;
     for (const entry of fetched) {
       const key = normalizeTitle(entry.title);
       if (seenUrls.has(entry.url) || seenTitles.has(key)) continue;
       seenUrls.add(entry.url);
       seenTitles.add(key);
       entries.push(entry);
+      if (!known.has(entry.url)) added += 1;
     }
+    source.stats.fetched += added;
+    console.log(`  ✓ ${source.name}: ${fetched.length} (${added} new)`);
   });
 
   return entries;
@@ -74,9 +88,11 @@ async function main() {
   const latest = await getLatestLifeIssue();
   if (!latest) throw new Error("公開済みの LIFE ISSUES がありません");
 
+  const questionKey = questionKeyOf(latest.issue, latest.nextQuestion);
+  const state = await loadState(questionKey);
   const sources = await loadSources();
   console.log(`Collecting from ${sources.filter((s) => s.status !== "stopped").length} sources (${WINDOW_DAYS} days)...`);
-  const candidates = await collect(sources);
+  const candidates = await collect(sources, new Set(Object.keys(state.scores)));
   // 取得の成否は採用の有無に関わらず台帳に残す
   await saveSources(sources);
   if (candidates.length === 0) throw new Error("候補が 0 件でした");
@@ -91,17 +107,50 @@ async function main() {
   ]);
 
   const names = new Map(sources.map((s) => [s.id, s.name]));
-  const scored = await scoreCandidates(
-    getJsonModel(apiKey),
-    {
-      question: latest.nextQuestion,
-      why: latest.why,
-      keywords: issueSources.keywords ?? [],
-      books: suggested?.status === "published" ? suggested.items.map((i) => i.title) : [],
-    },
-    candidates,
-    names
-  );
+  const now = new Date().toISOString();
+
+  // 採点済みの記事は Gemini に渡さない。ここが節約の本体
+  const fresh = candidates.filter((item) => !state.scores[item.url]);
+  console.log(`scoring ${fresh.length} new (${candidates.length - fresh.length} cached)`);
+  if (fresh.length > 0) {
+    const freshScored = await scoreCandidates(
+      apiKey,
+      {
+        question: latest.nextQuestion,
+        why: latest.why,
+        keywords: issueSources.keywords ?? [],
+        books: suggested?.status === "published" ? suggested.items.map((i) => i.title) : [],
+      },
+      fresh,
+      names
+    );
+    for (const item of freshScored) {
+      state.scores[item.url] = {
+        relevance: item.relevance,
+        importance: item.importance,
+        reason: item.reason,
+        scoredAt: now,
+        counted: false,
+      };
+    }
+  }
+
+  // 報告は窓の中の全候補（キャッシュ分を含む）から作る
+  const scored = candidates.flatMap((item) => {
+    const cached = state.scores[item.url];
+    if (!cached) return [];
+    return [
+      {
+        ...item,
+        relevance: cached.relevance,
+        importance: cached.importance,
+        score: Math.round(
+          RELEVANCE_WEIGHT * cached.relevance + IMPORTANCE_WEIGHT * cached.importance
+        ),
+        reason: cached.reason,
+      },
+    ];
+  });
 
   const histogram = [0, 20, 40, 60, 80].map(
     (lo) => `${lo}-${lo + 19}: ${scored.filter((i) => i.relevance >= lo && i.relevance < lo + 20).length}`
@@ -113,7 +162,6 @@ async function main() {
     .filter((item) => item.relevance >= RELEVANCE_THRESHOLD && item.reason)
     .sort((a, b) => b.score - a.score || Date.parse(b.publishedAt) - Date.parse(a.publishedAt));
 
-  const now = new Date().toISOString();
   const report: NewsReport = {
     generatedAt: now,
     question: latest.nextQuestion,
@@ -135,7 +183,13 @@ async function main() {
     }),
   };
 
+  // 1 記事は 1 回だけ数える。毎日数え直すと evolve の「貢献度」判定が壊れる
+  let newlyCounted = 0;
   for (const item of adopted) {
+    const cached = state.scores[item.url];
+    if (cached.counted) continue;
+    cached.counted = true;
+    newlyCounted += 1;
     const source = byId.get(item.sourceId)!;
     source.stats.adopted += 1;
     source.stats.lastAdoptedAt = now;
@@ -144,8 +198,9 @@ async function main() {
 
   await fs.writeFile(reportPath, `${JSON.stringify(report, null, 2)}\n`);
   await saveSources(sources);
+  await saveState(state);
 
-  console.log(`\nAdopted ${adopted.length}/${scored.length} (relevance >= ${RELEVANCE_THRESHOLD}, ${modelName})`);
+  console.log(`\nAdopted ${adopted.length}/${scored.length} (${newlyCounted} newly counted, relevance >= ${RELEVANCE_THRESHOLD}, ${modelName})`);
   for (const item of adopted.slice(0, 10)) {
     console.log(`- [${item.score}] ${item.title}（${names.get(item.sourceId)}）\n  rel ${item.relevance} / imp ${item.importance}: ${item.reason}`);
   }

@@ -8,6 +8,7 @@ import { SourceDiscovery, SuggestedReading } from "../lib/types";
 import { loadSources, saveSources, newSource } from "../lib/news/sources";
 import { getApiKey, getJsonModel, generateJson, groundedSearch } from "../lib/news/gemini";
 import { discoverFeed, resolveRedirect } from "../lib/news/discover";
+import { loadState, saveState, questionKeyOf } from "../lib/news/state";
 
 // Search Grounding で新しい巡回候補を探す（週 1）。
 // 見つけたページは即採用せず source-discoveries.json に記録し、RSS/Atom が取れたものだけ
@@ -15,6 +16,9 @@ import { discoverFeed, resolveRedirect } from "../lib/news/discover";
 
 const MAX_NEW_PER_RUN = 10;
 const MAX_RESOLVE_PER_INTENT = 20;
+// 問いが変わらない限り、探索は同じホストに当たって triedHosts で捨てられる。
+// Grounding を毎週使う価値が無いので、問いが変わるか 28 日経つまで走らせない。
+const REDISCOVER_DAYS = 28;
 const researchDirectory = path.join(process.cwd(), "content", "research");
 const discoveriesPath = path.join(researchDirectory, "source-discoveries.json");
 
@@ -31,6 +35,17 @@ async function main() {
   if (!apiKey) throw new Error("GEMINI_API_KEY がありません");
   const latest = await getLatestLifeIssue();
   if (!latest) throw new Error("公開済みの LIFE ISSUES がありません");
+
+  const questionKey = questionKeyOf(latest.issue, latest.nextQuestion);
+  const state = await loadState(questionKey);
+  const last = state.lastDiscovery;
+  const ageDays = last ? (Date.now() - Date.parse(last.at)) / (24 * 60 * 60 * 1000) : Infinity;
+  if (!process.argv.includes("--force") && last?.questionKey === questionKey && ageDays < REDISCOVER_DAYS) {
+    console.log(
+      `Skipping discovery: same question, last run ${Math.floor(ageDays)}d ago (< ${REDISCOVER_DAYS}d). Use --force to run anyway.`
+    );
+    return;
+  }
 
   const [issueSources, suggested, sources, discoveries] = await Promise.all([
     readJson<{ keywords?: string[] }>(
@@ -143,8 +158,10 @@ ${books.map((b) => `- ${b}`).join("\n") || "なし"}
     console.log(`  ${record.result.padEnd(10)} ${page.url}${feedUrl ? ` → ${feedUrl}` : ""}`);
   }
 
+  state.lastDiscovery = { questionKey, at: new Date().toISOString() };
   await saveSources(sources);
   await fs.writeFile(discoveriesPath, `${JSON.stringify(discoveries, null, 2)}\n`);
+  await saveState(state);
   console.log(`Registered ${registered} candidate sources.`);
 }
 

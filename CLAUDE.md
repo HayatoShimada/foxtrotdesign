@@ -28,7 +28,7 @@ npm run suggest:publish    # Flip the draft to published; nothing shows on /inpu
 npm run life-issue:publish -- --confirmed-in-project-chat   # Validate draft.json and write issues/NNN.json
 npm run news:sync          # (Pi timer) fetch RSS sources, score by relevance to the current question → news.json
 npm run news:evolve        # (Pi timer) promote/stop sources by contribution → news-sources.json
-npm run news:discover      # (Pi timer, weekly) Gemini Search Grounding → new candidate feeds
+npm run news:discover      # (Pi timer) Gemini Search Grounding → new candidate feeds; skipped unless the question changed or 28 days passed (--force overrides)
 ```
 
 The `life-issue` Skill (`.claude/skills/life-issue/SKILL.md`) runs the whole issue cycle:
@@ -46,7 +46,10 @@ collect the diff since the last issue, draft WHY / NEXT QUESTION, publish only a
 6. **News** (`/input` 03 / NEWS) is written by the Pi, not by the Vercel build: `scripts/news-cron.sh`
    runs `news:sync` → `news:evolve` (→ `news:discover` on Sundays) and pushes
    `content/research/news*.json` + `source-discoveries.json`. Source state (active / candidate / stopped)
-   lives in git, so it accumulates across runs. Seeds are never stopped for low contribution
+   lives in git, so it accumulates across runs. Seeds are never stopped for low contribution.
+   Scores are cached per article URL in `data/news-state.json` (gitignored, Pi-local): a 7-day window
+   run daily would otherwise re-score the same article up to 7 times and inflate the ledger's
+   `fetched` / `adopted` counts. The cache is dropped when the question changes
 
 ### Pages
 

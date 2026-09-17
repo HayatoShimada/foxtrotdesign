@@ -1,5 +1,4 @@
-import { GenerativeModel } from "@google/generative-ai";
-import { generateJson } from "./gemini";
+import { generateJsonRest } from "./gemini";
 import { FeedEntry } from "./feeds";
 
 // 関連性 ≫ 社会的重要度。relevance が閾値未満のものは importance が高くても採用しない。
@@ -69,18 +68,23 @@ ${list}
 }
 
 export async function scoreCandidates(
-  model: GenerativeModel,
+  apiKey: string,
   context: ScoringContext,
   candidates: FeedEntry[],
   names: Map<string, string>
 ): Promise<Scored[]> {
   const scored: Scored[] = [];
+  const total = { prompt: 0, output: 0, thoughts: 0 };
 
   for (let offset = 0; offset < candidates.length; offset += BATCH) {
     const batch = candidates.slice(offset, offset + BATCH);
-    const { scores } = await generateJson<{
+    const { data, usage } = await generateJsonRest<{
       scores: { index: number; relevance: number; importance: number; reason: string }[];
-    }>(model, buildPrompt(context, batch, names));
+    }>(apiKey, buildPrompt(context, batch, names));
+    const { scores } = data;
+    total.prompt += usage.prompt;
+    total.output += usage.output;
+    total.thoughts += usage.thoughts;
     if (!Array.isArray(scores)) throw new Error("Gemini が scores を返しませんでした");
 
     const seen = new Set<number>();
@@ -101,5 +105,12 @@ export async function scoreCandidates(
     console.log(`  scored ${Math.min(offset + BATCH, candidates.length)}/${candidates.length}`);
   }
 
+  if (candidates.length > 0) {
+    console.log(
+      `  tokens — prompt ${total.prompt}, output ${total.output}, thoughts ${total.thoughts} (total ${
+        total.prompt + total.output + total.thoughts
+      })`
+    );
+  }
   return scored;
 }

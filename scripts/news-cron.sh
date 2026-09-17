@@ -4,7 +4,8 @@
 set -euo pipefail
 cd /home/hacopi/foxtrotdesign
 
-git pull --rebase --quiet origin main
+# --autostash: 作業中の未コミット変更があっても夜間ジョブを落とさない
+git pull --rebase --autostash --quiet origin main
 npm run --silent news:sync
 npm run --silent news:evolve
 if [ "$(date +%u)" = 7 ]; then
