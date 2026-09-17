@@ -1,8 +1,20 @@
 {
-  "generatedAt": "2026-09-17T09:39:43.752Z",
+  "generatedAt": "2026-09-17T09:46:08.502Z",
   "question": "私は私を表現しながら私を無くしていきたい",
   "windowDays": 7,
   "items": [
+    {
+      "title": "ちくまプリマー新書『「わたし」が死ぬということの哲学』試し読み",
+      "url": "https://www.webchikuma.com/n/n8f9535d7d955",
+      "sourceId": "webchikuma-com",
+      "sourceName": "webちくま（筑摩書房の読みものサイト）",
+      "category": "discovered",
+      "publishedAt": "2026-09-16T07:58:14.000Z",
+      "relevance": 85,
+      "importance": 60,
+      "score": 80,
+      "reason": "「わたし」が死ぬという哲学は、「私を表現しながら私を無くしていきたい」という問いや分人主義の関心に直結します。"
+    },
     {
       "title": "【9/30 18時〜】2000年代生まれは「声の文化」をどう捉え、研究するのか？「私の声」「その人らしさ」「キャラクタ性」をめぐる3つの研究から——水上遼人、山本崚太、劉承旻／無料＠オンライン【声遊楽クロスダイアローグ #14】",
       "url": "https://desilo.substack.com/p/seiyugaku-14",
@@ -11,9 +23,9 @@
       "category": "discovered",
       "publishedAt": "2026-09-15T22:01:31.000Z",
       "relevance": 85,
-      "importance": 50,
-      "score": 78,
-      "reason": "「私の声」や「その人らしさ」をめぐる議論は、自己を表現しながらもその境界を曖昧にし、ペルソナを運用しようとするあなたの関心に強く合致します。"
+      "importance": 55,
+      "score": 79,
+      "reason": "「私の声」「その人らしさ」「キャラクタ性」の探求は、自己表現と自己の境界を曖昧にする運用の問いに直結します。"
     },
     {
       "title": "責任2.0／3.0 ∼ 知的創造過程の脱領土化 / Responsibility 2.0 and 3.0: The Deterritorialization of the Intellectual Creative Process",
@@ -23,9 +35,33 @@
       "category": "slides",
       "publishedAt": "2026-09-17T00:11:44.000Z",
       "relevance": 75,
+      "importance": 60,
+      "score": 72,
+      "reason": "知的創造過程の「脱領土化」と責任の再定義は、表現を通じて私を無くしていく、ドゥルーズ的な生成変化の哲学と強く共鳴します。"
+    },
+    {
+      "title": "接触は増えるのに、なぜ関係は深まらないのか——デジタルと信頼の構造",
+      "url": "https://argora.io/media/digital/2026-09-17-digital-sesshoku-to-shinyuu-no-kozo",
+      "sourceId": "argora-io",
+      "sourceName": "株式会社アルゴラ — メディア",
+      "category": "discovered",
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "relevance": 70,
       "importance": 50,
-      "score": 70,
-      "reason": "「知的創造過程の脱領土化」と「責任」の再定義は、私を表現しながら私を無くしていく脱構築的な姿勢と強く共鳴します。"
+      "score": 66,
+      "reason": "デジタル上の接触と信頼の構造は、SNSのDM運用や、自己と自動返信の境界を無くす試みと深く繋がります。"
+    },
+    {
+      "title": "[Vol.3]「寄り添いすぎるAI」という落とし穴｜人に寄り添うAIはどう生まれるか",
+      "url": "https://linkingsociety.hitachi.co.jp/_ct/17860661",
+      "sourceId": "linkingsociety-hitachi-co-jp-rss-rss20",
+      "sourceName": "Linking Society",
+      "category": "discovered",
+      "publishedAt": "2026-09-17T02:00:00.000Z",
+      "relevance": 65,
+      "importance": 60,
+      "score": 64,
+      "reason": "「寄り添いすぎるAI」というテーマは、自動返信と自分の境目を無くす運用のメモや、自己を無くしていく問いに深く関連します。"
     },
     {
       "title": "Does Moral Reasoning Training Help or Hurt? Red-Teaming RL-Trained Ethical Agents with Persona Attacks",
@@ -35,33 +71,45 @@
       "category": "research",
       "publishedAt": "2026-09-17T04:00:00.000Z",
       "relevance": 60,
-      "importance": 45,
-      "score": 57,
-      "reason": "倫理的エージェントへの「ペルソナ攻撃」は、表現と自己、ペルソナの多重性や分人性という問いに直結します。"
-    },
-    {
-      "title": "Faking Good and Faking Bad in LLMs: Response Distortion Across Dark Triad Personality Traits",
-      "url": "https://arxiv.org/abs/2609.17534",
-      "sourceId": "rss-arxiv-org-rss-cs-cl",
-      "sourceName": "arXiv cs.CL",
-      "category": "research",
-      "publishedAt": "2026-09-17T04:00:00.000Z",
-      "relevance": 55,
-      "importance": 40,
-      "score": 52,
-      "reason": "LLMにおける人格の歪曲や偽装は、自動返信と自分の境界を曖昧にする「ペルソナ」の問いに重なります。"
-    },
-    {
-      "title": "How Fyxer built an AI executive assistant people trust",
-      "url": "https://openai.com/index/fyxer",
-      "sourceId": "openai-com-news",
-      "sourceName": "OpenAI",
-      "category": "vendor",
-      "publishedAt": "2026-09-14T12:00:00.000Z",
-      "relevance": 50,
       "importance": 55,
-      "score": 51,
-      "reason": "信頼されるAIエグゼクティブアシスタントの構築は、本人のメモにある「自動返信と本当の自分の境目を無くすような運用」というペルソナの自動化に直接つながります。"
+      "score": 59,
+      "reason": "ペルソナ攻撃に対する倫理的エージェントの挙動は、自己の表現やペルソナ、アイデンティティの揺らぎという問いに深く関連します。"
+    },
+    {
+      "title": "ちくまプリマー新書『みんな、普通で困ってる』試し読み",
+      "url": "https://www.webchikuma.com/n/n147c8184bd45",
+      "sourceId": "webchikuma-com",
+      "sourceName": "webちくま（筑摩書房の読みものサイト）",
+      "category": "discovered",
+      "publishedAt": "2026-09-16T07:55:15.000Z",
+      "relevance": 60,
+      "importance": 55,
+      "score": 59,
+      "reason": "「普通」に囚われる自己のあり方を問い直す内容は、独自のペルソナ構築や自己表現の模索と深く響き合います。"
+    },
+    {
+      "title": "声を出すことが、身体に働きかけるしくみ——発声が呼吸と神経に与える影響",
+      "url": "https://argora.io/media/body/2026-09-16-hatsusei-ga-karada-ni-hataraku-shikumi",
+      "sourceId": "argora-io",
+      "sourceName": "株式会社アルゴラ — メディア",
+      "category": "discovered",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "relevance": 60,
+      "importance": 35,
+      "score": 55,
+      "reason": "発声が身体や呼吸に与える影響は、自己の表現や『現れる存在』で扱われる身体性の再統合に直接繋がります。"
+    },
+    {
+      "title": "【クィア／フェミニズムと共に文学を体験するためのブックリスト】 水上文『たったひとり、私だけの部屋で』刊行記念選書フェア開催！",
+      "url": "https://web.kawade.co.jp/information/257694/",
+      "sourceId": "web-kawade-co-jp",
+      "sourceName": "Web河出",
+      "category": "discovered",
+      "publishedAt": "2026-09-17T09:00:00.000Z",
+      "relevance": 55,
+      "importance": 50,
+      "score": 54,
+      "reason": "「私だけの部屋で」という表現は、自己表現と内省、そして私を無くしていくための孤独な空間の模索に重なります。"
     },
     {
       "title": "一般社団法人デサイロ、コクヨが始動した「We-Being Project」にリサーチパートナーとして参画。「わたしたち」目線で幸せを捉え直す活動を支援",
@@ -70,10 +118,10 @@
       "sourceName": "De-Silo",
       "category": "discovered",
       "publishedAt": "2026-09-17T08:02:48.000Z",
-      "relevance": 50,
+      "relevance": 55,
       "importance": 45,
-      "score": 49,
-      "reason": "「私」を無くし分人的に生きようとする問いに対し、「わたしたち」という複数性の視点からウェルビーイングを捉え直す試みは、自己のあり方を考える参考になります。"
+      "score": 53,
+      "reason": "「わたしたち」という目線で幸せを捉え直す試みは、個人から分人への移行や、私を無くしていく問いと親和性があります。"
     },
     {
       "title": "Do Social Patterns Hold in Synthetic Data? Analyzing Cyberbullying Dynamics in LLM-Generated and Authentic Dialogues",
@@ -83,9 +131,45 @@
       "category": "research",
       "publishedAt": "2026-09-17T04:00:00.000Z",
       "relevance": 50,
+      "importance": 55,
+      "score": 51,
+      "reason": "合成データと本物の対話の比較は、自動返信と自己の境界を曖昧にする運用の問いや、authenticityの探求に繋がります。"
+    },
+    {
+      "title": "眼球は脳が外に突き出たもの——目を意識して動かすことで何が変わるか",
+      "url": "https://argora.io/media/body/2026-09-16-gankyu-wa-nou-no-kankakuki",
+      "sourceId": "argora-io",
+      "sourceName": "株式会社アルゴラ — メディア",
+      "category": "discovered",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "relevance": 55,
+      "importance": 35,
+      "score": 51,
+      "reason": "目を意識して動かすことによる変化は、読書リストにある『現れる存在』の脳と身体の再統合のテーマに合致します。"
+    },
+    {
+      "title": "属人化はすべて悪なのか——なくすべき依存と、残すべき強みの見分け方",
+      "url": "https://argora.io/media/digital/2026-09-15-zokujinka-wo-mikiwakeru",
+      "sourceId": "argora-io",
+      "sourceName": "株式会社アルゴラ — メディア",
+      "category": "discovered",
+      "publishedAt": "2026-09-15T00:00:00.000Z",
+      "relevance": 50,
+      "importance": 55,
+      "score": 51,
+      "reason": "「属人化」や残すべき強みの議論は、自己を表現しつつもシステム化・自動化で私を無くそうとする葛藤に繋がります。"
+    },
+    {
+      "title": "How Fyxer built an AI executive assistant people trust",
+      "url": "https://openai.com/index/fyxer",
+      "sourceId": "openai-com-news",
+      "sourceName": "OpenAI",
+      "category": "vendor",
+      "publishedAt": "2026-09-14T12:00:00.000Z",
+      "relevance": 50,
       "importance": 45,
       "score": 49,
-      "reason": "合成データと本物の対話の比較は、自動返信と本当の自分の境目を無くしていくアプローチと強く響き合います。"
+      "reason": "信頼されるAIエグゼクティブアシスタントの構築は、自動返信と自分の境目を無くすようなペルソナ運用の問いに直接繋がる。"
     },
     {
       "title": "Connections: managed credentials and per-caller identity for Managed Deep Agents",
@@ -97,23 +181,23 @@
       "relevance": 50,
       "importance": 45,
       "score": 49,
-      "reason": "呼び出し元ごとのアイデンティティ管理は、自己を分人化し、自動返信と自己の境界を曖昧にするペルソナ運用に深く関連する。"
+      "reason": "呼び出し元ごとのアイデンティティ管理は、自己を分人化し、自動返信と自分の境目を無くしていく運用に技術的・概念的に関連する。"
     },
     {
-      "title": "Hermes Agentで、AIが調べて記事を書くブログを作った話",
-      "url": "https://speakerdeck.com/blueb/hermes-agent-de-ai-ga-shirabe-te-kiji-o-kaku-o-tsukuta-hanashi",
-      "sourceId": "speakerdeck-com-c-technology",
-      "sourceName": "Speaker Deck Technology",
-      "category": "slides",
-      "publishedAt": "2026-09-16T14:26:34.000Z",
+      "title": "食べるヨガとは何か——咀嚼の観察から見えてくる身体と幸福感のつながり",
+      "url": "https://argora.io/media/body/2026-09-17-taberu-yoga-soushaku-no-kansatsu",
+      "sourceId": "argora-io",
+      "sourceName": "株式会社アルゴラ — メディア",
+      "category": "discovered",
+      "publishedAt": "2026-09-17T00:00:00.000Z",
       "relevance": 50,
       "importance": 35,
       "score": 47,
-      "reason": "AIが自動で調べて記事を書くブログの実践は、自動返信と自分の境目を無くすような表現活動の試みと合致しています。"
+      "reason": "身体の観察を通じた幸福感の探求は、読もうとしている本『現れる存在』の脳・身体・世界の再統合に繋がります。"
     },
     {
-      "title": "Myovox: Reading Speech from the Muscles of the Face",
-      "url": "https://arxiv.org/abs/2609.17548",
+      "title": "Faking Good and Faking Bad in LLMs: Response Distortion Across Dark Triad Personality Traits",
+      "url": "https://arxiv.org/abs/2609.17534",
       "sourceId": "rss-arxiv-org-rss-cs-cl",
       "sourceName": "arXiv cs.CL",
       "category": "research",
@@ -121,7 +205,31 @@
       "relevance": 45,
       "importance": 50,
       "score": 46,
-      "reason": "顔の筋肉から発話を読み取る技術は、身体と表現の再統合や、自己の表出・消失の境界線に深く関わります。"
+      "reason": "LLMのパーソナリティの歪みや偽装を扱うテーマは、本人のメモにある「本当の自分との境目を無くす」ペルソナ運用と親和性があります。"
+    },
+    {
+      "title": "身体の変化に気づく習慣——自分のコンディションを「読む」仕組みをつくる",
+      "url": "https://argora.io/media/body/2026-09-15-karada-no-henka-ni-kizuku-shuukan",
+      "sourceId": "argora-io",
+      "sourceName": "株式会社アルゴラ — メディア",
+      "category": "discovered",
+      "publishedAt": "2026-09-15T00:00:00.000Z",
+      "relevance": 45,
+      "importance": 50,
+      "score": 46,
+      "reason": "身体の変化やコンディションを「読む」というテーマは、自己の身体と世界の再統合を考える読書傾向と関連します。"
+    },
+    {
+      "title": "アカウントが増え、管理者は知らない——DXが生む権限の空白をどう埋めるか",
+      "url": "https://argora.io/media/digital/2026-09-16-dx-kengen-kanri-no-kuuhaku",
+      "sourceId": "argora-io",
+      "sourceName": "株式会社アルゴラ — メディア",
+      "category": "discovered",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "relevance": 45,
+      "importance": 40,
+      "score": 44,
+      "reason": "アカウントの増殖と権限の空白は、LINEを辞めDM運用に移行する本人のメモや、自己の分散・分人化の課題に重なります。"
     },
     {
       "title": "「最近どう？」しか聞けなかった1on1で、メンバーが退職届を出してきた話",
@@ -131,21 +239,9 @@
       "category": "community",
       "publishedAt": "2026-09-15T00:38:28.000Z",
       "relevance": 45,
-      "importance": 50,
-      "score": 46,
-      "reason": "「最近どう？」という問いかけや1on1の対話は、他者との関係性や自己の表現、本人のメモにある「たまに会いに来て欲しい」という対面のつながりに深く関わります。"
-    },
-    {
-      "title": "[Vol.3]「寄り添いすぎるAI」という落とし穴｜人に寄り添うAIはどう生まれるか",
-      "url": "https://linkingsociety.hitachi.co.jp/_ct/17860661",
-      "sourceId": "linkingsociety-hitachi-co-jp-rss-rss20",
-      "sourceName": "Linking Society",
-      "category": "discovered",
-      "publishedAt": "2026-09-17T02:00:00.000Z",
-      "relevance": 45,
       "importance": 40,
       "score": 44,
-      "reason": "自動返信と自分の境目を曖昧にしたいというメモに対し、人に寄り添うAIのあり方や自己と他者の境界線を考える手がかりになります。"
+      "reason": "1on1における対話や関係性の課題は、自己の表現や他者との境界、分人的なコミュニケーションのあり方を考える契機となる。"
     },
     {
       "title": "Manage end-user OAuth consent for AI agents with Amazon Bedrock AgentCore",
@@ -157,7 +253,7 @@
       "relevance": 45,
       "importance": 40,
       "score": 44,
-      "reason": "AIエージェントのユーザー同意管理は、自動返信と自分の境界を曖昧にする運用の主体性やアイデンティティの制御に繋がる。"
+      "reason": "AIエージェントのユーザー同意管理は、自動返信と自己の境界を曖昧にする運用の主体性やアイデンティティの管理に繋がる。"
     },
     {
       "title": "Learning Heterogeneous Preferences",
@@ -169,31 +265,31 @@
       "relevance": 45,
       "importance": 35,
       "score": 43,
-      "reason": "多様な好みの学習は、単一の個人ではなく、状況や相手に応じて変化する「分人」的な自己の表現や感性の理解にアプローチする。"
+      "reason": "多様で不均一な好みの学習は、単一の自己ではなく、複数の分人的な人格や感性のあり方を捉えるアプローチと親和性がある。"
     },
     {
-      "title": "【技術的負債conf】事業成長に伴う技術的負債の説明責任とAIによるモニタリング、認知的負債について",
-      "url": "https://speakerdeck.com/i35_267/gijutsuteki-fusai-conf-jigyou-seichou-ni-tomonau-gijutsuteki-fusai-no-setsumei-sekinin-to-ai-niyoru-monitaringu-ninchiteki-fusai-nitsuite",
-      "sourceId": "speakerdeck-com-c-technology",
-      "sourceName": "Speaker Deck Technology",
-      "category": "slides",
-      "publishedAt": "2026-09-16T20:33:06.000Z",
-      "relevance": 45,
-      "importance": 35,
-      "score": 43,
-      "reason": "「認知的負債」という概念は、自己の認知やペルソナの境界線を管理・運用する本人のメモの関心と重なります。"
+      "title": "【10/1開催】「認知戦」を考える──ナラティブ・認知の自由・民主主義の変容【Academic Insights #27】",
+      "url": "https://desilo.substack.com/p/academic-insights-27",
+      "sourceId": "desilo-substack-com",
+      "sourceName": "De-Silo",
+      "category": "discovered",
+      "publishedAt": "2026-09-14T06:02:36.000Z",
+      "relevance": 40,
+      "importance": 50,
+      "score": 42,
+      "reason": "「認知戦」や「ナラティブ」の議論は、自己の表現やペルソナ、客観的な自己の在り方を考える手がかりになります。"
     },
     {
-      "title": "『時間がない』を意志ではなく仕組みで解決する — iPhoneショートカットで集中時間を守る",
-      "url": "https://qiita.com/N_oka/items/cf0764468be925fbb8b5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "sourceId": "qiita-com-popular-items",
-      "sourceName": "Qiita",
-      "category": "community",
-      "publishedAt": "2026-09-15T11:45:26.000Z",
+      "title": "見えないものを見えるようにする――『ブルーメンベルク・コレクション』刊行に寄せて",
+      "url": "https://www.webchikuma.com/n/ne18b4cd0080a",
+      "sourceId": "webchikuma-com",
+      "sourceName": "webちくま（筑摩書房の読みものサイト）",
+      "category": "discovered",
+      "publishedAt": "2026-09-11T06:24:22.000Z",
       "relevance": 40,
       "importance": 45,
       "score": 41,
-      "reason": "意志に頼らず仕組み（iPhoneショートカット）で解決するアプローチは、自動返信と自分の境目を無くす運用の仕組み化や、生活のコントロールに通じます。"
+      "reason": "「見えないものを見えるようにする」という視点は、自己の境界や感性を表現するアプローチと親和性があります。"
     },
     {
       "title": "CapMem: A Benchmark for Caption-Based Episodic Memory in Egocentric Video",
@@ -205,19 +301,7 @@
       "relevance": 40,
       "importance": 35,
       "score": 39,
-      "reason": "一人称視点ビデオにおけるエピソード記憶のベンチマークは、自己の視点や表現、記憶を通じたアイデンティティの探求に繋がる。"
-    },
-    {
-      "title": "10秒ずつ届く推し",
-      "url": "https://speakerdeck.com/yuzneri/10-byou-zutsu-todoku-oshi",
-      "sourceId": "speakerdeck-com-c-technology",
-      "sourceName": "Speaker Deck Technology",
-      "category": "slides",
-      "publishedAt": "2026-09-17T09:18:13.000Z",
-      "relevance": 40,
-      "importance": 30,
-      "score": 38,
-      "reason": "「推し」が10秒ずつ届くという表現形態は、自己表現の断片化や分人化、他者との距離感の設計に通じます。"
+      "reason": "一人称視点ビデオにおけるエピソード記憶のベンチマークは、自己の視点や表現、記憶のあり方を問い直す手がかりとなる。"
     }
   ]
 }
