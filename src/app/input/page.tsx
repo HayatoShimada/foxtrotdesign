@@ -2,13 +2,15 @@ import Link from "next/link";
 import { Container } from "@/components/Container";
 import { CycleNext } from "@/components/CycleNext";
 import { ReadingList } from "@/components/research/ReadingList";
-import { getReadingList } from "@/lib/content-data";
+import { SuggestedList } from "@/components/research/SuggestedList";
+import { getReadingList, getSuggestedReading } from "@/lib/content-data";
 import { formatIssueNumber, getLatestLifeIssue } from "@/lib/life-issue";
 
 export default async function InputPage() {
-  const [latest, reading] = await Promise.all([
+  const [latest, reading, suggested] = await Promise.all([
     getLatestLifeIssue(),
     getReadingList(),
+    getSuggestedReading(),
   ]);
 
   return (
@@ -52,7 +54,11 @@ export default async function InputPage() {
 
         <section className="border-t border-foreground pt-8">
           <p className="mb-4 text-xs font-bold tracking-[0.2em]">02 / SUGGESTED</p>
-          <p className="text-muted text-center py-12">準備中.</p>
+          {suggested ? (
+            <SuggestedList data={suggested} />
+          ) : (
+            <p className="text-muted text-center py-12">提案はまだありません.</p>
+          )}
         </section>
 
         <CycleNext

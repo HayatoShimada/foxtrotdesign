@@ -6,7 +6,7 @@ import { ChatCard } from "@/components/chat/ChatCard";
 export const metadata: Metadata = {
   title: "About | foxtrotdesign",
   description:
-    "Hayato Shimadaによる、クリエイティブとエンジニアリングを横断する活動について。",
+    "Hayato Shimadaの個人名義 foxtrotdesign について。思考を外に出し、整理し、理解するための場所。",
 };
 
 export default function AboutPage() {
@@ -19,26 +19,84 @@ export default function AboutPage() {
             foxtrotdesign
           </h1>
           <p className="text-base leading-relaxed">
-            Hayato
-            Shimadaによるクリエイティブとエンジニアリングの交差点.
+            Hayato Shimadaの,個人としての自由表現の名義.
             <br />
-            アパレルからウェブ開発,デザインまで,技術と美学を融合させた活動を展開しています.
+            思考を外に出し,整理し,理解するための場所です.
           </p>
         </header>
 
         <section className="border-t border-foreground pt-8">
           <h2 className="mb-4 text-2xl font-bold">About</h2>
           <div className="space-y-4 text-muted">
-            <p>
-              <strong className="text-foreground">foxtrotdesign</strong>
-              は,プロボノ活動として運営するクリエイティブプロジェクトの総称です.
-              <br />
-              ウェブサイト制作,グラフィックデザイン,空間デザインなど,様々な形で表現を追求しています.
-            </p>
+            <p>活動を三つに分けています.</p>
+            <dl className="space-y-2 font-mono text-sm">
+              <div className="flex gap-4">
+                <dt className="w-32 shrink-0 text-foreground">本業</dt>
+                <dd>金銭を得るための活動.</dd>
+              </div>
+              <div className="flex gap-4">
+                <dt className="w-32 shrink-0 text-foreground">85-Store</dt>
+                <dd>安心を得るための活動.</dd>
+              </div>
+              <div className="flex gap-4">
+                <dt className="w-32 shrink-0 text-foreground">foxtrotdesign</dt>
+                <dd>個人の自由表現を行う活動.</dd>
+              </div>
+            </dl>
             <p>
               エンジニアとしては,Next.js,TypeScript,C#などを用いたフルスタック開発に従事.
               <br />
               アパレルでの経験を活かし,フィジカルとデジタルの境界を探求しています.
+            </p>
+            <p className="text-xs">
+              名前はGenesisのアルバム『Foxtrot』から.特に意味はありません.
+            </p>
+          </div>
+        </section>
+
+        <section className="border-t border-border pt-8">
+          <h2 className="mb-4 text-2xl font-bold">Why</h2>
+          <div className="space-y-4 text-muted">
+            <p>
+              私は抽象的な思考パターンを持っています.
+              自分の思考を自分で具体的に理解したり,他人に説明できるレベルにするには,一度構造化する必要があります.
+              手っ取り早い方法は,人に説明する文章として整理することです.
+            </p>
+            <pre className="border border-foreground p-4 font-mono text-xs text-foreground">
+{`思考する => 整理する => 理解する`}
+            </pre>
+            <p>
+              外に出せる形に成形する過程で整理され,世に出たそれを眺め直すことで「ああ,そういうことだったのか」という理解を得ることもあります.
+              誰かに見せる前提で整理すると,人に言えないレベルの思考も,社会との繋がりを保ったまま整理できます.
+            </p>
+            <p>
+              言葉にできない抽象思考,つまづき,もやつきもあります.
+              いまは整理するステップをAIに外注できる時代です.
+              AIが勝手にラベリングして,他の活動と勝手に紐付けて「これってこうじゃないですかね」とまとめてくれれば,それが正解でなくても「そうじゃなくて,もっとこうなのに」と取捨ができます.
+              その過程を俯瞰して眺めたいがために,このサイトの構造を少しずつ変えています.
+            </p>
+          </div>
+        </section>
+
+        <section className="border-t border-border pt-8">
+          <h2 className="mb-4 text-2xl font-bold">How</h2>
+          <div className="space-y-4 text-muted">
+            <pre className="border border-foreground p-4 font-mono text-xs text-foreground">
+{`LIFE ISSUES ──→ INPUT ──→ OUTPUT ──┐
+問いを立てる    読む      つくる     │
+     ↑                              │
+     └──────────────────────────────┘`}
+            </pre>
+            <ol className="list-decimal space-y-1 pl-5 text-sm">
+              <li>毎日昼にサイトが再ビルドされる.</li>
+              <li>GitHub,note.com,zenn.dev,Blueskyでの活動が収集される.</li>
+              <li>収集した文章をAI(Gemini)が1件ずつ要約する.</li>
+              <li>要約がOUTPUTとして並ぶ.</li>
+            </ol>
+            <p className="text-sm">
+              LIFE ISSUESは私が書きます.そこで立てた問いが,INPUTの読書リストとAIの選書の入力になります.
+              読書リストの既読・未読は手元のメモ帳から取り込みますが,メモの本文はサイトに渡しません.
+              AIの提案は私が確認してから公開します.
             </p>
           </div>
         </section>

@@ -1,6 +1,11 @@
 import fs from "fs/promises";
 import path from "path";
-import { SummarizedContent, GitHubRepo, ReadingItem } from "./types";
+import {
+  SummarizedContent,
+  GitHubRepo,
+  ReadingItem,
+  SuggestedReading,
+} from "./types";
 
 // /input と /output が同じデータを別の切り口で見せる。
 // ローダーは一箇所に置き、両ページから使う。
@@ -48,6 +53,23 @@ export async function getReadingList(): Promise<ReadingItem[]> {
     return JSON.parse(raw);
   } catch {
     return [];
+  }
+}
+
+/**
+ * AI の提案。status が published のときだけ返す。
+ * draft は人間が確認するまでサイトに出さない。
+ */
+export async function getSuggestedReading(): Promise<SuggestedReading | null> {
+  try {
+    const raw = await fs.readFile(
+      path.join(researchDirectory, "suggested.json"),
+      "utf-8"
+    );
+    const data: SuggestedReading = JSON.parse(raw);
+    return data.status === "published" ? data : null;
+  } catch {
+    return null;
   }
 }
 

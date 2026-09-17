@@ -22,6 +22,9 @@ npm run dev        # Start dev server
 npm run build      # Production build
 npm run lint       # ESLint
 npm run aggregate  # Fetch content from GitHub/note.com and summarize with Gemini
+npm run reading:sync       # (Pi only) project SilverBullet reading tasks into content/research/reading.json
+npm run suggest:generate   # Ask Gemini for next reads → content/research/suggested.json (status: draft)
+npm run suggest:publish    # Flip the draft to published; nothing shows on /input until this runs
 ```
 
 ## Architecture

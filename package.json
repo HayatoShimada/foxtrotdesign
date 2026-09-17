@@ -14,7 +14,9 @@
     "life-issue:thought:show": "tsx src/scripts/show-life-issue-thought.ts",
     "life-issue:thought:publish": "tsx src/scripts/publish-life-issue-thought.ts",
     "check:disclosure": "node scripts/check-disclosure.mjs",
-    "reading:sync": "tsx src/scripts/generate-reading-list.ts"
+    "reading:sync": "tsx src/scripts/generate-reading-list.ts",
+    "suggest:generate": "tsx src/scripts/suggest-reading.ts",
+    "suggest:publish": "tsx src/scripts/suggest-reading.ts --publish"
   },
   "repository": {
     "type": "git",

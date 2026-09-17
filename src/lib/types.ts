@@ -30,6 +30,25 @@ export interface ReadingItem {
   completedAt: string | null;
 }
 
+/** AI が提案した次に読むもの。URL は持たせない（モデルが捏造するため、人間が確認時に付ける） */
+export interface SuggestedItem {
+  title: string;
+  kind: "paper" | "book" | "news" | "other";
+  reason: string;
+  searchHint: string;
+  url: string | null;
+}
+
+/** 提案の束。draft のままではサイトに出ない */
+export interface SuggestedReading {
+  status: "draft" | "published";
+  generatedAt: string;
+  publishedAt: string | null;
+  question: string;
+  model: string;
+  items: SuggestedItem[];
+}
+
 export interface GitHubRepo {
   name: string;
   description: string | null;
