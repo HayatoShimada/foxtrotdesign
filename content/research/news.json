@@ -1,8 +1,20 @@
 {
-  "generatedAt": "2026-09-17T21:02:28.845Z",
+  "generatedAt": "2026-09-18T21:03:21.180Z",
   "question": "私は私を表現しながら私を無くしていきたい",
   "windowDays": 7,
   "items": [
+    {
+      "title": "To Memories and Beyond: From Remembering to Knowing You across Long-Term Multimodal Personal Archives",
+      "url": "https://arxiv.org/abs/2609.19167",
+      "sourceId": "rss-arxiv-org-rss-cs-cl",
+      "sourceName": "arXiv cs.CL",
+      "category": "research",
+      "publishedAt": "2026-09-18T04:00:00.000Z",
+      "relevance": 85,
+      "importance": 65,
+      "score": 81,
+      "reason": "長期の個人アーカイブから「あなた」を理解する試みは、自動返信と自分の境目を無くし、表現を通じて自己を外部に分散・消失させていく試索と深く重なります。"
+    },
     {
       "title": "ちくまプリマー新書『「わたし」が死ぬということの哲学』試し読み",
       "url": "https://www.webchikuma.com/n/n8f9535d7d955",
@@ -28,16 +40,16 @@
       "reason": "「私の声」「その人らしさ」「キャラクタ性」の探求は、自己表現と自己の境界を曖昧にする運用の問いに直結します。"
     },
     {
-      "title": "責任2.0／3.0 ∼ 知的創造過程の脱領土化 / Responsibility 2.0 and 3.0: The Deterritorialization of the Intellectual Creative Process",
-      "url": "https://speakerdeck.com/ks91/responsibility-2-dot-0-and-3-dot-0-the-deterritorialization-of-the-intellectual-creative-process",
-      "sourceId": "speakerdeck-com-c-technology",
-      "sourceName": "Speaker Deck Technology",
-      "category": "slides",
-      "publishedAt": "2026-09-17T00:11:44.000Z",
-      "relevance": 75,
-      "importance": 60,
-      "score": 72,
-      "reason": "知的創造過程の「脱領土化」と責任の再定義は、表現を通じて私を無くしていく、ドゥルーズ的な生成変化の哲学と強く共鳴します。"
+      "title": "「『普通』とは何かを問い直す、純文学が慰めだった」──新進気鋭の批評家・水上文による初の批評×エッセイ集『たったひとり、私だけの部屋で』 「はじめに」全文公開！",
+      "url": "https://web.kawade.co.jp/tameshiyomi/254258/",
+      "sourceId": "web-kawade-co-jp",
+      "sourceName": "Web河出",
+      "category": "discovered",
+      "publishedAt": "2026-09-18T10:30:00.000Z",
+      "relevance": 80,
+      "importance": 50,
+      "score": 74,
+      "reason": "「普通」を問い直し、個としての「私」を見つめる批評は、自己を表現しながら無くしていきたいという本質的な問いと深く重なる。"
     },
     {
       "title": "デカルト・キャンパスで暮らす",
@@ -52,6 +64,30 @@
       "reason": "デカルト的二元論や心身論の文脈は、自己の存在や「現れる存在」という読書傾向、私を無くしていくという問いに深く共鳴します。"
     },
     {
+      "title": "画像生成AIは創造性を高めるのか——効率化と意図のあいだで商いを問い直す",
+      "url": "https://argora.io/media/digital/2026-09-18-gazou-seisei-ai-to-sozosei-no-yukue",
+      "sourceId": "argora-io",
+      "sourceName": "株式会社アルゴラ — メディア",
+      "category": "discovered",
+      "publishedAt": "2026-09-18T00:00:00.000Z",
+      "relevance": 70,
+      "importance": 55,
+      "score": 67,
+      "reason": "AIによる創作と「意図」の境界は、自動返信と本当の自分の境目を無くそうとする本人の試みや自己表現の問いに直結する。"
+    },
+    {
+      "title": "Our brain evolved from two primitive nervous systems that merged: Study",
+      "url": "https://www.newscientist.com/article/2589739-our-brain-evolved-from-two-primitive-nervous-systems-that-merged/",
+      "sourceId": "hnrss-org-frontpage",
+      "sourceName": "Hacker News",
+      "category": "developer",
+      "publishedAt": "2026-09-18T15:12:07.000Z",
+      "relevance": 65,
+      "importance": 70,
+      "score": 66,
+      "reason": "脳が2つの原始的神経系の融合から進化したという知見は、単一の「私」という境界を揺るがし、脳と身体の再統合や分人化を考える手がかりとなる。"
+    },
+    {
       "title": "接触は増えるのに、なぜ関係は深まらないのか——デジタルと信頼の構造",
       "url": "https://argora.io/media/digital/2026-09-17-digital-sesshoku-to-shinyuu-no-kozo",
       "sourceId": "argora-io",
@@ -62,6 +98,18 @@
       "importance": 50,
       "score": 66,
       "reason": "デジタル上の接触と信頼の構造は、SNSのDM運用や、自己と自動返信の境界を無くす試みと深く繋がります。"
+    },
+    {
+      "title": "【2020s #12】「正しくないこと」を語れる場所はどこにあるのか？──リチャード・ローティの「バザールとクラブ」・SNS・企業倫理",
+      "url": "https://desilo.substack.com/p/2020s-ep12",
+      "sourceId": "desilo-substack-com",
+      "sourceName": "De-Silo",
+      "category": "discovered",
+      "publishedAt": "2026-09-18T08:00:58.000Z",
+      "relevance": 65,
+      "importance": 60,
+      "score": 64,
+      "reason": "SNSや特定の場における自己のあり方や倫理は、InstagramのDM運用や自己表現の境界を模索するメモと強く響き合う。"
     },
     {
       "title": "[Vol.3]「寄り添いすぎるAI」という落とし穴｜人に寄り添うAIはどう生まれるか",
@@ -76,18 +124,6 @@
       "reason": "「寄り添いすぎるAI」というテーマは、自動返信と自分の境目を無くす運用のメモや、自己を無くしていく問いに深く関連します。"
     },
     {
-      "title": "Does Moral Reasoning Training Help or Hurt? Red-Teaming RL-Trained Ethical Agents with Persona Attacks",
-      "url": "https://arxiv.org/abs/2609.17552",
-      "sourceId": "rss-arxiv-org-rss-cs-cl",
-      "sourceName": "arXiv cs.CL",
-      "category": "research",
-      "publishedAt": "2026-09-17T04:00:00.000Z",
-      "relevance": 60,
-      "importance": 55,
-      "score": 59,
-      "reason": "ペルソナ攻撃に対する倫理的エージェントの挙動は、自己の表現やペルソナ、アイデンティティの揺らぎという問いに深く関連します。"
-    },
-    {
       "title": "ちくまプリマー新書『みんな、普通で困ってる』試し読み",
       "url": "https://www.webchikuma.com/n/n147c8184bd45",
       "sourceId": "webchikuma-com",
@@ -98,6 +134,18 @@
       "importance": 55,
       "score": 59,
       "reason": "「普通」に囚われる自己のあり方を問い直す内容は、独自のペルソナ構築や自己表現の模索と深く響き合います。"
+    },
+    {
+      "title": "Spotifyからキッズ＆ファミリー音楽を“おすすめから外せる”新機能登場 子どもと共有しても“自分らしい”レコメンドを維持",
+      "url": "https://realsound.jp/tech/2026/09/post-2529405.html",
+      "sourceId": "realsound-jp-tech",
+      "sourceName": "リアルサウンド",
+      "category": "discovered",
+      "publishedAt": "2026-09-18T19:04:14.000Z",
+      "relevance": 60,
+      "importance": 50,
+      "score": 58,
+      "reason": "「自分らしい」レコメンドの維持という話題は、アルゴリズムと自己の境界、ペルソナの切り分けという問いに密接に関わる。"
     },
     {
       "title": "声を出すことが、身体に働きかけるしくみ——発声が呼吸と神経に与える影響",
@@ -136,30 +184,6 @@
       "reason": "「わたしたち」という目線で幸せを捉え直す試みは、個人から分人への移行や、私を無くしていく問いと親和性があります。"
     },
     {
-      "title": "AIで社員の自主発信に広報目線を組み込む",
-      "url": "https://speakerdeck.com/_mossann_t/ai-de-shain-no-jishu-hasshin-ni-kouhou-mesen-o-kumikomu",
-      "sourceId": "speakerdeck-com-c-technology",
-      "sourceName": "Speaker Deck Technology",
-      "category": "slides",
-      "publishedAt": "2026-09-17T11:39:08.000Z",
-      "relevance": 55,
-      "importance": 35,
-      "score": 51,
-      "reason": "「自分を表現しながら自分を無くす」問いに対し、個人の自主発信に他者の目線（広報）を組み込むシステムは親和性が高い。"
-    },
-    {
-      "title": "Do Social Patterns Hold in Synthetic Data? Analyzing Cyberbullying Dynamics in LLM-Generated and Authentic Dialogues",
-      "url": "https://arxiv.org/abs/2609.17549",
-      "sourceId": "rss-arxiv-org-rss-cs-cl",
-      "sourceName": "arXiv cs.CL",
-      "category": "research",
-      "publishedAt": "2026-09-17T04:00:00.000Z",
-      "relevance": 50,
-      "importance": 55,
-      "score": 51,
-      "reason": "合成データと本物の対話の比較は、自動返信と自己の境界を曖昧にする運用の問いや、authenticityの探求に繋がります。"
-    },
-    {
       "title": "眼球は脳が外に突き出たもの——目を意識して動かすことで何が変わるか",
       "url": "https://argora.io/media/body/2026-09-16-gankyu-wa-nou-no-kankakuki",
       "sourceId": "argora-io",
@@ -172,16 +196,16 @@
       "reason": "目を意識して動かすことによる変化は、読書リストにある『現れる存在』の脳と身体の再統合のテーマに合致します。"
     },
     {
-      "title": "属人化はすべて悪なのか——なくすべき依存と、残すべき強みの見分け方",
-      "url": "https://argora.io/media/digital/2026-09-15-zokujinka-wo-mikiwakeru",
-      "sourceId": "argora-io",
-      "sourceName": "株式会社アルゴラ — メディア",
+      "title": "うまく眠れなかった日は感覚が鈍くなったり敏感になったりして／Mei（LAUSBUB）",
+      "url": "https://meandyou.net/202609-mei/",
+      "sourceId": "meandyou-net",
+      "sourceName": "me and you little magazine & club",
       "category": "discovered",
-      "publishedAt": "2026-09-15T00:00:00.000Z",
-      "relevance": 50,
-      "importance": 55,
-      "score": 51,
-      "reason": "「属人化」や残すべき強みの議論は、自己を表現しつつもシステム化・自動化で私を無くそうとする葛藤に繋がります。"
+      "publishedAt": "2026-09-18T06:56:41.000Z",
+      "relevance": 55,
+      "importance": 30,
+      "score": 50,
+      "reason": "感覚の鋭敏さと鈍麻という身体的・感性的な揺らぎは、自己の境界を曖昧にし、私を無くしていくプロセスに通じる。"
     },
     {
       "title": "How Fyxer built an AI executive assistant people trust",
@@ -208,6 +232,18 @@
       "reason": "呼び出し元ごとのアイデンティティ管理は、自己を分人化し、自動返信と自分の境目を無くしていく運用に技術的・概念的に関連する。"
     },
     {
+      "title": "「もっと頑張ろう」「もう頑張らなくていい」――より良い人生を送るためには、どちらの道を選ぶべきか？",
+      "url": "https://kangaeruhito.jp/trial/764292",
+      "sourceId": "kangaeruhito-jp",
+      "sourceName": "考える人",
+      "category": "discovered",
+      "publishedAt": "2026-09-17T21:00:03.000Z",
+      "relevance": 50,
+      "importance": 40,
+      "score": 48,
+      "reason": "「頑張る」ことへの葛藤は、社会的な自己表現と、自己を解放して無くしていきたいという欲求の狭間の問いに繋がる。"
+    },
+    {
       "title": "食べるヨガとは何か——咀嚼の観察から見えてくる身体と幸福感のつながり",
       "url": "https://argora.io/media/body/2026-09-17-taberu-yoga-soushaku-no-kansatsu",
       "sourceId": "argora-io",
@@ -218,18 +254,6 @@
       "importance": 35,
       "score": 47,
       "reason": "身体の観察を通じた幸福感の探求は、読もうとしている本『現れる存在』の脳・身体・世界の再統合に繋がります。"
-    },
-    {
-      "title": "Faking Good and Faking Bad in LLMs: Response Distortion Across Dark Triad Personality Traits",
-      "url": "https://arxiv.org/abs/2609.17534",
-      "sourceId": "rss-arxiv-org-rss-cs-cl",
-      "sourceName": "arXiv cs.CL",
-      "category": "research",
-      "publishedAt": "2026-09-17T04:00:00.000Z",
-      "relevance": 45,
-      "importance": 50,
-      "score": 46,
-      "reason": "LLMのパーソナリティの歪みや偽装を扱うテーマは、本人のメモにある「本当の自分との境目を無くす」ペルソナ運用と親和性があります。"
     },
     {
       "title": "身体の変化に気づく習慣——自分のコンディションを「読む」仕組みをつくる",
@@ -244,30 +268,6 @@
       "reason": "身体の変化やコンディションを「読む」というテーマは、自己の身体と世界の再統合を考える読書傾向と関連します。"
     },
     {
-      "title": "AI時代における_iOS設計の守り方と人間の役割",
-      "url": "https://speakerdeck.com/techtver/iosdc2026",
-      "sourceId": "speakerdeck-com-c-programming",
-      "sourceName": "Speaker Deck Programming",
-      "category": "slides",
-      "publishedAt": "2026-09-17T10:55:11.000Z",
-      "relevance": 45,
-      "importance": 40,
-      "score": 44,
-      "reason": "AI時代における人間の役割というテーマは、自己の表現と自動返信の境界を無くすという本人のメモや、主体性を問う読書傾向に繋がります。"
-    },
-    {
-      "title": "24時間動き続けるAIエージェント：途中で「死なない」ようにする設計",
-      "url": "https://qiita.com/Ikegamik_genee/items/a628f20cd7fe262cbeb4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "sourceId": "qiita-com-popular-items",
-      "sourceName": "Qiita",
-      "category": "community",
-      "publishedAt": "2026-09-17T03:06:19.000Z",
-      "relevance": 45,
-      "importance": 40,
-      "score": 44,
-      "reason": "自動返信と自分の境目を無くす運用を目指すメモに対し、死なずに動き続けるエージェントの設計思想は参考になる。"
-    },
-    {
       "title": "アカウントが増え、管理者は知らない——DXが生む権限の空白をどう埋めるか",
       "url": "https://argora.io/media/digital/2026-09-16-dx-kengen-kanri-no-kuuhaku",
       "sourceId": "argora-io",
@@ -280,40 +280,16 @@
       "reason": "アカウントの増殖と権限の空白は、LINEを辞めDM運用に移行する本人のメモや、自己の分散・分人化の課題に重なります。"
     },
     {
-      "title": "「最近どう？」しか聞けなかった1on1で、メンバーが退職届を出してきた話",
-      "url": "https://qiita.com/fe1ix/items/5d733c267370e0e06661?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "sourceId": "qiita-com-popular-items",
-      "sourceName": "Qiita",
-      "category": "community",
-      "publishedAt": "2026-09-15T00:38:28.000Z",
+      "title": "移動と回復／濵本奏",
+      "url": "https://meandyou.net/202609-kanadehamamoto/",
+      "sourceId": "meandyou-net",
+      "sourceName": "me and you little magazine & club",
+      "category": "discovered",
+      "publishedAt": "2026-09-18T05:19:49.000Z",
       "relevance": 45,
-      "importance": 40,
-      "score": 44,
-      "reason": "1on1における対話や関係性の課題は、自己の表現や他者との境界、分人的なコミュニケーションのあり方を考える契機となる。"
-    },
-    {
-      "title": "Humans and AI in the Feedback Loop of Software Development",
-      "url": "https://speakerdeck.com/ewolff/humans-and-ai-in-the-feedback-loop-of-software-development",
-      "sourceId": "speakerdeck-com-c-technology",
-      "sourceName": "Speaker Deck Technology",
-      "category": "slides",
-      "publishedAt": "2026-09-17T18:41:54.000Z",
-      "relevance": 45,
-      "importance": 35,
-      "score": 43,
-      "reason": "人間とAIのフィードバックループは、自動返信と本当の自分の境目を無くしていくという本人の運用メモに直接重なる。"
-    },
-    {
-      "title": "Learning Heterogeneous Preferences",
-      "url": "https://arxiv.org/abs/2609.17847",
-      "sourceId": "rss-arxiv-org-rss-cs-ai",
-      "sourceName": "arXiv cs.AI",
-      "category": "research",
-      "publishedAt": "2026-09-17T04:00:00.000Z",
-      "relevance": 45,
-      "importance": 35,
-      "score": 43,
-      "reason": "多様で不均一な好みの学習は、単一の自己ではなく、複数の分人的な人格や感性のあり方を捉えるアプローチと親和性がある。"
+      "importance": 30,
+      "score": 42,
+      "reason": "移動と回復というテーマは、自己のペルソナを切り替え、分人的な存在として自己を再構成する問いと重なる。"
     },
     {
       "title": "【10/1開催】「認知戦」を考える──ナラティブ・認知の自由・民主主義の変容【Academic Insights #27】",
@@ -326,42 +302,6 @@
       "importance": 50,
       "score": 42,
       "reason": "「認知戦」や「ナラティブ」の議論は、自己の表現やペルソナ、客観的な自己の在り方を考える手がかりになります。"
-    },
-    {
-      "title": "見えないものを見えるようにする――『ブルーメンベルク・コレクション』刊行に寄せて",
-      "url": "https://www.webchikuma.com/n/ne18b4cd0080a",
-      "sourceId": "webchikuma-com",
-      "sourceName": "webちくま（筑摩書房の読みものサイト）",
-      "category": "discovered",
-      "publishedAt": "2026-09-11T06:24:22.000Z",
-      "relevance": 40,
-      "importance": 45,
-      "score": 41,
-      "reason": "「見えないものを見えるようにする」という視点は、自己の境界や感性を表現するアプローチと親和性があります。"
-    },
-    {
-      "title": "Launch HN: Skillsync (YC W26) – AI chat sessions made portable across agents",
-      "url": "https://news.ycombinator.com/item?id=49743049",
-      "sourceId": "hnrss-org-frontpage",
-      "sourceName": "Hacker News",
-      "category": "developer",
-      "publishedAt": "2026-09-17T16:22:15.000Z",
-      "relevance": 40,
-      "importance": 35,
-      "score": 39,
-      "reason": "エージェント間でポータブルなAIチャットは、自分の分身やペルソナを外部に委ね、自己を分散させる試みと繋がる。"
-    },
-    {
-      "title": "CapMem: A Benchmark for Caption-Based Episodic Memory in Egocentric Video",
-      "url": "https://arxiv.org/abs/2609.17688",
-      "sourceId": "rss-arxiv-org-rss-cs-ai",
-      "sourceName": "arXiv cs.AI",
-      "category": "research",
-      "publishedAt": "2026-09-17T04:00:00.000Z",
-      "relevance": 40,
-      "importance": 35,
-      "score": 39,
-      "reason": "一人称視点ビデオにおけるエピソード記憶のベンチマークは、自己の視点や表現、記憶のあり方を問い直す手がかりとなる。"
     }
   ]
 }
