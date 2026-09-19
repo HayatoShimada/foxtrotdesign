@@ -1,20 +1,8 @@
 {
-  "generatedAt": "2026-09-18T21:03:21.180Z",
+  "generatedAt": "2026-09-19T21:01:30.853Z",
   "question": "私は私を表現しながら私を無くしていきたい",
   "windowDays": 7,
   "items": [
-    {
-      "title": "To Memories and Beyond: From Remembering to Knowing You across Long-Term Multimodal Personal Archives",
-      "url": "https://arxiv.org/abs/2609.19167",
-      "sourceId": "rss-arxiv-org-rss-cs-cl",
-      "sourceName": "arXiv cs.CL",
-      "category": "research",
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "relevance": 85,
-      "importance": 65,
-      "score": 81,
-      "reason": "長期の個人アーカイブから「あなた」を理解する試みは、自動返信と自分の境目を無くし、表現を通じて自己を外部に分散・消失させていく試索と深く重なります。"
-    },
     {
       "title": "ちくまプリマー新書『「わたし」が死ぬということの哲学』試し読み",
       "url": "https://www.webchikuma.com/n/n8f9535d7d955",
@@ -76,18 +64,6 @@
       "reason": "AIによる創作と「意図」の境界は、自動返信と本当の自分の境目を無くそうとする本人の試みや自己表現の問いに直結する。"
     },
     {
-      "title": "Our brain evolved from two primitive nervous systems that merged: Study",
-      "url": "https://www.newscientist.com/article/2589739-our-brain-evolved-from-two-primitive-nervous-systems-that-merged/",
-      "sourceId": "hnrss-org-frontpage",
-      "sourceName": "Hacker News",
-      "category": "developer",
-      "publishedAt": "2026-09-18T15:12:07.000Z",
-      "relevance": 65,
-      "importance": 70,
-      "score": 66,
-      "reason": "脳が2つの原始的神経系の融合から進化したという知見は、単一の「私」という境界を揺るがし、脳と身体の再統合や分人化を考える手がかりとなる。"
-    },
-    {
       "title": "接触は増えるのに、なぜ関係は深まらないのか——デジタルと信頼の構造",
       "url": "https://argora.io/media/digital/2026-09-17-digital-sesshoku-to-shinyuu-no-kozo",
       "sourceId": "argora-io",
@@ -124,6 +100,18 @@
       "reason": "「寄り添いすぎるAI」というテーマは、自動返信と自分の境目を無くす運用のメモや、自己を無くしていく問いに深く関連します。"
     },
     {
+      "title": "ARGのゲームデザイン ～「フィクション表記」は現実と虚構の線引きを解決するのか？～",
+      "url": "https://zenn.dev/ryo_a/articles/bb5d25ef20020c",
+      "sourceId": "zenn-dev",
+      "sourceName": "Zenn",
+      "category": "community",
+      "publishedAt": "2026-09-18T21:20:56.000Z",
+      "relevance": 65,
+      "importance": 45,
+      "score": 61,
+      "reason": "現実と虚構の線引きを問うテーマは、自動返信と自分の境目を無くすという本人のメモやペルソナの問いに重なります。"
+    },
+    {
       "title": "ちくまプリマー新書『みんな、普通で困ってる』試し読み",
       "url": "https://www.webchikuma.com/n/n147c8184bd45",
       "sourceId": "webchikuma-com",
@@ -136,16 +124,16 @@
       "reason": "「普通」に囚われる自己のあり方を問い直す内容は、独自のペルソナ構築や自己表現の模索と深く響き合います。"
     },
     {
-      "title": "Spotifyからキッズ＆ファミリー音楽を“おすすめから外せる”新機能登場 子どもと共有しても“自分らしい”レコメンドを維持",
-      "url": "https://realsound.jp/tech/2026/09/post-2529405.html",
-      "sourceId": "realsound-jp-tech",
-      "sourceName": "リアルサウンド",
-      "category": "discovered",
-      "publishedAt": "2026-09-18T19:04:14.000Z",
+      "title": "Tilly Norwood’s press tour is going about as well as you’d expect for an AI",
+      "url": "https://techcrunch.com/2026/09/18/tilly-norwoods-press-tour-is-going-about-as-well-as-youd-expect-for-an-ai/",
+      "sourceId": "techcrunch-com-category-artificial-intelligence",
+      "sourceName": "TechCrunch AI",
+      "category": "media",
+      "publishedAt": "2026-09-19T00:12:07.000Z",
       "relevance": 60,
-      "importance": 50,
-      "score": 58,
-      "reason": "「自分らしい」レコメンドの維持という話題は、アルゴリズムと自己の境界、ペルソナの切り分けという問いに密接に関わる。"
+      "importance": 40,
+      "score": 56,
+      "reason": "AIによるプレスツアーの様子は、自己を表現しながら自分を無くしていく、あるいはペルソナを自動化する問いに直接つながります。"
     },
     {
       "title": "声を出すことが、身体に働きかけるしくみ——発声が呼吸と神経に与える影響",
@@ -158,6 +146,18 @@
       "importance": 35,
       "score": 55,
       "reason": "発声が身体や呼吸に与える影響は、自己の表現や『現れる存在』で扱われる身体性の再統合に直接繋がります。"
+    },
+    {
+      "title": "Almost Never Use AI to Write Anything Substantive",
+      "url": "https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai",
+      "sourceId": "hnrss-org-frontpage",
+      "sourceName": "Hacker News",
+      "category": "developer",
+      "publishedAt": "2026-09-19T16:35:24.000Z",
+      "relevance": 55,
+      "importance": 50,
+      "score": 54,
+      "reason": "AIに実質的な文章を書かせるべきでないという議論は、自己表現や自動返信と本当の自分の境目を無くす試みと深く関連します。"
     },
     {
       "title": "【クィア／フェミニズムと共に文学を体験するためのブックリスト】 水上文『たったひとり、私だけの部屋で』刊行記念選書フェア開催！",
@@ -182,6 +182,18 @@
       "importance": 45,
       "score": 53,
       "reason": "「わたしたち」という目線で幸せを捉え直す試みは、個人から分人への移行や、私を無くしていく問いと親和性があります。"
+    },
+    {
+      "title": "無原唱レコード・松永依織が語る“6年間の軌跡” 全力で走り抜けた日々を振り返るラストインタビュー",
+      "url": "https://realsound.jp/tech/2026/09/post-2529135.html",
+      "sourceId": "realsound-jp-tech",
+      "sourceName": "リアルサウンド",
+      "category": "discovered",
+      "publishedAt": "2026-09-19T18:00:58.000Z",
+      "relevance": 55,
+      "importance": 40,
+      "score": 52,
+      "reason": "「無原唱レコード」や活動の軌跡に関するインタビューは、自己の表現やペルソナ、自分を無くしていくような表現のあり方と親和性があります。"
     },
     {
       "title": "眼球は脳が外に突き出たもの——目を意識して動かすことで何が変わるか",
@@ -256,28 +268,28 @@
       "reason": "身体の観察を通じた幸福感の探求は、読もうとしている本『現れる存在』の脳・身体・世界の再統合に繋がります。"
     },
     {
-      "title": "身体の変化に気づく習慣——自分のコンディションを「読む」仕組みをつくる",
-      "url": "https://argora.io/media/body/2026-09-15-karada-no-henka-ni-kizuku-shuukan",
-      "sourceId": "argora-io",
-      "sourceName": "株式会社アルゴラ — メディア",
+      "title": "【滋賀】「丸木スマ展 73歳からのアーティスト」展 関連イベント",
+      "url": "https://artscape.jp/article/78759/",
+      "sourceId": "artscape-jp",
+      "sourceName": "artscape",
       "category": "discovered",
-      "publishedAt": "2026-09-15T00:00:00.000Z",
-      "relevance": 45,
-      "importance": 50,
-      "score": 46,
-      "reason": "身体の変化やコンディションを「読む」というテーマは、自己の身体と世界の再統合を考える読書傾向と関連します。"
+      "publishedAt": "2026-09-16T01:00:53.000Z",
+      "relevance": 50,
+      "importance": 35,
+      "score": 47,
+      "reason": "73歳からアーティストとして活動を始めた丸木スマの展示は、自己表現のあり方や、新たな自己（ペルソナ）の獲得という問いに重なります。"
     },
     {
-      "title": "アカウントが増え、管理者は知らない——DXが生む権限の空白をどう埋めるか",
-      "url": "https://argora.io/media/digital/2026-09-16-dx-kengen-kanri-no-kuuhaku",
-      "sourceId": "argora-io",
-      "sourceName": "株式会社アルゴラ — メディア",
+      "title": "停滞K-POPグループ→“カワイイ”日本式アイドルへ 『Re:Idol』が描くリアルな葛藤と成長の物語",
+      "url": "https://realsound.jp/tech/2026/09/post-2524381.html",
+      "sourceId": "realsound-jp-tech",
+      "sourceName": "リアルサウンド",
       "category": "discovered",
-      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "publishedAt": "2026-09-19T12:00:34.000Z",
       "relevance": 45,
-      "importance": 40,
-      "score": 44,
-      "reason": "アカウントの増殖と権限の空白は、LINEを辞めDM運用に移行する本人のメモや、自己の分散・分人化の課題に重なります。"
+      "importance": 35,
+      "score": 43,
+      "reason": "日本式アイドルへの変化や葛藤を描く内容は、自己表現やペルソナの再構築、アイデンティティの揺らぎという問いに関連します。"
     },
     {
       "title": "移動と回復／濵本奏",
@@ -302,6 +314,30 @@
       "importance": 50,
       "score": 42,
       "reason": "「認知戦」や「ナラティブ」の議論は、自己の表現やペルソナ、客観的な自己の在り方を考える手がかりになります。"
+    },
+    {
+      "title": "実はコミュニティ運営をやめようと思っていました",
+      "url": "https://qiita.com/sadabon444/items/6b4e0a5e4946d1a941ac?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "sourceId": "qiita-com-popular-items",
+      "sourceName": "Qiita",
+      "category": "community",
+      "publishedAt": "2026-09-18T23:51:25.000Z",
+      "relevance": 45,
+      "importance": 25,
+      "score": 41,
+      "reason": "コミュニティ運営を辞める葛藤は、LINEを辞めて世間への返信方法を変えようとする本人の人間関係の整理と響き合います。"
+    },
+    {
+      "title": "山﨑健太｜劇団だるめしあん『ラブイデオロギーは突然に〈劇場版〉』",
+      "url": "https://artscape.jp/article/78803/",
+      "sourceId": "artscape-jp",
+      "sourceName": "artscape",
+      "category": "discovered",
+      "publishedAt": "2026-09-17T02:00:21.000Z",
+      "relevance": 40,
+      "importance": 30,
+      "score": 38,
+      "reason": "「ラブイデオロギー」や劇団の表現活動は、自己の表現やペルソナ、関係性の中で立ち上がる自己という問いに繋がります。"
     }
   ]
 }
