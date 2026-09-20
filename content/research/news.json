@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T21:01:30.853Z",
+  "generatedAt": "2026-09-20T21:03:21.435Z",
   "question": "私は私を表現しながら私を無くしていきたい",
   "windowDays": 7,
   "items": [
@@ -100,18 +100,6 @@
       "reason": "「寄り添いすぎるAI」というテーマは、自動返信と自分の境目を無くす運用のメモや、自己を無くしていく問いに深く関連します。"
     },
     {
-      "title": "ARGのゲームデザイン ～「フィクション表記」は現実と虚構の線引きを解決するのか？～",
-      "url": "https://zenn.dev/ryo_a/articles/bb5d25ef20020c",
-      "sourceId": "zenn-dev",
-      "sourceName": "Zenn",
-      "category": "community",
-      "publishedAt": "2026-09-18T21:20:56.000Z",
-      "relevance": 65,
-      "importance": 45,
-      "score": 61,
-      "reason": "現実と虚構の線引きを問うテーマは、自動返信と自分の境目を無くすという本人のメモやペルソナの問いに重なります。"
-    },
-    {
       "title": "ちくまプリマー新書『みんな、普通で困ってる』試し読み",
       "url": "https://www.webchikuma.com/n/n147c8184bd45",
       "sourceId": "webchikuma-com",
@@ -124,6 +112,18 @@
       "reason": "「普通」に囚われる自己のあり方を問い直す内容は、独自のペルソナ構築や自己表現の模索と深く響き合います。"
     },
     {
+      "title": "I am often wrong",
+      "url": "https://borischerny.com/management,/product/2026/09/19/I-am-often-wrong.html",
+      "sourceId": "hnrss-org-frontpage",
+      "sourceName": "Hacker News",
+      "category": "developer",
+      "publishedAt": "2026-09-20T16:41:46.000Z",
+      "relevance": 65,
+      "importance": 30,
+      "score": 58,
+      "reason": "「私はしばしば間違える」という自己言及は、不完全な自己の表現や、確固たるアイデンティティを揺るがし「私を無くしていく」問いに響く。"
+    },
+    {
       "title": "Tilly Norwood’s press tour is going about as well as you’d expect for an AI",
       "url": "https://techcrunch.com/2026/09/18/tilly-norwoods-press-tour-is-going-about-as-well-as-youd-expect-for-an-ai/",
       "sourceId": "techcrunch-com-category-artificial-intelligence",
@@ -134,30 +134,6 @@
       "importance": 40,
       "score": 56,
       "reason": "AIによるプレスツアーの様子は、自己を表現しながら自分を無くしていく、あるいはペルソナを自動化する問いに直接つながります。"
-    },
-    {
-      "title": "声を出すことが、身体に働きかけるしくみ——発声が呼吸と神経に与える影響",
-      "url": "https://argora.io/media/body/2026-09-16-hatsusei-ga-karada-ni-hataraku-shikumi",
-      "sourceId": "argora-io",
-      "sourceName": "株式会社アルゴラ — メディア",
-      "category": "discovered",
-      "publishedAt": "2026-09-16T00:00:00.000Z",
-      "relevance": 60,
-      "importance": 35,
-      "score": 55,
-      "reason": "発声が身体や呼吸に与える影響は、自己の表現や『現れる存在』で扱われる身体性の再統合に直接繋がります。"
-    },
-    {
-      "title": "Almost Never Use AI to Write Anything Substantive",
-      "url": "https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai",
-      "sourceId": "hnrss-org-frontpage",
-      "sourceName": "Hacker News",
-      "category": "developer",
-      "publishedAt": "2026-09-19T16:35:24.000Z",
-      "relevance": 55,
-      "importance": 50,
-      "score": 54,
-      "reason": "AIに実質的な文章を書かせるべきでないという議論は、自己表現や自動返信と本当の自分の境目を無くす試みと深く関連します。"
     },
     {
       "title": "【クィア／フェミニズムと共に文学を体験するためのブックリスト】 水上文『たったひとり、私だけの部屋で』刊行記念選書フェア開催！",
@@ -194,18 +170,6 @@
       "importance": 40,
       "score": 52,
       "reason": "「無原唱レコード」や活動の軌跡に関するインタビューは、自己の表現やペルソナ、自分を無くしていくような表現のあり方と親和性があります。"
-    },
-    {
-      "title": "眼球は脳が外に突き出たもの——目を意識して動かすことで何が変わるか",
-      "url": "https://argora.io/media/body/2026-09-16-gankyu-wa-nou-no-kankakuki",
-      "sourceId": "argora-io",
-      "sourceName": "株式会社アルゴラ — メディア",
-      "category": "discovered",
-      "publishedAt": "2026-09-16T00:00:00.000Z",
-      "relevance": 55,
-      "importance": 35,
-      "score": 51,
-      "reason": "目を意識して動かすことによる変化は、読書リストにある『現れる存在』の脳と身体の再統合のテーマに合致します。"
     },
     {
       "title": "うまく眠れなかった日は感覚が鈍くなったり敏感になったりして／Mei（LAUSBUB）",
@@ -268,16 +232,16 @@
       "reason": "身体の観察を通じた幸福感の探求は、読もうとしている本『現れる存在』の脳・身体・世界の再統合に繋がります。"
     },
     {
-      "title": "【滋賀】「丸木スマ展 73歳からのアーティスト」展 関連イベント",
-      "url": "https://artscape.jp/article/78759/",
-      "sourceId": "artscape-jp",
-      "sourceName": "artscape",
-      "category": "discovered",
-      "publishedAt": "2026-09-16T01:00:53.000Z",
+      "title": "Find Your AuthZEN",
+      "url": "https://speakerdeck.com/dasniko/find-your-authzen",
+      "sourceId": "speakerdeck-com-c-programming",
+      "sourceName": "Speaker Deck Programming",
+      "category": "slides",
+      "publishedAt": "2026-09-20T20:12:50.000Z",
       "relevance": 50,
-      "importance": 35,
-      "score": 47,
-      "reason": "73歳からアーティストとして活動を始めた丸木スマの展示は、自己表現のあり方や、新たな自己（ペルソナ）の獲得という問いに重なります。"
+      "importance": 20,
+      "score": 44,
+      "reason": "AuthZEN（認証・禅）の概念は、アイデンティティ（Auth）の確立と、自己を無くしていく「禅」の精神や問いのキーワードに重なる。"
     },
     {
       "title": "停滞K-POPグループ→“カワイイ”日本式アイドルへ 『Re:Idol』が描くリアルな葛藤と成長の物語",
@@ -328,16 +292,28 @@
       "reason": "コミュニティ運営を辞める葛藤は、LINEを辞めて世間への返信方法を変えようとする本人の人間関係の整理と響き合います。"
     },
     {
-      "title": "山﨑健太｜劇団だるめしあん『ラブイデオロギーは突然に〈劇場版〉』",
-      "url": "https://artscape.jp/article/78803/",
-      "sourceId": "artscape-jp",
-      "sourceName": "artscape",
-      "category": "discovered",
-      "publishedAt": "2026-09-17T02:00:21.000Z",
+      "title": "I turned Jev into a (lousy) chatbot",
+      "url": "https://github.com/kyle-pena-nlp/jevchat/",
+      "sourceId": "hnrss-org-frontpage",
+      "sourceName": "Hacker News",
+      "category": "developer",
+      "publishedAt": "2026-09-20T17:51:27.000Z",
+      "relevance": 45,
+      "importance": 20,
+      "score": 40,
+      "reason": "Jevをチャットボット化する試みは、自動返信と自分の境目を無くす運用のメモと重なり、自己の表現と消失の問いに繋がる。"
+    },
+    {
+      "title": "Prompts aren’t Real",
+      "url": "https://evaluation.club",
+      "sourceId": "hnrss-org-frontpage",
+      "sourceName": "Hacker News",
+      "category": "developer",
+      "publishedAt": "2026-09-20T15:59:25.000Z",
       "relevance": 40,
-      "importance": 30,
-      "score": 38,
-      "reason": "「ラブイデオロギー」や劇団の表現活動は、自己の表現やペルソナ、関係性の中で立ち上がる自己という問いに繋がります。"
+      "importance": 35,
+      "score": 39,
+      "reason": "プロンプトがリアルではないとする議論は、言葉による自己表現の虚構性や、自動返信と自己の境界の曖昧さに通じる。"
     }
   ]
 }
