@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T21:03:21.435Z",
+  "generatedAt": "2026-09-21T21:01:57.729Z",
   "question": "私は私を表現しながら私を無くしていきたい",
   "windowDays": 7,
   "items": [
@@ -64,16 +64,16 @@
       "reason": "AIによる創作と「意図」の境界は、自動返信と本当の自分の境目を無くそうとする本人の試みや自己表現の問いに直結する。"
     },
     {
-      "title": "接触は増えるのに、なぜ関係は深まらないのか——デジタルと信頼の構造",
-      "url": "https://argora.io/media/digital/2026-09-17-digital-sesshoku-to-shinyuu-no-kozo",
-      "sourceId": "argora-io",
-      "sourceName": "株式会社アルゴラ — メディア",
-      "category": "discovered",
-      "publishedAt": "2026-09-17T00:00:00.000Z",
-      "relevance": 70,
-      "importance": 50,
-      "score": 66,
-      "reason": "デジタル上の接触と信頼の構造は、SNSのDM運用や、自己と自動返信の境界を無くす試みと深く繋がります。"
+      "title": "「説得する」のではなく「問いを増やす」 ― 日本を良くする対話のOSを設計する : システム設計視点の行動経済学 (31)",
+      "url": "https://qiita.com/maskot1977/items/2b0c42c05a5cc06dc545?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "sourceId": "qiita-com-popular-items",
+      "sourceName": "Qiita",
+      "category": "community",
+      "publishedAt": "2026-09-21T15:03:11.000Z",
+      "relevance": 65,
+      "importance": 60,
+      "score": 64,
+      "reason": "「問いを増やす」という対話の設計は、自己を表現しつつ境界を曖昧にする問い手の姿勢や、分人主義的な他者との関わり方に深く繋がります。"
     },
     {
       "title": "【2020s #12】「正しくないこと」を語れる場所はどこにあるのか？──リチャード・ローティの「バザールとクラブ」・SNS・企業倫理",
@@ -112,28 +112,16 @@
       "reason": "「普通」に囚われる自己のあり方を問い直す内容は、独自のペルソナ構築や自己表現の模索と深く響き合います。"
     },
     {
-      "title": "I am often wrong",
-      "url": "https://borischerny.com/management,/product/2026/09/19/I-am-often-wrong.html",
-      "sourceId": "hnrss-org-frontpage",
-      "sourceName": "Hacker News",
-      "category": "developer",
-      "publishedAt": "2026-09-20T16:41:46.000Z",
-      "relevance": 65,
-      "importance": 30,
-      "score": 58,
-      "reason": "「私はしばしば間違える」という自己言及は、不完全な自己の表現や、確固たるアイデンティティを揺るがし「私を無くしていく」問いに響く。"
-    },
-    {
-      "title": "Tilly Norwood’s press tour is going about as well as you’d expect for an AI",
-      "url": "https://techcrunch.com/2026/09/18/tilly-norwoods-press-tour-is-going-about-as-well-as-youd-expect-for-an-ai/",
-      "sourceId": "techcrunch-com-category-artificial-intelligence",
-      "sourceName": "TechCrunch AI",
-      "category": "media",
-      "publishedAt": "2026-09-19T00:12:07.000Z",
-      "relevance": 60,
-      "importance": 40,
-      "score": 56,
-      "reason": "AIによるプレスツアーの様子は、自己を表現しながら自分を無くしていく、あるいはペルソナを自動化する問いに直接つながります。"
+      "title": "5．アファンタジア――頭にシーンが浮かばない",
+      "url": "https://kangaeruhito.jp/article/764288",
+      "sourceId": "kangaeruhito-jp",
+      "sourceName": "考える人",
+      "category": "discovered",
+      "publishedAt": "2026-09-20T21:00:50.000Z",
+      "relevance": 55,
+      "importance": 50,
+      "score": 54,
+      "reason": "頭の中にイメージが浮かばない「アファンタジア」の認知特性は、自己の感性や「私」の存在の捉え方に深く関わります。"
     },
     {
       "title": "【クィア／フェミニズムと共に文学を体験するためのブックリスト】 水上文『たったひとり、私だけの部屋で』刊行記念選書フェア開催！",
@@ -160,18 +148,6 @@
       "reason": "「わたしたち」という目線で幸せを捉え直す試みは、個人から分人への移行や、私を無くしていく問いと親和性があります。"
     },
     {
-      "title": "無原唱レコード・松永依織が語る“6年間の軌跡” 全力で走り抜けた日々を振り返るラストインタビュー",
-      "url": "https://realsound.jp/tech/2026/09/post-2529135.html",
-      "sourceId": "realsound-jp-tech",
-      "sourceName": "リアルサウンド",
-      "category": "discovered",
-      "publishedAt": "2026-09-19T18:00:58.000Z",
-      "relevance": 55,
-      "importance": 40,
-      "score": 52,
-      "reason": "「無原唱レコード」や活動の軌跡に関するインタビューは、自己の表現やペルソナ、自分を無くしていくような表現のあり方と親和性があります。"
-    },
-    {
       "title": "うまく眠れなかった日は感覚が鈍くなったり敏感になったりして／Mei（LAUSBUB）",
       "url": "https://meandyou.net/202609-mei/",
       "sourceId": "meandyou-net",
@@ -182,30 +158,6 @@
       "importance": 30,
       "score": 50,
       "reason": "感覚の鋭敏さと鈍麻という身体的・感性的な揺らぎは、自己の境界を曖昧にし、私を無くしていくプロセスに通じる。"
-    },
-    {
-      "title": "How Fyxer built an AI executive assistant people trust",
-      "url": "https://openai.com/index/fyxer",
-      "sourceId": "openai-com-news",
-      "sourceName": "OpenAI",
-      "category": "vendor",
-      "publishedAt": "2026-09-14T12:00:00.000Z",
-      "relevance": 50,
-      "importance": 45,
-      "score": 49,
-      "reason": "信頼されるAIエグゼクティブアシスタントの構築は、自動返信と自分の境目を無くすようなペルソナ運用の問いに直接繋がる。"
-    },
-    {
-      "title": "Connections: managed credentials and per-caller identity for Managed Deep Agents",
-      "url": "https://www.langchain.com/blog/connections-managed-credentials-and-per-caller-identity-for-managed-deep-agents",
-      "sourceId": "blog-langchain-com",
-      "sourceName": "LangChain",
-      "category": "developer",
-      "publishedAt": "2026-09-14T01:53:59.000Z",
-      "relevance": 50,
-      "importance": 45,
-      "score": 49,
-      "reason": "呼び出し元ごとのアイデンティティ管理は、自己を分人化し、自動返信と自分の境目を無くしていく運用に技術的・概念的に関連する。"
     },
     {
       "title": "「もっと頑張ろう」「もう頑張らなくていい」――より良い人生を送るためには、どちらの道を選ぶべきか？",
@@ -220,16 +172,16 @@
       "reason": "「頑張る」ことへの葛藤は、社会的な自己表現と、自己を解放して無くしていきたいという欲求の狭間の問いに繋がる。"
     },
     {
-      "title": "食べるヨガとは何か——咀嚼の観察から見えてくる身体と幸福感のつながり",
-      "url": "https://argora.io/media/body/2026-09-17-taberu-yoga-soushaku-no-kansatsu",
-      "sourceId": "argora-io",
-      "sourceName": "株式会社アルゴラ — メディア",
-      "category": "discovered",
-      "publishedAt": "2026-09-17T00:00:00.000Z",
-      "relevance": 50,
-      "importance": 35,
-      "score": 47,
-      "reason": "身体の観察を通じた幸福感の探求は、読もうとしている本『現れる存在』の脳・身体・世界の再統合に繋がります。"
+      "title": "From Discharge Notes to Patient Understanding: Persona-Grounded, Open-Ended Simulation of LLMs as Discharge Educators",
+      "url": "https://arxiv.org/abs/2609.20827",
+      "sourceId": "rss-arxiv-org-rss-cs-cl",
+      "sourceName": "arXiv cs.CL",
+      "category": "research",
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "relevance": 45,
+      "importance": 40,
+      "score": 44,
+      "reason": "「ペルソナ」を基盤としたシミュレーションは、自動返信と本当の自分の境目を無くすようなペルソナの運用という問いに重なります。"
     },
     {
       "title": "Find Your AuthZEN",
@@ -244,16 +196,16 @@
       "reason": "AuthZEN（認証・禅）の概念は、アイデンティティ（Auth）の確立と、自己を無くしていく「禅」の精神や問いのキーワードに重なる。"
     },
     {
-      "title": "停滞K-POPグループ→“カワイイ”日本式アイドルへ 『Re:Idol』が描くリアルな葛藤と成長の物語",
-      "url": "https://realsound.jp/tech/2026/09/post-2524381.html",
-      "sourceId": "realsound-jp-tech",
-      "sourceName": "リアルサウンド",
-      "category": "discovered",
-      "publishedAt": "2026-09-19T12:00:34.000Z",
+      "title": "In Search of a Compositional Theory of Self-Stabilization",
+      "url": "http://muratbuffalo.blogspot.com/2026/09/in-search-of-compositional-theory-of.html",
+      "sourceId": "hnrss-org-frontpage",
+      "sourceName": "Hacker News",
+      "category": "developer",
+      "publishedAt": "2026-09-21T19:04:36.000Z",
       "relevance": 45,
-      "importance": 35,
-      "score": 43,
-      "reason": "日本式アイドルへの変化や葛藤を描く内容は、自己表現やペルソナの再構築、アイデンティティの揺らぎという問いに関連します。"
+      "importance": 30,
+      "score": 42,
+      "reason": "自己安定化（Self-Stabilization）の理論は、自己を無くしつつ表現を保つという、自己の動的な均衡や境界の維持に関する問いと親和性があります。"
     },
     {
       "title": "移動と回復／濵本奏",
@@ -268,18 +220,6 @@
       "reason": "移動と回復というテーマは、自己のペルソナを切り替え、分人的な存在として自己を再構成する問いと重なる。"
     },
     {
-      "title": "【10/1開催】「認知戦」を考える──ナラティブ・認知の自由・民主主義の変容【Academic Insights #27】",
-      "url": "https://desilo.substack.com/p/academic-insights-27",
-      "sourceId": "desilo-substack-com",
-      "sourceName": "De-Silo",
-      "category": "discovered",
-      "publishedAt": "2026-09-14T06:02:36.000Z",
-      "relevance": 40,
-      "importance": 50,
-      "score": 42,
-      "reason": "「認知戦」や「ナラティブ」の議論は、自己の表現やペルソナ、客観的な自己の在り方を考える手がかりになります。"
-    },
-    {
       "title": "実はコミュニティ運営をやめようと思っていました",
       "url": "https://qiita.com/sadabon444/items/6b4e0a5e4946d1a941ac?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
       "sourceId": "qiita-com-popular-items",
@@ -290,30 +230,6 @@
       "importance": 25,
       "score": 41,
       "reason": "コミュニティ運営を辞める葛藤は、LINEを辞めて世間への返信方法を変えようとする本人の人間関係の整理と響き合います。"
-    },
-    {
-      "title": "I turned Jev into a (lousy) chatbot",
-      "url": "https://github.com/kyle-pena-nlp/jevchat/",
-      "sourceId": "hnrss-org-frontpage",
-      "sourceName": "Hacker News",
-      "category": "developer",
-      "publishedAt": "2026-09-20T17:51:27.000Z",
-      "relevance": 45,
-      "importance": 20,
-      "score": 40,
-      "reason": "Jevをチャットボット化する試みは、自動返信と自分の境目を無くす運用のメモと重なり、自己の表現と消失の問いに繋がる。"
-    },
-    {
-      "title": "Prompts aren’t Real",
-      "url": "https://evaluation.club",
-      "sourceId": "hnrss-org-frontpage",
-      "sourceName": "Hacker News",
-      "category": "developer",
-      "publishedAt": "2026-09-20T15:59:25.000Z",
-      "relevance": 40,
-      "importance": 35,
-      "score": 39,
-      "reason": "プロンプトがリアルではないとする議論は、言葉による自己表現の虚構性や、自動返信と自己の境界の曖昧さに通じる。"
     }
   ]
 }
