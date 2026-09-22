@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T21:01:57.729Z",
+  "generatedAt": "2026-09-22T21:05:10.817Z",
   "question": "私は私を表現しながら私を無くしていきたい",
   "windowDays": 7,
   "items": [
@@ -52,30 +52,6 @@
       "reason": "デカルト的二元論や心身論の文脈は、自己の存在や「現れる存在」という読書傾向、私を無くしていくという問いに深く共鳴します。"
     },
     {
-      "title": "画像生成AIは創造性を高めるのか——効率化と意図のあいだで商いを問い直す",
-      "url": "https://argora.io/media/digital/2026-09-18-gazou-seisei-ai-to-sozosei-no-yukue",
-      "sourceId": "argora-io",
-      "sourceName": "株式会社アルゴラ — メディア",
-      "category": "discovered",
-      "publishedAt": "2026-09-18T00:00:00.000Z",
-      "relevance": 70,
-      "importance": 55,
-      "score": 67,
-      "reason": "AIによる創作と「意図」の境界は、自動返信と本当の自分の境目を無くそうとする本人の試みや自己表現の問いに直結する。"
-    },
-    {
-      "title": "「説得する」のではなく「問いを増やす」 ― 日本を良くする対話のOSを設計する : システム設計視点の行動経済学 (31)",
-      "url": "https://qiita.com/maskot1977/items/2b0c42c05a5cc06dc545?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "sourceId": "qiita-com-popular-items",
-      "sourceName": "Qiita",
-      "category": "community",
-      "publishedAt": "2026-09-21T15:03:11.000Z",
-      "relevance": 65,
-      "importance": 60,
-      "score": 64,
-      "reason": "「問いを増やす」という対話の設計は、自己を表現しつつ境界を曖昧にする問い手の姿勢や、分人主義的な他者との関わり方に深く繋がります。"
-    },
-    {
       "title": "【2020s #12】「正しくないこと」を語れる場所はどこにあるのか？──リチャード・ローティの「バザールとクラブ」・SNS・企業倫理",
       "url": "https://desilo.substack.com/p/2020s-ep12",
       "sourceId": "desilo-substack-com",
@@ -110,6 +86,18 @@
       "importance": 55,
       "score": 59,
       "reason": "「普通」に囚われる自己のあり方を問い直す内容は、独自のペルソナ構築や自己表現の模索と深く響き合います。"
+    },
+    {
+      "title": "Privacy Personalization Trade offs in LLMs: The Impact of Stylometric Signal Reduction on User-Specific Text Generation",
+      "url": "https://arxiv.org/abs/2609.22112",
+      "sourceId": "rss-arxiv-org-rss-cs-cl",
+      "sourceName": "arXiv cs.CL",
+      "category": "research",
+      "publishedAt": "2026-09-22T04:00:00.000Z",
+      "relevance": 60,
+      "importance": 45,
+      "score": 57,
+      "reason": "ユーザー固有の文体表現を削減する研究であり、「私を表現しながら私を無くしていきたい」という自己消去の問いに重なります。"
     },
     {
       "title": "5．アファンタジア――頭にシーンが浮かばない",
@@ -172,16 +160,28 @@
       "reason": "「頑張る」ことへの葛藤は、社会的な自己表現と、自己を解放して無くしていきたいという欲求の狭間の問いに繋がる。"
     },
     {
-      "title": "From Discharge Notes to Patient Understanding: Persona-Grounded, Open-Ended Simulation of LLMs as Discharge Educators",
-      "url": "https://arxiv.org/abs/2609.20827",
+      "title": "【滋賀】「丸木スマ展 73歳からのアーティスト」展 関連イベント",
+      "url": "https://artscape.jp/article/78759/",
+      "sourceId": "artscape-jp",
+      "sourceName": "artscape",
+      "category": "discovered",
+      "publishedAt": "2026-09-16T01:00:53.000Z",
+      "relevance": 50,
+      "importance": 35,
+      "score": 47,
+      "reason": "73歳からアーティストとして活動を始めた丸木スマの展示は、自己表現のあり方や、新たな自己（ペルソナ）の獲得という問いに重なります。"
+    },
+    {
+      "title": "Memory That Looks Forward: A Zero-Inference Prospective Term for Personal Memory Retrieval",
+      "url": "https://arxiv.org/abs/2609.22091",
       "sourceId": "rss-arxiv-org-rss-cs-cl",
       "sourceName": "arXiv cs.CL",
       "category": "research",
-      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "publishedAt": "2026-09-22T04:00:00.000Z",
       "relevance": 45,
       "importance": 40,
       "score": 44,
-      "reason": "「ペルソナ」を基盤としたシミュレーションは、自動返信と本当の自分の境目を無くすようなペルソナの運用という問いに重なります。"
+      "reason": "個人メモリの検索技術は、自動返信と本当の自分の境界を曖昧にし、自己を外部化・システム化する試みと繋がります。"
     },
     {
       "title": "Find Your AuthZEN",
@@ -196,18 +196,6 @@
       "reason": "AuthZEN（認証・禅）の概念は、アイデンティティ（Auth）の確立と、自己を無くしていく「禅」の精神や問いのキーワードに重なる。"
     },
     {
-      "title": "In Search of a Compositional Theory of Self-Stabilization",
-      "url": "http://muratbuffalo.blogspot.com/2026/09/in-search-of-compositional-theory-of.html",
-      "sourceId": "hnrss-org-frontpage",
-      "sourceName": "Hacker News",
-      "category": "developer",
-      "publishedAt": "2026-09-21T19:04:36.000Z",
-      "relevance": 45,
-      "importance": 30,
-      "score": 42,
-      "reason": "自己安定化（Self-Stabilization）の理論は、自己を無くしつつ表現を保つという、自己の動的な均衡や境界の維持に関する問いと親和性があります。"
-    },
-    {
       "title": "移動と回復／濵本奏",
       "url": "https://meandyou.net/202609-kanadehamamoto/",
       "sourceId": "meandyou-net",
@@ -220,16 +208,16 @@
       "reason": "移動と回復というテーマは、自己のペルソナを切り替え、分人的な存在として自己を再構成する問いと重なる。"
     },
     {
-      "title": "実はコミュニティ運営をやめようと思っていました",
-      "url": "https://qiita.com/sadabon444/items/6b4e0a5e4946d1a941ac?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "sourceId": "qiita-com-popular-items",
-      "sourceName": "Qiita",
-      "category": "community",
-      "publishedAt": "2026-09-18T23:51:25.000Z",
-      "relevance": 45,
-      "importance": 25,
-      "score": 41,
-      "reason": "コミュニティ運営を辞める葛藤は、LINEを辞めて世間への返信方法を変えようとする本人の人間関係の整理と響き合います。"
+      "title": "山﨑健太｜劇団だるめしあん『ラブイデオロギーは突然に〈劇場版〉』",
+      "url": "https://artscape.jp/article/78803/",
+      "sourceId": "artscape-jp",
+      "sourceName": "artscape",
+      "category": "discovered",
+      "publishedAt": "2026-09-17T02:00:21.000Z",
+      "relevance": 40,
+      "importance": 30,
+      "score": 38,
+      "reason": "「ラブイデオロギー」や劇団の表現活動は、自己の表現やペルソナ、関係性の中で立ち上がる自己という問いに繋がります。"
     }
   ]
 }
