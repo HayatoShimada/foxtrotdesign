@@ -1,5 +1,110 @@
 [
   {
+    "id": "github-commit-8a96f72",
+    "source": "github",
+    "title": "foxtrotdesign",
+    "summary": "chore: news 2026-09-23",
+    "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/8a96f727ff4375634e8c5fcdc19950b332b7a37a",
+    "imageUrls": [],
+    "publishedAt": "2026-09-22T21:05:33Z",
+    "metadata": {
+      "repo": "foxtrotdesign",
+      "repoUrl": "https://github.com/HayatoShimada/foxtrotdesign",
+      "sha": "8a96f72",
+      "language": "TypeScript"
+    }
+  },
+  {
+    "id": "github-commit-c7219af",
+    "source": "github",
+    "title": "foxtrotdesign",
+    "summary": "chore: news 2026-09-22",
+    "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/c7219afcfa6ea9faa8e184486226ddfa28c63e04",
+    "imageUrls": [],
+    "publishedAt": "2026-09-21T21:02:14Z",
+    "metadata": {
+      "repo": "foxtrotdesign",
+      "repoUrl": "https://github.com/HayatoShimada/foxtrotdesign",
+      "sha": "c7219af",
+      "language": "TypeScript"
+    }
+  },
+  {
+    "id": "github-commit-a7be61e",
+    "source": "github",
+    "title": "foxtrotdesign",
+    "summary": "chore: news 2026-09-21",
+    "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/a7be61e0e2b00669a819f8f73ed85aef5c57f4e6",
+    "imageUrls": [],
+    "publishedAt": "2026-09-20T21:03:30Z",
+    "metadata": {
+      "repo": "foxtrotdesign",
+      "repoUrl": "https://github.com/HayatoShimada/foxtrotdesign",
+      "sha": "a7be61e",
+      "language": "TypeScript"
+    }
+  },
+  {
+    "id": "github-commit-ef668e3",
+    "source": "github",
+    "title": "foxtrotdesign",
+    "summary": "chore: news 2026-09-20",
+    "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/ef668e3e300ad546524b82f371ffff3a70f8ee58",
+    "imageUrls": [],
+    "publishedAt": "2026-09-19T21:01:47Z",
+    "metadata": {
+      "repo": "foxtrotdesign",
+      "repoUrl": "https://github.com/HayatoShimada/foxtrotdesign",
+      "sha": "ef668e3",
+      "language": "TypeScript"
+    }
+  },
+  {
+    "id": "github-commit-4182597",
+    "source": "github",
+    "title": "foxtrotdesign",
+    "summary": "chore: news 2026-09-19",
+    "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/4182597fb1ebe76d552209f961fc29735453ab9a",
+    "imageUrls": [],
+    "publishedAt": "2026-09-18T21:03:46Z",
+    "metadata": {
+      "repo": "foxtrotdesign",
+      "repoUrl": "https://github.com/HayatoShimada/foxtrotdesign",
+      "sha": "4182597",
+      "language": "TypeScript"
+    }
+  },
+  {
+    "id": "github-commit-c4cf018",
+    "source": "github",
+    "title": "zenn_85",
+    "summary": "articles: memo-mcp のハイブリッド RAG 設計\n\nCo-Authored-By: Claude Fable 5.1 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_0143PRPWKTwDr5tNXddc8f7h",
+    "url": "https://github.com/HayatoShimada/zenn_85/commit/c4cf018bd23575322ec9c1e340ee4803a7aaa6a7",
+    "imageUrls": [],
+    "publishedAt": "2026-09-18T08:30:27Z",
+    "metadata": {
+      "repo": "zenn_85",
+      "repoUrl": "https://github.com/HayatoShimada/zenn_85",
+      "sha": "c4cf018",
+      "language": null
+    }
+  },
+  {
+    "id": "github-commit-91a86e2",
+    "source": "github",
+    "title": "mirai_rss",
+    "summary": "feat: 配信頻度を毎日から週1回（毎週月曜4:00 JST）に変更 (#1)\n\nCo-authored-by: Cursor Agent <cursoragent@cursor.com>\nCo-authored-by: HayatoShimada <HayatoShimada@users.noreply.github.com>",
+    "url": "https://github.com/HayatoShimada/mirai_rss/commit/91a86e207ce30bb3050beb1bb400db30902cf15c",
+    "imageUrls": [],
+    "publishedAt": "2026-09-17T09:36:44Z",
+    "metadata": {
+      "repo": "mirai_rss",
+      "repoUrl": "https://github.com/HayatoShimada/mirai_rss",
+      "sha": "91a86e2",
+      "language": "Python"
+    }
+  },
+  {
     "id": "github-commit-7fef41a",
     "source": "github",
     "title": "foxtrotdesign",

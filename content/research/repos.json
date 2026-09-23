@@ -4,14 +4,21 @@
     "description": "Hayato Shimada の活動をまとめたポートフォリオサイト。 note.com と GitHub のコンテンツを Gemini AI で要約し、ミニマルなデザインで表示する。",
     "language": "TypeScript",
     "url": "https://github.com/HayatoShimada/foxtrotdesign",
-    "updatedAt": "2026-09-17T06:32:30Z"
+    "updatedAt": "2026-09-22T21:05:41Z"
+  },
+  {
+    "name": "zenn_85",
+    "description": null,
+    "language": null,
+    "url": "https://github.com/HayatoShimada/zenn_85",
+    "updatedAt": "2026-09-18T08:30:33Z"
   },
   {
     "name": "mirai_rss",
     "description": "富山県南砺市井波で空き家活用・事業を始める個人事業主（ミライ店主会）向けのAIニュースキュレーションBot",
     "language": "Python",
     "url": "https://github.com/HayatoShimada/mirai_rss",
-    "updatedAt": "2026-09-14T19:05:54Z"
+    "updatedAt": "2026-09-17T09:36:49Z"
   },
   {
     "name": "workshop",
@@ -26,12 +33,5 @@
     "language": "TypeScript",
     "url": "https://github.com/HayatoShimada/85store",
     "updatedAt": "2026-08-31T01:26:21Z"
-  },
-  {
-    "name": "yurt_reserve",
-    "description": null,
-    "language": "TypeScript",
-    "url": "https://github.com/HayatoShimada/yurt_reserve",
-    "updatedAt": "2026-08-16T23:16:57Z"
   }
 ]
