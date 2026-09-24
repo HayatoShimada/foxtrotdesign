@@ -1,19 +1,43 @@
 {
-  "generatedAt": "2026-09-23T21:02:37.537Z",
+  "generatedAt": "2026-09-24T21:00:56.449Z",
   "question": "整理することに疲れている",
   "windowDays": 7,
   "items": [
     {
-      "title": "「もっと頑張ろう」「もう頑張らなくていい」――より良い人生を送るためには、どちらの道を選ぶべきか？",
-      "url": "https://kangaeruhito.jp/trial/764292",
-      "sourceId": "kangaeruhito-jp",
-      "sourceName": "考える人",
-      "category": "discovered",
-      "publishedAt": "2026-09-17T21:00:03.000Z",
+      "title": "タスク管理をしなくていいAI「Optio」を作ってみた",
+      "url": "https://qiita.com/shuway00/items/d291961b9141a51f173b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "sourceId": "qiita-com-popular-items",
+      "sourceName": "Qiita",
+      "category": "community",
+      "publishedAt": "2026-09-22T01:58:26.000Z",
       "relevance": 85,
-      "importance": 60,
-      "score": 80,
-      "reason": "「もっと頑張ろう」「もう頑張らなくていい」という葛藤は、整理に疲れ、手を動かすフェーズへの移行やゲームをしたいという本人の心境に強く共鳴します。"
+      "importance": 55,
+      "score": 79,
+      "reason": "「整理することに疲れている」「タスクを整える段階は終わり」という本人のメモに対し、「タスク管理をしなくていい」というコンセプトが直接的に合致するため。"
+    },
+    {
+      "title": "ハーネス設計入門 〜 基礎知識の整理から実務へのステップアップ 〜",
+      "url": "https://speakerdeck.com/kinopeee/hanesu-sekkei-nyuumon-kiso-chishiki-no-seiri-kara-jitsumu-heno-suteppu-appu",
+      "sourceId": "speakerdeck-com-c-programming",
+      "sourceName": "Speaker Deck Programming",
+      "category": "slides",
+      "publishedAt": "2026-09-24T04:07:36.000Z",
+      "relevance": 85,
+      "importance": 30,
+      "score": 74,
+      "reason": "「基礎知識の整理から実務へのステップアップ」というテーマが、整理を終えて手を動かして作るフェーズに入るというメモと強く重なります。"
+    },
+    {
+      "title": "ｅスポーツはスポーツか？✑森口佑介【『ゲームで生きていく』書評】",
+      "url": "https://www.webchikuma.com/n/nb1187b3933af",
+      "sourceId": "webchikuma-com",
+      "sourceName": "webちくま（筑摩書房の読みものサイト）",
+      "category": "discovered",
+      "publishedAt": "2026-09-24T03:00:00.000Z",
+      "relevance": 70,
+      "importance": 45,
+      "score": 65,
+      "reason": "「ゲームがしたい」という欲求に直結するほか、身体と世界の再統合を問う『現れる存在』などの読書傾向とも親和性が高いテーマです。"
     },
     {
       "title": "[ハンズオン]AIへの指示だけで「五目並べ」を作ってみよう",
@@ -40,6 +64,18 @@
       "reason": "「手を動かして何かを作るフェーズに入る」「シンプルにゲームがしたい」というメモに合致し、ゲーム関連の装置を自作する実践が刺激になります。"
     },
     {
+      "title": "デザインの祭典「Featured Projects 2026」開催。「ものがうまれる、その『間』」をテーマに制作のプロセスをひらく",
+      "url": "https://www.axismag.jp/posts/2026/09/723814.html",
+      "sourceId": "axismag-jp",
+      "sourceName": "AXIS Web | デザインの視点で、人間の可能性や創造性を伝えるメディア",
+      "category": "discovered",
+      "publishedAt": "2026-09-21T02:17:08.000Z",
+      "relevance": 65,
+      "importance": 40,
+      "score": 60,
+      "reason": "「ものがうまれるプロセス」に焦点を当てた展示であり、整理を終えて「手を動かして何かを作るフェーズに入る」というメモに深く重なります。"
+    },
+    {
       "title": "KiroのSpecで「五目並べ」を作ってみる",
       "url": "https://speakerdeck.com/satoshi256kbyte/kiro-no-spec-de-gomokunarabe-o-tsuku-te-miru",
       "sourceId": "speakerdeck-com-c-programming",
@@ -50,6 +86,18 @@
       "importance": 35,
       "score": 55,
       "reason": "「手を動かして何かを作る」という意欲や、シンプルにゲームに関わりたいという気分に寄り添う内容です。"
+    },
+    {
+      "title": "パズルゲームの作り方 / how to make puzzle games",
+      "url": "https://speakerdeck.com/kaityo256/how-to-make-puzzle-games",
+      "sourceId": "speakerdeck-com-c-programming",
+      "sourceName": "Speaker Deck Programming",
+      "category": "slides",
+      "publishedAt": "2026-09-24T15:12:31.000Z",
+      "relevance": 60,
+      "importance": 30,
+      "score": 54,
+      "reason": "「パズルゲームの作り方」は、ゲームをしたい、手を動かして何かを作るフェーズに入りたいという本人のメモに合致します。"
     },
     {
       "title": "「『普通』とは何かを問い直す、純文学が慰めだった」──新進気鋭の批評家・水上文による初の批評×エッセイ集『たったひとり、私だけの部屋で』 「はじめに」全文公開！",
@@ -64,40 +112,16 @@
       "reason": "「普通」を問い直す文学や「私だけの部屋」というテーマは、読書リストの『私とは何か――「個人」から「分人」へ』や、整理から離れて一人の時間を過ごしたい心境に繋がります。"
     },
     {
-      "title": "Self-Cleaning and Captured Anyway: One Measured Primitive for Error in a Store an Agent Writes to Itself, and What a Falling Score Actually Measures",
-      "url": "https://arxiv.org/abs/2609.25052",
-      "sourceId": "rss-arxiv-org-rss-cs-cl",
-      "sourceName": "arXiv cs.CL",
-      "category": "research",
-      "publishedAt": "2026-09-23T04:00:00.000Z",
+      "title": "ボードゲームの遊び相手をFoundation Modelsで作る / iOSDC Japan 2026",
+      "url": "https://speakerdeck.com/genda/iosdc-japan-2026-mihara",
+      "sourceId": "speakerdeck-com-c-technology",
+      "sourceName": "Speaker Deck Technology",
+      "category": "slides",
+      "publishedAt": "2026-09-23T21:02:52.000Z",
       "relevance": 55,
-      "importance": 35,
-      "score": 51,
-      "reason": "「自己洗浄（Self-Cleaning）」やエージェントの自己書き込みストアに関する議論は、整理や管理の自動化・疲弊からの脱却という問いに関連します。"
-    },
-    {
-      "title": "デカルト・キャンパスで暮らす",
-      "url": "http://embodiedapproachj.blogspot.com/2026/09/blog-post.html",
-      "sourceId": "embodiedapproachj-blogspot-com-feeds-posts-default",
-      "sourceName": "田中彰吾の哲学＆心理学研究室",
-      "category": "discovered",
-      "publishedAt": "2026-09-17T12:01:59.770Z",
-      "relevance": 50,
-      "importance": 45,
-      "score": 49,
-      "reason": "デカルト的二元論を乗り越えようとする哲学的なテーマは、読もうとしている本『現れる存在』の脳と身体、世界の再統合という関心と深く結びつきます。"
-    },
-    {
-      "title": "【まとめ】AI駆動系の◯◯エンジニアリングが多いので、ここらで一旦整理しましょう",
-      "url": "https://qiita.com/miruky/items/4a8a7f456e68e9965a12?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "sourceId": "qiita-com-popular-items",
-      "sourceName": "Qiita",
-      "category": "community",
-      "publishedAt": "2026-09-22T11:42:26.000Z",
-      "relevance": 50,
-      "importance": 40,
-      "score": 48,
-      "reason": "「整理することに疲れている」という問いに対し、乱立するAI駆動系用語を「一旦整理する」試みは、整理のあり方を見つめ直す参考になります。"
+      "importance": 30,
+      "score": 50,
+      "reason": "「ボードゲームの遊び相手を作る」という内容が、シンプルにゲームがしたい、手を動かして作りたいというメモに合致します。"
     },
     {
       "title": "Making Agents More Consistent: Skills Should Form Habits for Repeat Tasks",
@@ -105,35 +129,11 @@
       "sourceId": "rss-arxiv-org-rss-cs-ai",
       "sourceName": "arXiv cs.AI",
       "category": "research",
-      "publishedAt": "2026-09-23T04:00:00.000Z",
+      "publishedAt": "2026-09-24T04:00:00.000Z",
       "relevance": 50,
       "importance": 35,
       "score": 47,
       "reason": "「整理することに疲れ、手を動かすフェーズに入る」というメモに対し、スキルを習慣化して反復タスクをこなすアプローチは、整理疲れの解消に繋がります。"
-    },
-    {
-      "title": "アカデミーキャンプ 2026秋「位置ゲーに秀でよ！ウチらとヤツらのゲーム・デザイン」DAY 4 / Academy Camp 2026 Fall - Excel at Location-Based Games! Our and Their Game Design DAY 4",
-      "url": "https://speakerdeck.com/ks91/academy-camp-2026-fall-excel-at-location-based-games-our-and-their-game-design-day-4",
-      "sourceId": "speakerdeck-com-c-technology",
-      "sourceName": "Speaker Deck Technology",
-      "category": "slides",
-      "publishedAt": "2026-09-22T02:23:28.000Z",
-      "relevance": 50,
-      "importance": 30,
-      "score": 46,
-      "reason": "「シンプルにゲームがしたい」というメモに関連し、ゲームデザインという作るフェーズの話題に繋がります。"
-    },
-    {
-      "title": "アカデミーキャンプ 2026秋「位置ゲーに秀でよ！ウチらとヤツらのゲーム・デザイン」DAY 2 / Academy Camp 2026 Fall - Excel at Location-Based Games! Our and Their Game Design DAY 2",
-      "url": "https://speakerdeck.com/ks91/academy-camp-2026-fall-excel-at-location-based-games-our-and-their-game-design-day-2",
-      "sourceId": "speakerdeck-com-c-technology",
-      "sourceName": "Speaker Deck Technology",
-      "category": "slides",
-      "publishedAt": "2026-09-19T23:59:00.000Z",
-      "relevance": 50,
-      "importance": 30,
-      "score": 46,
-      "reason": "「シンプルにゲームがしたい」というメモに関連し、ゲームを作る・デザインする話題に触れられます。"
     },
     {
       "title": "5．アファンタジア――頭にシーンが浮かばない",
@@ -148,30 +148,6 @@
       "reason": "「アファンタジア」という脳や身体、認知のあり方に関するテーマは、読もうとしている本『現れる存在』の脳と身体の再統合という関心に繋がります。"
     },
     {
-      "title": "Cute Critters Come to the Cloud: ‘Aniimo’ Launches on GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-aniimo/",
-      "sourceId": "blogs-nvidia-com",
-      "sourceName": "NVIDIA",
-      "category": "vendor",
-      "publishedAt": "2026-09-17T13:00:55.000Z",
-      "relevance": 45,
-      "importance": 30,
-      "score": 42,
-      "reason": "「シンプルにゲームがしたい」というメモに対し、GeForce NOWでのゲーム配信開始のニュースは直接的な関心に繋がります。"
-    },
-    {
-      "title": "ベンダー選定を7ステップで整理する——各段階で出す書類と受け取る書類",
-      "url": "https://argora.io/media/digital/2026-09-20-vendor-sentei-7step-shorui-no-nagare",
-      "sourceId": "argora-io",
-      "sourceName": "株式会社アルゴラ — メディア",
-      "category": "discovered",
-      "publishedAt": "2026-09-20T00:00:00.000Z",
-      "relevance": 45,
-      "importance": 25,
-      "score": 41,
-      "reason": "「整理することに疲れている」本人に対し、ベンダー選定を7ステップで「整理する」という見出しは、整理という行為そのものへの関心や疲れに直接触れます。"
-    },
-    {
       "title": "SADIオンライントークにイルッカ・スッパネンが登壇。「軽やかさ」をデザインの方法として捉え直す",
       "url": "https://www.axismag.jp/posts/2026/09/722913.html",
       "sourceId": "axismag-jp",
@@ -182,18 +158,6 @@
       "importance": 35,
       "score": 39,
       "reason": "「軽やかさ」をデザインの方法として捉え直す姿勢は、整理することに疲れてシンプルに物事を行いたい、手を動かしたいという本人の欲求に重なります。"
-    },
-    {
-      "title": "【情報整理用】ハッカソンの是非論を整理する",
-      "url": "https://speakerdeck.com/akagami/jouhou-seiriyou-no-zehiron-o-seiri-suru",
-      "sourceId": "speakerdeck-com-c-programming",
-      "sourceName": "Speaker Deck Programming",
-      "category": "slides",
-      "publishedAt": "2026-09-21T18:33:36.000Z",
-      "relevance": 40,
-      "importance": 25,
-      "score": 37,
-      "reason": "「整理することに疲れている」状況において、ハッカソンという「作る」場に関する是非を整理する資料です。"
     }
   ]
 }
