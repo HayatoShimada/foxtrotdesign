@@ -349,5 +349,221 @@
     "feedUrl": "https://sanova.jugem.jp/?mode=rss",
     "result": "registered",
     "sourceId": "sanova-jugem-jp"
+  },
+  {
+    "foundAt": "2026-09-26T21:05:11.298Z",
+    "query": "千葉雅也 \"接続過剰\" \"切断\" 現代思想 論考 連載",
+    "title": "fukurou-navi.jp",
+    "url": "https://fukurou-navi.jp/content/ct155/",
+    "feedUrl": null,
+    "result": "no-feed",
+    "sourceId": null
+  },
+  {
+    "foundAt": "2026-09-26T21:05:12.085Z",
+    "query": "千葉雅也 \"接続過剰\" \"切断\" 現代思想 論考 連載",
+    "title": "shiruto.jp",
+    "url": "https://shiruto.jp/culture/1246/",
+    "feedUrl": "https://shiruto.jp/feed/",
+    "result": "registered",
+    "sourceId": "shiruto-jp"
+  },
+  {
+    "foundAt": "2026-09-26T21:05:14.640Z",
+    "query": "千葉雅也 \"接続過剰\" \"切断\" 現代思想 論考 連載",
+    "title": "webgenron.com",
+    "url": "https://webgenron.com/articles/voice20180426_01",
+    "feedUrl": null,
+    "result": "no-feed",
+    "sourceId": null
+  },
+  {
+    "foundAt": "2026-09-26T21:05:15.104Z",
+    "query": "千葉雅也 \"接続過剰\" \"切断\" 現代思想 論考 連載",
+    "title": "genron-cafe.jp",
+    "url": "https://genron-cafe.jp/event/20210528/",
+    "feedUrl": "https://genron-cafe.jp/feed",
+    "result": "registered",
+    "sourceId": "genron-cafe-jp"
+  },
+  {
+    "foundAt": "2026-09-26T21:05:16.120Z",
+    "query": "千葉雅也 \"接続過剰\" \"切断\" 現代思想 論考 連載",
+    "title": "seidosha.co.jp",
+    "url": "https://www.seidosha.co.jp/book/index.php?cat_id=11",
+    "feedUrl": null,
+    "result": "no-feed",
+    "sourceId": null
+  },
+  {
+    "foundAt": "2026-09-26T21:05:22.889Z",
+    "query": "千葉雅也 \"接続過剰\" \"切断\" 現代思想 論考 連載",
+    "title": "u-tokyo.ac.jp",
+    "url": "https://utcp.c.u-tokyo.ac.jp/blog/2009/08/post-271/",
+    "feedUrl": null,
+    "result": "no-feed",
+    "sourceId": null
+  },
+  {
+    "foundAt": "2026-09-26T21:05:23.335Z",
+    "query": "千葉雅也 \"接続過剰\" \"切断\" 現代思想 論考 連載",
+    "title": "prtimes.jp",
+    "url": "https://prtimes.jp/main/html/rd/p/000000109.000012754.html",
+    "feedUrl": "https://prtimes.jp/index.rdf",
+    "result": "registered",
+    "sourceId": "prtimes-jp-index-rdf"
+  },
+  {
+    "foundAt": "2026-09-26T21:05:24.320Z",
+    "query": "千葉雅也 \"接続過剰\" \"切断\" 現代思想 論考 連載",
+    "title": "kawade.co.jp",
+    "url": "https://www.kawade.co.jp/np/isbn/9784309246352/",
+    "feedUrl": null,
+    "result": "no-feed",
+    "sourceId": null
+  },
+  {
+    "foundAt": "2026-09-26T21:05:26.713Z",
+    "query": "\"embodied cognition\" \"Andy Clark\" cognitive science blog essays",
+    "title": "philosophyofbrains.com",
+    "url": "https://philosophyofbrains.com/author/clarka",
+    "feedUrl": "https://philosophyofbrains.com/feed",
+    "result": "registered",
+    "sourceId": "philosophyofbrains-com"
+  },
+  {
+    "foundAt": "2026-09-26T21:05:28.323Z",
+    "query": "\"embodied cognition\" \"Andy Clark\" cognitive science blog essays",
+    "title": "blogspot.com",
+    "url": "http://imperfectcognitions.blogspot.com/2018/09/the-interoceptive-mind.html",
+    "feedUrl": "http://imperfectcognitions.blogspot.com/feeds/posts/default",
+    "result": "registered",
+    "sourceId": "imperfectcognitions-blogspot-com-feeds-posts-default"
+  },
+  {
+    "foundAt": "2026-09-26T21:05:31.494Z",
+    "query": "\"embodied cognition\" \"Andy Clark\" cognitive science blog essays",
+    "title": "euppublishingblog.com",
+    "url": "https://euppublishingblog.com/2019/06/13/a-history-of-distributed-cognition/",
+    "feedUrl": "https://euppublishingblog.com/feed/",
+    "result": "registered",
+    "sourceId": "euppublishingblog-com"
+  },
+  {
+    "foundAt": "2026-09-26T21:05:39.881Z",
+    "query": "\"embodied cognition\" \"Andy Clark\" cognitive science blog essays",
+    "title": "researchschool.org.uk",
+    "url": "https://researchschool.org.uk/devon/news/an-introduction-to-predictive-processing-theory",
+    "feedUrl": null,
+    "result": "no-feed",
+    "sourceId": null
+  },
+  {
+    "foundAt": "2026-09-26T21:05:53.220Z",
+    "query": "\"embodied cognition\" \"Andy Clark\" cognitive science blog essays",
+    "title": "people-shift.com",
+    "url": "https://people-shift.com/articles/predictive-coding-and-the-predictive-brain-a-deep-dive/",
+    "feedUrl": null,
+    "result": "no-feed",
+    "sourceId": null
+  },
+  {
+    "foundAt": "2026-09-26T21:05:57.666Z",
+    "query": "\"embodied cognition\" \"Andy Clark\" cognitive science blog essays",
+    "title": "philpeople.org",
+    "url": "https://philpeople.org/profiles/2563/publication_attributions?app=philpeople&page=8",
+    "feedUrl": null,
+    "result": "no-feed",
+    "sourceId": null
+  },
+  {
+    "foundAt": "2026-09-26T21:06:01.662Z",
+    "query": "\"embodied cognition\" \"Andy Clark\" cognitive science blog essays",
+    "title": "sussex.ac.uk",
+    "url": "https://profiles.sussex.ac.uk/p493-andy-clark/publications?favouritesFirst=true&perPage=25&sort=dateDesc&startFrom=25",
+    "feedUrl": null,
+    "result": "no-feed",
+    "sourceId": null
+  },
+  {
+    "foundAt": "2026-09-26T21:06:03.807Z",
+    "query": "\"embodied cognition\" \"Andy Clark\" cognitive science blog essays",
+    "title": "royalsocietypublishing.org",
+    "url": "https://royalsocietypublishing.org/rstb/article/379/1911/20230144/109521/Minds-in-movement-embodied-cognition-in-the-age-of",
+    "feedUrl": null,
+    "result": "no-feed",
+    "sourceId": null
+  },
+  {
+    "foundAt": "2026-09-26T21:06:19.454Z",
+    "query": "\"embodied cognition\" \"Andy Clark\" cognitive science blog essays",
+    "title": "d-nb.info",
+    "url": "https://d-nb.info/1123080569/34",
+    "feedUrl": null,
+    "result": "no-feed",
+    "sourceId": null
+  },
+  {
+    "foundAt": "2026-09-26T21:06:19.943Z",
+    "query": "\"embodied cognition\" \"Andy Clark\" cognitive science blog essays",
+    "title": "hatenadiary.jp",
+    "url": "https://sakstyle.hatenadiary.jp/entry/20171125/p3",
+    "feedUrl": "https://sakstyle.hatenadiary.jp/feed",
+    "result": "registered",
+    "sourceId": "sakstyle-hatenadiary-jp"
+  },
+  {
+    "foundAt": "2026-09-26T21:06:21.777Z",
+    "query": "\"embodied cognition\" \"Andy Clark\" cognitive science blog essays",
+    "title": "smeai.org",
+    "url": "https://research.smeai.org/ai-extended-mind-cognitive-transformation/",
+    "feedUrl": "https://research.smeai.org/feed/",
+    "result": "registered",
+    "sourceId": "research-smeai-org"
+  },
+  {
+    "foundAt": "2026-09-26T21:06:22.328Z",
+    "query": "\"embodied cognition\" \"Andy Clark\" cognitive science blog essays",
+    "title": "isis.ne.jp",
+    "url": "https://1000ya.isis.ne.jp/1790.html",
+    "feedUrl": "https://1000ya.isis.ne.jp/feed",
+    "result": "registered",
+    "sourceId": "1000ya-isis-ne-jp"
+  },
+  {
+    "foundAt": "2026-09-26T21:06:24.263Z",
+    "query": "平野啓一郎 \"分人\" 自己管理 限界 コラム メディア",
+    "title": "dentsusoken.com",
+    "url": "https://www.dentsusoken.com/case_report/column/20260831/3344.html",
+    "feedUrl": null,
+    "result": "no-feed",
+    "sourceId": null
+  },
+  {
+    "foundAt": "2026-09-26T21:06:27.151Z",
+    "query": "平野啓一郎 \"分人\" 自己管理 限界 コラム メディア",
+    "title": "huffingtonpost.jp",
+    "url": "https://www.huffingtonpost.jp/entry/dividualism-by-keiichiro-hirano_jp_5d6a1809e4b09bbc9eef54f1",
+    "feedUrl": null,
+    "result": "no-feed",
+    "sourceId": null
+  },
+  {
+    "foundAt": "2026-09-26T21:06:28.908Z",
+    "query": "平野啓一郎 \"分人\" 自己管理 限界 コラム メディア",
+    "title": "gendainoriron.jp",
+    "url": "https://gendainoriron.jp/vol.33/column/maita.php",
+    "feedUrl": null,
+    "result": "no-feed",
+    "sourceId": null
+  },
+  {
+    "foundAt": "2026-09-26T21:06:29.924Z",
+    "query": "中平卓馬 \"植物図鑑\" 記号化 芸術批評 雑誌 連載",
+    "title": "tsite.jp",
+    "url": "https://store.tsite.jp/daikanyama/event/humanities/35387-1111090817.html",
+    "feedUrl": "https://store.tsite.jp/rss.xml",
+    "result": "registered",
+    "sourceId": "store-tsite-jp"
   }
 ]

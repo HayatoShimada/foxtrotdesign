@@ -1,31 +1,31 @@
 {
-  "generatedAt": "2026-09-24T21:00:56.449Z",
+  "generatedAt": "2026-09-26T21:01:57.545Z",
   "question": "整理することに疲れている",
   "windowDays": 7,
   "items": [
     {
-      "title": "タスク管理をしなくていいAI「Optio」を作ってみた",
-      "url": "https://qiita.com/shuway00/items/d291961b9141a51f173b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "sourceId": "qiita-com-popular-items",
-      "sourceName": "Qiita",
-      "category": "community",
-      "publishedAt": "2026-09-22T01:58:26.000Z",
+      "title": "How to keep enjoying programming in a world of LLMs",
+      "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
+      "sourceId": "hnrss-org-frontpage",
+      "sourceName": "Hacker News",
+      "category": "developer",
+      "publishedAt": "2026-09-26T09:41:58.000Z",
       "relevance": 85,
-      "importance": 55,
-      "score": 79,
-      "reason": "「整理することに疲れている」「タスクを整える段階は終わり」という本人のメモに対し、「タスク管理をしなくていい」というコンセプトが直接的に合致するため。"
+      "importance": 75,
+      "score": 83,
+      "reason": "効率化や整理に疲れた状態から、純粋に手を動かしてものづくりを楽しむ（プログラミングを楽しむ）姿勢に立ち返るためのヒントとなるため。"
     },
     {
-      "title": "ハーネス設計入門 〜 基礎知識の整理から実務へのステップアップ 〜",
-      "url": "https://speakerdeck.com/kinopeee/hanesu-sekkei-nyuumon-kiso-chishiki-no-seiri-kara-jitsumu-heno-suteppu-appu",
-      "sourceId": "speakerdeck-com-c-programming",
-      "sourceName": "Speaker Deck Programming",
-      "category": "slides",
-      "publishedAt": "2026-09-24T04:07:36.000Z",
-      "relevance": 85,
-      "importance": 30,
-      "score": 74,
-      "reason": "「基礎知識の整理から実務へのステップアップ」というテーマが、整理を終えて手を動かして作るフェーズに入るというメモと強く重なります。"
+      "title": "4人で冒険、装備集めに夢中！ 『Minecraft Dungeons II』試遊で感じた「みんなで遊べるハクスラ」の進化",
+      "url": "https://realsound.jp/tech/2026/09/post-2534325.html",
+      "sourceId": "realsound-jp-tech",
+      "sourceName": "リアルサウンド",
+      "category": "discovered",
+      "publishedAt": "2026-09-27T06:00:41.000Z",
+      "relevance": 75,
+      "importance": 35,
+      "score": 67,
+      "reason": "「シンプルにゲームがしたい」というメモや、みんなで遊べるハクスラという要素が、Core Keeperをやりたい本人の欲求と強く合致する。"
     },
     {
       "title": "ｅスポーツはスポーツか？✑森口佑介【『ゲームで生きていく』書評】",
@@ -40,30 +40,6 @@
       "reason": "「ゲームがしたい」という欲求に直結するほか、身体と世界の再統合を問う『現れる存在』などの読書傾向とも親和性が高いテーマです。"
     },
     {
-      "title": "[ハンズオン]AIへの指示だけで「五目並べ」を作ってみよう",
-      "url": "https://speakerdeck.com/satoshi256kbyte/ai-heno-shiji-dakede-gomokunarabe-o-tsuku-te-miyou",
-      "sourceId": "speakerdeck-com-c-programming",
-      "sourceName": "Speaker Deck Programming",
-      "category": "slides",
-      "publishedAt": "2026-09-23T03:47:06.000Z",
-      "relevance": 70,
-      "importance": 40,
-      "score": 64,
-      "reason": "「手を動かして何かを作るフェーズに入る」「ゲームがしたい」というメモに合致し、実際にゲームを作る体験に直結します。"
-    },
-    {
-      "title": "Pokémon GO Plus + を分解して、ポケモンスリープの睡眠計測を自動化する装置を作った",
-      "url": "https://zenn.dev/koichi73/articles/pokemon-go-plus-teardown-esp32",
-      "sourceId": "zenn-dev",
-      "sourceName": "Zenn",
-      "category": "community",
-      "publishedAt": "2026-09-22T09:17:48.000Z",
-      "relevance": 65,
-      "importance": 45,
-      "score": 61,
-      "reason": "「手を動かして何かを作るフェーズに入る」「シンプルにゲームがしたい」というメモに合致し、ゲーム関連の装置を自作する実践が刺激になります。"
-    },
-    {
       "title": "デザインの祭典「Featured Projects 2026」開催。「ものがうまれる、その『間』」をテーマに制作のプロセスをひらく",
       "url": "https://www.axismag.jp/posts/2026/09/723814.html",
       "sourceId": "axismag-jp",
@@ -76,16 +52,28 @@
       "reason": "「ものがうまれるプロセス」に焦点を当てた展示であり、整理を終えて「手を動かして何かを作るフェーズに入る」というメモに深く重なります。"
     },
     {
-      "title": "KiroのSpecで「五目並べ」を作ってみる",
-      "url": "https://speakerdeck.com/satoshi256kbyte/kiro-no-spec-de-gomokunarabe-o-tsuku-te-miru",
-      "sourceId": "speakerdeck-com-c-programming",
-      "sourceName": "Speaker Deck Programming",
+      "title": "10年欲しかった音楽管理アプリを、AIと一緒に作りはじめた",
+      "url": "https://speakerdeck.com/judau/building-the-music-management-app-with-ai",
+      "sourceId": "speakerdeck-com-c-technology",
+      "sourceName": "Speaker Deck Technology",
       "category": "slides",
-      "publishedAt": "2026-09-23T03:47:50.000Z",
-      "relevance": 60,
-      "importance": 35,
-      "score": 55,
-      "reason": "「手を動かして何かを作る」という意欲や、シンプルにゲームに関わりたいという気分に寄り添う内容です。"
+      "publishedAt": "2026-09-26T12:01:02.000Z",
+      "relevance": 65,
+      "importance": 20,
+      "score": 56,
+      "reason": "「整理することに疲れている」「手を動かして何かを作る」というメモに対し、音楽管理（整理）からAIと作るフェーズへの移行が重なる。"
+    },
+    {
+      "title": "自分の頭で考えることって重要だよなと改めて思わされた話",
+      "url": "https://qiita.com/ike_s_muramatsu/items/44664e57e2738614fccf?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "sourceId": "qiita-com-popular-items",
+      "sourceName": "Qiita",
+      "category": "community",
+      "publishedAt": "2026-09-26T03:37:47.000Z",
+      "relevance": 55,
+      "importance": 50,
+      "score": 54,
+      "reason": "管理や整理のフェーズから脱し、主体的に手を動かして自分の頭で考えることの重要性を再認識させる内容であるため。"
     },
     {
       "title": "パズルゲームの作り方 / how to make puzzle games",
@@ -100,40 +88,28 @@
       "reason": "「パズルゲームの作り方」は、ゲームをしたい、手を動かして何かを作るフェーズに入りたいという本人のメモに合致します。"
     },
     {
-      "title": "「『普通』とは何かを問い直す、純文学が慰めだった」──新進気鋭の批評家・水上文による初の批評×エッセイ集『たったひとり、私だけの部屋で』 「はじめに」全文公開！",
-      "url": "https://web.kawade.co.jp/tameshiyomi/254258/",
-      "sourceId": "web-kawade-co-jp",
-      "sourceName": "Web河出",
+      "title": "14．孤独とポリフォニー",
+      "url": "https://kangaeruhito.jp/article/764290",
+      "sourceId": "kangaeruhito-jp",
+      "sourceName": "考える人",
       "category": "discovered",
-      "publishedAt": "2026-09-18T10:30:00.000Z",
-      "relevance": 55,
-      "importance": 50,
-      "score": 54,
-      "reason": "「普通」を問い直す文学や「私だけの部屋」というテーマは、読書リストの『私とは何か――「個人」から「分人」へ』や、整理から離れて一人の時間を過ごしたい心境に繋がります。"
-    },
-    {
-      "title": "ボードゲームの遊び相手をFoundation Modelsで作る / iOSDC Japan 2026",
-      "url": "https://speakerdeck.com/genda/iosdc-japan-2026-mihara",
-      "sourceId": "speakerdeck-com-c-technology",
-      "sourceName": "Speaker Deck Technology",
-      "category": "slides",
-      "publishedAt": "2026-09-23T21:02:52.000Z",
-      "relevance": 55,
-      "importance": 30,
-      "score": 50,
-      "reason": "「ボードゲームの遊び相手を作る」という内容が、シンプルにゲームがしたい、手を動かして作りたいというメモに合致します。"
-    },
-    {
-      "title": "Making Agents More Consistent: Skills Should Form Habits for Repeat Tasks",
-      "url": "https://arxiv.org/abs/2609.25299",
-      "sourceId": "rss-arxiv-org-rss-cs-ai",
-      "sourceName": "arXiv cs.AI",
-      "category": "research",
-      "publishedAt": "2026-09-24T04:00:00.000Z",
+      "publishedAt": "2026-09-24T21:00:15.000Z",
       "relevance": 50,
-      "importance": 35,
-      "score": 47,
-      "reason": "「整理することに疲れ、手を動かすフェーズに入る」というメモに対し、スキルを習慣化して反復タスクをこなすアプローチは、整理疲れの解消に繋がります。"
+      "importance": 25,
+      "score": 45,
+      "reason": "読もうとしている本『私とは何か――「個人」から「分人」へ』のテーマである自己の複数性や、孤独と他者との関係性に深く関わる内容。"
+    },
+    {
+      "title": "age40 - 30代でやってよかったこと",
+      "url": "https://zenn.dev/dress_code/articles/2026-09-24_age-40",
+      "sourceId": "zenn-dev",
+      "sourceName": "Zenn",
+      "category": "community",
+      "publishedAt": "2026-09-24T07:58:17.000Z",
+      "relevance": 45,
+      "importance": 40,
+      "score": 44,
+      "reason": "30代の振り返りを通じた人生の整理や、これから主体的に手を動かして何かを作る生き方のヒントになり得るため。"
     },
     {
       "title": "5．アファンタジア――頭にシーンが浮かばない",
@@ -148,16 +124,28 @@
       "reason": "「アファンタジア」という脳や身体、認知のあり方に関するテーマは、読もうとしている本『現れる存在』の脳と身体の再統合という関心に繋がります。"
     },
     {
-      "title": "SADIオンライントークにイルッカ・スッパネンが登壇。「軽やかさ」をデザインの方法として捉え直す",
-      "url": "https://www.axismag.jp/posts/2026/09/722913.html",
-      "sourceId": "axismag-jp",
-      "sourceName": "AXIS Web | デザインの視点で、人間の可能性や創造性を伝えるメディア",
+      "title": "音声AIは「自分らしさ」をどう変える？ Parakeet中村泰貴氏が語る、声色と表現の可能性",
+      "url": "https://realsound.jp/tech/2026/09/post-2534181.html",
+      "sourceId": "realsound-jp-tech",
+      "sourceName": "リアルサウンド",
       "category": "discovered",
-      "publishedAt": "2026-09-18T01:55:44.000Z",
+      "publishedAt": "2026-09-26T18:00:19.000Z",
+      "relevance": 45,
+      "importance": 25,
+      "score": 41,
+      "reason": "読もうとしている本『私とは何か――「個人」から「分人」へ』における声色や表現、自分らしさ（分人）の変容というテーマと繋がる。"
+    },
+    {
+      "title": "【兵庫】木の生命、かたちへ —ジョージ・ナカシマと職人たち",
+      "url": "https://artscape.jp/article/79450/",
+      "sourceId": "artscape-jp",
+      "sourceName": "artscape",
+      "category": "discovered",
+      "publishedAt": "2026-09-25T08:00:41.000Z",
       "relevance": 40,
-      "importance": 35,
-      "score": 39,
-      "reason": "「軽やかさ」をデザインの方法として捉え直す姿勢は、整理することに疲れてシンプルに物事を行いたい、手を動かしたいという本人の欲求に重なります。"
+      "importance": 20,
+      "score": 36,
+      "reason": "読もうとしている本『なぜ、植物図鑑か』や『現れる存在』における、自然の生命力と人間の身体・職人技術との関わりというテーマに繋がる。"
     }
   ]
 }
