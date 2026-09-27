@@ -1,31 +1,31 @@
 {
-  "generatedAt": "2026-09-26T21:01:57.545Z",
+  "generatedAt": "2026-09-27T21:00:59.550Z",
   "question": "整理することに疲れている",
   "windowDays": 7,
   "items": [
     {
-      "title": "How to keep enjoying programming in a world of LLMs",
-      "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
-      "sourceId": "hnrss-org-frontpage",
-      "sourceName": "Hacker News",
-      "category": "developer",
-      "publishedAt": "2026-09-26T09:41:58.000Z",
+      "title": "レヴィナス・バトラー・ドゥルーズの動物論を比較｜他者性・脆弱性・生成変化から考える動物倫理",
+      "url": "https://research.smeai.org/levinas-butler-deleuze-animal-ethics-comparison/",
+      "sourceId": "research-smeai-org",
+      "sourceName": "中小企業AI活用協会研究サイト",
+      "category": "discovered",
+      "publishedAt": "2026-09-27T20:19:12.000Z",
       "relevance": 85,
-      "importance": 75,
-      "score": 83,
-      "reason": "効率化や整理に疲れた状態から、純粋に手を動かしてものづくりを楽しむ（プログラミングを楽しむ）姿勢に立ち返るためのヒントとなるため。"
+      "importance": 35,
+      "score": 75,
+      "reason": "読もうとしている本『動きすぎてはいけない』の著者ドゥルーズの「生成変化」や動物論を直接扱っているため。"
     },
     {
-      "title": "4人で冒険、装備集めに夢中！ 『Minecraft Dungeons II』試遊で感じた「みんなで遊べるハクスラ」の進化",
-      "url": "https://realsound.jp/tech/2026/09/post-2534325.html",
-      "sourceId": "realsound-jp-tech",
-      "sourceName": "リアルサウンド",
-      "category": "discovered",
-      "publishedAt": "2026-09-27T06:00:41.000Z",
-      "relevance": 75,
-      "importance": 35,
-      "score": 67,
-      "reason": "「シンプルにゲームがしたい」というメモや、みんなで遊べるハクスラという要素が、Core Keeperをやりたい本人の欲求と強く合致する。"
+      "title": "具体と抽象の勉強会に参加してきた話",
+      "url": "https://qiita.com/bisketoriba/items/73c2102fe9a9827eed7b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "sourceId": "qiita-com-popular-items",
+      "sourceName": "Qiita",
+      "category": "community",
+      "publishedAt": "2026-09-27T12:16:17.000Z",
+      "relevance": 80,
+      "importance": 45,
+      "score": 73,
+      "reason": "「整理に疲れ、手を動かして作るフェーズに入る」という本人の状態は、抽象から具体への移行であり、「具体と抽象」のテーマと強く結びつきます。"
     },
     {
       "title": "ｅスポーツはスポーツか？✑森口佑介【『ゲームで生きていく』書評】",
@@ -52,16 +52,16 @@
       "reason": "「ものがうまれるプロセス」に焦点を当てた展示であり、整理を終えて「手を動かして何かを作るフェーズに入る」というメモに深く重なります。"
     },
     {
-      "title": "10年欲しかった音楽管理アプリを、AIと一緒に作りはじめた",
-      "url": "https://speakerdeck.com/judau/building-the-music-management-app-with-ai",
-      "sourceId": "speakerdeck-com-c-technology",
-      "sourceName": "Speaker Deck Technology",
-      "category": "slides",
-      "publishedAt": "2026-09-26T12:01:02.000Z",
-      "relevance": 65,
-      "importance": 20,
-      "score": 56,
-      "reason": "「整理することに疲れている」「手を動かして何かを作る」というメモに対し、音楽管理（整理）からAIと作るフェーズへの移行が重なる。"
+      "title": "Show HN: Lofi Cities – Pixel-art city nights with browser-generated lofi",
+      "url": "https://loficities.com/",
+      "sourceId": "hnrss-org-frontpage",
+      "sourceName": "Hacker News",
+      "category": "developer",
+      "publishedAt": "2026-09-27T18:44:30.000Z",
+      "relevance": 60,
+      "importance": 35,
+      "score": 55,
+      "reason": "「シンプルにゲームがしたい」というメモや、整理に疲れてリラックスしたい気分に、ピクセルアートとLofi音楽の世界観が合致します。"
     },
     {
       "title": "自分の頭で考えることって重要だよなと改めて思わされた話",
@@ -88,6 +88,18 @@
       "reason": "「パズルゲームの作り方」は、ゲームをしたい、手を動かして何かを作るフェーズに入りたいという本人のメモに合致します。"
     },
     {
+      "title": "AI駆動開発で仕様はどこまで書くべきか？ ― 人とAIの責務境界から考える開発プロセスの実践",
+      "url": "https://speakerdeck.com/takahiromatsui/ai-kudou-kaihatsu-de-shiyou-ha-doko-made-kakubeki-ka-hito-to-ai-no-sekimu-kyoukai-kara-kangaeru-kaihatsu-purosesu-no-jissen",
+      "sourceId": "speakerdeck-com-c-technology",
+      "sourceName": "Speaker Deck Technology",
+      "category": "slides",
+      "publishedAt": "2026-09-26T23:15:08.000Z",
+      "relevance": 50,
+      "importance": 50,
+      "score": 50,
+      "reason": "「整理を終えて手を動かして作るフェーズに入る」というメモに対し、仕様（整理）と実装（実践）の境界線をどう設計すべきかのヒントになります。"
+    },
+    {
       "title": "14．孤独とポリフォニー",
       "url": "https://kangaeruhito.jp/article/764290",
       "sourceId": "kangaeruhito-jp",
@@ -112,28 +124,52 @@
       "reason": "30代の振り返りを通じた人生の整理や、これから主体的に手を動かして何かを作る生き方のヒントになり得るため。"
     },
     {
-      "title": "5．アファンタジア――頭にシーンが浮かばない",
-      "url": "https://kangaeruhito.jp/article/764288",
-      "sourceId": "kangaeruhito-jp",
-      "sourceName": "考える人",
+      "title": "Richard Demarco: Overwhelmed by Memories",
+      "url": "https://euppublishingblog.com/2026/09/25/richard-demarco-overwhelmed-by-memories/?utm_source=rss&utm_medium=rss&utm_campaign=richard-demarco-overwhelmed-by-memories",
+      "sourceId": "euppublishingblog-com",
+      "sourceName": "Edinburgh University Press Blog",
       "category": "discovered",
-      "publishedAt": "2026-09-20T21:00:50.000Z",
-      "relevance": 45,
-      "importance": 40,
-      "score": 44,
-      "reason": "「アファンタジア」という脳や身体、認知のあり方に関するテーマは、読もうとしている本『現れる存在』の脳と身体の再統合という関心に繋がります。"
+      "publishedAt": "2026-09-25T08:00:00.000Z",
+      "relevance": 50,
+      "importance": 15,
+      "score": 43,
+      "reason": "「記憶に圧倒される」という内容が、整理することに疲れている本人の心理的状況と親和性があるため。"
     },
     {
-      "title": "音声AIは「自分らしさ」をどう変える？ Parakeet中村泰貴氏が語る、声色と表現の可能性",
-      "url": "https://realsound.jp/tech/2026/09/post-2534181.html",
-      "sourceId": "realsound-jp-tech",
-      "sourceName": "リアルサウンド",
+      "title": "AIを動かす前に整える業務データの条件——受発注・在庫が記憶ではなくデータになっているか",
+      "url": "https://argora.io/media/digital/2026-09-27-gyomu-data-nashi-ni-ai-wa-ugokanai",
+      "sourceId": "argora-io",
+      "sourceName": "株式会社アルゴラ — メディア",
       "category": "discovered",
-      "publishedAt": "2026-09-26T18:00:19.000Z",
+      "publishedAt": "2026-09-27T00:00:00.000Z",
+      "relevance": 45,
+      "importance": 30,
+      "score": 42,
+      "reason": "「データを整える」というテーマが、メモを整える段階を終えたいという本人の問題意識と部分的に重なるため。"
+    },
+    {
+      "title": "自己報告に頼らない「世界開示」の測り方｜日本語NLP・テキストマイニングと行動データによる間接測定の研究設計",
+      "url": "https://research.smeai.org/world-disclosure-japanese-nlp-indirect-measurement/",
+      "sourceId": "research-smeai-org",
+      "sourceName": "中小企業AI活用協会研究サイト",
+      "category": "discovered",
+      "publishedAt": "2026-09-24T20:58:00.000Z",
       "relevance": 45,
       "importance": 25,
       "score": 41,
-      "reason": "読もうとしている本『私とは何か――「個人」から「分人」へ』における声色や表現、自分らしさ（分人）の変容というテーマと繋がる。"
+      "reason": "読もうとしている本『現れる存在』の「世界」の再統合や認知科学的アプローチに関連するテーマであるため。"
+    },
+    {
+      "title": "ハイデッガーの動物論をわかりやすく解説｜「世界形成」からLichtung・Ereignisへの転回と現代動物倫理への影響",
+      "url": "https://research.smeai.org/heidegger-lichtung-ereignis-animal-ethics/",
+      "sourceId": "research-smeai-org",
+      "sourceName": "中小企業AI活用協会研究サイト",
+      "category": "discovered",
+      "publishedAt": "2026-09-26T20:55:05.000Z",
+      "relevance": 40,
+      "importance": 30,
+      "score": 38,
+      "reason": "読もうとしている本『現れる存在』などの認知・世界観に近いハイデッガーの「世界形成」を扱っているため。"
     },
     {
       "title": "【兵庫】木の生命、かたちへ —ジョージ・ナカシマと職人たち",
