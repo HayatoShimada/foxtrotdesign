@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T21:00:59.550Z",
+  "generatedAt": "2026-09-28T21:01:14.487Z",
   "question": "整理することに疲れている",
   "windowDays": 7,
   "items": [
@@ -16,16 +16,16 @@
       "reason": "読もうとしている本『動きすぎてはいけない』の著者ドゥルーズの「生成変化」や動物論を直接扱っているため。"
     },
     {
-      "title": "具体と抽象の勉強会に参加してきた話",
-      "url": "https://qiita.com/bisketoriba/items/73c2102fe9a9827eed7b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "sourceId": "qiita-com-popular-items",
-      "sourceName": "Qiita",
-      "category": "community",
-      "publishedAt": "2026-09-27T12:16:17.000Z",
-      "relevance": 80,
-      "importance": 45,
-      "score": 73,
-      "reason": "「整理に疲れ、手を動かして作るフェーズに入る」という本人の状態は、抽象から具体への移行であり、「具体と抽象」のテーマと強く結びつきます。"
+      "title": "「効率化したい」の前に問うべき目的——DXの出発点を整理する",
+      "url": "https://argora.io/media/digital/2026-09-28-koritsu-ka-no-mokuteki-wo-toinaosu",
+      "sourceId": "argora-io",
+      "sourceName": "株式会社アルゴラ — メディア",
+      "category": "discovered",
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "relevance": 75,
+      "importance": 50,
+      "score": 70,
+      "reason": "「整理することに疲れている」という問いに対し、整理や効率化という手段そのものの目的を問い直し、次のステップへ進むためのヒントとなる。"
     },
     {
       "title": "ｅスポーツはスポーツか？✑森口佑介【『ゲームで生きていく』書評】",
@@ -40,30 +40,6 @@
       "reason": "「ゲームがしたい」という欲求に直結するほか、身体と世界の再統合を問う『現れる存在』などの読書傾向とも親和性が高いテーマです。"
     },
     {
-      "title": "デザインの祭典「Featured Projects 2026」開催。「ものがうまれる、その『間』」をテーマに制作のプロセスをひらく",
-      "url": "https://www.axismag.jp/posts/2026/09/723814.html",
-      "sourceId": "axismag-jp",
-      "sourceName": "AXIS Web | デザインの視点で、人間の可能性や創造性を伝えるメディア",
-      "category": "discovered",
-      "publishedAt": "2026-09-21T02:17:08.000Z",
-      "relevance": 65,
-      "importance": 40,
-      "score": 60,
-      "reason": "「ものがうまれるプロセス」に焦点を当てた展示であり、整理を終えて「手を動かして何かを作るフェーズに入る」というメモに深く重なります。"
-    },
-    {
-      "title": "Show HN: Lofi Cities – Pixel-art city nights with browser-generated lofi",
-      "url": "https://loficities.com/",
-      "sourceId": "hnrss-org-frontpage",
-      "sourceName": "Hacker News",
-      "category": "developer",
-      "publishedAt": "2026-09-27T18:44:30.000Z",
-      "relevance": 60,
-      "importance": 35,
-      "score": 55,
-      "reason": "「シンプルにゲームがしたい」というメモや、整理に疲れてリラックスしたい気分に、ピクセルアートとLofi音楽の世界観が合致します。"
-    },
-    {
       "title": "自分の頭で考えることって重要だよなと改めて思わされた話",
       "url": "https://qiita.com/ike_s_muramatsu/items/44664e57e2738614fccf?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
       "sourceId": "qiita-com-popular-items",
@@ -76,28 +52,64 @@
       "reason": "管理や整理のフェーズから脱し、主体的に手を動かして自分の頭で考えることの重要性を再認識させる内容であるため。"
     },
     {
-      "title": "パズルゲームの作り方 / how to make puzzle games",
-      "url": "https://speakerdeck.com/kaityo256/how-to-make-puzzle-games",
-      "sourceId": "speakerdeck-com-c-programming",
-      "sourceName": "Speaker Deck Programming",
-      "category": "slides",
-      "publishedAt": "2026-09-24T15:12:31.000Z",
-      "relevance": 60,
-      "importance": 30,
-      "score": 54,
-      "reason": "「パズルゲームの作り方」は、ゲームをしたい、手を動かして何かを作るフェーズに入りたいという本人のメモに合致します。"
-    },
-    {
-      "title": "AI駆動開発で仕様はどこまで書くべきか？ ― 人とAIの責務境界から考える開発プロセスの実践",
-      "url": "https://speakerdeck.com/takahiromatsui/ai-kudou-kaihatsu-de-shiyou-ha-doko-made-kakubeki-ka-hito-to-ai-no-sekimu-kyoukai-kara-kangaeru-kaihatsu-purosesu-no-jissen",
+      "title": "The Maintainer Container - remaining a saner maintainer",
+      "url": "https://speakerdeck.com/ennael/the-maintainer-container-remaining-a-saner-maintainer",
       "sourceId": "speakerdeck-com-c-technology",
       "sourceName": "Speaker Deck Technology",
       "category": "slides",
-      "publishedAt": "2026-09-26T23:15:08.000Z",
-      "relevance": 50,
-      "importance": 50,
+      "publishedAt": "2026-09-28T19:59:05.000Z",
+      "relevance": 55,
+      "importance": 30,
       "score": 50,
-      "reason": "「整理を終えて手を動かして作るフェーズに入る」というメモに対し、仕様（整理）と実装（実践）の境界線をどう設計すべきかのヒントになります。"
+      "reason": "「整理することに疲れている」という問いに対し、メンテナー（管理者）が正気を保つための知見は、整理や管理の疲れを和らげるヒントになります。"
+    },
+    {
+      "title": "A Unified Account of Concepts and Chunks",
+      "url": "https://arxiv.org/abs/2609.30414",
+      "sourceId": "rss-arxiv-org-rss-cs-cl",
+      "sourceName": "arXiv cs.CL",
+      "category": "research",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "relevance": 50,
+      "importance": 45,
+      "score": 49,
+      "reason": "「整理することに疲れている」という問いに対し、概念とチャンク（情報のまとまり）を統一的に説明する本記事は、頭の中の整理を捉え直すヒントになります。"
+    },
+    {
+      "title": "PROTOTYPE ISSUE 0",
+      "url": "https://store.tsite.jp/item-detail/beauty-health/56392.html",
+      "sourceId": "store-tsite-jp",
+      "sourceName": "蔦屋書店オンラインストア新商品",
+      "category": "discovered",
+      "publishedAt": "2026-09-27T15:00:00.000Z",
+      "relevance": 55,
+      "importance": 25,
+      "score": 49,
+      "reason": "「メモやタスクを整える段階は終わり、手を動かして何かを作るフェーズに入る」という創作への意欲に、プロトタイプという概念が合致する。"
+    },
+    {
+      "title": "GitHub CodeQLが個人アカウントでは使えなかった話 ― 開発ツールを9本まとめて入れた棚卸しの顛末",
+      "url": "https://qiita.com/jqit-yukiono/items/defe0f80ac4c354aeb7b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "sourceId": "qiita-com-popular-items",
+      "sourceName": "Qiita",
+      "category": "community",
+      "publishedAt": "2026-09-28T11:26:30.000Z",
+      "relevance": 50,
+      "importance": 35,
+      "score": 47,
+      "reason": "開発ツールをまとめて棚卸し（整理）した顛末は、「整理することに疲れている」という本人の現状や問題意識と強く重なり、共感できる内容です。"
+    },
+    {
+      "title": "Thinking Less to Simulate Better: Intuitive Prompting Improves LLM Agents Simulating Individual Social Media Reactions, Including Unfamiliar Content",
+      "url": "https://arxiv.org/abs/2609.30563",
+      "sourceId": "rss-arxiv-org-rss-cs-ai",
+      "sourceName": "arXiv cs.AI",
+      "category": "research",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "relevance": 45,
+      "importance": 45,
+      "score": 45,
+      "reason": "「思考を減らす（Thinking Less）」というテーマは、整理や管理に疲れて手を動かしたい、動きすぎてはいけないという本人の志向と親和性があります。"
     },
     {
       "title": "14．孤独とポリフォニー",
@@ -112,16 +124,28 @@
       "reason": "読もうとしている本『私とは何か――「個人」から「分人」へ』のテーマである自己の複数性や、孤独と他者との関係性に深く関わる内容。"
     },
     {
-      "title": "age40 - 30代でやってよかったこと",
-      "url": "https://zenn.dev/dress_code/articles/2026-09-24_age-40",
-      "sourceId": "zenn-dev",
-      "sourceName": "Zenn",
-      "category": "community",
-      "publishedAt": "2026-09-24T07:58:17.000Z",
+      "title": "A Benchmark Framework for Screening Automation in Systematic Reviews",
+      "url": "https://arxiv.org/abs/2609.30298",
+      "sourceId": "rss-arxiv-org-rss-cs-cl",
+      "sourceName": "arXiv cs.CL",
+      "category": "research",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
       "relevance": 45,
       "importance": 40,
       "score": 44,
-      "reason": "30代の振り返りを通じた人生の整理や、これから主体的に手を動かして何かを作る生き方のヒントになり得るため。"
+      "reason": "「整理することに疲れている」という問いに対し、系統的レビューにおけるスクリーニング（整理・選別）自動化の枠組みは、整理の負担軽減に直接繋がります。"
+    },
+    {
+      "title": "AIで「作れる」の先へ OpenAIの学生ハッカソンに見る、学生たちとCodexの距離感",
+      "url": "https://realsound.jp/tech/2026/09/post-2534378.html",
+      "sourceId": "realsound-jp-tech",
+      "sourceName": "リアルサウンド",
+      "category": "discovered",
+      "publishedAt": "2026-09-28T18:00:52.000Z",
+      "relevance": 45,
+      "importance": 35,
+      "score": 43,
+      "reason": "メモの「手を動かして何かを作るフェーズに入る」に対し、AIを使って「作れる」の先へ進むハッカソンの話題は、創作フェーズへの移行を刺激します。"
     },
     {
       "title": "Richard Demarco: Overwhelmed by Memories",
@@ -160,6 +184,18 @@
       "reason": "読もうとしている本『現れる存在』の「世界」の再統合や認知科学的アプローチに関連するテーマであるため。"
     },
     {
+      "title": "大Tシャツ展 2026 by Doubt Everything, Weber",
+      "url": "https://store.tsite.jp/item-detail/beauty-health/56384.html",
+      "sourceId": "store-tsite-jp",
+      "sourceName": "蔦屋書店オンラインストア新商品",
+      "category": "discovered",
+      "publishedAt": "2026-09-27T15:00:00.000Z",
+      "relevance": 45,
+      "importance": 20,
+      "score": 40,
+      "reason": "「VOIRYのデニムおすすめです」とメモにあるように、ファッションやTシャツなどのアパレルカルチャーへの関心とつながる。"
+    },
+    {
       "title": "ハイデッガーの動物論をわかりやすく解説｜「世界形成」からLichtung・Ereignisへの転回と現代動物倫理への影響",
       "url": "https://research.smeai.org/heidegger-lichtung-ereignis-animal-ethics/",
       "sourceId": "research-smeai-org",
@@ -170,6 +206,18 @@
       "importance": 30,
       "score": 38,
       "reason": "読もうとしている本『現れる存在』などの認知・世界観に近いハイデッガーの「世界形成」を扱っているため。"
+    },
+    {
+      "title": "半永久的に提供し続けられるプライベートクラウドを目指して ― 利用者の認知負荷を抑えるAPI抽象化とハードウェア世代交代の基盤設計",
+      "url": "https://speakerdeck.com/tomokon/haneikyuuteki-ni-teikyou-shi-tsuzukerareru-o-mezashi-te-riyousha-no-ninchi-fuka-o-osaeru-api-chuushouka-to-hadowea-sedai-koutai-no-kiban-sekkei",
+      "sourceId": "speakerdeck-com-c-programming",
+      "sourceName": "Speaker Deck Programming",
+      "category": "slides",
+      "publishedAt": "2026-09-27T01:25:32.000Z",
+      "relevance": 40,
+      "importance": 25,
+      "score": 37,
+      "reason": "「整理することに疲れている」という問いに対し、利用者の「認知負荷を抑える」設計思想は、整理疲れを軽減するアプローチとして参考になります。"
     },
     {
       "title": "【兵庫】木の生命、かたちへ —ジョージ・ナカシマと職人たち",
