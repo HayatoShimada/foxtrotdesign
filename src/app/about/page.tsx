@@ -108,17 +108,17 @@ export default function AboutPage() {
           </p>
           <div className="space-y-4">
             <a
-              href="https://85-store.com/blog/aymjo79tj"
+              href="https://graphic.85-store.com"
               target="_blank"
               rel="noopener noreferrer"
               className="block border border-foreground p-4 shadow-brutal-sm transition-shadow hover:shadow-brutal-md"
             >
-              <p className="mb-1 text-xs text-muted">Event · 2026.08.23</p>
-              <h3 className="mb-2 font-bold">AIの疑問をみんなで解消する会 →</h3>
+              <p className="mb-1 text-xs text-muted">App · Web</p>
+              <h3 className="mb-2 font-bold">VividAtmos →</h3>
               <p className="text-xs leading-relaxed text-muted">
-                8/23(日) @85-Store.現役AIエンジニアと台湾茶を飲みながら,
-                AIの疑問をざっくばらんに語り合う対談・対話会.
-                技術と日常の溝を埋める参加型イベント.
+                アルゴリズムで柄・色・動きを生成し,画像や動画,ライブ表示として書き出せる
+                ジェネレーティブグラフィックのエディタ.
+                柄は400種超,VJやサイネージ,SNS投稿にも対応.
               </p>
             </a>
             <a
