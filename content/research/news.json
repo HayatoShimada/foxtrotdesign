@@ -1,8 +1,20 @@
 {
-  "generatedAt": "2026-09-29T21:01:23.529Z",
+  "generatedAt": "2026-09-30T21:04:50.347Z",
   "question": "整理することに疲れている",
   "windowDays": 7,
   "items": [
+    {
+      "title": "通知が届くたびに身体は構えている——積み重なる定位反応と神経疲弊のしくみ",
+      "url": "https://argora.io/media/body/2026-09-30-tsuuchi-no-teii-hanno-to-karada-no-hirou",
+      "sourceId": "argora-io",
+      "sourceName": "株式会社アルゴラ — メディア",
+      "category": "discovered",
+      "publishedAt": "2026-09-30T00:00:00.000Z",
+      "relevance": 85,
+      "importance": 50,
+      "score": 78,
+      "reason": "「整理することに疲れている」という問いに対し、通知による神経疲弊の仕組みを解説する内容は、本人の疲労感や『現れる存在』の身体論と直接つながります。"
+    },
     {
       "title": "レヴィナス・バトラー・ドゥルーズの動物論を比較｜他者性・脆弱性・生成変化から考える動物倫理",
       "url": "https://research.smeai.org/levinas-butler-deleuze-animal-ethics-comparison/",
@@ -52,16 +64,16 @@
       "reason": "「ゲームがしたい」という欲求に直結するほか、身体と世界の再統合を問う『現れる存在』などの読書傾向とも親和性が高いテーマです。"
     },
     {
-      "title": "Optimize Your Mindset (Without Overclocking)",
-      "url": "https://speakerdeck.com/tech_christine/optimize-your-mindset-without-overclocking-36c475cb-3c5f-4da6-9a11-1488a34c3243",
-      "sourceId": "speakerdeck-com-c-technology",
-      "sourceName": "Speaker Deck Technology",
-      "category": "slides",
-      "publishedAt": "2026-09-29T14:46:07.000Z",
-      "relevance": 65,
-      "importance": 40,
-      "score": 60,
-      "reason": "「整理することに疲れている」という問いに対し、マインドセットをオーバークロック（過負荷）させずに最適化するヒントが得られる可能性があるため。"
+      "title": "Surprisingly Complex Waves Reveal the Brain's Inner Workings",
+      "url": "https://www.quantamagazine.org/surprisingly-complex-waves-reveal-the-brains-inner-workings-20260930/",
+      "sourceId": "hnrss-org-frontpage",
+      "sourceName": "Hacker News",
+      "category": "developer",
+      "publishedAt": "2026-09-30T19:04:50.000Z",
+      "relevance": 55,
+      "importance": 65,
+      "score": 57,
+      "reason": "読もうとしている本『現れる存在――脳と身体と世界の再統合』の脳科学的な関心と直接つながります。"
     },
     {
       "title": "焚き火に人が鎮まるのはなぜか——自然の「ゆらぎ」と自律神経の関係",
@@ -76,40 +88,64 @@
       "reason": "「整理することに疲れている」本人の心境に対し、自然の「ゆらぎ」と自律神経の関係から心身を鎮めるアプローチは、休息や回復のヒントとして関連する。"
     },
     {
-      "title": "散らばった業務知識を GitHub Copilot Skill でOntologyで整理する",
-      "url": "https://speakerdeck.com/headwaters/chirabata-gyoumu-chishiki-o-github-copilot-skill-de-ontology-de-seiri-suru",
-      "sourceId": "speakerdeck-com-c-technology",
-      "sourceName": "Speaker Deck Technology",
-      "category": "slides",
-      "publishedAt": "2026-09-29T05:34:50.000Z",
-      "relevance": 55,
-      "importance": 40,
-      "score": 52,
-      "reason": "「整理することに疲れている」状況において、散らばった知識をツールで自動的に整理・構造化する手法は、負担を減らすヒントになるため。"
-    },
-    {
-      "title": "Galaxy Game – Interim Computer Museum",
-      "url": "https://icm.museum/blog/?p=698",
+      "title": "America.gov goes crazy on \"play Minecraft\"",
+      "url": "https://america.gov/chat",
       "sourceId": "hnrss-org-frontpage",
       "sourceName": "Hacker News",
       "category": "developer",
-      "publishedAt": "2026-09-29T19:24:27.000Z",
+      "publishedAt": "2026-09-30T19:34:03.000Z",
       "relevance": 50,
-      "importance": 40,
-      "score": 48,
-      "reason": "「シンプルにゲームがしたい」という本人のメモに対し、初期のコンピューターゲームの歴史に関する話題は関心を惹きます。"
+      "importance": 50,
+      "score": 50,
+      "reason": "「シンプルにゲームがしたい」というメモに対し、Minecraftというゲームの話題が直接関連します。"
     },
     {
-      "title": "形式手法を使って仕様をコーディングしよう",
-      "url": "https://speakerdeck.com/mikanichinose/coding-specifications-with-formal-methods",
-      "sourceId": "speakerdeck-com-c-technology",
-      "sourceName": "Speaker Deck Technology",
-      "category": "slides",
-      "publishedAt": "2026-09-29T07:19:30.000Z",
+      "title": "Commit description as a thinking tool",
+      "url": "https://yedhu.me/posts/commit-description-as-a-thinking-tool/",
+      "sourceId": "hnrss-org-frontpage",
+      "sourceName": "Hacker News",
+      "category": "developer",
+      "publishedAt": "2026-09-30T17:18:13.000Z",
+      "relevance": 50,
+      "importance": 45,
+      "score": 49,
+      "reason": "「メモやタスクを整える段階は終わり、手を動かす」という思考の整理や開発プロセスに関連します。"
+    },
+    {
+      "title": "ままならなさを抱えて歩いていくこと／河村実月",
+      "url": "https://meandyou.net/202609-mitsukikawamura/",
+      "sourceId": "meandyou-net",
+      "sourceName": "me and you little magazine & club",
+      "category": "discovered",
+      "publishedAt": "2026-09-30T13:45:53.000Z",
+      "relevance": 55,
+      "importance": 25,
+      "score": 49,
+      "reason": "「ままならなさを抱えて歩いていくこと」という題は、整理することに疲れたり、思い通りにいかない現状を抱えながら進む本人の心情や読みたい哲学書に寄り添います。"
+    },
+    {
+      "title": "杉江あこ｜方丈記に学ぶ –生きるを編み直す小さな建築–",
+      "url": "https://artscape.jp/article/77966/",
+      "sourceId": "artscape-jp",
+      "sourceName": "artscape",
+      "category": "discovered",
+      "publishedAt": "2026-09-30T02:00:00.000Z",
       "relevance": 50,
       "importance": 35,
       "score": 47,
-      "reason": "「整理や整える段階を終え、手を動かして作るフェーズに入る」というメモに対し、仕様をコード化して実際に作るアプローチが合致するため。"
+      "reason": "「生きるを編み直す」というテーマは、整理することに疲れ、シンプルに次のフェーズへ進もうとする本人の姿勢や、読書リストの哲学的な問いに重なります。"
+    },
+    {
+      "title": "D.Va、キリコ、ゲンジらが旅行姿で登場 『オーバーウォッチ』×「推し旅／JR東海」コラボグッズ受注スタート",
+      "url": "https://realsound.jp/tech/2026/09/post-2538514.html",
+      "sourceId": "realsound-jp-tech",
+      "sourceName": "リアルサウンド",
+      "category": "discovered",
+      "publishedAt": "2026-09-30T20:00:35.000Z",
+      "relevance": 50,
+      "importance": 30,
+      "score": 46,
+      "reason": "「シンプルにゲームがしたい」というメモがあり、お気に入りのゲームキャラクターが登場するコラボグッズの話題は、リフレッシュしたい本人の関心に直接つながります。"
     },
     {
       "title": "デス・リテラシーの第一歩――久坂部羊『欲張らない死に方』書評／最相葉月【ちくま新書】",
@@ -122,6 +158,30 @@
       "importance": 30,
       "score": 46,
       "reason": "『欲張らない死に方』というテーマは、整理やタスクの管理を終えてシンプルに生きたい、動きすぎずにいたいという本人の志向や読書傾向と重なる。"
+    },
+    {
+      "title": "Halfspace experimental IDE for solid modeling with distance fields",
+      "url": "https://www.mattkeeter.com/projects/halfspace/",
+      "sourceId": "hnrss-org-frontpage",
+      "sourceName": "Hacker News",
+      "category": "developer",
+      "publishedAt": "2026-09-30T19:44:37.000Z",
+      "relevance": 45,
+      "importance": 45,
+      "score": 45,
+      "reason": "「手を動かして何かを作る」という創作フェーズに合致する、モデリングツールの話題です。"
+    },
+    {
+      "title": "Self-discovering RL in the Era of Experience: Is Learning History an Asset or a Burden?",
+      "url": "https://arxiv.org/abs/2609.35897",
+      "sourceId": "rss-arxiv-org-rss-cs-ai",
+      "sourceName": "arXiv cs.AI",
+      "category": "research",
+      "publishedAt": "2026-09-30T04:00:00.000Z",
+      "relevance": 45,
+      "importance": 45,
+      "score": 45,
+      "reason": "「学習履歴は資産か負担か」という問いは、「整理することに疲れている」という本人の疲弊感と重なります。"
     },
     {
       "title": "14．孤独とポリフォニー",
@@ -148,6 +208,18 @@
       "reason": "「整理することに疲れている」状況に対し、荒れた状態をコード管理で立て直す（整理する）アプローチは、整理の負担を減らすヒントになります。"
     },
     {
+      "title": "AI×Blenderでゲーム用キャラ素体の作成に挑戦した記録",
+      "url": "https://zenn.dev/yy7613/articles/c150ef962ccc1f",
+      "sourceId": "zenn-dev",
+      "sourceName": "Zenn",
+      "category": "community",
+      "publishedAt": "2026-09-29T14:29:19.000Z",
+      "relevance": 45,
+      "importance": 35,
+      "score": 43,
+      "reason": "「手を動かして何かを作るフェーズ」というメモに合致し、ゲーム用キャラ素体の作成という創作活動に繋がります。"
+    },
+    {
       "title": "Richard Demarco: Overwhelmed by Memories",
       "url": "https://euppublishingblog.com/2026/09/25/richard-demarco-overwhelmed-by-memories/?utm_source=rss&utm_medium=rss&utm_campaign=richard-demarco-overwhelmed-by-memories",
       "sourceId": "euppublishingblog-com",
@@ -158,6 +230,30 @@
       "importance": 15,
       "score": 43,
       "reason": "「記憶に圧倒される」という内容が、整理することに疲れている本人の心理的状況と親和性があるため。"
+    },
+    {
+      "title": "【東京】TOKAS Project Vol.9「在ることの再演」",
+      "url": "https://artscape.jp/article/79951/",
+      "sourceId": "artscape-jp",
+      "sourceName": "artscape",
+      "category": "discovered",
+      "publishedAt": "2026-09-30T10:15:44.000Z",
+      "relevance": 45,
+      "importance": 30,
+      "score": 42,
+      "reason": "「在ることの再演」というテーマは、読もうとしている本『現れる存在』や『動きすぎてはいけない』が扱う存在論や身体性の問いと深く響き合います。"
+    },
+    {
+      "title": "設計次第でAIコードの読む量は減らせる / designing-for-code-reading",
+      "url": "https://speakerdeck.com/minodriven/designing-for-code-reading",
+      "sourceId": "speakerdeck-com-c-programming",
+      "sourceName": "Speaker Deck Programming",
+      "category": "slides",
+      "publishedAt": "2026-09-30T08:35:04.000Z",
+      "relevance": 45,
+      "importance": 30,
+      "score": 42,
+      "reason": "「設計次第でAIコードの読む量を減らせる」というテーマは、整理や管理の負担を減らし、手を動かすフェーズに集中したいという本人の問題意識に合致します。"
     },
     {
       "title": "AIを動かす前に整える業務データの条件——受発注・在庫が記憶ではなくデータになっているか",
@@ -172,16 +268,16 @@
       "reason": "「データを整える」というテーマが、メモを整える段階を終えたいという本人の問題意識と部分的に重なるため。"
     },
     {
-      "title": "PS5 Relapse Exploit",
-      "url": "https://github.com/ntfargo/Relapse-Exploit",
-      "sourceId": "hnrss-org-frontpage",
-      "sourceName": "Hacker News",
-      "category": "developer",
-      "publishedAt": "2026-09-29T15:44:41.000Z",
+      "title": "Build a multi-agent music production pipeline on Amazon Bedrock AgentCore Runtime Instances",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-multi-agent-music-production-pipeline-on-amazon-bedrock-agentcore-runtime-instances/",
+      "sourceId": "aws-amazon-com-blogs-machine-learning",
+      "sourceName": "AWS Machine Learning",
+      "category": "vendor",
+      "publishedAt": "2026-09-30T15:21:57.000Z",
       "relevance": 40,
       "importance": 45,
       "score": 41,
-      "reason": "「シンプルにゲームがしたい」というメモに対し、ゲームハードウェアであるPS5に関する話題は、ゲームへの関心とつながります。"
+      "reason": "「手を動かして何かを作る」というメモに対し、音楽制作パイプラインという創作活動の話題が関連します。"
     },
     {
       "title": "AI時代のエンジニアが鍛えるべき「具体と抽象」という思考力",
@@ -208,42 +304,6 @@
       "reason": "読もうとしている本『現れる存在』の「世界」の再統合や認知科学的アプローチに関連するテーマであるため。"
     },
     {
-      "title": "相棒は見た目で選んでもいいですか？ モンスターを集めて冒険する『ロコキングダム』体験記",
-      "url": "https://realsound.jp/tech/2026/09/post-2534445.html",
-      "sourceId": "realsound-jp-tech",
-      "sourceName": "リアルサウンド",
-      "category": "discovered",
-      "publishedAt": "2026-09-29T18:00:34.000Z",
-      "relevance": 45,
-      "importance": 20,
-      "score": 40,
-      "reason": "「シンプルにゲームがしたい」というメモに対し、モンスターを集めて冒険するゲームの体験記は、気楽にゲームを楽しみたい欲求と緩やかにつながる。"
-    },
-    {
-      "title": "【勉強会】「AI時代『考える力』をどう鍛える？具体抽象トレーニング」に参加して考えたこと",
-      "url": "https://qiita.com/ko1_tktn/items/5f0a18a0c91b398dc7d6?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "sourceId": "qiita-com-popular-items",
-      "sourceName": "Qiita",
-      "category": "community",
-      "publishedAt": "2026-09-28T23:32:28.000Z",
-      "relevance": 40,
-      "importance": 40,
-      "score": 40,
-      "reason": "「整理を終えて手を動かして作る」という具体のフェーズへの移行において、「具体と抽象」の往復という視点が参考になります。"
-    },
-    {
-      "title": "『具体と抽象』をトレーニングする勉強会に参加して、「生き残るエンジニア≒コンサル的視点の持ち主」だと感じた話",
-      "url": "https://qiita.com/nagi-0106/items/1afefc829632bd9c9571?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "sourceId": "qiita-com-popular-items",
-      "sourceName": "Qiita",
-      "category": "community",
-      "publishedAt": "2026-09-28T15:36:11.000Z",
-      "relevance": 40,
-      "importance": 40,
-      "score": 40,
-      "reason": "「整理を終えて手を動かして作る」という具体のフェーズへの移行において、「具体と抽象」の往復という視点が参考になります。"
-    },
-    {
       "title": "ハイデッガーの動物論をわかりやすく解説｜「世界形成」からLichtung・Ereignisへの転回と現代動物倫理への影響",
       "url": "https://research.smeai.org/heidegger-lichtung-ereignis-animal-ethics/",
       "sourceId": "research-smeai-org",
@@ -254,30 +314,6 @@
       "importance": 30,
       "score": 38,
       "reason": "読もうとしている本『現れる存在』などの認知・世界観に近いハイデッガーの「世界形成」を扱っているため。"
-    },
-    {
-      "title": "半永久的に提供し続けられるプライベートクラウドを目指して ― 利用者の認知負荷を抑えるAPI抽象化とハードウェア世代交代の基盤設計",
-      "url": "https://speakerdeck.com/tomokon/haneikyuuteki-ni-teikyou-shi-tsuzukerareru-o-mezashi-te-riyousha-no-ninchi-fuka-o-osaeru-api-chuushouka-to-hadowea-sedai-koutai-no-kiban-sekkei",
-      "sourceId": "speakerdeck-com-c-programming",
-      "sourceName": "Speaker Deck Programming",
-      "category": "slides",
-      "publishedAt": "2026-09-27T01:25:32.000Z",
-      "relevance": 40,
-      "importance": 25,
-      "score": 37,
-      "reason": "「整理することに疲れている」という問いに対し、利用者の「認知負荷を抑える」設計思想は、整理疲れを軽減するアプローチとして参考になります。"
-    },
-    {
-      "title": "【兵庫】木の生命、かたちへ —ジョージ・ナカシマと職人たち",
-      "url": "https://artscape.jp/article/79450/",
-      "sourceId": "artscape-jp",
-      "sourceName": "artscape",
-      "category": "discovered",
-      "publishedAt": "2026-09-25T08:00:41.000Z",
-      "relevance": 40,
-      "importance": 20,
-      "score": 36,
-      "reason": "読もうとしている本『なぜ、植物図鑑か』や『現れる存在』における、自然の生命力と人間の身体・職人技術との関わりというテーマに繋がる。"
     }
   ]
 }
