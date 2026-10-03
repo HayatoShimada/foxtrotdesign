@@ -13,10 +13,54 @@ import { ReadingItem } from "../lib/types";
 
 const MEMO_ROOT = process.env.MEMO_ROOT ?? "/srv/silverbullet";
 const SOURCE = path.join(MEMO_ROOT, "Resources", "読みたい論文リスト.md");
+const PAPERS_DIR = path.join(MEMO_ROOT, "Resources", "Papers");
 const TARGET = path.join(process.cwd(), "content", "research", "reading.json");
 
 const TASK_RE = /^\s*\*\s\[([ xX])\]\s(.*)$/;
 const KINDS = new Set<ReadingItem["kind"]>(["paper", "book", "news"]);
+
+function unquote(v: string): string {
+  const t = v.trim();
+  const m = /^(["'])(.*)\1$/.exec(t);
+  return m ? m[2] : t;
+}
+
+/** frontmatter の単純な `key: value` 行だけを読む（本文は読まない）。 */
+function parseFrontmatter(text: string): Record<string, string> {
+  const m = /^---\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)/.exec(text);
+  const out: Record<string, string> = {};
+  if (!m) return out;
+  for (const line of m[1].split(/\r?\n/)) {
+    const kv = /^([A-Za-z_][\w-]*):(.*)$/.exec(line);
+    if (!kv) continue;
+    // 行末コメント（空白 + #）を落としてから引用符を外す
+    const raw = kv[2].replace(/\s+#.*$/, "");
+    out[kv[1]] = unquote(raw);
+  }
+  return out;
+}
+
+function loadPages(): ReadingItem[] {
+  if (!fs.existsSync(PAPERS_DIR)) return [];
+  const items: ReadingItem[] = [];
+  for (const f of fs.readdirSync(PAPERS_DIR)) {
+    if (!f.endsWith(".md")) continue;
+    const fm = parseFrontmatter(
+      fs.readFileSync(path.join(PAPERS_DIR, f), "utf-8")
+    );
+    if (!fm.url) continue;
+    items.push({
+      title: f.slice(0, -3),
+      url: fm.url,
+      kind: KINDS.has(fm.kind as ReadingItem["kind"])
+        ? (fm.kind as ReadingItem["kind"])
+        : "other",
+      done: fm.status === "read",
+      completedAt: fm.completed || null,
+    });
+  }
+  return items;
+}
 
 function parseTask(line: string): ReadingItem | null {
   const m = TASK_RE.exec(line);
@@ -48,13 +92,29 @@ function parseTask(line: string): ReadingItem | null {
 }
 
 function main() {
-  if (!fs.existsSync(SOURCE)) {
-    console.log(`reading.json: ソースが無いためスキップ (${SOURCE})`);
+  if (!fs.existsSync(MEMO_ROOT)) {
+    console.log(`reading.json: ソースが無いためスキップ (${MEMO_ROOT})`);
     return;
   }
 
-  const lines = fs.readFileSync(SOURCE, "utf-8").split(/\r?\n/);
-  const items = lines.map(parseTask).filter((x): x is ReadingItem => x !== null);
+  const legacy = fs.existsSync(SOURCE)
+    ? fs
+        .readFileSync(SOURCE, "utf-8")
+        .split(/\r?\n/)
+        .map(parseTask)
+        .filter((x): x is ReadingItem => x !== null)
+    : [];
+
+  // ページが優先。URL が同じ旧チェックボックス行は捨てる。
+  const byUrl = new Map<string, ReadingItem>();
+  for (const it of [...loadPages(), ...legacy]) {
+    if (!byUrl.has(it.url)) byUrl.set(it.url, it);
+  }
+  // 未読を先に、同じ状態の中ではタイトル順（安定）
+  const items = [...byUrl.values()].sort(
+    (a, b) =>
+      Number(a.done) - Number(b.done) || a.title.localeCompare(b.title, "ja")
+  );
 
   fs.mkdirSync(path.dirname(TARGET), { recursive: true });
   fs.writeFileSync(TARGET, JSON.stringify(items, null, 2) + "\n", "utf-8");
