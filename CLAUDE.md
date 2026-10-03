@@ -8,13 +8,6 @@ Personal portfolio website for Hayato Shimada (foxtrotdesign). Aggregates conten
 
 Design reference: https://www.pi.website/ — brutalist-minimal, monospace, black/white only.
 
-## Tech Stack
-
-- Next.js 16 (App Router, TypeScript)
-- Tailwind CSS v4 (via `@tailwindcss/postcss`)
-- Google Gemini API (`@google/generative-ai`)
-- Vercel deployment with daily cron
-
 ## Commands
 
 ```bash
@@ -57,24 +50,11 @@ The site is organized as a cycle: **LIFE ISSUES → INPUT → OUTPUT → LIFE IS
 Each issue's `nextQuestion` drives what gets read (INPUT), which drives what gets made (OUTPUT),
 which is reflected on in the next issue.
 
-- `/` — Home with the latest issue and a directory
+- `/` — Home: profile, the latest issue, About / Why / How, Focus, and explore cards (`/about` redirects here)
 - `/life-issues` — Irregular issues: MADE / FOUND / WHY / NEXT QUESTION (`/life-issues/[issue]`, RSS at `/life-issues/rss.xml`)
 - `/input` — Current question, reading list (papers/books), AI suggestions
 - `/output` — Activity timeline, repositories, all aggregated content (GitHub / note.com / Zenn / Bluesky)
 - `/images` — Grid of image-bearing content items
-- `/about` — Profile and explore cards
-
-### Key Directories
-
-- `src/lib/aggregators/` — GitHub and note.com content fetchers
-- `src/lib/gemini.ts` — Gemini summarization with batch processing
-- `src/components/research/` — ResearchList and ResearchItem components
-- `content/research/` — Generated JSON files (committed)
-- `data/` — Raw cache (gitignored)
-
-## Design Tokens (globals.css)
-
-Custom theme via Tailwind v4 `@theme`: `--color-muted`, `--color-border`, `--color-foreground`, `--shadow-brutal-sm`, `--shadow-brutal-md`. Monospace body, serif headings.
 
 ## Environment Variables
 
@@ -86,3 +66,4 @@ Custom theme via Tailwind v4 `@theme`: `--color-muted`, `--color-border`, `--col
 ## Language
 
 DESIGN.md and site content are in Japanese. Respect bilingual context.
+

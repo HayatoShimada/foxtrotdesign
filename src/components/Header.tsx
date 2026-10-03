@@ -98,7 +98,6 @@ function NavItems({ onClick }: { onClick?: () => void }) {
     ["/input", "Input"],
     ["/output", "Output"],
     ["/images", "Images"],
-    ["/about", "About"],
   ];
 
   return (

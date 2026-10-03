@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 // LIFE ISSUES → INPUT → OUTPUT → LIFE ISSUES の循環を、各ページの末尾で次へ繋ぐ。
-// about ページのカードと同じ見た目にして、部品を増やさない。
+// トップページのカードと同じ見た目にして、部品を増やさない。
 export function CycleNext({
   href,
   label,
