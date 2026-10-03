@@ -1,42 +1,42 @@
 {
   "status": "draft",
-  "issue": 2,
+  "issue": 3,
   "publishedAt": null,
-  "periodStart": "2026-09-17",
-  "periodEnd": "2026-09-23",
+  "periodStart": "2026-09-27",
+  "periodEnd": "2026-10-03",
   "made": [
     {
       "source": "github",
+      "title": "blackbullet",
+      "excerpt": "Editor mode chip: Edit / Preview, vim modes, Esc steps Insert → Normal → Preview",
+      "url": "https://github.com/HayatoShimada/blackbullet/commit/7b4452d031873a1ed39d51d70db7a78978239f53",
+      "publishedAt": "2026-10-03T06:33:53Z"
+    },
+    {
+      "source": "github",
+      "title": "85store",
+      "excerpt": "cms: map 状態メモ (conditionNote) to the custom.condition_note metafield",
+      "url": "https://github.com/HayatoShimada/85store/commit/3620cedaf60851ad755b12b3f35a51e45a50c0c3",
+      "publishedAt": "2026-10-03T06:22:57Z"
+    },
+    {
+      "source": "github",
       "title": "foxtrotdesign",
-      "excerpt": "refactor: サイトを LIFE ISSUES → INPUT → OUTPUT の循環として再構成",
-      "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/7fef41a8a69663009a7bb6f3c6ae8c9458e8c43a",
-      "publishedAt": "2026-09-17T06:32:23Z"
-    },
-    {
-      "source": "github",
-      "title": "zenn_85",
-      "excerpt": "articles: memo-mcp のハイブリッド RAG 設計",
-      "url": "https://github.com/HayatoShimada/zenn_85/commit/c4cf018bd23575322ec9c1e340ee4803a7aaa6a7",
-      "publishedAt": "2026-09-18T08:30:27Z"
-    },
-    {
-      "source": "github",
-      "title": "mirai_rss",
-      "excerpt": "feat: 配信頻度を毎日から週1回（毎週月曜4:00 JST）に変更 (#1)",
-      "url": "https://github.com/HayatoShimada/mirai_rss/commit/91a86e207ce30bb3050beb1bb400db30902cf15c",
-      "publishedAt": "2026-09-17T09:36:44Z"
+      "excerpt": "chore: news 2026-10-03",
+      "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/356c828630fe95ad2a0b8f6469a030c3a36868e0",
+      "publishedAt": "2026-10-02T21:05:34Z"
     }
   ],
   "found": {
     "source": "zenn",
-    "title": "【Obsidian・Notion卒業】AIと思考を共有する最適解",
-    "excerpt": "AIエージェントとメモを共有する Claude Codeなどのエージェントとメモ帳を共有している方は結構多いんじゃないでしょうか？ 私自身も、PARA×GTDでタスクとメモを管理しているのですが、その情報をエージェントに使ってもらい、思考を共有しながら日々の仕事をこなしたいと思うのは当然の欲求です。 AI連携メモとしてよく使われているアプリで言えば、Obsi…",
-    "url": "https://zenn.dev/85store/articles/3f0f6a1bd22bb8",
-    "publishedAt": "2026-09-17T03:42:40.000Z",
-    "imageUrl": "https://res.cloudinary.com/zenn/image/upload/s--gZwqyaOD--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%2590Obsidian%25E3%2583%25BBNotion%25E5%258D%2592%25E6%25A5%25AD%25E3%2580%2591AI%25E3%2581%25A8%25E6%2580%259D%25E8%2580%2583%25E3%2582%2592%25E5%2585%25B1%25E6%259C%2589%25E3%2581%2599%25E3%2582%258B%25E6%259C%2580%25E9%2581%25A9%25E8%25A7%25A3%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:85-Store%2520Engineer%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzNmNzI1YjEzZDUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE"
+    "title": "Markdownメモ「SilverBullet」のAIネイティブ拡張",
+    "excerpt": "Markdown対応メモツール「SilverBullet」を基盤に、AI技術を統合した個人用ナレッジマネジメントシステム「BlackBullet」の開発事例を報告する。本システムは、ブロック指向の直感的なUIに加え、ベクトル検索によるセマンティック検索、内容の類似性に基づく動的なグラフ描画、およびLLMを用いた自動編集機能を備えている。これにより、プレーンテ…",
+    "url": "https://zenn.dev/85store/articles/blackbullet-silverbullet-fork",
+    "publishedAt": "2026-10-02T14:02:02.000Z",
+    "imageUrl": "https://res.cloudinary.com/zenn/image/upload/s--9nrj6QUI--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:SilverBullet%2520%25E3%2582%2592%25E3%2583%2595%25E3%2582%25A9%25E3%2583%25BC%25E3%2582%25AF%25E3%2581%2597%25E3%2581%25A6%25E3%2580%258CAI%2520%25E3%2583%258D%25E3%2582%25A4%25E3%2583%2586%25E3%2582%25A3%25E3%2583%2596%25E3%2581%25AA%25E8%2587%25AA%25E5%2588%2586%25E5%25B0%2582%25E7%2594%25A8%25E3%2583%25A1%25E3%2583%25A2%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2580%258DBlackBullet%2520%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:85-Store%2520Engineer%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzNmNzI1YjEzZDUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE"
   },
-  "why": "- 整理することに疲れている\n- メモやタスクを整える段階は終わり、手を動かして何かを作るフェーズに入る\n- シンプルにゲームがしたい。Core Keeperをやろう\n- Sweat特集がほぼ完了した\n- VOIRYのデニムおすすめです",
-  "nextQuestion": "整理することに疲れている",
-  "publishTo": "content/life-issues/issues/002.json",
+  "why": "",
+  "nextQuestion": "",
+  "publishTo": "content/life-issues/issues/003.json",
   "note": "WHY（100〜200字）とNEXT QUESTIONを本人確認後に追記し、statusをpublished、publishedAtを公開日にしてpublishToへ保存すると公開されます。"
 }

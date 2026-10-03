@@ -1,5 +1,452 @@
 [
   {
+    "id": "github-commit-7b4452d",
+    "source": "github",
+    "title": "blackbullet",
+    "summary": "Editor mode chip: Edit / Preview, vim modes, Esc steps Insert → Normal → Preview\n\nThe header shows the editor's mode next to the page name: Edit / Preview\n(Read-only when the page cannot be written), ",
+    "url": "https://github.com/HayatoShimada/blackbullet/commit/7b4452d031873a1ed39d51d70db7a78978239f53",
+    "imageUrls": [],
+    "publishedAt": "2026-10-03T06:33:53Z",
+    "metadata": {
+      "repo": "blackbullet",
+      "repoUrl": "https://github.com/HayatoShimada/blackbullet",
+      "sha": "7b4452d",
+      "language": "TypeScript"
+    }
+  },
+  {
+    "id": "github-commit-27d70d9",
+    "source": "github",
+    "title": "85store",
+    "summary": "Merge pull request #37 from HayatoShimada/claude/cms-condition-note\n\ncms: 状態メモ (conditionNote) を custom.condition_note に対応させる",
+    "url": "https://github.com/HayatoShimada/85store/commit/27d70d9b396f1a6845def8132d015ff072123627",
+    "imageUrls": [],
+    "publishedAt": "2026-10-03T06:28:45Z",
+    "metadata": {
+      "repo": "85store",
+      "repoUrl": "https://github.com/HayatoShimada/85store",
+      "sha": "27d70d9",
+      "language": "TypeScript"
+    }
+  },
+  {
+    "id": "github-commit-3620ced",
+    "source": "github",
+    "title": "85store",
+    "summary": "cms: map 状態メモ (conditionNote) to the custom.condition_note metafield\n\n- STRUCTURED_FIELDS: custom.condition_note (multi_line_text_field) <-> doc.conditionNote\n- import: read custom.condition_note into",
+    "url": "https://github.com/HayatoShimada/85store/commit/3620cedaf60851ad755b12b3f35a51e45a50c0c3",
+    "imageUrls": [],
+    "publishedAt": "2026-10-03T06:22:57Z",
+    "metadata": {
+      "repo": "85store",
+      "repoUrl": "https://github.com/HayatoShimada/85store",
+      "sha": "3620ced",
+      "language": "TypeScript"
+    }
+  },
+  {
+    "id": "github-commit-5e7b7a4",
+    "source": "github",
+    "title": "blackbullet",
+    "summary": "License: carry the MIT notice in NOTICE.md, declare GPL-2.0-only, new README\n\nCompletes the previous commit, which only renamed the license files:\nNOTICE.md reproduces the SilverBullet MIT notice verb",
+    "url": "https://github.com/HayatoShimada/blackbullet/commit/5e7b7a4e68894b2e98cc2400ffdff10f0f3adbc2",
+    "imageUrls": [],
+    "publishedAt": "2026-10-03T04:37:41Z",
+    "metadata": {
+      "repo": "blackbullet",
+      "repoUrl": "https://github.com/HayatoShimada/blackbullet",
+      "sha": "5e7b7a4",
+      "language": "TypeScript"
+    }
+  },
+  {
+    "id": "github-commit-33b74ac",
+    "source": "github",
+    "title": "blackbullet",
+    "summary": "License: GPL-2.0-only for the repository; README rewritten\n\nLICENSE now holds the GPL-2.0 text, so the repository has one license.\nThe SilverBullet MIT notice, which must travel with the upstream code",
+    "url": "https://github.com/HayatoShimada/blackbullet/commit/33b74acd668cc1a54ee39f71174aa6ef74615657",
+    "imageUrls": [],
+    "publishedAt": "2026-10-03T04:37:28Z",
+    "metadata": {
+      "repo": "blackbullet",
+      "repoUrl": "https://github.com/HayatoShimada/blackbullet",
+      "sha": "33b74ac",
+      "language": "TypeScript"
+    }
+  },
+  {
+    "id": "github-commit-517a82f",
+    "source": "github",
+    "title": "blackbullet",
+    "summary": "Phones: no shortcut hint, compact frontmatter band, unbroken attributes, quiet + New\n\n- The home page's keyboard-shortcut hint is skipped on phones, where the\n  three buttons above it are the way in (",
+    "url": "https://github.com/HayatoShimada/blackbullet/commit/517a82ffc1006d8d6de0fca810b48cd164bd1f21",
+    "imageUrls": [],
+    "publishedAt": "2026-10-03T02:24:03Z",
+    "metadata": {
+      "repo": "blackbullet",
+      "repoUrl": "https://github.com/HayatoShimada/blackbullet",
+      "sha": "517a82f",
+      "language": "TypeScript"
+    }
+  },
+  {
+    "id": "github-commit-415f0f7",
+    "source": "github",
+    "title": "blackbullet",
+    "summary": "Phones: smaller reading scale, tighter gutters, widget ⋯ off the text\n\nOn screens up to 600px the editor used the desktop scale (17px, line\nheight 1.6, 24px gutters): about 30 characters per line and ",
+    "url": "https://github.com/HayatoShimada/blackbullet/commit/415f0f70696b1df57c868b722ec148df821f2c67",
+    "imageUrls": [],
+    "publishedAt": "2026-10-03T02:07:43Z",
+    "metadata": {
+      "repo": "blackbullet",
+      "repoUrl": "https://github.com/HayatoShimada/blackbullet",
+      "sha": "415f0f7",
+      "language": "TypeScript"
+    }
+  },
+  {
+    "id": "github-commit-356c828",
+    "source": "github",
+    "title": "foxtrotdesign",
+    "summary": "chore: news 2026-10-03",
+    "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/356c828630fe95ad2a0b8f6469a030c3a36868e0",
+    "imageUrls": [],
+    "publishedAt": "2026-10-02T21:05:34Z",
+    "metadata": {
+      "repo": "foxtrotdesign",
+      "repoUrl": "https://github.com/HayatoShimada/foxtrotdesign",
+      "sha": "356c828",
+      "language": "TypeScript"
+    }
+  },
+  {
+    "id": "github-commit-41936cb",
+    "source": "github",
+    "title": "zenn_85",
+    "summary": "articles: microCMS の記事のタイトルを 70 文字以内にし、下書きにする\n\n同じ記事は Zenn のエディタで公開済み（別 URL）なので、二重公開を避ける。\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+    "url": "https://github.com/HayatoShimada/zenn_85/commit/41936cb65578cf301d11433c601dd0530c9aa8ef",
+    "imageUrls": [],
+    "publishedAt": "2026-10-02T14:11:31Z",
+    "metadata": {
+      "repo": "zenn_85",
+      "repoUrl": "https://github.com/HayatoShimada/zenn_85",
+      "sha": "41936cb",
+      "language": null
+    }
+  },
+  {
+    "id": "zenn-https://zenn.dev/85store/articles/blackbullet-silverbullet-fork",
+    "source": "zenn",
+    "title": "Markdownメモ「SilverBullet」のAIネイティブ拡張",
+    "summary": "Markdown対応メモツール「SilverBullet」を基盤に、AI技術を統合した個人用ナレッジマネジメントシステム「BlackBullet」の開発事例を報告する。本システムは、ブロック指向の直感的なUIに加え、ベクトル検索によるセマンティック検索、内容の類似性に基づく動的なグラフ描画、およびLLMを用いた自動編集機能を備えている。これにより、プレーンテキストの可搬性を維持しつつ、高度な知識構造化とAIによる管理支援を実現するアーキテクチャを提示する。",
+    "url": "https://zenn.dev/85store/articles/blackbullet-silverbullet-fork",
+    "imageUrls": [
+      "https://res.cloudinary.com/zenn/image/upload/s--9nrj6QUI--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:SilverBullet%2520%25E3%2582%2592%25E3%2583%2595%25E3%2582%25A9%25E3%2583%25BC%25E3%2582%25AF%25E3%2581%2597%25E3%2581%25A6%25E3%2580%258CAI%2520%25E3%2583%258D%25E3%2582%25A4%25E3%2583%2586%25E3%2582%25A3%25E3%2583%2596%25E3%2581%25AA%25E8%2587%25AA%25E5%2588%2586%25E5%25B0%2582%25E7%2594%25A8%25E3%2583%25A1%25E3%2583%25A2%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2580%258DBlackBullet%2520%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:85-Store%2520Engineer%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzNmNzI1YjEzZDUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE"
+    ],
+    "publishedAt": "2026-10-02T14:02:02.000Z",
+    "metadata": {
+      "categories": []
+    }
+  },
+  {
+    "id": "github-commit-3f5fd5d",
+    "source": "github",
+    "title": "zenn_85",
+    "summary": "articles: BlackBullet の記事を公開\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+    "url": "https://github.com/HayatoShimada/zenn_85/commit/3f5fd5df510dbe94a496ffbbf709703049e08e9d",
+    "imageUrls": [],
+    "publishedAt": "2026-10-02T14:01:55Z",
+    "metadata": {
+      "repo": "zenn_85",
+      "repoUrl": "https://github.com/HayatoShimada/zenn_85",
+      "sha": "3f5fd5d",
+      "language": null
+    }
+  },
+  {
+    "id": "zenn-https://zenn.dev/85store/articles/memo-mcp-hybrid-rag",
+    "source": "zenn",
+    "title": "SilverBulletにおける節単位ハイブリッドRAGの実装",
+    "summary": "Markdownメモ帳（SilverBullet）を対象に、AIエージェントの検索・編集効率を向上させるRAG（Retrieval-Augmented Generation）システムの実装手法を提案する。従来のページ単位から節単位へと検索粒度を細分化し、全文検索とローカル埋め込みによるハイブリッド検索を導入した。さらに、検索結果に行番号を付与することで、エージェントによる対象箇所の正確な同定と、行番号指定によるシームレスな文書編集処理を実現している。",
+    "url": "https://zenn.dev/85store/articles/memo-mcp-hybrid-rag",
+    "imageUrls": [
+      "https://res.cloudinary.com/zenn/image/upload/s--uhA4DMoH--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Pi%2520%25E4%25B8%258A%25E3%2581%25AE%25E3%2583%25A1%25E3%2583%25A2%25E3%2582%2592%25E3%2580%2581%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%258C%25E7%25AF%2580%25E5%258D%2598%25E4%25BD%258D%25E3%2581%25A7%25E5%25BC%2595%25E3%2581%2591%25E3%2582%258B%2520RAG%2520%25E3%2581%25AB%25E3%2581%2597%25E3%2581%259F%25EF%25BC%2588SilverBullet%2520%25C3%2597%2520MCP%2520%25C3%2597%2520%25E3%2583%25AD%25E3%2583%25BC%25E3%2582%25AB%25E3%2583%25AB...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:85-Store%2520Engineer%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzNmNzI1YjEzZDUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE"
+    ],
+    "publishedAt": "2026-10-02T13:59:41.000Z",
+    "metadata": {
+      "categories": []
+    }
+  },
+  {
+    "id": "github-commit-ebefdac",
+    "source": "github",
+    "title": "zenn_85",
+    "summary": "articles: BlackBullet の記事にスクリーンショットと図を追加\n\nデモ用の架空スペースで撮影したアプリ画面 10 枚と、構成・Mediator・\ntailnet・Memo: Ask・ハイブリッド検索の図 5 枚。\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+    "url": "https://github.com/HayatoShimada/zenn_85/commit/ebefdac7b439c61b674f730d53d2c9028cd2b2ff",
+    "imageUrls": [],
+    "publishedAt": "2026-10-02T13:59:17Z",
+    "metadata": {
+      "repo": "zenn_85",
+      "repoUrl": "https://github.com/HayatoShimada/zenn_85",
+      "sha": "ebefdac",
+      "language": null
+    }
+  },
+  {
+    "id": "github-commit-838856b",
+    "source": "github",
+    "title": "zenn_85",
+    "summary": "articles: リンク先を公開済みの SilverBullet × MCP の記事に変更\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+    "url": "https://github.com/HayatoShimada/zenn_85/commit/838856b8ea3df5bef19c7024541bebd1881766dd",
+    "imageUrls": [],
+    "publishedAt": "2026-10-02T13:24:40Z",
+    "metadata": {
+      "repo": "zenn_85",
+      "repoUrl": "https://github.com/HayatoShimada/zenn_85",
+      "sha": "838856b",
+      "language": null
+    }
+  },
+  {
+    "id": "github-commit-ceb8cbe",
+    "source": "github",
+    "title": "zenn_85",
+    "summary": "articles: BlackBullet の記事から memo-mcp の記事へリンク\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+    "url": "https://github.com/HayatoShimada/zenn_85/commit/ceb8cbe40ada4cba7ba17e158e5e7d224e7e04b7",
+    "imageUrls": [],
+    "publishedAt": "2026-10-02T13:24:20Z",
+    "metadata": {
+      "repo": "zenn_85",
+      "repoUrl": "https://github.com/HayatoShimada/zenn_85",
+      "sha": "ceb8cbe",
+      "language": null
+    }
+  },
+  {
+    "id": "github-commit-90a6cba",
+    "source": "github",
+    "title": "85store",
+    "summary": "Merge pull request #36 from HayatoShimada/HayatoShimada/cms-domain\n\nfeat(cms): 管理画面を cms.85-store.com にする（tailnet 限定のまま）",
+    "url": "https://github.com/HayatoShimada/85store/commit/90a6cbafc7647641e95e55b854d495ee5055ac05",
+    "imageUrls": [],
+    "publishedAt": "2026-10-02T06:29:49Z",
+    "metadata": {
+      "repo": "85store",
+      "repoUrl": "https://github.com/HayatoShimada/85store",
+      "sha": "90a6cba",
+      "language": "TypeScript"
+    }
+  },
+  {
+    "id": "github-commit-2462997",
+    "source": "github",
+    "title": "85store",
+    "summary": "docs(cms): tailscale のコンテナだけが再起動したときの対処を書く\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+    "url": "https://github.com/HayatoShimada/85store/commit/2462997a44d4ed97979dbb4c7fe85f4404fa22ed",
+    "imageUrls": [],
+    "publishedAt": "2026-10-02T06:11:32Z",
+    "metadata": {
+      "repo": "85store",
+      "repoUrl": "https://github.com/HayatoShimada/85store",
+      "sha": "2462997",
+      "language": "TypeScript"
+    }
+  },
+  {
+    "id": "github-commit-04529d3",
+    "source": "github",
+    "title": "85store",
+    "summary": "feat(cms): 管理画面を cms.85-store.com にする（tailnet 限定のまま）\n\n- DNS は CMS の端末の tailnet のアドレス。tailscale serve が 443 番を PROXY プロトコル付きで Caddy に転送し、\n  Caddy が TLS を終端（証明書は Let's Encrypt から Cloudflare の DNS で取る）\n-",
+    "url": "https://github.com/HayatoShimada/85store/commit/04529d3e6b2bffc9211fee61a80c6a20b81d838e",
+    "imageUrls": [],
+    "publishedAt": "2026-10-02T05:35:59Z",
+    "metadata": {
+      "repo": "85store",
+      "repoUrl": "https://github.com/HayatoShimada/85store",
+      "sha": "04529d3",
+      "language": "TypeScript"
+    }
+  },
+  {
+    "id": "github-commit-378dc2c",
+    "source": "github",
+    "title": "foxtrotdesign",
+    "summary": "chore: news 2026-10-02",
+    "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/378dc2c035f01bb4a901505f1f440c477a12caa3",
+    "imageUrls": [],
+    "publishedAt": "2026-10-01T21:01:32Z",
+    "metadata": {
+      "repo": "foxtrotdesign",
+      "repoUrl": "https://github.com/HayatoShimada/foxtrotdesign",
+      "sha": "378dc2c",
+      "language": "TypeScript"
+    }
+  },
+  {
+    "id": "zenn-https://zenn.dev/85store/articles/574a1a07233283",
+    "source": "zenn",
+    "title": "R2連携による可用性を担保した自宅サーバーCMSの構築",
+    "summary": "本構成では、CMSの移行に伴う可用性の低下を防ぐため、Raspberry Pi上のPayload CMSからCloudflare R2へデータをJSON形式で書き出し、フロントエンドがこれのみを参照する疎結合アーキテクチャを構築した。この設計により、自宅サーバーの停止時においてもWebサイトの表示やビルドプロセスへの影響を完全に排除している。さらに、Tailscaleによるパスワードレス認証やLitestreamを用いたデータベース同期を導入することで、セキュアかつ堅牢な運用の維持を実現している。",
+    "url": "https://zenn.dev/85store/articles/574a1a07233283",
+    "imageUrls": [
+      "https://res.cloudinary.com/zenn/image/upload/s--XYsVeRdn--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:microCMS%2520%25E3%2582%2592%25E3%2582%2584%25E3%2582%2581%25E3%2581%25A6%25E3%2580%2581Raspberry%2520Pi%2520%25E3%2581%25A7%2520Payload%2520CMS%2520%25E3%2582%2592%25E5%258B%2595%25E3%2581%258B%25E3%2581%2599%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:85-Store%2520Engineer%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzNmNzI1YjEzZDUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE"
+    ],
+    "publishedAt": "2026-10-01T13:59:52.000Z",
+    "metadata": {
+      "categories": []
+    }
+  },
+  {
+    "id": "github-commit-1b893a9",
+    "source": "github",
+    "title": "business-calendar",
+    "summary": "feat: SNS でのお知らせとカレンダー画像の共有（共有シート）\n\n- 管理画面に「お知らせを作る」: 変更内容（または月のまとめ）から文面を作り、\n  カレンダー画像（フィード 4:5 / ストーリーズ 9:16）と一緒に OS の共有シートで共有\n- 変更の記録（changes テーブル）と、お知らせ済みの管理\n- 画像は canvas で作る ES モジュール /calendar-ima",
+    "url": "https://github.com/HayatoShimada/business-calendar/commit/1b893a9e2e12cb388df602d1a0d369198ef7df91",
+    "imageUrls": [],
+    "publishedAt": "2026-10-01T12:32:46Z",
+    "metadata": {
+      "repo": "business-calendar",
+      "repoUrl": "https://github.com/HayatoShimada/business-calendar",
+      "sha": "1b893a9",
+      "language": "TypeScript"
+    }
+  },
+  {
+    "id": "github-commit-bb95696",
+    "source": "github",
+    "title": "business-calendar",
+    "summary": "feat: 営業日カレンダーを汎用化して公開（多言語・タイムゾーン・埋め込み部品・ログイン3方式の手順）\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+    "url": "https://github.com/HayatoShimada/business-calendar/commit/bb95696d06baf5323e12fba861196fddb49de7e0",
+    "imageUrls": [],
+    "publishedAt": "2026-10-01T11:50:36Z",
+    "metadata": {
+      "repo": "business-calendar",
+      "repoUrl": "https://github.com/HayatoShimada/business-calendar",
+      "sha": "bb95696",
+      "language": "TypeScript"
+    }
+  },
+  {
+    "id": "github-commit-cda38c9",
+    "source": "github",
+    "title": "inlier_test",
+    "summary": "README.mdに環境設定セクションを追加し、インストール手順を明記",
+    "url": "https://github.com/HayatoShimada/inlier_test/commit/cda38c9d20f04692fbf099a6563c5200d122694c",
+    "imageUrls": [],
+    "publishedAt": "2026-10-01T00:43:12Z",
+    "metadata": {
+      "repo": "inlier_test",
+      "repoUrl": "https://github.com/HayatoShimada/inlier_test",
+      "sha": "cda38c9",
+      "language": "Python"
+    }
+  },
+  {
+    "id": "github-commit-2d4d5f3",
+    "source": "github",
+    "title": "inlier_test",
+    "summary": "Add feature-matching refactor, AKAZE flow, docs, and generated images",
+    "url": "https://github.com/HayatoShimada/inlier_test/commit/2d4d5f39eea5699545a6a2686e39ca4cb33bce54",
+    "imageUrls": [],
+    "publishedAt": "2026-10-01T00:39:37Z",
+    "metadata": {
+      "repo": "inlier_test",
+      "repoUrl": "https://github.com/HayatoShimada/inlier_test",
+      "sha": "2d4d5f3",
+      "language": "Python"
+    }
+  },
+  {
+    "id": "github-commit-f1d1ba4",
+    "source": "github",
+    "title": "inlier_test",
+    "summary": "init",
+    "url": "https://github.com/HayatoShimada/inlier_test/commit/f1d1ba4d449246fec94e3c17e150992f8a7e9ef2",
+    "imageUrls": [],
+    "publishedAt": "2026-10-01T00:12:38Z",
+    "metadata": {
+      "repo": "inlier_test",
+      "repoUrl": "https://github.com/HayatoShimada/inlier_test",
+      "sha": "f1d1ba4",
+      "language": "Python"
+    }
+  },
+  {
+    "id": "github-commit-a9a2ba3",
+    "source": "github",
+    "title": "inlier_test",
+    "summary": "Initial commit",
+    "url": "https://github.com/HayatoShimada/inlier_test/commit/a9a2ba3d59e3ad46e3eafec4d1a2c1d21f589592",
+    "imageUrls": [],
+    "publishedAt": "2026-09-30T23:39:09Z",
+    "metadata": {
+      "repo": "inlier_test",
+      "repoUrl": "https://github.com/HayatoShimada/inlier_test",
+      "sha": "a9a2ba3",
+      "language": "Python"
+    }
+  },
+  {
+    "id": "github-commit-c96cbf6",
+    "source": "github",
+    "title": "foxtrotdesign",
+    "summary": "chore: news 2026-10-01",
+    "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/c96cbf69d8084e1ba356439354b059b72b3918fe",
+    "imageUrls": [],
+    "publishedAt": "2026-09-30T21:05:17Z",
+    "metadata": {
+      "repo": "foxtrotdesign",
+      "repoUrl": "https://github.com/HayatoShimada/foxtrotdesign",
+      "sha": "c96cbf6",
+      "language": "TypeScript"
+    }
+  },
+  {
+    "id": "github-commit-18a5ede",
+    "source": "github",
+    "title": "foxtrotdesign",
+    "summary": "chore: news 2026-09-30",
+    "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/18a5ede060ccdad235cd34333a19b6b7bd0980e0",
+    "imageUrls": [],
+    "publishedAt": "2026-09-29T21:01:49Z",
+    "metadata": {
+      "repo": "foxtrotdesign",
+      "repoUrl": "https://github.com/HayatoShimada/foxtrotdesign",
+      "sha": "18a5ede",
+      "language": "TypeScript"
+    }
+  },
+  {
+    "id": "github-commit-726a160",
+    "source": "github",
+    "title": "foxtrotdesign",
+    "summary": "feat: about の Focus に VividAtmos を追加、AIの疑問を解消する会を削除\n\nCo-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>",
+    "url": "https://github.com/HayatoShimada/foxtrotdesign/commit/726a160c7be846a60561b04e11990235506ceb20",
+    "imageUrls": [],
+    "publishedAt": "2026-09-29T08:29:46Z",
+    "metadata": {
+      "repo": "foxtrotdesign",
+      "repoUrl": "https://github.com/HayatoShimada/foxtrotdesign",
+      "sha": "726a160",
+      "language": "TypeScript"
+    }
+  },
+  {
+    "id": "github-commit-8e397c3",
+    "source": "github",
+    "title": "mirai_rss",
+    "summary": "chore: Update posted_articles.json history",
+    "url": "https://github.com/HayatoShimada/mirai_rss/commit/8e397c345f061325122e88b48cefaac7d9be5053",
+    "imageUrls": [],
+    "publishedAt": "2026-09-27T19:16:22Z",
+    "metadata": {
+      "repo": "mirai_rss",
+      "repoUrl": "https://github.com/HayatoShimada/mirai_rss",
+      "sha": "8e397c3",
+      "language": "Python"
+    }
+  },
+  {
     "id": "github-commit-8a96f72",
     "source": "github",
     "title": "foxtrotdesign",
@@ -27,6 +474,21 @@
       "repoUrl": "https://github.com/HayatoShimada/foxtrotdesign",
       "sha": "c7219af",
       "language": "TypeScript"
+    }
+  },
+  {
+    "id": "github-commit-5acd1b6",
+    "source": "github",
+    "title": "horizon",
+    "summary": "Merge pull request #101 from Shopify/horizon-update-20260918-164742\n\nHorizon release v4.2.0",
+    "url": "https://github.com/HayatoShimada/horizon/commit/5acd1b6b66c02f61d3216e3adace5dd9e0404fc9",
+    "imageUrls": [],
+    "publishedAt": "2026-09-21T08:23:31Z",
+    "metadata": {
+      "repo": "horizon",
+      "repoUrl": "https://github.com/HayatoShimada/horizon",
+      "sha": "5acd1b6",
+      "language": null
     }
   },
   {
@@ -72,6 +534,21 @@
       "repoUrl": "https://github.com/HayatoShimada/foxtrotdesign",
       "sha": "4182597",
       "language": "TypeScript"
+    }
+  },
+  {
+    "id": "github-commit-f9aef27",
+    "source": "github",
+    "title": "horizon",
+    "summary": "Horizon v4.2.0\n\nUpstream-SHA: e2892e50a426309e00287162fcf92b96670bc11c",
+    "url": "https://github.com/HayatoShimada/horizon/commit/f9aef27cd24723119fca896eea43bdeda9961022",
+    "imageUrls": [],
+    "publishedAt": "2026-09-18T16:47:43Z",
+    "metadata": {
+      "repo": "horizon",
+      "repoUrl": "https://github.com/HayatoShimada/horizon",
+      "sha": "f9aef27",
+      "language": null
     }
   },
   {
@@ -511,6 +988,36 @@
     }
   },
   {
+    "id": "github-commit-8b42ace",
+    "source": "github",
+    "title": "horizon",
+    "summary": "Merge pull request #97 from Shopify/horizon-update-20260831-202939\n\nHorizon release v4.1.5",
+    "url": "https://github.com/HayatoShimada/horizon/commit/8b42ace57642e45a3a59841d2ae06d386c929e72",
+    "imageUrls": [],
+    "publishedAt": "2026-08-31T20:44:00Z",
+    "metadata": {
+      "repo": "horizon",
+      "repoUrl": "https://github.com/HayatoShimada/horizon",
+      "sha": "8b42ace",
+      "language": null
+    }
+  },
+  {
+    "id": "github-commit-b233750",
+    "source": "github",
+    "title": "horizon",
+    "summary": "Horizon v4.1.5\n\nUpstream-SHA: a5ea2f1d3d9ef77106b82fbc81b8200d17230df4",
+    "url": "https://github.com/HayatoShimada/horizon/commit/b23375047e46ebf45d537d73ada73966190a0866",
+    "imageUrls": [],
+    "publishedAt": "2026-08-31T20:29:41Z",
+    "metadata": {
+      "repo": "horizon",
+      "repoUrl": "https://github.com/HayatoShimada/horizon",
+      "sha": "b233750",
+      "language": null
+    }
+  },
+  {
     "id": "github-commit-e5d7a19",
     "source": "github",
     "title": "85store",
@@ -812,6 +1319,21 @@
     "publishedAt": "2026-08-13T01:35:33.000Z",
     "metadata": {
       "categories": []
+    }
+  },
+  {
+    "id": "github-commit-1c479ca",
+    "source": "github",
+    "title": "horizon",
+    "summary": "Merge pull request #95 from Shopify/horizon-update-20260811-120217\n\nHorizon release v4.1.4",
+    "url": "https://github.com/HayatoShimada/horizon/commit/1c479ca2825f0a2066a935720d6512a659fa257f",
+    "imageUrls": [],
+    "publishedAt": "2026-08-12T12:20:43Z",
+    "metadata": {
+      "repo": "horizon",
+      "repoUrl": "https://github.com/HayatoShimada/horizon",
+      "sha": "1c479ca",
+      "language": null
     }
   },
   {

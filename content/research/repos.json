@@ -1,37 +1,37 @@
 [
   {
-    "name": "foxtrotdesign",
-    "description": "Hayato Shimada の活動をまとめたポートフォリオサイト。 note.com と GitHub のコンテンツを Gemini AI で要約し、ミニマルなデザインで表示する。",
+    "name": "blackbullet",
+    "description": "A personal, local-first, AI-native notes app: Markdown files you own, a Notion-like editor, search by meaning, database views and an MCP server for AI assistants. A fork of SilverBullet.",
     "language": "TypeScript",
-    "url": "https://github.com/HayatoShimada/foxtrotdesign",
-    "updatedAt": "2026-09-22T21:05:41Z"
-  },
-  {
-    "name": "zenn_85",
-    "description": null,
-    "language": null,
-    "url": "https://github.com/HayatoShimada/zenn_85",
-    "updatedAt": "2026-09-18T08:30:33Z"
-  },
-  {
-    "name": "mirai_rss",
-    "description": "富山県南砺市井波で空き家活用・事業を始める個人事業主（ミライ店主会）向けのAIニュースキュレーションBot",
-    "language": "Python",
-    "url": "https://github.com/HayatoShimada/mirai_rss",
-    "updatedAt": "2026-09-17T09:36:49Z"
-  },
-  {
-    "name": "workshop",
-    "description": null,
-    "language": "Python",
-    "url": "https://github.com/HayatoShimada/workshop",
-    "updatedAt": "2026-09-05T01:11:58Z"
+    "url": "https://github.com/HayatoShimada/blackbullet",
+    "updatedAt": "2026-10-03T06:55:46Z"
   },
   {
     "name": "85store",
     "description": "85storeは、Next.js 15、TypeScript、Tailwind CSSで構築されたセレクトショップのウェブサイトです。 商品管理にShopify、コンテンツ管理にNotionを活用し、高速で管理しやすいECサイトを実現しています。",
     "language": "TypeScript",
     "url": "https://github.com/HayatoShimada/85store",
-    "updatedAt": "2026-08-31T01:26:21Z"
+    "updatedAt": "2026-10-03T06:28:49Z"
+  },
+  {
+    "name": "foxtrotdesign",
+    "description": "Hayato Shimada の活動をまとめたポートフォリオサイト。 note.com と GitHub のコンテンツを Gemini AI で要約し、ミニマルなデザインで表示する。",
+    "language": "TypeScript",
+    "url": "https://github.com/HayatoShimada/foxtrotdesign",
+    "updatedAt": "2026-10-02T21:05:42Z"
+  },
+  {
+    "name": "zenn_85",
+    "description": null,
+    "language": null,
+    "url": "https://github.com/HayatoShimada/zenn_85",
+    "updatedAt": "2026-10-02T14:11:38Z"
+  },
+  {
+    "name": "business-calendar",
+    "description": "お店の営業日カレンダー（休業日・営業時間）を管理画面で入力し、サイトとGoogleマップにすぐ反映する Cloudflare Worker / Business calendar for shops on Cloudflare Workers + D1",
+    "language": "TypeScript",
+    "url": "https://github.com/HayatoShimada/business-calendar",
+    "updatedAt": "2026-10-01T12:33:53Z"
   }
 ]
