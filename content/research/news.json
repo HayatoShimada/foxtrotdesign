@@ -1,44 +1,8 @@
 {
-  "generatedAt": "2026-10-03T21:05:05.985Z",
+  "generatedAt": "2026-10-04T21:04:22.986Z",
   "question": "整理することに疲れている",
   "windowDays": 7,
   "items": [
-    {
-      "title": "どこかで聞いた「アウトプットしないことは知的な便秘である」って素晴らしい言葉だよなぁ！",
-      "url": "https://qiita.com/PDC-Kurashinak/items/bde0e380eeb04fa28f40?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "sourceId": "qiita-com-popular-items",
-      "sourceName": "Qiita",
-      "category": "community",
-      "publishedAt": "2026-10-01T01:24:15.000Z",
-      "relevance": 85,
-      "importance": 50,
-      "score": 78,
-      "reason": "「手を動かして何かを作るフェーズに入る」というメモに対し、アウトプットの重要性を説く言葉が強く合致するため。"
-    },
-    {
-      "title": "通知が届くたびに身体は構えている——積み重なる定位反応と神経疲弊のしくみ",
-      "url": "https://argora.io/media/body/2026-09-30-tsuuchi-no-teii-hanno-to-karada-no-hirou",
-      "sourceId": "argora-io",
-      "sourceName": "株式会社アルゴラ — メディア",
-      "category": "discovered",
-      "publishedAt": "2026-09-30T00:00:00.000Z",
-      "relevance": 85,
-      "importance": 50,
-      "score": 78,
-      "reason": "「整理することに疲れている」という問いに対し、通知による神経疲弊の仕組みを解説する内容は、本人の疲労感や『現れる存在』の身体論と直接つながります。"
-    },
-    {
-      "title": "レヴィナス・バトラー・ドゥルーズの動物論を比較｜他者性・脆弱性・生成変化から考える動物倫理",
-      "url": "https://research.smeai.org/levinas-butler-deleuze-animal-ethics-comparison/",
-      "sourceId": "research-smeai-org",
-      "sourceName": "中小企業AI活用協会研究サイト",
-      "category": "discovered",
-      "publishedAt": "2026-09-27T20:19:12.000Z",
-      "relevance": 85,
-      "importance": 35,
-      "score": 75,
-      "reason": "読もうとしている本『動きすぎてはいけない』の著者ドゥルーズの「生成変化」や動物論を直接扱っているため。"
-    },
     {
       "title": "Fall Into 25 New Games on GeForce NOW This October",
       "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-october-2026-games-list/",
@@ -76,28 +40,40 @@
       "reason": "「必ずしも応答がなくとも豊かである」というテーマは、整理やタスク管理に疲れ、シンプルでありたいと願う本人の心境や、分人主義などの読書傾向と深く響き合う。"
     },
     {
-      "title": "Hole Punch: Sling your spaceship around gravitational fields",
-      "url": "https://notoriousbfg.com/hole-punch/",
-      "sourceId": "hnrss-org-frontpage",
-      "sourceName": "Hacker News",
-      "category": "developer",
-      "publishedAt": "2026-10-03T18:06:45.000Z",
-      "relevance": 70,
-      "importance": 30,
-      "score": 62,
-      "reason": "「シンプルにゲームがしたい」という本人のメモに対し、手軽に遊べそうなゲームの紹介として適しているため。"
+      "title": "塚田優｜さらに新たなるイメージ論へ向かって──前川修、佐藤守弘、増田展大編『イメージ論の冒険者たち』（後編）",
+      "url": "https://artscape.jp/article/79725/",
+      "sourceId": "artscape-jp",
+      "sourceName": "artscape",
+      "category": "discovered",
+      "publishedAt": "2026-10-02T02:00:28.000Z",
+      "relevance": 60,
+      "importance": 50,
+      "score": 58,
+      "reason": "読もうとしている『なぜ、植物図鑑か――中平卓馬映像論集』と、イメージ論や映像論というテーマにおいて深くつながる。"
     },
     {
-      "title": "ファミコンでPHPを動かす / PHP on the Famicom side b",
-      "url": "https://speakerdeck.com/tomzoh/php-on-the-famicom-side-b",
-      "sourceId": "speakerdeck-com-c-technology",
-      "sourceName": "Speaker Deck Technology",
-      "category": "slides",
-      "publishedAt": "2026-10-03T00:34:56.000Z",
-      "relevance": 65,
-      "importance": 20,
-      "score": 56,
-      "reason": "整理をやめて手を動かして何かを作りたい、ゲームをしたいという欲求に対し、ファミコンでPHPを動かすという純粋な創作の楽しさが刺激になります。"
+      "title": "塚田優｜さらに新たなるイメージ論へ向かって──前川修、佐藤守弘、増田展大編『イメージ論の冒険者たち』（前編）",
+      "url": "https://artscape.jp/article/79718/",
+      "sourceId": "artscape-jp",
+      "sourceName": "artscape",
+      "category": "discovered",
+      "publishedAt": "2026-10-01T02:00:23.000Z",
+      "relevance": 60,
+      "importance": 50,
+      "score": 58,
+      "reason": "読もうとしている『なぜ、植物図鑑か――中平卓馬映像論集』と、イメージ論や映像論というテーマにおいて深くつながる。"
+    },
+    {
+      "title": "暗黙知はAIに「移植」できるのか？人間とAIが共に熟達する「共進化的共同実践」とは",
+      "url": "https://research.smeai.org/tacit-knowledge-ai-co-evolution/",
+      "sourceId": "research-smeai-org",
+      "sourceName": "中小企業AI活用協会研究サイト",
+      "category": "discovered",
+      "publishedAt": "2026-10-03T21:23:08.000Z",
+      "relevance": 55,
+      "importance": 65,
+      "score": 57,
+      "reason": "人間とAIの共同実践というテーマが、読書予定の『現れる存在』における身体と世界の再統合や、手を動かして作るフェーズへの移行という関心に繋がります。"
     },
     {
       "title": "暗黙知とは何か？身体・感情・関係性・制度で捉える多層モデルと実践への活かし方",
@@ -112,16 +88,16 @@
       "reason": "「身体・感情・関係性」で捉える暗黙知のモデルは、読もうとしている本『現れる存在――脳と身体と世界の再統合』のテーマと深く繋がる。"
     },
     {
-      "title": "AIが企画構想をご提案して自力完成 日本語プログラミング言語Mind９GUIミニゲームアプリ（後編）",
-      "url": "https://qiita.com/mylifewithviolin/items/2636e56ef0d0cbc46f0d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "sourceId": "qiita-com-popular-items",
-      "sourceName": "Qiita",
-      "category": "community",
-      "publishedAt": "2026-10-03T01:03:44.000Z",
-      "relevance": 60,
-      "importance": 30,
-      "score": 54,
-      "reason": "「手を動かして何かを作る」という姿勢や、ゲームへの関心にミニゲーム開発の話題が重なるため。"
+      "title": "【2026年9月刊】経済安全保障論、壊れる核抑止、闇の広告史、解築学……デサイロが注目したい人文・社会科学の新刊38冊",
+      "url": "https://desilo.substack.com/p/book-list-2026-9",
+      "sourceId": "desilo-substack-com",
+      "sourceName": "De-Silo",
+      "category": "discovered",
+      "publishedAt": "2026-10-04T08:03:04.000Z",
+      "relevance": 50,
+      "importance": 60,
+      "score": 52,
+      "reason": "読もうとしている本が人文・社会科学系であるため、デサイロが注目する人文・社会科学の新刊紹介は読書傾向に合致する。"
     },
     {
       "title": "LACMAで須藤玲子とNUNOの大規模展「テキスタイル・アルケミー」開催。100点超のテキスタイルからたどる40年以上にわたるクリエイション",
@@ -148,16 +124,28 @@
       "reason": "「ままならなさを抱えて歩いていくこと」という題は、整理することに疲れたり、思い通りにいかない現状を抱えながら進む本人の心情や読みたい哲学書に寄り添います。"
     },
     {
-      "title": "Execution in the Kingdom of Agents: Reflections on Abstraction and Complexity",
-      "url": "https://speakerdeck.com/bcantrill/execution-in-the-kingdom-of-agents-reflections-on-abstraction-and-complexity",
-      "sourceId": "speakerdeck-com-c-technology",
-      "sourceName": "Speaker Deck Technology",
-      "category": "slides",
-      "publishedAt": "2026-10-02T19:51:05.000Z",
+      "title": "杉江あこ｜方丈記に学ぶ –生きるを編み直す小さな建築–",
+      "url": "https://artscape.jp/article/77966/",
+      "sourceId": "artscape-jp",
+      "sourceName": "artscape",
+      "category": "discovered",
+      "publishedAt": "2026-09-30T02:00:00.000Z",
       "relevance": 50,
-      "importance": 30,
+      "importance": 35,
+      "score": 47,
+      "reason": "「生きるを編み直す」というテーマは、整理することに疲れ、シンプルに次のフェーズへ進もうとする本人の姿勢や、読書リストの哲学的な問いに重なります。"
+    },
+    {
+      "title": "新製品の卵も続々、テック系ライターが見てきたTGS2026の気になるアイテムとブース",
+      "url": "https://realsound.jp/tech/2026/10/post-2539744.html",
+      "sourceId": "realsound-jp-tech",
+      "sourceName": "リアルサウンド",
+      "category": "discovered",
+      "publishedAt": "2026-10-04T17:00:01.000Z",
+      "relevance": 45,
+      "importance": 50,
       "score": 46,
-      "reason": "整理することや抽象化の複雑さに疲れた状態に対し、抽象化と実行の複雑性を省察する内容は、知的整理の限界を考えるヒントになります。"
+      "reason": "「シンプルにゲームがしたい」というメモがあり、東京ゲームショウの最新アイテムやブースの紹介は関心に直接つながる。"
     },
     {
       "title": "デス・リテラシーの第一歩――久坂部羊『欲張らない死に方』書評／最相葉月【ちくま新書】",
@@ -184,6 +172,30 @@
       "reason": "「ゲーマーとして満喫した思い出」という内容が、シンプルにゲーム（Core Keeper）をしたいという本人の欲求と重なる。"
     },
     {
+      "title": "【東京】TOKAS Project Vol.9「在ることの再演」",
+      "url": "https://artscape.jp/article/79951/",
+      "sourceId": "artscape-jp",
+      "sourceName": "artscape",
+      "category": "discovered",
+      "publishedAt": "2026-09-30T10:15:44.000Z",
+      "relevance": 45,
+      "importance": 30,
+      "score": 42,
+      "reason": "「在ることの再演」というテーマは、読もうとしている本『現れる存在』や『動きすぎてはいけない』が扱う存在論や身体性の問いと深く響き合います。"
+    },
+    {
+      "title": "すべての“物流”は結びついている……リアルな街の輸送網を構築するシミュレーター『Transport Fever 3』試遊レポ＆開発者インタビュー",
+      "url": "https://realsound.jp/tech/2026/10/post-2541609.html",
+      "sourceId": "realsound-jp-tech",
+      "sourceName": "リアルサウンド",
+      "category": "discovered",
+      "publishedAt": "2026-10-04T12:00:32.000Z",
+      "relevance": 40,
+      "importance": 45,
+      "score": 41,
+      "reason": "「シンプルにゲームがしたい」という要望に対し、輸送網を構築するシミュレーションゲームの試遊レポは合致する。"
+    },
+    {
       "title": "Build a multi-agent music production pipeline on Amazon Bedrock AgentCore Runtime Instances",
       "url": "https://aws.amazon.com/blogs/machine-learning/build-a-multi-agent-music-production-pipeline-on-amazon-bedrock-agentcore-runtime-instances/",
       "sourceId": "aws-amazon-com-blogs-machine-learning",
@@ -194,18 +206,6 @@
       "importance": 45,
       "score": 41,
       "reason": "「手を動かして何かを作る」というメモに対し、音楽制作パイプラインという創作活動の話題が関連します。"
-    },
-    {
-      "title": "Unity6 URPによる海底をテーマにしたVJシステムの解説 | Unity Shader 完全に理解した 勉強会",
-      "url": "https://speakerdeck.com/gam0022/unity-vj-draw-tokyo4",
-      "sourceId": "speakerdeck-com-c-programming",
-      "sourceName": "Speaker Deck Programming",
-      "category": "slides",
-      "publishedAt": "2026-10-02T10:10:35.000Z",
-      "relevance": 45,
-      "importance": 20,
-      "score": 40,
-      "reason": "「手を動かして何かを作るフェーズ」に入りたいという意欲に対し、Unityを用いた海底テーマのVJシステム開発という実践的なクリエイティビティが合致します。"
     },
     {
       "title": "AI対話式ゲーム『妹に運転を教える』が一躍話題に！ 斬新なゲーム性に「にじさんじ」ライバーたちが夢中",
