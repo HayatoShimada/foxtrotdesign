@@ -19,7 +19,16 @@ const nextConfig: NextConfig = {
     ],
   },
   async redirects() {
-    return [{ source: "/about", destination: "/", permanent: true }];
+    return [
+      // foxtrotdesign.dev は廃止。旧URLはパスを保ったまま新ドメインへ
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "(www\\.)?foxtrotdesign\\.dev" }],
+        destination: "https://dev.85-store.com/:path*",
+        permanent: true,
+      },
+      { source: "/about", destination: "/", permanent: true },
+    ];
   },
   turbopack: {
     root: ".",
