@@ -1,8 +1,20 @@
 {
-  "generatedAt": "2026-10-04T21:04:22.986Z",
+  "generatedAt": "2026-10-05T21:01:23.469Z",
   "question": "整理することに疲れている",
   "windowDays": 7,
   "items": [
+    {
+      "title": "文章で要件定義するのをやめた。AIでモックを先に作ったら、認識ズレが実装前に全部見つかった",
+      "url": "https://qiita.com/kazuki_ogawa/items/f1a15a199d9f91fe6080?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "sourceId": "qiita-com-popular-items",
+      "sourceName": "Qiita",
+      "category": "community",
+      "publishedAt": "2026-10-05T07:31:16.000Z",
+      "relevance": 80,
+      "importance": 50,
+      "score": 74,
+      "reason": "「整える段階は終わり、手を動かして作る」というメモに合致し、文章による整理を排してまず動くモックを作る実践的なアプローチを提示しています。"
+    },
     {
       "title": "Fall Into 25 New Games on GeForce NOW This October",
       "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-october-2026-games-list/",
@@ -14,6 +26,18 @@
       "importance": 40,
       "score": 72,
       "reason": "「シンプルにゲームがしたい」というメモの要望に対し、最新のゲーム配信情報が直接的に合致するため。"
+    },
+    {
+      "title": "本当に「判断」していますか？",
+      "url": "https://zenn.dev/dyoshikawa/articles/do-you-desicion",
+      "sourceId": "zenn-dev",
+      "sourceName": "Zenn",
+      "category": "community",
+      "publishedAt": "2026-10-04T22:00:05.000Z",
+      "relevance": 75,
+      "importance": 45,
+      "score": 69,
+      "reason": "「整理」や「整える」段階から「手を動かす」フェーズへの移行において、自らの「判断」のあり方を問い直す契機となる記事です。"
     },
     {
       "title": "自分で作って、触って、確かめる。自作キーボードから広がる世界｜Che・ke・la・bo",
@@ -46,18 +70,6 @@
       "sourceName": "artscape",
       "category": "discovered",
       "publishedAt": "2026-10-02T02:00:28.000Z",
-      "relevance": 60,
-      "importance": 50,
-      "score": 58,
-      "reason": "読もうとしている『なぜ、植物図鑑か――中平卓馬映像論集』と、イメージ論や映像論というテーマにおいて深くつながる。"
-    },
-    {
-      "title": "塚田優｜さらに新たなるイメージ論へ向かって──前川修、佐藤守弘、増田展大編『イメージ論の冒険者たち』（前編）",
-      "url": "https://artscape.jp/article/79718/",
-      "sourceId": "artscape-jp",
-      "sourceName": "artscape",
-      "category": "discovered",
-      "publishedAt": "2026-10-01T02:00:23.000Z",
       "relevance": 60,
       "importance": 50,
       "score": 58,
@@ -100,6 +112,30 @@
       "reason": "読もうとしている本が人文・社会科学系であるため、デサイロが注目する人文・社会科学の新刊紹介は読書傾向に合致する。"
     },
     {
+      "title": "QUIC and MoQ from the Perspective of Real-Time Game Networking",
+      "url": "https://speakerdeck.com/segadevtech/quic-and-moq-from-the-perspective-of-real-time-game-networking",
+      "sourceId": "speakerdeck-com-c-technology",
+      "sourceName": "Speaker Deck Technology",
+      "category": "slides",
+      "publishedAt": "2026-10-05T04:47:07.000Z",
+      "relevance": 50,
+      "importance": 45,
+      "score": 49,
+      "reason": "本人のメモにある「シンプルにゲームがしたい」という欲求に対し、ゲームのリアルタイム通信技術という観点から関心に合致します。"
+    },
+    {
+      "title": "ゲームのリアルタイム通信から見た QUIC と MoQ",
+      "url": "https://speakerdeck.com/segadevtech/gemu-no-riarutaimu-tsuushin-kara-mita-quic-to-moq",
+      "sourceId": "speakerdeck-com-c-technology",
+      "sourceName": "Speaker Deck Technology",
+      "category": "slides",
+      "publishedAt": "2026-10-05T04:44:41.000Z",
+      "relevance": 50,
+      "importance": 45,
+      "score": 49,
+      "reason": "メモに「シンプルにゲームがしたい。Core Keeperをやろう」とあり、ゲームの通信技術に関する話題は直接的な関心に繋がります。"
+    },
+    {
       "title": "LACMAで須藤玲子とNUNOの大規模展「テキスタイル・アルケミー」開催。100点超のテキスタイルからたどる40年以上にわたるクリエイション",
       "url": "https://www.axismag.jp/posts/2026/10/724955.html",
       "sourceId": "axismag-jp",
@@ -124,30 +160,6 @@
       "reason": "「ままならなさを抱えて歩いていくこと」という題は、整理することに疲れたり、思い通りにいかない現状を抱えながら進む本人の心情や読みたい哲学書に寄り添います。"
     },
     {
-      "title": "杉江あこ｜方丈記に学ぶ –生きるを編み直す小さな建築–",
-      "url": "https://artscape.jp/article/77966/",
-      "sourceId": "artscape-jp",
-      "sourceName": "artscape",
-      "category": "discovered",
-      "publishedAt": "2026-09-30T02:00:00.000Z",
-      "relevance": 50,
-      "importance": 35,
-      "score": 47,
-      "reason": "「生きるを編み直す」というテーマは、整理することに疲れ、シンプルに次のフェーズへ進もうとする本人の姿勢や、読書リストの哲学的な問いに重なります。"
-    },
-    {
-      "title": "新製品の卵も続々、テック系ライターが見てきたTGS2026の気になるアイテムとブース",
-      "url": "https://realsound.jp/tech/2026/10/post-2539744.html",
-      "sourceId": "realsound-jp-tech",
-      "sourceName": "リアルサウンド",
-      "category": "discovered",
-      "publishedAt": "2026-10-04T17:00:01.000Z",
-      "relevance": 45,
-      "importance": 50,
-      "score": 46,
-      "reason": "「シンプルにゲームがしたい」というメモがあり、東京ゲームショウの最新アイテムやブースの紹介は関心に直接つながる。"
-    },
-    {
       "title": "デス・リテラシーの第一歩――久坂部羊『欲張らない死に方』書評／最相葉月【ちくま新書】",
       "url": "https://www.webchikuma.com/n/n2ce76717a713",
       "sourceId": "webchikuma-com",
@@ -160,64 +172,16 @@
       "reason": "『欲張らない死に方』というテーマは、整理やタスクの管理を終えてシンプルに生きたい、動きすぎずにいたいという本人の志向や読書傾向と重なる。"
     },
     {
-      "title": "十束おとはの『東京ゲームショウ2026』はどうだった？ ステージMCとして、そして1人のゲーマーとして満喫した思い出を振り返る",
-      "url": "https://realsound.jp/tech/2026/10/post-2540725.html",
-      "sourceId": "realsound-jp-tech",
-      "sourceName": "リアルサウンド",
-      "category": "discovered",
-      "publishedAt": "2026-10-03T11:50:22.000Z",
-      "relevance": 45,
-      "importance": 30,
-      "score": 42,
-      "reason": "「ゲーマーとして満喫した思い出」という内容が、シンプルにゲーム（Core Keeper）をしたいという本人の欲求と重なる。"
-    },
-    {
-      "title": "【東京】TOKAS Project Vol.9「在ることの再演」",
-      "url": "https://artscape.jp/article/79951/",
-      "sourceId": "artscape-jp",
-      "sourceName": "artscape",
-      "category": "discovered",
-      "publishedAt": "2026-09-30T10:15:44.000Z",
-      "relevance": 45,
-      "importance": 30,
-      "score": 42,
-      "reason": "「在ることの再演」というテーマは、読もうとしている本『現れる存在』や『動きすぎてはいけない』が扱う存在論や身体性の問いと深く響き合います。"
-    },
-    {
-      "title": "すべての“物流”は結びついている……リアルな街の輸送網を構築するシミュレーター『Transport Fever 3』試遊レポ＆開発者インタビュー",
-      "url": "https://realsound.jp/tech/2026/10/post-2541609.html",
-      "sourceId": "realsound-jp-tech",
-      "sourceName": "リアルサウンド",
-      "category": "discovered",
-      "publishedAt": "2026-10-04T12:00:32.000Z",
+      "title": "SREでアラート疲れを 解決しよう！",
+      "url": "https://speakerdeck.com/kairim0/sre-de-zukare-o-kaiketsu-shiyou",
+      "sourceId": "speakerdeck-com-c-technology",
+      "sourceName": "Speaker Deck Technology",
+      "category": "slides",
+      "publishedAt": "2026-10-05T06:06:59.000Z",
       "relevance": 40,
-      "importance": 45,
-      "score": 41,
-      "reason": "「シンプルにゲームがしたい」という要望に対し、輸送網を構築するシミュレーションゲームの試遊レポは合致する。"
-    },
-    {
-      "title": "Build a multi-agent music production pipeline on Amazon Bedrock AgentCore Runtime Instances",
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-multi-agent-music-production-pipeline-on-amazon-bedrock-agentcore-runtime-instances/",
-      "sourceId": "aws-amazon-com-blogs-machine-learning",
-      "sourceName": "AWS Machine Learning",
-      "category": "vendor",
-      "publishedAt": "2026-09-30T15:21:57.000Z",
-      "relevance": 40,
-      "importance": 45,
-      "score": 41,
-      "reason": "「手を動かして何かを作る」というメモに対し、音楽制作パイプラインという創作活動の話題が関連します。"
-    },
-    {
-      "title": "AI対話式ゲーム『妹に運転を教える』が一躍話題に！ 斬新なゲーム性に「にじさんじ」ライバーたちが夢中",
-      "url": "https://realsound.jp/tech/2026/10/post-2541720.html",
-      "sourceId": "realsound-jp-tech",
-      "sourceName": "リアルサウンド",
-      "category": "discovered",
-      "publishedAt": "2026-10-03T10:00:42.000Z",
-      "relevance": 40,
-      "importance": 35,
-      "score": 39,
-      "reason": "ゲームの話題であり、シンプルにゲームを楽しみたいという本人のメモの気分と親和性がある。"
+      "importance": 40,
+      "score": 40,
+      "reason": "「整理することに疲れ」ている状況に対し、システム運用における「アラート疲れ」の解決というテーマが、疲れの解消への関心と繋がります。"
     }
   ]
 }
