@@ -3,7 +3,7 @@
 Hayato Shimada の活動をまとめたポートフォリオサイト。
 note.com と GitHub のコンテンツを Gemini AI で要約し、ミニマルなデザインで表示する。
 
-https://foxtrotdesign.dev
+https://dev.85-store.com
 
 ## Tech Stack
 

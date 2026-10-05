@@ -4,7 +4,7 @@ import {
   lifeIssueSourceLabels,
 } from "@/lib/life-issue";
 
-const siteUrl = "https://foxtrotdesign.dev";
+const siteUrl = "https://dev.85-store.com";
 
 function escapeXml(value: string): string {
   return value

@@ -4,7 +4,7 @@ globs: ["content/**", "src/**", "public/**"]
 alwaysApply: true
 ---
 
-このリポジトリは公開サイト foxtrotdesign.dev のソースである。
+このリポジトリは公開サイト dev.85-store.com のソースである。
 コミット = 全世界への公開として扱うこと。
 
 非公開ソース（判断材料として読んでよいが、内容を書き出してはいけない）:

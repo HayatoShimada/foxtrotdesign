@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Personal portfolio website for Hayato Shimada (foxtrotdesign). Aggregates content from note.com and GitHub, summarized via Gemini AI. Deployed at https://foxtrotdesign.dev.
+Personal portfolio website for Hayato Shimada (foxtrotdesign). Aggregates content from note.com and GitHub, summarized via Gemini AI. Deployed at https://dev.85-store.com.
 
 Design reference: https://www.pi.website/ — brutalist-minimal, monospace, black/white only.
 

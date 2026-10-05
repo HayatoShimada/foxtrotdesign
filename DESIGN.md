@@ -3,7 +3,7 @@
 ## 概要
 
 hayato_shimadaの活動をまとめたウェブサイトを作成する。
-https://foxtrotdesign.dev
+https://dev.85-store.com
 の内容を基本的に踏襲する。
 削ぎ落としてシンプルにする。
 https://www.pi.website/
