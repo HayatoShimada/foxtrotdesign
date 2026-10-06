@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T21:01:23.469Z",
+  "generatedAt": "2026-10-06T21:03:39.688Z",
   "question": "整理することに疲れている",
   "windowDays": 7,
   "items": [
@@ -52,30 +52,6 @@
       "reason": "「自分で作って、確かめる」というテーマは、整理を終えて手を動かして何かを作るフェーズに入るという本人のメモと強く共鳴する。"
     },
     {
-      "title": "必ずしも応答がなくとも豊かである／佐々木康裕",
-      "url": "https://meandyou.net/202609-yasuhirosasaki/",
-      "sourceId": "meandyou-net",
-      "sourceName": "me and you little magazine & club",
-      "category": "discovered",
-      "publishedAt": "2026-09-29T08:15:51.000Z",
-      "relevance": 75,
-      "importance": 40,
-      "score": 68,
-      "reason": "「必ずしも応答がなくとも豊かである」というテーマは、整理やタスク管理に疲れ、シンプルでありたいと願う本人の心境や、分人主義などの読書傾向と深く響き合う。"
-    },
-    {
-      "title": "塚田優｜さらに新たなるイメージ論へ向かって──前川修、佐藤守弘、増田展大編『イメージ論の冒険者たち』（後編）",
-      "url": "https://artscape.jp/article/79725/",
-      "sourceId": "artscape-jp",
-      "sourceName": "artscape",
-      "category": "discovered",
-      "publishedAt": "2026-10-02T02:00:28.000Z",
-      "relevance": 60,
-      "importance": 50,
-      "score": 58,
-      "reason": "読もうとしている『なぜ、植物図鑑か――中平卓馬映像論集』と、イメージ論や映像論というテーマにおいて深くつながる。"
-    },
-    {
       "title": "暗黙知はAIに「移植」できるのか？人間とAIが共に熟達する「共進化的共同実践」とは",
       "url": "https://research.smeai.org/tacit-knowledge-ai-co-evolution/",
       "sourceId": "research-smeai-org",
@@ -100,6 +76,18 @@
       "reason": "「身体・感情・関係性」で捉える暗黙知のモデルは、読もうとしている本『現れる存在――脳と身体と世界の再統合』のテーマと深く繋がる。"
     },
     {
+      "title": "Loop Engineering これくらいでいい",
+      "url": "https://speakerdeck.com/mikanichinose/loop-engineering-good-enough",
+      "sourceId": "speakerdeck-com-c-technology",
+      "sourceName": "Speaker Deck Technology",
+      "category": "slides",
+      "publishedAt": "2026-10-06T09:23:43.000Z",
+      "relevance": 60,
+      "importance": 25,
+      "score": 53,
+      "reason": "「これくらいでいい」という緩さは、整理することに疲れて手を動かすフェーズに移行したい本人の気分に合致する。"
+    },
+    {
       "title": "【2026年9月刊】経済安全保障論、壊れる核抑止、闇の広告史、解築学……デサイロが注目したい人文・社会科学の新刊38冊",
       "url": "https://desilo.substack.com/p/book-list-2026-9",
       "sourceId": "desilo-substack-com",
@@ -112,28 +100,16 @@
       "reason": "読もうとしている本が人文・社会科学系であるため、デサイロが注目する人文・社会科学の新刊紹介は読書傾向に合致する。"
     },
     {
-      "title": "QUIC and MoQ from the Perspective of Real-Time Game Networking",
-      "url": "https://speakerdeck.com/segadevtech/quic-and-moq-from-the-perspective-of-real-time-game-networking",
-      "sourceId": "speakerdeck-com-c-technology",
-      "sourceName": "Speaker Deck Technology",
-      "category": "slides",
-      "publishedAt": "2026-10-05T04:47:07.000Z",
+      "title": "ロボットモデルなしでアームを動かす — Claude × MCP で SO-101 を直接操作する",
+      "url": "https://zenn.dev/oggata/articles/0893726c1ebf3d",
+      "sourceId": "zenn-dev",
+      "sourceName": "Zenn",
+      "category": "community",
+      "publishedAt": "2026-10-05T12:19:36.000Z",
       "relevance": 50,
-      "importance": 45,
-      "score": 49,
-      "reason": "本人のメモにある「シンプルにゲームがしたい」という欲求に対し、ゲームのリアルタイム通信技術という観点から関心に合致します。"
-    },
-    {
-      "title": "ゲームのリアルタイム通信から見た QUIC と MoQ",
-      "url": "https://speakerdeck.com/segadevtech/gemu-no-riarutaimu-tsuushin-kara-mita-quic-to-moq",
-      "sourceId": "speakerdeck-com-c-technology",
-      "sourceName": "Speaker Deck Technology",
-      "category": "slides",
-      "publishedAt": "2026-10-05T04:44:41.000Z",
-      "relevance": 50,
-      "importance": 45,
-      "score": 49,
-      "reason": "メモに「シンプルにゲームがしたい。Core Keeperをやろう」とあり、ゲームの通信技術に関する話題は直接的な関心に繋がります。"
+      "importance": 55,
+      "score": 51,
+      "reason": "「手を動かして何かを作る」という志向や、読書予定の『現れる存在』が扱う脳・身体・世界の再統合、直接的な操作というテーマに合致するため。"
     },
     {
       "title": "LACMAで須藤玲子とNUNOの大規模展「テキスタイル・アルケミー」開催。100点超のテキスタイルからたどる40年以上にわたるクリエイション",
@@ -160,16 +136,28 @@
       "reason": "「ままならなさを抱えて歩いていくこと」という題は、整理することに疲れたり、思い通りにいかない現状を抱えながら進む本人の心情や読みたい哲学書に寄り添います。"
     },
     {
-      "title": "デス・リテラシーの第一歩――久坂部羊『欲張らない死に方』書評／最相葉月【ちくま新書】",
-      "url": "https://www.webchikuma.com/n/n2ce76717a713",
-      "sourceId": "webchikuma-com",
-      "sourceName": "webちくま（筑摩書房の読みものサイト）",
-      "category": "discovered",
-      "publishedAt": "2026-09-29T05:09:58.000Z",
-      "relevance": 50,
-      "importance": 30,
-      "score": 46,
-      "reason": "『欲張らない死に方』というテーマは、整理やタスクの管理を終えてシンプルに生きたい、動きすぎずにいたいという本人の志向や読書傾向と重なる。"
+      "title": "論文サマリ「腕運動の協調：実験的に確認された数学モデル」Flash and Hogan",
+      "url": "https://zenn.dev/zhidao/articles/2bbdf37363dec1",
+      "sourceId": "zenn-dev",
+      "sourceName": "Zenn",
+      "category": "community",
+      "publishedAt": "2026-10-05T23:02:21.000Z",
+      "relevance": 45,
+      "importance": 40,
+      "score": 44,
+      "reason": "読もうとしている本『現れる存在――脳と身体と世界の再統合』のテーマである身体性や運動の協調に深く関連する内容であるため。"
+    },
+    {
+      "title": "SkillScriptBench: Benchmarking Self-Evolution of Executable Agent Skill Packages Beyond Markdown",
+      "url": "https://arxiv.org/abs/2610.04008",
+      "sourceId": "rss-arxiv-org-rss-cs-ai",
+      "sourceName": "arXiv cs.AI",
+      "category": "research",
+      "publishedAt": "2026-10-06T04:00:00.000Z",
+      "relevance": 40,
+      "importance": 45,
+      "score": 41,
+      "reason": "「メモを整える段階は終わり、実行する」という問題意識に、Markdown（メモ）を超えて実行可能スキルを目指すテーマが重なるため。"
     },
     {
       "title": "SREでアラート疲れを 解決しよう！",
@@ -182,6 +170,30 @@
       "importance": 40,
       "score": 40,
       "reason": "「整理することに疲れ」ている状況に対し、システム運用における「アラート疲れ」の解決というテーマが、疲れの解消への関心と繋がります。"
+    },
+    {
+      "title": "【予約】Chaos to Cosmos 混沌から秩序へ 青山希望 作品集 ※10月中旬頃入荷予定",
+      "url": "https://store.tsite.jp/item-detail/architectural-design/56445.html",
+      "sourceId": "store-tsite-jp",
+      "sourceName": "蔦屋書店オンラインストア新商品",
+      "category": "discovered",
+      "publishedAt": "2026-10-05T15:00:00.000Z",
+      "relevance": 45,
+      "importance": 15,
+      "score": 39,
+      "reason": "「混沌から秩序へ」というテーマが、整理すること（秩序化）に疲れた本人の問題意識や、ドゥルーズなどの哲学的な関心と緩やかにつながります。"
+    },
+    {
+      "title": "Show HN: I turned my iPhone and a $20 smart plug into an f-stop timer",
+      "url": "https://peterszentkiralyi.eu/darkplug/",
+      "sourceId": "hnrss-org-frontpage",
+      "sourceName": "Hacker News",
+      "category": "developer",
+      "publishedAt": "2026-10-06T13:58:07.000Z",
+      "relevance": 40,
+      "importance": 30,
+      "score": 38,
+      "reason": "「手を動かして何かを作るフェーズに入る」というメモに対し、身近なデバイスを組み合わせて自作する具体的な実践例として参考になるため。"
     }
   ]
 }
