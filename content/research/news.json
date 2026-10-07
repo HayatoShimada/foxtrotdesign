@@ -1,8 +1,20 @@
 {
-  "generatedAt": "2026-10-06T21:03:39.688Z",
+  "generatedAt": "2026-10-07T21:03:00.993Z",
   "question": "整理することに疲れている",
   "windowDays": 7,
   "items": [
+    {
+      "title": "Introducing Playground: Create and play custom games",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+      "sourceId": "blog-google-technology-ai",
+      "sourceName": "Google AI",
+      "category": "vendor",
+      "publishedAt": "2026-10-07T12:00:00.000Z",
+      "relevance": 85,
+      "importance": 75,
+      "score": 83,
+      "reason": "「シンプルにゲームがしたい」「手を動かして何かを作るフェーズに入る」というメモに、カスタムゲームを作って遊べるPlaygroundの登場が合致する。"
+    },
     {
       "title": "文章で要件定義するのをやめた。AIでモックを先に作ったら、認識ズレが実装前に全部見つかった",
       "url": "https://qiita.com/kazuki_ogawa/items/f1a15a199d9f91fe6080?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
@@ -26,18 +38,6 @@
       "importance": 40,
       "score": 72,
       "reason": "「シンプルにゲームがしたい」というメモの要望に対し、最新のゲーム配信情報が直接的に合致するため。"
-    },
-    {
-      "title": "本当に「判断」していますか？",
-      "url": "https://zenn.dev/dyoshikawa/articles/do-you-desicion",
-      "sourceId": "zenn-dev",
-      "sourceName": "Zenn",
-      "category": "community",
-      "publishedAt": "2026-10-04T22:00:05.000Z",
-      "relevance": 75,
-      "importance": 45,
-      "score": 69,
-      "reason": "「整理」や「整える」段階から「手を動かす」フェーズへの移行において、自らの「判断」のあり方を問い直す契機となる記事です。"
     },
     {
       "title": "自分で作って、触って、確かめる。自作キーボードから広がる世界｜Che・ke・la・bo",
@@ -64,6 +64,30 @@
       "reason": "人間とAIの共同実践というテーマが、読書予定の『現れる存在』における身体と世界の再統合や、手を動かして作るフェーズへの移行という関心に繋がります。"
     },
     {
+      "title": "ブライアントとラトゥールの「翻訳」概念を比較｜対象指向存在論とアクター・ネットワーク理論はどうつながるか",
+      "url": "https://research.smeai.org/bryant-latour-callon-translation-ooo-ant/",
+      "sourceId": "research-smeai-org",
+      "sourceName": "中小企業AI活用協会研究サイト",
+      "category": "discovered",
+      "publishedAt": "2026-10-07T20:22:56.000Z",
+      "relevance": 60,
+      "importance": 40,
+      "score": 56,
+      "reason": "読もうとしている『現れる存在』やドゥルーズ等の哲学書に関連し、対象指向存在論やアクター・ネットワーク理論という現代思想の概念的な繋がりを学べます。"
+    },
+    {
+      "title": "Google experiments with an AI-powered gaming platform",
+      "url": "https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform/",
+      "sourceId": "techcrunch-com-category-artificial-intelligence",
+      "sourceName": "TechCrunch AI",
+      "category": "media",
+      "publishedAt": "2026-10-07T14:36:23.000Z",
+      "relevance": 55,
+      "importance": 60,
+      "score": 56,
+      "reason": "「シンプルにゲームがしたい」というメモに対し、GoogleによるAIを活用した新しいゲームプラットフォームの実験は興味を惹く話題です。"
+    },
+    {
       "title": "暗黙知とは何か？身体・感情・関係性・制度で捉える多層モデルと実践への活かし方",
       "url": "https://research.smeai.org/tacit-knowledge-multilayer-eeri-model/",
       "sourceId": "research-smeai-org",
@@ -74,18 +98,6 @@
       "importance": 40,
       "score": 56,
       "reason": "「身体・感情・関係性」で捉える暗黙知のモデルは、読もうとしている本『現れる存在――脳と身体と世界の再統合』のテーマと深く繋がる。"
-    },
-    {
-      "title": "Loop Engineering これくらいでいい",
-      "url": "https://speakerdeck.com/mikanichinose/loop-engineering-good-enough",
-      "sourceId": "speakerdeck-com-c-technology",
-      "sourceName": "Speaker Deck Technology",
-      "category": "slides",
-      "publishedAt": "2026-10-06T09:23:43.000Z",
-      "relevance": 60,
-      "importance": 25,
-      "score": 53,
-      "reason": "「これくらいでいい」という緩さは、整理することに疲れて手を動かすフェーズに移行したい本人の気分に合致する。"
     },
     {
       "title": "【2026年9月刊】経済安全保障論、壊れる核抑止、闇の広告史、解築学……デサイロが注目したい人文・社会科学の新刊38冊",
@@ -100,18 +112,6 @@
       "reason": "読もうとしている本が人文・社会科学系であるため、デサイロが注目する人文・社会科学の新刊紹介は読書傾向に合致する。"
     },
     {
-      "title": "ロボットモデルなしでアームを動かす — Claude × MCP で SO-101 を直接操作する",
-      "url": "https://zenn.dev/oggata/articles/0893726c1ebf3d",
-      "sourceId": "zenn-dev",
-      "sourceName": "Zenn",
-      "category": "community",
-      "publishedAt": "2026-10-05T12:19:36.000Z",
-      "relevance": 50,
-      "importance": 55,
-      "score": 51,
-      "reason": "「手を動かして何かを作る」という志向や、読書予定の『現れる存在』が扱う脳・身体・世界の再統合、直接的な操作というテーマに合致するため。"
-    },
-    {
       "title": "LACMAで須藤玲子とNUNOの大規模展「テキスタイル・アルケミー」開催。100点超のテキスタイルからたどる40年以上にわたるクリエイション",
       "url": "https://www.axismag.jp/posts/2026/10/724955.html",
       "sourceId": "axismag-jp",
@@ -124,28 +124,40 @@
       "reason": "テキスタイルのクリエイションに関する記事であり、手を動かして何かを作るフェーズや、読みたい本『現れる存在』の身体性・物質性と繋がる。"
     },
     {
-      "title": "ままならなさを抱えて歩いていくこと／河村実月",
-      "url": "https://meandyou.net/202609-mitsukikawamura/",
-      "sourceId": "meandyou-net",
-      "sourceName": "me and you little magazine & club",
-      "category": "discovered",
-      "publishedAt": "2026-09-30T13:45:53.000Z",
-      "relevance": 55,
-      "importance": 25,
-      "score": 49,
-      "reason": "「ままならなさを抱えて歩いていくこと」という題は、整理することに疲れたり、思い通りにいかない現状を抱えながら進む本人の心情や読みたい哲学書に寄り添います。"
+      "title": "なぜWINTICKETはマイクロサービスをやめたのか",
+      "url": "https://speakerdeck.com/cyberagentdevelopers/why-we-stopped-using-microservices",
+      "sourceId": "speakerdeck-com-c-technology",
+      "sourceName": "Speaker Deck Technology",
+      "category": "slides",
+      "publishedAt": "2026-10-07T12:33:40.000Z",
+      "relevance": 45,
+      "importance": 50,
+      "score": 46,
+      "reason": "複雑なシステムを整理・分割するマイクロサービスをやめる決断は、「整理することに疲れている」という問いにシステム設計の観点から共鳴します。"
     },
     {
-      "title": "論文サマリ「腕運動の協調：実験的に確認された数学モデル」Flash and Hogan",
-      "url": "https://zenn.dev/zhidao/articles/2bbdf37363dec1",
-      "sourceId": "zenn-dev",
-      "sourceName": "Zenn",
-      "category": "community",
-      "publishedAt": "2026-10-05T23:02:21.000Z",
+      "title": "【発売即重版決定！】ハーバード、イェール、スタンフォードなど、世界の研究結果で明らかになった『悩まない人の習慣』が発売から2週間で2万部を突破！",
+      "url": "https://prtimes.jp/main/html/rd/p/000001638.000018193.html",
+      "sourceId": "prtimes-jp-index-rdf",
+      "sourceName": "PR TIMES",
+      "category": "discovered",
+      "publishedAt": "2026-10-07T20:10:02.000Z",
       "relevance": 45,
       "importance": 40,
       "score": 44,
-      "reason": "読もうとしている本『現れる存在――脳と身体と世界の再統合』のテーマである身体性や運動の協調に深く関連する内容であるため。"
+      "reason": "「整理することに疲れている」という悩みに対し、世界の研究結果から導き出された「悩まない人の習慣」が、思考を切り替えて行動に移すヒントになります。"
+    },
+    {
+      "title": "Vue Fes Japan の “作る側”に関わってみて",
+      "url": "https://speakerdeck.com/naokihaba/vue-fes-japan-no-tsukuru-gawa-ni-kakawa-te-mi-te",
+      "sourceId": "speakerdeck-com-c-programming",
+      "sourceName": "Speaker Deck Programming",
+      "category": "slides",
+      "publishedAt": "2026-10-07T01:09:11.000Z",
+      "relevance": 45,
+      "importance": 30,
+      "score": 42,
+      "reason": "「手を動かして何かを作るフェーズに入る」という本人のメモに対し、技術フェスに「作る側」として関わった体験談は刺激になります。"
     },
     {
       "title": "SkillScriptBench: Benchmarking Self-Evolution of Executable Agent Skill Packages Beyond Markdown",
@@ -153,23 +165,35 @@
       "sourceId": "rss-arxiv-org-rss-cs-ai",
       "sourceName": "arXiv cs.AI",
       "category": "research",
-      "publishedAt": "2026-10-06T04:00:00.000Z",
+      "publishedAt": "2026-10-07T04:00:00.000Z",
       "relevance": 40,
       "importance": 45,
       "score": 41,
       "reason": "「メモを整える段階は終わり、実行する」という問題意識に、Markdown（メモ）を超えて実行可能スキルを目指すテーマが重なるため。"
     },
     {
-      "title": "SREでアラート疲れを 解決しよう！",
-      "url": "https://speakerdeck.com/kairim0/sre-de-zukare-o-kaiketsu-shiyou",
-      "sourceId": "speakerdeck-com-c-technology",
-      "sourceName": "Speaker Deck Technology",
-      "category": "slides",
-      "publishedAt": "2026-10-05T06:06:59.000Z",
+      "title": "高輪築堤の歴史と技術をたどる「THE FIRST RAILWAY」展。点群データと出土品で日本初の鉄道を読み解く",
+      "url": "https://www.axismag.jp/posts/2026/10/725353.html",
+      "sourceId": "axismag-jp",
+      "sourceName": "AXIS Web | デザインの視点で、人間の可能性や創造性を伝えるメディア",
+      "category": "discovered",
+      "publishedAt": "2026-10-07T01:05:00.000Z",
+      "relevance": 40,
+      "importance": 45,
+      "score": 41,
+      "reason": "「なぜ、植物図鑑か」などの読書傾向に対し、出土品や点群データという即物的な記録から歴史を再構成する展示内容は関心に近いです。"
+    },
+    {
+      "title": "小沼理×上坂あゆ美 絶望に打ちのめされず、日々をサバイブするために",
+      "url": "https://meandyou.net/202610-onumauesaka/",
+      "sourceId": "meandyou-net",
+      "sourceName": "me and you little magazine & club",
+      "category": "discovered",
+      "publishedAt": "2026-10-07T09:59:27.000Z",
       "relevance": 40,
       "importance": 40,
       "score": 40,
-      "reason": "「整理することに疲れ」ている状況に対し、システム運用における「アラート疲れ」の解決というテーマが、疲れの解消への関心と繋がります。"
+      "reason": "整理に疲れ、日々の生活をどうサバイブするかという問いは、読もうとしている「分人」やドゥルーズなどの思想的な関心と繋がります。"
     },
     {
       "title": "【予約】Chaos to Cosmos 混沌から秩序へ 青山希望 作品集 ※10月中旬頃入荷予定",
@@ -184,16 +208,16 @@
       "reason": "「混沌から秩序へ」というテーマが、整理すること（秩序化）に疲れた本人の問題意識や、ドゥルーズなどの哲学的な関心と緩やかにつながります。"
     },
     {
-      "title": "Show HN: I turned my iPhone and a $20 smart plug into an f-stop timer",
-      "url": "https://peterszentkiralyi.eu/darkplug/",
-      "sourceId": "hnrss-org-frontpage",
-      "sourceName": "Hacker News",
-      "category": "developer",
-      "publishedAt": "2026-10-06T13:58:07.000Z",
+      "title": "Arts And Crafts - swiftCon @ next.app, Berlin, Germany, October 2026",
+      "url": "https://speakerdeck.com/designatednerd/arts-and-crafts-swiftcon-at-next-dot-app-berlin-germany-october-2026",
+      "sourceId": "speakerdeck-com-c-technology",
+      "sourceName": "Speaker Deck Technology",
+      "category": "slides",
+      "publishedAt": "2026-10-07T14:15:22.000Z",
       "relevance": 40,
       "importance": 30,
       "score": 38,
-      "reason": "「手を動かして何かを作るフェーズに入る」というメモに対し、身近なデバイスを組み合わせて自作する具体的な実践例として参考になるため。"
+      "reason": "「手を動かして何かを作るフェーズに入る」というメモに対し、ものづくり（Arts And Crafts）の精神を提示する内容は親和性があります。"
     }
   ]
 }
