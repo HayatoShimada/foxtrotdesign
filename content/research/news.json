@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T21:02:44.924Z",
+  "generatedAt": "2026-10-09T21:00:58.759Z",
   "question": "整理することに疲れている",
   "windowDays": 7,
   "items": [
@@ -14,18 +14,6 @@
       "importance": 75,
       "score": 83,
       "reason": "「シンプルにゲームがしたい」「手を動かして何かを作るフェーズに入る」というメモに、カスタムゲームを作って遊べるPlaygroundの登場が合致する。"
-    },
-    {
-      "title": "The value of not getting to the point (2015)",
-      "url": "https://ken.arneson.name/2015/11/the-value-of-not-getting-to-the-point/",
-      "sourceId": "hnrss-org-frontpage",
-      "sourceName": "Hacker News",
-      "category": "developer",
-      "publishedAt": "2026-10-08T19:04:56.000Z",
-      "relevance": 75,
-      "importance": 50,
-      "score": 70,
-      "reason": "「すぐに本題に入らない価値」というテーマは、整理や効率化に疲れ、余白やゲームを求める本人の現在の心境に深く響きます。"
     },
     {
       "title": "Rally Up: ‘Gears of War: E-Day’ Launches on GeForce NOW",
@@ -52,6 +40,18 @@
       "reason": "「整理することに疲れている」という問いに対し、古いものに囲まれながら気楽に一人暮らしを続けていくライフスタイルが、肩の力を抜くヒントになります。"
     },
     {
+      "title": "少しずつ、いつのまにか、けれど確かな変化／身体を動かして、会いに行く",
+      "url": "https://meandyou.net/202610-newsletter/",
+      "sourceId": "meandyou-net",
+      "sourceName": "me and you little magazine & club",
+      "category": "discovered",
+      "publishedAt": "2026-10-09T08:26:33.000Z",
+      "relevance": 65,
+      "importance": 40,
+      "score": 60,
+      "reason": "「身体を動かして」という表現が、整理を終えて手を動かすフェーズに入るという本人のメモや、読みたい本『現れる存在』の脳と身体のテーマに重なります。"
+    },
+    {
       "title": "暗黙知はAIに「移植」できるのか？人間とAIが共に熟達する「共進化的共同実践」とは",
       "url": "https://research.smeai.org/tacit-knowledge-ai-co-evolution/",
       "sourceId": "research-smeai-org",
@@ -76,16 +76,16 @@
       "reason": "読もうとしている『現れる存在』やドゥルーズ等の哲学書に関連し、対象指向存在論やアクター・ネットワーク理論という現代思想の概念的な繋がりを学べます。"
     },
     {
-      "title": "暗黙知とは何か？身体・感情・関係性・制度で捉える多層モデルと実践への活かし方",
-      "url": "https://research.smeai.org/tacit-knowledge-multilayer-eeri-model/",
-      "sourceId": "research-smeai-org",
-      "sourceName": "中小企業AI活用協会研究サイト",
+      "title": "フーコーを追いかけて／つかまえて ーー重田園江『ミシェル・フーコー』より",
+      "url": "https://www.webchikuma.com/n/n3bfe38591350",
+      "sourceId": "webchikuma-com",
+      "sourceName": "webちくま（筑摩書房の読みものサイト）",
       "category": "discovered",
-      "publishedAt": "2026-10-02T20:40:53.000Z",
-      "relevance": 60,
-      "importance": 40,
-      "score": 56,
-      "reason": "「身体・感情・関係性」で捉える暗黙知のモデルは、読もうとしている本『現れる存在――脳と身体と世界の再統合』のテーマと深く繋がる。"
+      "publishedAt": "2026-10-09T00:30:00.000Z",
+      "relevance": 55,
+      "importance": 50,
+      "score": 54,
+      "reason": "現代思想（フーコー）の話題であり、読もうとしている本『動きすぎてはいけない――ジル・ドゥルーズと生成変化の哲学』などの哲学的な関心と強く響き合います。"
     },
     {
       "title": "生成AIのアフォーダンスとは？UI/UXデザインで変わる「できること」の伝え方",
@@ -112,18 +112,6 @@
       "reason": "「手を動かして何かを作る」というメモに対し、仕様駆動開発（Spec-Driven）で開発者からビルダーへと進むアプローチが参考になります。"
     },
     {
-      "title": "Show HN: Making a flexible \"neon\" t-shirt with LED filaments",
-      "url": "http://scottbezek.blogspot.com/2026/10/making-flexible-neon-t-shirt-with-leds.html",
-      "sourceId": "hnrss-org-frontpage",
-      "sourceName": "Hacker News",
-      "category": "developer",
-      "publishedAt": "2026-10-08T16:37:24.000Z",
-      "relevance": 55,
-      "importance": 40,
-      "score": 52,
-      "reason": "「手を動かして何かを作るフェーズに入る」というメモに対し、LEDフィラメントでTシャツを自作するDIYの話題は強い刺激になります。"
-    },
-    {
       "title": "【2026年9月刊】経済安全保障論、壊れる核抑止、闇の広告史、解築学……デサイロが注目したい人文・社会科学の新刊38冊",
       "url": "https://desilo.substack.com/p/book-list-2026-9",
       "sourceId": "desilo-substack-com",
@@ -136,76 +124,100 @@
       "reason": "読もうとしている本が人文・社会科学系であるため、デサイロが注目する人文・社会科学の新刊紹介は読書傾向に合致する。"
     },
     {
-      "title": "LACMAで須藤玲子とNUNOの大規模展「テキスタイル・アルケミー」開催。100点超のテキスタイルからたどる40年以上にわたるクリエイション",
-      "url": "https://www.axismag.jp/posts/2026/10/724955.html",
-      "sourceId": "axismag-jp",
-      "sourceName": "AXIS Web | デザインの視点で、人間の可能性や創造性を伝えるメディア",
+      "title": "私たちに足りないのは「ひとり時間」だった！ 『最先端の科学が教える ひとり時間のすごい力』ロバート・コプラン 訳者による著者インタビューを特別公開！",
+      "url": "https://web.kawade.co.jp/column/264412/",
+      "sourceId": "web-kawade-co-jp",
+      "sourceName": "Web河出",
       "category": "discovered",
-      "publishedAt": "2026-10-02T06:05:30.000Z",
+      "publishedAt": "2026-10-09T10:00:00.000Z",
       "relevance": 50,
       "importance": 45,
       "score": 49,
-      "reason": "テキスタイルのクリエイションに関する記事であり、手を動かして何かを作るフェーズや、読みたい本『現れる存在』の身体性・物質性と繋がる。"
+      "reason": "「ひとり時間」のテーマは、整理に疲れてシンプルにゲームをしたい、あるいは「分人」や「個人」を問い直す読書傾向と親和性があります。"
     },
     {
-      "title": "Beauty in DVD Menus",
-      "url": "https://vale.rocks/posts/dvd-menus",
+      "title": "No Man Is an Island",
+      "url": "https://borretti.me/article/no-man-is-an-island",
       "sourceId": "hnrss-org-frontpage",
       "sourceName": "Hacker News",
       "category": "developer",
-      "publishedAt": "2026-10-08T13:22:01.000Z",
-      "relevance": 50,
-      "importance": 35,
-      "score": 47,
-      "reason": "「整理することに疲れている」状況において、DVDメニューの美しさという、機能性から離れたレトロで無駄のあるデザインの魅力が癒やしになります。"
-    },
-    {
-      "title": "初対面のメンバーがチームを組み、Claude Codeでゼロからサービスをリリース",
-      "url": "https://speakerdeck.com/mkdev10/shotaimen-no-menba-ga-chimu-o-kumi-claude-code-de-zero-kara-sabisu-o-ririsu",
-      "sourceId": "speakerdeck-com-c-technology",
-      "sourceName": "Speaker Deck Technology",
-      "category": "slides",
-      "publishedAt": "2026-10-08T10:51:25.000Z",
-      "relevance": 50,
-      "importance": 30,
+      "publishedAt": "2026-10-09T20:04:00.000Z",
+      "relevance": 45,
+      "importance": 50,
       "score": 46,
-      "reason": "「手を動かして何かを作るフェーズ」というメモに合致し、実際にゼロからサービスをリリースする開発体験が刺激になります。"
+      "reason": "「個人」ではなく他者との関係性から自己を捉える「分人」の思想と、「人は孤島ではない」というテーマが深く繋がります。"
     },
     {
-      "title": "吉田夜世が語る、ボカロPの「作曲とイベント出演のバランス」 大ヒット以降の活動と現在の悩み、目標、心境を聞いた",
-      "url": "https://realsound.jp/tech/2026/10/post-2540142.html",
-      "sourceId": "realsound-jp-tech",
-      "sourceName": "リアルサウンド",
-      "category": "discovered",
-      "publishedAt": "2026-10-08T18:00:29.000Z",
-      "relevance": 45,
-      "importance": 35,
-      "score": 43,
-      "reason": "「手を動かして何かを作るフェーズに入る」というメモに対し、クリエイターが創作活動のバランスや悩みを語る内容は、作るフェーズの参考になります。"
-    },
-    {
-      "title": "Show HN: Jevman – AI decision models play Pac-Man",
-      "url": "https://opper.ai/jevman-benchmark/",
+      "title": "Triple-A Minesweeper",
+      "url": "https://minesweeper.mikelacher.com/",
       "sourceId": "hnrss-org-frontpage",
       "sourceName": "Hacker News",
       "category": "developer",
-      "publishedAt": "2026-10-08T16:34:13.000Z",
+      "publishedAt": "2026-10-09T15:51:05.000Z",
       "relevance": 45,
       "importance": 35,
       "score": 43,
-      "reason": "「シンプルにゲームがしたい」という欲求に対し、AIがパックマンをプレイするというゲーム関連の話題として関心に繋がります。"
+      "reason": "「シンプルにゲームがしたい」という本人の要望に対し、古典的でシンプルなゲームの話題として関連します。"
     },
     {
-      "title": "Vue Fes Japan の “作る側”に関わってみて",
-      "url": "https://speakerdeck.com/naokihaba/vue-fes-japan-no-tsukuru-gawa-ni-kakawa-te-mi-te",
-      "sourceId": "speakerdeck-com-c-programming",
-      "sourceName": "Speaker Deck Programming",
-      "category": "slides",
-      "publishedAt": "2026-10-07T01:09:11.000Z",
+      "title": "You might want to try being less creative",
+      "url": "https://blog.bawolf.com/p/you-might-want-to-try-being-less",
+      "sourceId": "hnrss-org-frontpage",
+      "sourceName": "Hacker News",
+      "category": "developer",
+      "publishedAt": "2026-10-09T18:39:47.000Z",
+      "relevance": 40,
+      "importance": 50,
+      "score": 42,
+      "reason": "「手を動かして何かを作るフェーズ」において、過剰な創造性を抑えてシンプルに取り組む姿勢のヒントになります。"
+    },
+    {
+      "title": "原ちけい｜まなざしの奇跡 日本女性写真家の冒険",
+      "url": "https://artscape.jp/article/79676/",
+      "sourceId": "artscape-jp",
+      "sourceName": "artscape",
+      "category": "discovered",
+      "publishedAt": "2026-10-09T02:00:51.000Z",
       "relevance": 45,
       "importance": 30,
       "score": 42,
-      "reason": "「手を動かして何かを作るフェーズに入る」という本人のメモに対し、技術フェスに「作る側」として関わった体験談は刺激になります。"
+      "reason": "「まなざし」というテーマが、読もうとしている本『なぜ、植物図鑑か――中平卓馬映像論集』の映像論や写真論の関心とつながります。"
+    },
+    {
+      "title": "飯沢耕太郎｜写真遊歩14──眼から眼へ（2026年7月〜2026年9月）",
+      "url": "https://artscape.jp/article/79402/",
+      "sourceId": "artscape-jp",
+      "sourceName": "artscape",
+      "category": "discovered",
+      "publishedAt": "2026-10-07T02:00:00.000Z",
+      "relevance": 45,
+      "importance": 30,
+      "score": 42,
+      "reason": "「眼から眼へ」という写真遊歩のテーマが、読もうとしている本『なぜ、植物図鑑か――中平卓馬映像論集』の視覚や映像への関心とつながります。"
+    },
+    {
+      "title": "分析の民主化を支えるメタデータ整備の実践",
+      "url": "https://speakerdeck.com/kakehashi/democratizing-data-with-metadata",
+      "sourceId": "speakerdeck-com-c-technology",
+      "sourceName": "Speaker Deck Technology",
+      "category": "slides",
+      "publishedAt": "2026-10-09T08:21:25.000Z",
+      "relevance": 45,
+      "importance": 25,
+      "score": 41,
+      "reason": "「整理することに疲れている」という問いに対し、メタデータの整備や分析の民主化という整理・管理の実際的な取り組みは、整理の限界や手法を考える参考になる。"
+    },
+    {
+      "title": "Agent-Controlled Forgetting for Tool-Using Agents: Reversible Context Curation in Practice",
+      "url": "https://arxiv.org/abs/2610.10590",
+      "sourceId": "rss-arxiv-org-rss-cs-ai",
+      "sourceName": "arXiv cs.AI",
+      "category": "research",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "relevance": 40,
+      "importance": 45,
+      "score": 41,
+      "reason": "「整理することに疲れている」という状態に対し、不要な情報を「忘却」し整理を自動化する技術の視点を提供します。"
     },
     {
       "title": "高輪築堤の歴史と技術をたどる「THE FIRST RAILWAY」展。点群データと出土品で日本初の鉄道を読み解く",
@@ -220,6 +232,18 @@
       "reason": "「なぜ、植物図鑑か」などの読書傾向に対し、出土品や点群データという即物的な記録から歴史を再構成する展示内容は関心に近いです。"
     },
     {
+      "title": "[2026-10-09]一枚の布で作らなくてもいい。 信頼性は「パッチワーク」で紡がれる～既存の運用と新しい可能性をつなぎ合わせてきたCREの話～",
+      "url": "https://speakerdeck.com/tosite/2026-10-09-ichimai-no-nuno-de-tsukuranaku-temo-ii-shinraisei-ha-pacchiwaku-de-tsumugareru-kison-no-unyou-to-atarashii-kanousei-o-tsunagi-awase-te-kita-cre-no-hanashi",
+      "sourceId": "speakerdeck-com-c-programming",
+      "sourceName": "Speaker Deck Programming",
+      "category": "slides",
+      "publishedAt": "2026-10-09T10:37:51.000Z",
+      "relevance": 45,
+      "importance": 20,
+      "score": 40,
+      "reason": "「整理することに疲れている」人に対し、一枚の布で完璧に整えるのではなく「パッチワーク」のように既存の運用を繋ぎ合わせるという思想は、整理の疲れを和らげる。"
+    },
+    {
       "title": "小沼理×上坂あゆ美 絶望に打ちのめされず、日々をサバイブするために",
       "url": "https://meandyou.net/202610-onumauesaka/",
       "sourceId": "meandyou-net",
@@ -230,6 +254,30 @@
       "importance": 40,
       "score": 40,
       "reason": "整理に疲れ、日々の生活をどうサバイブするかという問いは、読もうとしている「分人」やドゥルーズなどの思想的な関心と繋がります。"
+    },
+    {
+      "title": "不可逆な意思決定を避けながら10億超の顧客データを AI Ready にするデータ基盤設計",
+      "url": "https://speakerdeck.com/baseballyama/fukyagakuna-ishi-kettei-o-sake-nagara-10-okuchou-no-kokyaku-deta-o-ai-ready-ni-suru-deta-kiban-sekkei",
+      "sourceId": "speakerdeck-com-c-technology",
+      "sourceName": "Speaker Deck Technology",
+      "category": "slides",
+      "publishedAt": "2026-10-09T01:03:02.000Z",
+      "relevance": 40,
+      "importance": 30,
+      "score": 38,
+      "reason": "「整理することに疲れている」状況に対し、10億超のデータを「AI Ready」に整えるための基盤設計の話は、整理の負荷やその自動化・効率化のヒントになる。"
+    },
+    {
+      "title": "内藤廣手帳1985-2025",
+      "url": "https://store.tsite.jp/item-detail/architectural-design/56489.html",
+      "sourceId": "store-tsite-jp",
+      "sourceName": "蔦屋書店オンラインストア新商品",
+      "category": "discovered",
+      "publishedAt": "2026-10-08T15:00:00.000Z",
+      "relevance": 40,
+      "importance": 30,
+      "score": 38,
+      "reason": "「手帳」という整理・記録のツールは、整理することに疲れている本人の状況や、メモの整理段階を終えたいという意識に関連します。"
     }
   ]
 }
