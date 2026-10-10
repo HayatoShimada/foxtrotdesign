@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T21:00:58.759Z",
+  "generatedAt": "2026-10-10T21:04:54.049Z",
   "question": "整理することに疲れている",
   "windowDays": 7,
   "items": [
@@ -14,6 +14,18 @@
       "importance": 75,
       "score": 83,
       "reason": "「シンプルにゲームがしたい」「手を動かして何かを作るフェーズに入る」というメモに、カスタムゲームを作って遊べるPlaygroundの登場が合致する。"
+    },
+    {
+      "title": "AIで浮いた時間を「もっと作る」に使っていませんか",
+      "url": "https://zenn.dev/idealog/articles/a3e9cf4299b1cf",
+      "sourceId": "zenn-dev",
+      "sourceName": "Zenn",
+      "category": "community",
+      "publishedAt": "2026-10-09T10:40:07.000Z",
+      "relevance": 85,
+      "importance": 40,
+      "score": 76,
+      "reason": "メモにある「整理・効率化の段階を終えて手を動かして何かを作るフェーズに入る」という意識と強く一致するため。"
     },
     {
       "title": "Rally Up: ‘Gears of War: E-Day’ Launches on GeForce NOW",
@@ -136,40 +148,16 @@
       "reason": "「ひとり時間」のテーマは、整理に疲れてシンプルにゲームをしたい、あるいは「分人」や「個人」を問い直す読書傾向と親和性があります。"
     },
     {
-      "title": "No Man Is an Island",
-      "url": "https://borretti.me/article/no-man-is-an-island",
-      "sourceId": "hnrss-org-frontpage",
-      "sourceName": "Hacker News",
-      "category": "developer",
-      "publishedAt": "2026-10-09T20:04:00.000Z",
-      "relevance": 45,
-      "importance": 50,
-      "score": 46,
-      "reason": "「個人」ではなく他者との関係性から自己を捉える「分人」の思想と、「人は孤島ではない」というテーマが深く繋がります。"
-    },
-    {
-      "title": "Triple-A Minesweeper",
-      "url": "https://minesweeper.mikelacher.com/",
-      "sourceId": "hnrss-org-frontpage",
-      "sourceName": "Hacker News",
-      "category": "developer",
-      "publishedAt": "2026-10-09T15:51:05.000Z",
-      "relevance": 45,
-      "importance": 35,
-      "score": 43,
-      "reason": "「シンプルにゲームがしたい」という本人の要望に対し、古典的でシンプルなゲームの話題として関連します。"
-    },
-    {
-      "title": "You might want to try being less creative",
-      "url": "https://blog.bawolf.com/p/you-might-want-to-try-being-less",
-      "sourceId": "hnrss-org-frontpage",
-      "sourceName": "Hacker News",
-      "category": "developer",
-      "publishedAt": "2026-10-09T18:39:47.000Z",
-      "relevance": 40,
-      "importance": 50,
-      "score": 42,
-      "reason": "「手を動かして何かを作るフェーズ」において、過剰な創造性を抑えてシンプルに取り組む姿勢のヒントになります。"
+      "title": "最近”作らせてる” ローカルAIアプリの話",
+      "url": "https://speakerdeck.com/akit37/saikin-tsukurase-teru-rokaru-ai-no-hanashi",
+      "sourceId": "speakerdeck-com-c-programming",
+      "sourceName": "Speaker Deck Programming",
+      "category": "slides",
+      "publishedAt": "2026-10-09T06:13:32.000Z",
+      "relevance": 50,
+      "importance": 20,
+      "score": 44,
+      "reason": "「手を動かして何かを作るフェーズに入る」というメモと「作らせてる（作る）」という実践が関連するため。"
     },
     {
       "title": "原ちけい｜まなざしの奇跡 日本女性写真家の冒険",
@@ -196,24 +184,12 @@
       "reason": "「眼から眼へ」という写真遊歩のテーマが、読もうとしている本『なぜ、植物図鑑か――中平卓馬映像論集』の視覚や映像への関心とつながります。"
     },
     {
-      "title": "分析の民主化を支えるメタデータ整備の実践",
-      "url": "https://speakerdeck.com/kakehashi/democratizing-data-with-metadata",
-      "sourceId": "speakerdeck-com-c-technology",
-      "sourceName": "Speaker Deck Technology",
-      "category": "slides",
-      "publishedAt": "2026-10-09T08:21:25.000Z",
-      "relevance": 45,
-      "importance": 25,
-      "score": 41,
-      "reason": "「整理することに疲れている」という問いに対し、メタデータの整備や分析の民主化という整理・管理の実際的な取り組みは、整理の限界や手法を考える参考になる。"
-    },
-    {
       "title": "Agent-Controlled Forgetting for Tool-Using Agents: Reversible Context Curation in Practice",
       "url": "https://arxiv.org/abs/2610.10590",
       "sourceId": "rss-arxiv-org-rss-cs-ai",
       "sourceName": "arXiv cs.AI",
       "category": "research",
-      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "publishedAt": "2026-10-10T04:00:00.000Z",
       "relevance": 40,
       "importance": 45,
       "score": 41,
@@ -256,16 +232,16 @@
       "reason": "整理に疲れ、日々の生活をどうサバイブするかという問いは、読もうとしている「分人」やドゥルーズなどの思想的な関心と繋がります。"
     },
     {
-      "title": "不可逆な意思決定を避けながら10億超の顧客データを AI Ready にするデータ基盤設計",
-      "url": "https://speakerdeck.com/baseballyama/fukyagakuna-ishi-kettei-o-sake-nagara-10-okuchou-no-kokyaku-deta-o-ai-ready-ni-suru-deta-kiban-sekkei",
-      "sourceId": "speakerdeck-com-c-technology",
-      "sourceName": "Speaker Deck Technology",
-      "category": "slides",
-      "publishedAt": "2026-10-09T01:03:02.000Z",
-      "relevance": 40,
-      "importance": 30,
-      "score": 38,
-      "reason": "「整理することに疲れている」状況に対し、10億超のデータを「AI Ready」に整えるための基盤設計の話は、整理の負荷やその自動化・効率化のヒントになる。"
+      "title": "寄りの巻き戻しと、横に並べている14本の参考記録を図で整理した（振り返り第6回）",
+      "url": "https://zenn.dev/denny/articles/open-revert-reference-records",
+      "sourceId": "zenn-dev",
+      "sourceName": "Zenn",
+      "category": "community",
+      "publishedAt": "2026-10-10T00:00:16.000Z",
+      "relevance": 45,
+      "importance": 15,
+      "score": 39,
+      "reason": "「図で整理した」という内容が、整理行為やその疲れに関する関心と間接的に繋がるため。"
     },
     {
       "title": "内藤廣手帳1985-2025",
