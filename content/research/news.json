@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T21:04:54.049Z",
+  "generatedAt": "2026-10-11T21:04:00.823Z",
   "question": "整理することに疲れている",
   "windowDays": 7,
   "items": [
@@ -28,6 +28,18 @@
       "reason": "メモにある「整理・効率化の段階を終えて手を動かして何かを作るフェーズに入る」という意識と強く一致するため。"
     },
     {
+      "title": "抽象的なことを考える時、無意識に具体化しないためのメモ",
+      "url": "https://qiita.com/J-T_ky2g/items/36aaf36d9eef97672c3d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "sourceId": "qiita-com-popular-items",
+      "sourceName": "Qiita",
+      "category": "community",
+      "publishedAt": "2026-10-10T20:02:27.000Z",
+      "relevance": 70,
+      "importance": 50,
+      "score": 66,
+      "reason": "思考の整理やメモに対する具体的な姿勢に関する記事であり、「整理することに疲れている」「メモを整えるフェーズは終わり」という思考・関心に直接繋がるため。"
+    },
+    {
       "title": "Rally Up: ‘Gears of War: E-Day’ Launches on GeForce NOW",
       "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-gears-of-war-e-day/",
       "sourceId": "blogs-nvidia-com",
@@ -52,6 +64,18 @@
       "reason": "「整理することに疲れている」という問いに対し、古いものに囲まれながら気楽に一人暮らしを続けていくライフスタイルが、肩の力を抜くヒントになります。"
     },
     {
+      "title": "トラックゲームに普通車が登場！『American Truck Simulator』が示す“ただ走る”ゲームの魅力",
+      "url": "https://realsound.jp/tech/2026/10/post-2549453.html",
+      "sourceId": "realsound-jp-tech",
+      "sourceName": "リアルサウンド",
+      "category": "discovered",
+      "publishedAt": "2026-10-11T18:00:29.000Z",
+      "relevance": 65,
+      "importance": 40,
+      "score": 60,
+      "reason": "「シンプルにゲームがしたい」というメモの要望に対し、目的や整理に追われず“ただ走る”というシンプリシティを楽しむゲームの魅力について取り上げているため。"
+    },
+    {
       "title": "少しずつ、いつのまにか、けれど確かな変化／身体を動かして、会いに行く",
       "url": "https://meandyou.net/202610-newsletter/",
       "sourceId": "meandyou-net",
@@ -64,16 +88,16 @@
       "reason": "「身体を動かして」という表現が、整理を終えて手を動かすフェーズに入るという本人のメモや、読みたい本『現れる存在』の脳と身体のテーマに重なります。"
     },
     {
-      "title": "暗黙知はAIに「移植」できるのか？人間とAIが共に熟達する「共進化的共同実践」とは",
-      "url": "https://research.smeai.org/tacit-knowledge-ai-co-evolution/",
-      "sourceId": "research-smeai-org",
-      "sourceName": "中小企業AI活用協会研究サイト",
-      "category": "discovered",
-      "publishedAt": "2026-10-03T21:23:08.000Z",
-      "relevance": 55,
-      "importance": 65,
-      "score": 57,
-      "reason": "人間とAIの共同実践というテーマが、読書予定の『現れる存在』における身体と世界の再統合や、手を動かして作るフェーズへの移行という関心に繋がります。"
+      "title": "I'm sorry, but you still have to think",
+      "url": "https://itsallaboutthebit.com/i-am-sorry-but-you-still-have-to-think/",
+      "sourceId": "hnrss-org-frontpage",
+      "sourceName": "Hacker News",
+      "category": "developer",
+      "publishedAt": "2026-10-11T14:29:07.000Z",
+      "relevance": 60,
+      "importance": 50,
+      "score": 58,
+      "reason": "整理やAIによる自動化に頼り切る姿勢から「自分で考える」ことへ立ち返るテーマであり、思考やメモの整理に疲れて「手を動かす」段階へ移行しようとする意識と重なるため。"
     },
     {
       "title": "ブライアントとラトゥールの「翻訳」概念を比較｜対象指向存在論とアクター・ネットワーク理論はどうつながるか",
@@ -112,28 +136,16 @@
       "reason": "読もうとしている本『現れる存在』は認知科学や身体性を扱っており、UIにおけるアフォーダンスの議論はそのテーマと深く繋がります。"
     },
     {
-      "title": "From Developer to Builder: A Spec-Driven Development Deep Dive",
-      "url": "https://speakerdeck.com/simas/from-developer-to-builder-a-spec-driven-development-deep-dive",
-      "sourceId": "speakerdeck-com-c-programming",
-      "sourceName": "Speaker Deck Programming",
-      "category": "slides",
-      "publishedAt": "2026-10-08T08:12:50.000Z",
-      "relevance": 60,
-      "importance": 25,
-      "score": 53,
-      "reason": "「手を動かして何かを作る」というメモに対し、仕様駆動開発（Spec-Driven）で開発者からビルダーへと進むアプローチが参考になります。"
-    },
-    {
-      "title": "【2026年9月刊】経済安全保障論、壊れる核抑止、闇の広告史、解築学……デサイロが注目したい人文・社会科学の新刊38冊",
-      "url": "https://desilo.substack.com/p/book-list-2026-9",
-      "sourceId": "desilo-substack-com",
-      "sourceName": "De-Silo",
-      "category": "discovered",
-      "publishedAt": "2026-10-04T08:03:04.000Z",
+      "title": "Chapter 1 of Ways of Seeing by John Berger",
+      "url": "https://www.ways-of-seeing.com/ch1",
+      "sourceId": "hnrss-org-frontpage",
+      "sourceName": "Hacker News",
+      "category": "developer",
+      "publishedAt": "2026-10-11T18:26:24.000Z",
       "relevance": 50,
       "importance": 60,
       "score": 52,
-      "reason": "読もうとしている本が人文・社会科学系であるため、デサイロが注目する人文・社会科学の新刊紹介は読書傾向に合致する。"
+      "reason": "視覚論や認識論の名著『Ways of Seeing』に関するテキストであり、読もうとしている本（中平卓馬映像論集など）の「見ること・映像・認識」という主題に深く関係するため。"
     },
     {
       "title": "私たちに足りないのは「ひとり時間」だった！ 『最先端の科学が教える ひとり時間のすごい力』ロバート・コプラン 訳者による著者インタビューを特別公開！",
@@ -148,6 +160,30 @@
       "reason": "「ひとり時間」のテーマは、整理に疲れてシンプルにゲームをしたい、あるいは「分人」や「個人」を問い直す読書傾向と親和性があります。"
     },
     {
+      "title": "Playgrnd – tiny tools for making weird, beautiful things",
+      "url": "https://www.playgrnd.tools/",
+      "sourceId": "hnrss-org-frontpage",
+      "sourceName": "Hacker News",
+      "category": "developer",
+      "publishedAt": "2026-10-11T16:31:37.000Z",
+      "relevance": 50,
+      "importance": 40,
+      "score": 48,
+      "reason": "「手を動かして何かを作るフェーズ」というメモの意識と親和性があり、奇妙で美しいものを作るための小さなツール群という提案が何かを作る意欲を刺激するため。"
+    },
+    {
+      "title": "THE MENTAL IMAGE by Stephen Shore (スティーブン・ショア) 写真集",
+      "url": "https://store.tsite.jp/item-detail/art/56502.html",
+      "sourceId": "store-tsite-jp",
+      "sourceName": "蔦屋書店オンラインストア新商品",
+      "category": "discovered",
+      "publishedAt": "2026-10-10T15:00:00.000Z",
+      "relevance": 45,
+      "importance": 40,
+      "score": 44,
+      "reason": "写真論の本を読もうとしている関心や、言葉で整理する世界からイメージの世界へ関心を移す思考と関連する。"
+    },
+    {
       "title": "最近”作らせてる” ローカルAIアプリの話",
       "url": "https://speakerdeck.com/akit37/saikin-tsukurase-teru-rokaru-ai-no-hanashi",
       "sourceId": "speakerdeck-com-c-programming",
@@ -160,40 +196,40 @@
       "reason": "「手を動かして何かを作るフェーズに入る」というメモと「作らせてる（作る）」という実践が関連するため。"
     },
     {
-      "title": "原ちけい｜まなざしの奇跡 日本女性写真家の冒険",
-      "url": "https://artscape.jp/article/79676/",
-      "sourceId": "artscape-jp",
-      "sourceName": "artscape",
+      "title": "ゆれる水脈 写真 表象のさきに 中井菜央 写真集",
+      "url": "https://store.tsite.jp/item-detail/humanities/56492.html",
+      "sourceId": "store-tsite-jp",
+      "sourceName": "蔦屋書店オンラインストア新商品",
       "category": "discovered",
-      "publishedAt": "2026-10-09T02:00:51.000Z",
+      "publishedAt": "2026-10-10T15:00:00.000Z",
       "relevance": 45,
-      "importance": 30,
-      "score": 42,
-      "reason": "「まなざし」というテーマが、読もうとしている本『なぜ、植物図鑑か――中平卓馬映像論集』の映像論や写真論の関心とつながります。"
+      "importance": 35,
+      "score": 43,
+      "reason": "『なぜ、植物図鑑か』など写真や表象に関わる読書体験や整理からの脱却という関心と繋がる。"
     },
     {
-      "title": "飯沢耕太郎｜写真遊歩14──眼から眼へ（2026年7月〜2026年9月）",
-      "url": "https://artscape.jp/article/79402/",
-      "sourceId": "artscape-jp",
-      "sourceName": "artscape",
+      "title": "少数株ドットコム・山中裕が読み解くクラリベイト引用栄誉賞【経済学】サミュエル・ボウルズ――制度と人間の協力の「共進化」を描いた経済学者",
+      "url": "https://prtimes.jp/main/html/rd/p/000000584.000158730.html",
+      "sourceId": "prtimes-jp-index-rdf",
+      "sourceName": "PR TIMES",
       "category": "discovered",
-      "publishedAt": "2026-10-07T02:00:00.000Z",
-      "relevance": 45,
-      "importance": 30,
-      "score": 42,
-      "reason": "「眼から眼へ」という写真遊歩のテーマが、読もうとしている本『なぜ、植物図鑑か――中平卓馬映像論集』の視覚や映像への関心とつながります。"
-    },
-    {
-      "title": "Agent-Controlled Forgetting for Tool-Using Agents: Reversible Context Curation in Practice",
-      "url": "https://arxiv.org/abs/2610.10590",
-      "sourceId": "rss-arxiv-org-rss-cs-ai",
-      "sourceName": "arXiv cs.AI",
-      "category": "research",
-      "publishedAt": "2026-10-10T04:00:00.000Z",
+      "publishedAt": "2026-10-11T20:10:02.000Z",
       "relevance": 40,
-      "importance": 45,
-      "score": 41,
-      "reason": "「整理することに疲れている」という状態に対し、不要な情報を「忘却」し整理を自動化する技術の視点を提供します。"
+      "importance": 50,
+      "score": 42,
+      "reason": "制度と人間の協力を扱う経済学者の解説であり、読もうとしている本（『私とは何か』『動きすぎてはいけない』等）が扱う人間観や主体・関係性のテーマと背景で繋がるため。"
+    },
+    {
+      "title": "AIがコードを書く時代に、エンジニアは何で自分の価値を証明するのか / In an era where AI writes code how do engineers prove their value",
+      "url": "https://speakerdeck.com/carta_engineering/in-an-era-where-ai-writes-code-how-do-engineers-prove-their-value",
+      "sourceId": "speakerdeck-com-c-technology",
+      "sourceName": "Speaker Deck Technology",
+      "category": "slides",
+      "publishedAt": "2026-10-11T02:05:30.000Z",
+      "relevance": 40,
+      "importance": 50,
+      "score": 42,
+      "reason": "整理やツールの枠組みを超えて「手を動かして価値を生み出す・作る」フェーズに入るという本人の意思と、AI時代における人間の作る価値というテーマが一致するため。"
     },
     {
       "title": "高輪築堤の歴史と技術をたどる「THE FIRST RAILWAY」展。点群データと出土品で日本初の鉄道を読み解く",
@@ -230,30 +266,6 @@
       "importance": 40,
       "score": 40,
       "reason": "整理に疲れ、日々の生活をどうサバイブするかという問いは、読もうとしている「分人」やドゥルーズなどの思想的な関心と繋がります。"
-    },
-    {
-      "title": "寄りの巻き戻しと、横に並べている14本の参考記録を図で整理した（振り返り第6回）",
-      "url": "https://zenn.dev/denny/articles/open-revert-reference-records",
-      "sourceId": "zenn-dev",
-      "sourceName": "Zenn",
-      "category": "community",
-      "publishedAt": "2026-10-10T00:00:16.000Z",
-      "relevance": 45,
-      "importance": 15,
-      "score": 39,
-      "reason": "「図で整理した」という内容が、整理行為やその疲れに関する関心と間接的に繋がるため。"
-    },
-    {
-      "title": "内藤廣手帳1985-2025",
-      "url": "https://store.tsite.jp/item-detail/architectural-design/56489.html",
-      "sourceId": "store-tsite-jp",
-      "sourceName": "蔦屋書店オンラインストア新商品",
-      "category": "discovered",
-      "publishedAt": "2026-10-08T15:00:00.000Z",
-      "relevance": 40,
-      "importance": 30,
-      "score": 38,
-      "reason": "「手帳」という整理・記録のツールは、整理することに疲れている本人の状況や、メモの整理段階を終えたいという意識に関連します。"
     }
   ]
 }
