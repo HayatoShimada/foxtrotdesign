@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T21:04:00.823Z",
+  "generatedAt": "2026-10-13T21:02:03.712Z",
   "question": "整理することに疲れている",
   "windowDays": 7,
   "items": [
@@ -16,16 +16,16 @@
       "reason": "「シンプルにゲームがしたい」「手を動かして何かを作るフェーズに入る」というメモに、カスタムゲームを作って遊べるPlaygroundの登場が合致する。"
     },
     {
-      "title": "AIで浮いた時間を「もっと作る」に使っていませんか",
-      "url": "https://zenn.dev/idealog/articles/a3e9cf4299b1cf",
-      "sourceId": "zenn-dev",
-      "sourceName": "Zenn",
-      "category": "community",
-      "publishedAt": "2026-10-09T10:40:07.000Z",
+      "title": "身体は何を知っているのか－－『Body of Wisdom』刊行のお知らせ",
+      "url": "http://embodiedapproachj.blogspot.com/2026/10/body-of-wisdom.html",
+      "sourceId": "embodiedapproachj-blogspot-com-feeds-posts-default",
+      "sourceName": "田中彰吾の哲学＆心理学研究室",
+      "category": "discovered",
+      "publishedAt": "2026-10-11T22:28:11.683Z",
       "relevance": 85,
-      "importance": 40,
-      "score": 76,
-      "reason": "メモにある「整理・効率化の段階を終えて手を動かして何かを作るフェーズに入る」という意識と強く一致するため。"
+      "importance": 50,
+      "score": 78,
+      "reason": "読もうとしている本『現れる存在――脳と身体と世界の再統合』と直接交差する、哲学・心理学視点での身体論を扱っているため。"
     },
     {
       "title": "抽象的なことを考える時、無意識に具体化しないためのメモ",
@@ -38,6 +38,18 @@
       "importance": 50,
       "score": 66,
       "reason": "思考の整理やメモに対する具体的な姿勢に関する記事であり、「整理することに疲れている」「メモを整えるフェーズは終わり」という思考・関心に直接繋がるため。"
+    },
+    {
+      "title": "ミシェル・セールの「翻訳」概念とは？ラトゥール『存在様式探求』までの系譜をわかりやすく解説",
+      "url": "https://research.smeai.org/michel-serres-translation-latour-modes-of-existence/",
+      "sourceId": "research-smeai-org",
+      "sourceName": "中小企業AI活用協会研究サイト",
+      "category": "discovered",
+      "publishedAt": "2026-10-13T20:53:29.000Z",
+      "relevance": 70,
+      "importance": 40,
+      "score": 64,
+      "reason": "読もうとしているドゥルーズ等の現代思想・哲学の関心領域と、ミシェル・セールやラトゥールの概念解説が合致するため。"
     },
     {
       "title": "Rally Up: ‘Gears of War: E-Day’ Launches on GeForce NOW",
@@ -64,16 +76,16 @@
       "reason": "「整理することに疲れている」という問いに対し、古いものに囲まれながら気楽に一人暮らしを続けていくライフスタイルが、肩の力を抜くヒントになります。"
     },
     {
-      "title": "トラックゲームに普通車が登場！『American Truck Simulator』が示す“ただ走る”ゲームの魅力",
-      "url": "https://realsound.jp/tech/2026/10/post-2549453.html",
-      "sourceId": "realsound-jp-tech",
-      "sourceName": "リアルサウンド",
+      "title": "塚田優｜移動撮影が浮かび上らせる身体──特集上映「Fire in Water 永田康祐映像作品集」（前編）",
+      "url": "https://artscape.jp/article/79728/",
+      "sourceId": "artscape-jp",
+      "sourceName": "artscape",
       "category": "discovered",
-      "publishedAt": "2026-10-11T18:00:29.000Z",
+      "publishedAt": "2026-10-13T02:00:58.000Z",
       "relevance": 65,
       "importance": 40,
       "score": 60,
-      "reason": "「シンプルにゲームがしたい」というメモの要望に対し、目的や整理に追われず“ただ走る”というシンプリシティを楽しむゲームの魅力について取り上げているため。"
+      "reason": "読もうとしている『なぜ、植物図鑑か』等の映像論や、『現れる存在』の身体論の関心に「移動撮影と身体」というテーマが繋がるため。"
     },
     {
       "title": "少しずつ、いつのまにか、けれど確かな変化／身体を動かして、会いに行く",
@@ -86,18 +98,6 @@
       "importance": 40,
       "score": 60,
       "reason": "「身体を動かして」という表現が、整理を終えて手を動かすフェーズに入るという本人のメモや、読みたい本『現れる存在』の脳と身体のテーマに重なります。"
-    },
-    {
-      "title": "I'm sorry, but you still have to think",
-      "url": "https://itsallaboutthebit.com/i-am-sorry-but-you-still-have-to-think/",
-      "sourceId": "hnrss-org-frontpage",
-      "sourceName": "Hacker News",
-      "category": "developer",
-      "publishedAt": "2026-10-11T14:29:07.000Z",
-      "relevance": 60,
-      "importance": 50,
-      "score": 58,
-      "reason": "整理やAIによる自動化に頼り切る姿勢から「自分で考える」ことへ立ち返るテーマであり、思考やメモの整理に疲れて「手を動かす」段階へ移行しようとする意識と重なるため。"
     },
     {
       "title": "ブライアントとラトゥールの「翻訳」概念を比較｜対象指向存在論とアクター・ネットワーク理論はどうつながるか",
@@ -136,18 +136,6 @@
       "reason": "読もうとしている本『現れる存在』は認知科学や身体性を扱っており、UIにおけるアフォーダンスの議論はそのテーマと深く繋がります。"
     },
     {
-      "title": "Chapter 1 of Ways of Seeing by John Berger",
-      "url": "https://www.ways-of-seeing.com/ch1",
-      "sourceId": "hnrss-org-frontpage",
-      "sourceName": "Hacker News",
-      "category": "developer",
-      "publishedAt": "2026-10-11T18:26:24.000Z",
-      "relevance": 50,
-      "importance": 60,
-      "score": 52,
-      "reason": "視覚論や認識論の名著『Ways of Seeing』に関するテキストであり、読もうとしている本（中平卓馬映像論集など）の「見ること・映像・認識」という主題に深く関係するため。"
-    },
-    {
       "title": "私たちに足りないのは「ひとり時間」だった！ 『最先端の科学が教える ひとり時間のすごい力』ロバート・コプラン 訳者による著者インタビューを特別公開！",
       "url": "https://web.kawade.co.jp/column/264412/",
       "sourceId": "web-kawade-co-jp",
@@ -160,76 +148,52 @@
       "reason": "「ひとり時間」のテーマは、整理に疲れてシンプルにゲームをしたい、あるいは「分人」や「個人」を問い直す読書傾向と親和性があります。"
     },
     {
-      "title": "Playgrnd – tiny tools for making weird, beautiful things",
-      "url": "https://www.playgrnd.tools/",
-      "sourceId": "hnrss-org-frontpage",
-      "sourceName": "Hacker News",
-      "category": "developer",
-      "publishedAt": "2026-10-11T16:31:37.000Z",
-      "relevance": 50,
-      "importance": 40,
-      "score": 48,
-      "reason": "「手を動かして何かを作るフェーズ」というメモの意識と親和性があり、奇妙で美しいものを作るための小さなツール群という提案が何かを作る意欲を刺激するため。"
-    },
-    {
-      "title": "THE MENTAL IMAGE by Stephen Shore (スティーブン・ショア) 写真集",
-      "url": "https://store.tsite.jp/item-detail/art/56502.html",
-      "sourceId": "store-tsite-jp",
-      "sourceName": "蔦屋書店オンラインストア新商品",
+      "title": "[Vol.1]「捨てる前提」を変えるものづくり│「森になる建築」山崎篤史さんと考える、循環する建築と社会インフラのつくりかた",
+      "url": "https://linkingsociety.hitachi.co.jp/_ct/17867799",
+      "sourceId": "linkingsociety-hitachi-co-jp-rss-rss20",
+      "sourceName": "Linking Society",
       "category": "discovered",
-      "publishedAt": "2026-10-10T15:00:00.000Z",
+      "publishedAt": "2026-10-13T02:00:00.000Z",
       "relevance": 45,
-      "importance": 40,
-      "score": 44,
-      "reason": "写真論の本を読もうとしている関心や、言葉で整理する世界からイメージの世界へ関心を移す思考と関連する。"
+      "importance": 50,
+      "score": 46,
+      "reason": "「捨てる前提を変えるものづくり」というテーマが、整理を終えて何かを作るフェーズに移りたいというメモの関心と通じるため。"
     },
     {
-      "title": "最近”作らせてる” ローカルAIアプリの話",
-      "url": "https://speakerdeck.com/akit37/saikin-tsukurase-teru-rokaru-ai-no-hanashi",
-      "sourceId": "speakerdeck-com-c-programming",
-      "sourceName": "Speaker Deck Programming",
-      "category": "slides",
-      "publishedAt": "2026-10-09T06:13:32.000Z",
-      "relevance": 50,
-      "importance": 20,
-      "score": 44,
-      "reason": "「手を動かして何かを作るフェーズに入る」というメモと「作らせてる（作る）」という実践が関連するため。"
-    },
-    {
-      "title": "ゆれる水脈 写真 表象のさきに 中井菜央 写真集",
-      "url": "https://store.tsite.jp/item-detail/humanities/56492.html",
-      "sourceId": "store-tsite-jp",
-      "sourceName": "蔦屋書店オンラインストア新商品",
-      "category": "discovered",
-      "publishedAt": "2026-10-10T15:00:00.000Z",
+      "title": "個人開発アプリを公開して2か月。100DLまでにやったこと、分かったこと",
+      "url": "https://qiita.com/ys05181406/items/14b41ca99c3ae857f2d0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "sourceId": "qiita-com-popular-items",
+      "sourceName": "Qiita",
+      "category": "community",
+      "publishedAt": "2026-10-11T04:10:09.000Z",
       "relevance": 45,
-      "importance": 35,
-      "score": 43,
-      "reason": "『なぜ、植物図鑑か』など写真や表象に関わる読書体験や整理からの脱却という関心と繋がる。"
+      "importance": 30,
+      "score": 42,
+      "reason": "整える段階を終えて実際に手を動かしてアプリを開発・公開した結果と実践の記録であり、作るフェーズの参考になる。"
     },
     {
-      "title": "少数株ドットコム・山中裕が読み解くクラリベイト引用栄誉賞【経済学】サミュエル・ボウルズ――制度と人間の協力の「共進化」を描いた経済学者",
-      "url": "https://prtimes.jp/main/html/rd/p/000000584.000158730.html",
-      "sourceId": "prtimes-jp-index-rdf",
-      "sourceName": "PR TIMES",
+      "title": "原ちけい｜まなざしの奇跡 日本女性写真家の冒険",
+      "url": "https://artscape.jp/article/79676/",
+      "sourceId": "artscape-jp",
+      "sourceName": "artscape",
       "category": "discovered",
-      "publishedAt": "2026-10-11T20:10:02.000Z",
-      "relevance": 40,
-      "importance": 50,
+      "publishedAt": "2026-10-09T02:00:51.000Z",
+      "relevance": 45,
+      "importance": 30,
       "score": 42,
-      "reason": "制度と人間の協力を扱う経済学者の解説であり、読もうとしている本（『私とは何か』『動きすぎてはいけない』等）が扱う人間観や主体・関係性のテーマと背景で繋がるため。"
+      "reason": "「まなざし」というテーマが、読もうとしている本『なぜ、植物図鑑か――中平卓馬映像論集』の映像論や写真論の関心とつながります。"
     },
     {
-      "title": "AIがコードを書く時代に、エンジニアは何で自分の価値を証明するのか / In an era where AI writes code how do engineers prove their value",
-      "url": "https://speakerdeck.com/carta_engineering/in-an-era-where-ai-writes-code-how-do-engineers-prove-their-value",
-      "sourceId": "speakerdeck-com-c-technology",
-      "sourceName": "Speaker Deck Technology",
-      "category": "slides",
-      "publishedAt": "2026-10-11T02:05:30.000Z",
-      "relevance": 40,
-      "importance": 50,
+      "title": "飯沢耕太郎｜写真遊歩14──眼から眼へ（2026年7月〜2026年9月）",
+      "url": "https://artscape.jp/article/79402/",
+      "sourceId": "artscape-jp",
+      "sourceName": "artscape",
+      "category": "discovered",
+      "publishedAt": "2026-10-07T02:00:00.000Z",
+      "relevance": 45,
+      "importance": 30,
       "score": 42,
-      "reason": "整理やツールの枠組みを超えて「手を動かして価値を生み出す・作る」フェーズに入るという本人の意思と、AI時代における人間の作る価値というテーマが一致するため。"
+      "reason": "「眼から眼へ」という写真遊歩のテーマが、読もうとしている本『なぜ、植物図鑑か――中平卓馬映像論集』の視覚や映像への関心とつながります。"
     },
     {
       "title": "高輪築堤の歴史と技術をたどる「THE FIRST RAILWAY」展。点群データと出土品で日本初の鉄道を読み解く",
@@ -244,18 +208,6 @@
       "reason": "「なぜ、植物図鑑か」などの読書傾向に対し、出土品や点群データという即物的な記録から歴史を再構成する展示内容は関心に近いです。"
     },
     {
-      "title": "[2026-10-09]一枚の布で作らなくてもいい。 信頼性は「パッチワーク」で紡がれる～既存の運用と新しい可能性をつなぎ合わせてきたCREの話～",
-      "url": "https://speakerdeck.com/tosite/2026-10-09-ichimai-no-nuno-de-tsukuranaku-temo-ii-shinraisei-ha-pacchiwaku-de-tsumugareru-kison-no-unyou-to-atarashii-kanousei-o-tsunagi-awase-te-kita-cre-no-hanashi",
-      "sourceId": "speakerdeck-com-c-programming",
-      "sourceName": "Speaker Deck Programming",
-      "category": "slides",
-      "publishedAt": "2026-10-09T10:37:51.000Z",
-      "relevance": 45,
-      "importance": 20,
-      "score": 40,
-      "reason": "「整理することに疲れている」人に対し、一枚の布で完璧に整えるのではなく「パッチワーク」のように既存の運用を繋ぎ合わせるという思想は、整理の疲れを和らげる。"
-    },
-    {
       "title": "小沼理×上坂あゆ美 絶望に打ちのめされず、日々をサバイブするために",
       "url": "https://meandyou.net/202610-onumauesaka/",
       "sourceId": "meandyou-net",
@@ -266,6 +218,18 @@
       "importance": 40,
       "score": 40,
       "reason": "整理に疲れ、日々の生活をどうサバイブするかという問いは、読もうとしている「分人」やドゥルーズなどの思想的な関心と繋がります。"
+    },
+    {
+      "title": "服部浩之｜「森は美術館」から、「共有地としての森」へ",
+      "url": "https://artscape.jp/article/79582/",
+      "sourceId": "artscape-jp",
+      "sourceName": "artscape",
+      "category": "discovered",
+      "publishedAt": "2026-10-13T02:00:57.000Z",
+      "relevance": 40,
+      "importance": 30,
+      "score": 38,
+      "reason": "読もうとしているドゥルーズの哲学における生成変化や共有地・環境といった関心テーマと緩やかにつながるため。"
     }
   ]
 }
