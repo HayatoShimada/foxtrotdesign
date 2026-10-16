@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T21:03:00.845Z",
+  "generatedAt": "2026-10-16T21:02:00.925Z",
   "question": "整理することに疲れている",
   "windowDays": 7,
   "items": [
@@ -16,16 +16,16 @@
       "reason": "読もうとしている本『現れる存在――脳と身体と世界の再統合』と直接交差する、哲学・心理学視点での身体論を扱っているため。"
     },
     {
-      "title": "10年後、Engineering 行為を剥奪されるとして、わたしたちは、どう、何を創ればいいだろうか。 / If Engineering Is Taken Away in 10 Years, How and What Should We Create?",
-      "url": "https://speakerdeck.com/bitkey/if-engineering-is-taken-away-in-10-years-how-and-what-should-we-create",
+      "title": "スプシの手作業からの解脱 ~更新はClaude Codeに、見せ方と使い方はGASアプリに任せる~",
+      "url": "https://speakerdeck.com/kentarofujii/kentaro-fujii-claude-spreadsheet",
       "sourceId": "speakerdeck-com-c-technology",
       "sourceName": "Speaker Deck Technology",
       "category": "slides",
-      "publishedAt": "2026-10-15T09:15:41.000Z",
-      "relevance": 70,
-      "importance": 40,
-      "score": 64,
-      "reason": "準備や自動化に依存せず自分自身で何を創るかという問いは、手を動かして何かを作るフェーズの思考と直接繋がります。"
+      "publishedAt": "2026-10-16T11:00:08.000Z",
+      "relevance": 75,
+      "importance": 55,
+      "score": 71,
+      "reason": "スプシによる手作業の整理から解放され自動化へ移行する内容は、「整理することに疲れた」という課題や次のフェーズへの移行と直接重なる。"
     },
     {
       "title": "ミシェル・セールの「翻訳」概念とは？ラトゥール『存在様式探求』までの系譜をわかりやすく解説",
@@ -40,28 +40,16 @@
       "reason": "読もうとしているドゥルーズ等の現代思想・哲学の関心領域と、ミシェル・セールやラトゥールの概念解説が合致するため。"
     },
     {
-      "title": "個人開発で月17万稼いでみたので生々しいスクショとともに振り返る",
-      "url": "https://qiita.com/fuga-if/items/9fed3e53191b2b2604a5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "sourceId": "qiita-com-popular-items",
-      "sourceName": "Qiita",
-      "category": "community",
-      "publishedAt": "2026-10-13T19:41:55.000Z",
-      "relevance": 65,
-      "importance": 55,
-      "score": 63,
-      "reason": "整理を終えて手を動かして何かを作るフェーズに入りたいというメモの意向と、実際に個人開発でモノづくりを行った実践録が強く合致するため。"
-    },
-    {
-      "title": "少しずつ、いつのまにか、けれど確かな変化／身体を動かして、会いに行く",
-      "url": "https://meandyou.net/202610-newsletter/",
-      "sourceId": "meandyou-net",
-      "sourceName": "me and you little magazine & club",
+      "title": "塚田優｜移動撮影が浮かび上らせる身体──特集上映「Fire in Water 永田康祐映像作品集」（前編）",
+      "url": "https://artscape.jp/article/79728/",
+      "sourceId": "artscape-jp",
+      "sourceName": "artscape",
       "category": "discovered",
-      "publishedAt": "2026-10-09T08:26:33.000Z",
+      "publishedAt": "2026-10-13T02:00:58.000Z",
       "relevance": 65,
       "importance": 40,
       "score": 60,
-      "reason": "「身体を動かして」という表現が、整理を終えて手を動かすフェーズに入るという本人のメモや、読みたい本『現れる存在』の脳と身体のテーマに重なります。"
+      "reason": "読もうとしている『なぜ、植物図鑑か』等の映像論や、『現れる存在』の身体論の関心に「移動撮影と身体」というテーマが繋がるため。"
     },
     {
       "title": "ANTとOOOを統合する研究方法「トレース／退隠二重記述法」とは？デザイン研究・アート実践への応用ガイド",
@@ -76,88 +64,40 @@
       "reason": "OOO（オブジェクト指向本体論）など、読もうとしている『現れる存在』やドゥルーズ哲学などの存在論的関心と強く繋がる。"
     },
     {
-      "title": "Olá Zora! (ou como enfrento o caos, e o TDAH, diariamente)",
-      "url": "https://speakerdeck.com/ericof/ola-zora-ou-como-enfrento-o-caos-e-o-tdah-diariamente",
-      "sourceId": "speakerdeck-com-c-technology",
-      "sourceName": "Speaker Deck Technology",
-      "category": "slides",
-      "publishedAt": "2026-10-15T19:19:33.000Z",
-      "relevance": 65,
-      "importance": 30,
-      "score": 58,
-      "reason": "カオスやADHDに向き合う実践は、整理疲れやタスク管理の過剰から抜け出したい問いに通じます。"
-    },
-    {
-      "title": "Why are we even doing all this?",
-      "url": "https://terrytao.wordpress.com/2026/10/15/why-are-we-even-doing-all-this/",
-      "sourceId": "hnrss-org-frontpage",
-      "sourceName": "Hacker News",
-      "category": "developer",
-      "publishedAt": "2026-10-15T20:22:50.000Z",
-      "relevance": 55,
-      "importance": 50,
-      "score": 54,
-      "reason": "「なぜこんな事をしているのか」という根本的な問い掛けは、整理に疲れた思考状態や「私とは何か」といった思索的な読書テーマと深く響き合うため。"
-    },
-    {
-      "title": "AI時代に、あえてHTTPサーバー自作している話",
-      "url": "https://speakerdeck.com/akinko_0915/ai-jidai-ni-aete-http-saba-jisaku-shi-te-iru-hanashi",
-      "sourceId": "speakerdeck-com-c-programming",
-      "sourceName": "Speaker Deck Programming",
-      "category": "slides",
-      "publishedAt": "2026-10-15T09:19:48.000Z",
-      "relevance": 60,
-      "importance": 30,
-      "score": 54,
-      "reason": "便利さや効率化ではなく「あえて自作する」姿勢は、整理をやめて手を動かし作るフェーズに入る欲求と一致します。"
-    },
-    {
-      "title": "フーコーを追いかけて／つかまえて ーー重田園江『ミシェル・フーコー』より",
-      "url": "https://www.webchikuma.com/n/n3bfe38591350",
-      "sourceId": "webchikuma-com",
-      "sourceName": "webちくま（筑摩書房の読みものサイト）",
-      "category": "discovered",
-      "publishedAt": "2026-10-09T00:30:00.000Z",
-      "relevance": 55,
-      "importance": 50,
-      "score": 54,
-      "reason": "現代思想（フーコー）の話題であり、読もうとしている本『動きすぎてはいけない――ジル・ドゥルーズと生成変化の哲学』などの哲学的な関心と強く響き合います。"
-    },
-    {
       "title": "Context Engineering with Deep Agents: How To Remember Without Keeping Everything In Context",
       "url": "https://www.langchain.com/blog/context-engineering-deep-agents-remember",
       "sourceId": "blog-langchain-com",
       "sourceName": "LangChain",
       "category": "developer",
-      "publishedAt": "2026-10-14T17:39:26.000Z",
+      "publishedAt": "2026-10-15T09:18:55.000Z",
       "relevance": 50,
       "importance": 55,
       "score": 51,
       "reason": "全てをコンテキストに保持せず記憶する技術であり、整理することに疲れて手を動かす段階に入りたいという問いに繋がります。"
     },
     {
-      "title": "私たちに足りないのは「ひとり時間」だった！ 『最新科学が証明する ひとり時間のすごい力』ロバート・コプラン 訳者による著者インタビューを特別公開！",
-      "url": "https://web.kawade.co.jp/column/264412/",
-      "sourceId": "web-kawade-co-jp",
-      "sourceName": "Web河出",
-      "category": "discovered",
-      "publishedAt": "2026-10-09T10:00:00.000Z",
-      "relevance": 50,
-      "importance": 45,
-      "score": 49,
-      "reason": "「ひとり時間」のテーマは、整理に疲れてシンプルにゲームをしたい、あるいは「分人」や「個人」を問い直す読書傾向と親和性があります。"
+      "title": "When Reality Outpaces Cognition: A New Scaling Principle for Reliable Intelligence",
+      "url": "https://arxiv.org/abs/2610.20764",
+      "sourceId": "rss-arxiv-org-rss-cs-ai",
+      "sourceName": "arXiv cs.AI",
+      "category": "research",
+      "publishedAt": "2026-10-16T04:00:00.000Z",
+      "relevance": 45,
+      "importance": 60,
+      "score": 48,
+      "reason": "現実が認知を超過するという議論は、関心本『現れる存在――脳と身体と世界の再統合』の身体・世界理解に通じるテーマ。"
     },
     {
-      "title": "アウトプット初心者、半年間のふりかえり",
-      "url": "https://speakerdeck.com/4o1sobblue/autoputto-shoshinsha-hantoshikan-no-furikaeri",
-      "sourceId": "speakerdeck-com-c-technology",
-      "sourceName": "Speaker Deck Technology",
+      "title": "コーディング自動化の次へ。人の介入をゼロにするファクトリーとサポートAIによる実践",
+      "url": "https://speakerdeck.com/timakin/kodingu-jidouka-no-tsugi-he-hito-no-kainyuu-o-zero-ni-suru-to-sapoto-ai-niyoru-jissen",
+      "sourceId": "speakerdeck-com-c-programming",
+      "sourceName": "Speaker Deck Programming",
       "category": "slides",
-      "publishedAt": "2026-10-15T11:22:12.000Z",
-      "relevance": 55,
-      "importance": 20,
-      "score": 48,
-      "reason": "整理や準備の段階を終えて、実際のアウトプットや手を動かすフェーズへと向かう姿勢と重なります。"
+      "publishedAt": "2026-10-15T21:25:30.000Z",
+      "relevance": 45,
+      "importance": 50,
+      "score": 46,
+      "reason": "人の介在を省き自動構築へ進むアプローチは、整理作業を終えて作るフェーズへ進む意識に繋がる。"
     },
     {
       "title": "自分を愛する以前に、ただ生きるために／絶対に終電を逃さない女",
@@ -184,6 +124,18 @@
       "reason": "「捨てる前提を変えるものづくり」というテーマが、整理を終えて何かを作るフェーズに移りたいというメモの関心と通じるため。"
     },
     {
+      "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+      "url": "https://github.com/cobanov/PS5LM",
+      "sourceId": "hnrss-org-frontpage",
+      "sourceName": "Hacker News",
+      "category": "developer",
+      "publishedAt": "2026-10-16T18:32:35.000Z",
+      "relevance": 40,
+      "importance": 60,
+      "score": 44,
+      "reason": "PS5というゲーム機を用いてハックする実践は、整理を離れてゲームや手作業に没頭したいという関心と重なる。"
+    },
+    {
       "title": "【We-Being Radio ep.6&7】職場における「私たち」は、どこから生まれる？「空気」と「貢献」から考える ゲスト：柳澤田実（哲学者）",
       "url": "https://desilo.substack.com/p/webeing-radio-6-7",
       "sourceId": "desilo-substack-com",
@@ -196,6 +148,18 @@
       "reason": "『私とは何か』などの関心読書に通ずる哲学的な視点から、主体的・集団的な存在のあり方を提示しているため。"
     },
     {
+      "title": "塚田優｜移動撮影が浮かび上らせる身体──特集上映「Fire in Water 永田康祐映像作品集」（後編）",
+      "url": "https://artscape.jp/article/79730/",
+      "sourceId": "artscape-jp",
+      "sourceName": "artscape",
+      "category": "discovered",
+      "publishedAt": "2026-10-14T02:00:29.000Z",
+      "relevance": 45,
+      "importance": 35,
+      "score": 43,
+      "reason": "読もうとしている本『現れる存在』『なぜ、植物図鑑か』に通底する「身体」や「映像」を主題とした批評であるため。"
+    },
+    {
       "title": "ロンドンのデザイン・ミュージアムでエス・デヴリン初の欧州回顧展。2,000冊超の本で構成する新作《An Infinite Library》も公開",
       "url": "https://www.axismag.jp/posts/2026/10/725000.html",
       "sourceId": "axismag-jp",
@@ -206,6 +170,18 @@
       "importance": 50,
       "score": 42,
       "reason": "大量の本で構成された展示の話題であり、「整理することに疲れている」心境や本への関心と緩やかに繋がるため。"
+    },
+    {
+      "title": "服部浩之｜「森は美術館」から、「共有地としての森」へ",
+      "url": "https://artscape.jp/article/79582/",
+      "sourceId": "artscape-jp",
+      "sourceName": "artscape",
+      "category": "discovered",
+      "publishedAt": "2026-10-13T02:00:57.000Z",
+      "relevance": 40,
+      "importance": 30,
+      "score": 38,
+      "reason": "読もうとしているドゥルーズの哲学における生成変化や共有地・環境といった関心テーマと緩やかにつながるため。"
     }
   ]
 }
