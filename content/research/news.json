@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T21:02:00.925Z",
+  "generatedAt": "2026-10-17T21:04:01.735Z",
   "question": "整理することに疲れている",
   "windowDays": 7,
   "items": [
@@ -14,18 +14,6 @@
       "importance": 50,
       "score": 78,
       "reason": "読もうとしている本『現れる存在――脳と身体と世界の再統合』と直接交差する、哲学・心理学視点での身体論を扱っているため。"
-    },
-    {
-      "title": "スプシの手作業からの解脱 ~更新はClaude Codeに、見せ方と使い方はGASアプリに任せる~",
-      "url": "https://speakerdeck.com/kentarofujii/kentaro-fujii-claude-spreadsheet",
-      "sourceId": "speakerdeck-com-c-technology",
-      "sourceName": "Speaker Deck Technology",
-      "category": "slides",
-      "publishedAt": "2026-10-16T11:00:08.000Z",
-      "relevance": 75,
-      "importance": 55,
-      "score": 71,
-      "reason": "スプシによる手作業の整理から解放され自動化へ移行する内容は、「整理することに疲れた」という課題や次のフェーズへの移行と直接重なる。"
     },
     {
       "title": "ミシェル・セールの「翻訳」概念とは？ラトゥール『存在様式探求』までの系譜をわかりやすく解説",
@@ -64,6 +52,18 @@
       "reason": "OOO（オブジェクト指向本体論）など、読もうとしている『現れる存在』やドゥルーズ哲学などの存在論的関心と強く繋がる。"
     },
     {
+      "title": "話題の”ラーメン屋経営ゲー”はなにが面白い？ 十人十色な経営劇を通して紐解く『Japanese Ramen Simulator』の魅力",
+      "url": "https://realsound.jp/tech/2026/10/post-2556112.html",
+      "sourceId": "realsound-jp-tech",
+      "sourceName": "リアルサウンド",
+      "category": "discovered",
+      "publishedAt": "2026-10-17T18:00:18.000Z",
+      "relevance": 60,
+      "importance": 30,
+      "score": 54,
+      "reason": "整理や管理の手を止め、シンプルにゲームを楽しみたいという今の気分やメモの内容に合致する。"
+    },
+    {
       "title": "Context Engineering with Deep Agents: How To Remember Without Keeping Everything In Context",
       "url": "https://www.langchain.com/blog/context-engineering-deep-agents-remember",
       "sourceId": "blog-langchain-com",
@@ -81,23 +81,23 @@
       "sourceId": "rss-arxiv-org-rss-cs-ai",
       "sourceName": "arXiv cs.AI",
       "category": "research",
-      "publishedAt": "2026-10-16T04:00:00.000Z",
+      "publishedAt": "2026-10-17T04:00:00.000Z",
       "relevance": 45,
       "importance": 60,
       "score": 48,
       "reason": "現実が認知を超過するという議論は、関心本『現れる存在――脳と身体と世界の再統合』の身体・世界理解に通じるテーマ。"
     },
     {
-      "title": "コーディング自動化の次へ。人の介入をゼロにするファクトリーとサポートAIによる実践",
-      "url": "https://speakerdeck.com/timakin/kodingu-jidouka-no-tsugi-he-hito-no-kainyuu-o-zero-ni-suru-to-sapoto-ai-niyoru-jissen",
-      "sourceId": "speakerdeck-com-c-programming",
-      "sourceName": "Speaker Deck Programming",
+      "title": "極圧AI — 摩擦のない世界で、人間を焼き付かせないために",
+      "url": "https://speakerdeck.com/koheimasaki/goku-ai-masatsu-no-nai-sekai-de-ningen-o-yakitsukasenai-tame-ni",
+      "sourceId": "speakerdeck-com-c-technology",
+      "sourceName": "Speaker Deck Technology",
       "category": "slides",
-      "publishedAt": "2026-10-15T21:25:30.000Z",
-      "relevance": 45,
-      "importance": 50,
+      "publishedAt": "2026-10-17T08:38:38.000Z",
+      "relevance": 50,
+      "importance": 30,
       "score": 46,
-      "reason": "人の介在を省き自動構築へ進むアプローチは、整理作業を終えて作るフェーズへ進む意識に繋がる。"
+      "reason": "摩擦や過剰な効率化の中で人間を焼き付かせないというテーマが、整理することに疲れた心境と直接響き合う。"
     },
     {
       "title": "自分を愛する以前に、ただ生きるために／絶対に終電を逃さない女",
@@ -124,16 +124,28 @@
       "reason": "「捨てる前提を変えるものづくり」というテーマが、整理を終えて何かを作るフェーズに移りたいというメモの関心と通じるため。"
     },
     {
-      "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
-      "url": "https://github.com/cobanov/PS5LM",
-      "sourceId": "hnrss-org-frontpage",
-      "sourceName": "Hacker News",
-      "category": "developer",
-      "publishedAt": "2026-10-16T18:32:35.000Z",
-      "relevance": 40,
-      "importance": 60,
+      "title": "領収書を撮るだけで仕訳ができ、請求書の発行から決算書まで完結するクラウド会計「キャピタル会計」 個人事業主は無料、法人は月額1,000円(1年間無料)で提供開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000002.000189087.html",
+      "sourceId": "prtimes-jp-index-rdf",
+      "sourceName": "PR TIMES",
+      "category": "discovered",
+      "publishedAt": "2026-10-17T20:10:03.000Z",
+      "relevance": 45,
+      "importance": 40,
       "score": 44,
-      "reason": "PS5というゲーム機を用いてハックする実践は、整理を離れてゲームや手作業に没頭したいという関心と重なる。"
+      "reason": "領収書を撮るだけで仕訳が完結する会計サービスであり、整理作業に疲れている状態の負担を減らす手段に関連する。"
+    },
+    {
+      "title": "作れる、でも消せるか？──安全に「枯らして消す」機能削除術 / Drain, Then Delete",
+      "url": "https://speakerdeck.com/chobishiba/drain-then-delete",
+      "sourceId": "speakerdeck-com-c-programming",
+      "sourceName": "Speaker Deck Programming",
+      "category": "slides",
+      "publishedAt": "2026-10-17T03:59:48.000Z",
+      "relevance": 45,
+      "importance": 40,
+      "score": 44,
+      "reason": "作るだけでなく「安全に消す・手放す」ことに焦点を当てており、整理疲れや過多なものの整理・解消に通じる。"
     },
     {
       "title": "【We-Being Radio ep.6&7】職場における「私たち」は、どこから生まれる？「空気」と「貢献」から考える ゲスト：柳澤田実（哲学者）",
@@ -146,6 +158,18 @@
       "importance": 40,
       "score": 44,
       "reason": "『私とは何か』などの関心読書に通ずる哲学的な視点から、主体的・集団的な存在のあり方を提示しているため。"
+    },
+    {
+      "title": "ポートフォリオをVoidで作り直したので、Voidの来歴と中身を整理する",
+      "url": "https://zenn.dev/nkzn/articles/my-first-void",
+      "sourceId": "zenn-dev",
+      "sourceName": "Zenn",
+      "category": "community",
+      "publishedAt": "2026-10-16T14:10:37.000Z",
+      "relevance": 45,
+      "importance": 35,
+      "score": 43,
+      "reason": "ポートフォリオを新しく作り直し、これまでの来歴や中身を整理する過程が「整理・制作」の話題に繋がる。"
     },
     {
       "title": "塚田優｜移動撮影が浮かび上らせる身体──特集上映「Fire in Water 永田康祐映像作品集」（後編）",
@@ -170,6 +194,18 @@
       "importance": 50,
       "score": 42,
       "reason": "大量の本で構成された展示の話題であり、「整理することに疲れている」心境や本への関心と緩やかに繋がるため。"
+    },
+    {
+      "title": "指示書を「からくりポケット」に放り込んだら、AIが勝手にマクロを研ぎ澄まして完成させていた話 ── 151本から削ぎ落とした精鋭120本と、深夜の自律修復ループの記録",
+      "url": "https://qiita.com/shu15511551/items/75900cded681c2149fe6?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "sourceId": "qiita-com-popular-items",
+      "sourceName": "Qiita",
+      "category": "community",
+      "publishedAt": "2026-10-16T21:51:10.000Z",
+      "relevance": 40,
+      "importance": 40,
+      "score": 40,
+      "reason": "151本もの指示書から不要なものを削ぎ落として精鋭化するプロセスが、肥大化した整理からの脱却に繋がる。"
     },
     {
       "title": "服部浩之｜「森は美術館」から、「共有地としての森」へ",
