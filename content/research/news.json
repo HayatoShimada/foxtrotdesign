@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-10-18T21:03:05.631Z",
+  "generatedAt": "2026-10-19T21:02:44.010Z",
   "question": "整理することに疲れている",
   "windowDays": 7,
   "items": [
     {
-      "title": "身体は何を知っているのか－－『Body of Wisdom』刊行のお知らせ",
-      "url": "http://embodiedapproachj.blogspot.com/2026/10/body-of-wisdom.html",
-      "sourceId": "embodiedapproachj-blogspot-com-feeds-posts-default",
-      "sourceName": "田中彰吾の哲学＆心理学研究室",
-      "category": "discovered",
-      "publishedAt": "2026-10-11T22:28:11.683Z",
-      "relevance": 85,
-      "importance": 50,
-      "score": 78,
-      "reason": "読もうとしている本『現れる存在――脳と身体と世界の再統合』と直接交差する、哲学・心理学視点での身体論を扱っているため。"
+      "title": "我々は何を手放し、何を手放さないのか",
+      "url": "https://speakerdeck.com/dak2/wareware-ha-nani-o-tebanashi-nani-o-tebanasanai-no-ka",
+      "sourceId": "speakerdeck-com-c-technology",
+      "sourceName": "Speaker Deck Technology",
+      "category": "slides",
+      "publishedAt": "2026-10-19T01:44:47.000Z",
+      "relevance": 75,
+      "importance": 40,
+      "score": 68,
+      "reason": "整理に疲れ、タスクを手放して作るフェーズへ移行しようとする本人の精神的テーマと合致するため。"
     },
     {
       "title": "ミシェル・セールの「翻訳」概念とは？ラトゥール『存在様式探求』までの系譜をわかりやすく解説",
@@ -28,6 +28,30 @@
       "reason": "読もうとしているドゥルーズ等の現代思想・哲学の関心領域と、ミシェル・セールやラトゥールの概念解説が合致するため。"
     },
     {
+      "title": "山岳ステージがしっくりこない。AIとBlenderで森を作り、Unityの性能問題にぶつかった",
+      "url": "https://zenn.dev/project_arca/articles/unity-forest-rendering-diagnosis-001",
+      "sourceId": "zenn-dev",
+      "sourceName": "Zenn",
+      "category": "community",
+      "publishedAt": "2026-10-18T15:26:10.000Z",
+      "relevance": 65,
+      "importance": 45,
+      "score": 61,
+      "reason": "メモにある「手を動かして何かを作る」「ゲーム」というテーマに直接関わり、AIやBlender等を使って実際にゲーム開発を進めるプロセスと重なるため。"
+    },
+    {
+      "title": "塚田優｜移動撮影が浮かび上らせる身体──特集上映「Fire in Water 永田康祐映像作品集」（前編）",
+      "url": "https://artscape.jp/article/79728/",
+      "sourceId": "artscape-jp",
+      "sourceName": "artscape",
+      "category": "discovered",
+      "publishedAt": "2026-10-13T02:00:58.000Z",
+      "relevance": 65,
+      "importance": 40,
+      "score": 60,
+      "reason": "読もうとしている『なぜ、植物図鑑か』等の映像論や、『現れる存在』の身体論の関心に「移動撮影と身体」というテーマが繋がるため。"
+    },
+    {
       "title": "ANTとOOOを統合する研究方法「トレース／退隠二重記述法」とは？デザイン研究・アート実践への応用ガイド",
       "url": "https://research.smeai.org/ant-ooo-trace-withdrawal-hybrid/",
       "sourceId": "research-smeai-org",
@@ -40,16 +64,28 @@
       "reason": "OOO（オブジェクト指向本体論）など、読もうとしている『現れる存在』やドゥルーズ哲学などの存在論的関心と強く繋がる。"
     },
     {
-      "title": "話題の”ラーメン屋経営ゲー”はなにが面白い？ 十人十色な経営劇を通して紐解く『Japanese Ramen Simulator』の魅力",
-      "url": "https://realsound.jp/tech/2026/10/post-2556112.html",
-      "sourceId": "realsound-jp-tech",
-      "sourceName": "リアルサウンド",
-      "category": "discovered",
-      "publishedAt": "2026-10-17T18:00:18.000Z",
+      "title": "ログ調査のたびに検索→前後確認→コピーを繰り返すのがつらくて、VS Code拡張機能を作ってみた",
+      "url": "https://qiita.com/shinkai_/items/6e98d6ea443377e763f5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "sourceId": "qiita-com-popular-items",
+      "sourceName": "Qiita",
+      "category": "community",
+      "publishedAt": "2026-10-18T23:31:28.000Z",
       "relevance": 60,
-      "importance": 30,
+      "importance": 45,
+      "score": 57,
+      "reason": "反復する調査作業のつらさを解消するため、整理や準備にとどまらず実際に手を動かしてツールを作成・解決しようとする姿勢がメモの課題意識と合致する。"
+    },
+    {
+      "title": "I no longer care to work on any Ruby gems so I've archived all my repositories",
+      "url": "https://po-ru.com/2026/10/18/why-im-no-longer-updating-this-repository",
+      "sourceId": "hnrss-org-frontpage",
+      "sourceName": "Hacker News",
+      "category": "developer",
+      "publishedAt": "2026-10-19T16:37:10.000Z",
+      "relevance": 55,
+      "importance": 50,
       "score": 54,
-      "reason": "整理や管理の手を止め、シンプルにゲームを楽しみたいという今の気分やメモの内容に合致する。"
+      "reason": "継続的なコードの管理や整理・保守作業への疲弊からオープンソースのアーカイブに至った経緯が、「整理することに疲れている」心境と強く共鳴するため。"
     },
     {
       "title": "Context Engineering with Deep Agents: How To Remember Without Keeping Everything In Context",
@@ -62,6 +98,30 @@
       "importance": 55,
       "score": 51,
       "reason": "全てをコンテキストに保持せず記憶する技術であり、整理することに疲れて手を動かす段階に入りたいという問いに繋がります。"
+    },
+    {
+      "title": "AIで開発が速くなった先で、開発チームは何を目指すか",
+      "url": "https://speakerdeck.com/shihochan/ai-de-kaihatsu-ga-hayaku-nata-saki-de-kaihatsu-chimu-ha-nani-o-mezasu-ka",
+      "sourceId": "speakerdeck-com-c-programming",
+      "sourceName": "Speaker Deck Programming",
+      "category": "slides",
+      "publishedAt": "2026-10-19T10:04:07.000Z",
+      "relevance": 45,
+      "importance": 50,
+      "score": 46,
+      "reason": "効率化や整理の先で「手を動かして何を作るか・目指すか」というフェーズの話題と一致するため。"
+    },
+    {
+      "title": "非エンジニアが、AI-DLCとAWSで コミュニティ運営の困りごとを 整理してみた",
+      "url": "https://speakerdeck.com/saorimurooka/hienjinia-ga-ai-dlc-to-aws-de-komyuniti-unei-no-komarigoto-o-seiri-shi-te-mita",
+      "sourceId": "speakerdeck-com-c-technology",
+      "sourceName": "Speaker Deck Technology",
+      "category": "slides",
+      "publishedAt": "2026-10-19T04:30:52.000Z",
+      "relevance": 50,
+      "importance": 30,
+      "score": 46,
+      "reason": "AIを用いて困りごとを整理する事例であり、整理の手法や労力に関する課題意識と関わるため。"
     },
     {
       "title": "自分を愛する以前に、ただ生きるために／絶対に終電を逃さない女",
@@ -112,6 +172,18 @@
       "reason": "『私とは何か』などの関心読書に通ずる哲学的な視点から、主体的・集団的な存在のあり方を提示しているため。"
     },
     {
+      "title": "AWS初心者がエンジニアを辞めた話",
+      "url": "https://qiita.com/tks_1128/items/e4cde327a910b5beba11?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "sourceId": "qiita-com-popular-items",
+      "sourceName": "Qiita",
+      "category": "community",
+      "publishedAt": "2026-10-19T09:42:28.000Z",
+      "relevance": 45,
+      "importance": 35,
+      "score": 43,
+      "reason": "整理や環境の複雑さによる疲弊や挫折感という「整理することに疲れている」心理状態と、エンジニアを辞めた体験談が根底で繋がるため。"
+    },
+    {
       "title": "生産計画を手を動かして学ぶ ― OSS の frePPLe で MRP・需要予測・CP-SAT まで",
       "url": "https://zenn.dev/rkawajiri/books/frepple-tutorial-ja",
       "sourceId": "zenn-dev",
@@ -136,16 +208,28 @@
       "reason": "ポートフォリオを新しく作り直し、これまでの来歴や中身を整理する過程が「整理・制作」の話題に繋がる。"
     },
     {
-      "title": "Show HN: The Zelda timeline to catch up before the Ocarina of Time remake",
-      "url": "https://legendofhyrule.com/",
-      "sourceId": "hnrss-org-frontpage",
-      "sourceName": "Hacker News",
-      "category": "developer",
-      "publishedAt": "2026-10-18T13:06:54.000Z",
+      "title": "塚田優｜移動撮影が浮かび上らせる身体──特集上映「Fire in Water 永田康祐映像作品集」（後編）",
+      "url": "https://artscape.jp/article/79730/",
+      "sourceId": "artscape-jp",
+      "sourceName": "artscape",
+      "category": "discovered",
+      "publishedAt": "2026-10-14T02:00:29.000Z",
+      "relevance": 45,
+      "importance": 35,
+      "score": 43,
+      "reason": "読もうとしている本『現れる存在』『なぜ、植物図鑑か』に通底する「身体」や「映像」を主題とした批評であるため。"
+    },
+    {
+      "title": "名刺スキャン代行サービス『名刺データバンク』提供開始。名刺を郵送するだけでスキャン・データ化",
+      "url": "https://prtimes.jp/main/html/rd/p/000000006.000182664.html",
+      "sourceId": "prtimes-jp-index-rdf",
+      "sourceName": "PR TIMES",
+      "category": "discovered",
+      "publishedAt": "2026-10-19T20:10:02.000Z",
       "relevance": 45,
       "importance": 30,
       "score": 42,
-      "reason": "「シンプルにゲームがしたい」という本人の気分や関心に直接関わるゲーム作品の話題であるため。"
+      "reason": "名刺の整理・スキャン代行サービスであり、自分で「整理することに疲れている」状態の負担を減らす手段となり得るため。"
     },
     {
       "title": "ロンドンのデザイン・ミュージアムでエス・デヴリン初の欧州回顧展。2,000冊超の本で構成する新作《An Infinite Library》も公開",
@@ -158,18 +242,6 @@
       "importance": 50,
       "score": 42,
       "reason": "大量の本で構成された展示の話題であり、「整理することに疲れている」心境や本への関心と緩やかに繋がるため。"
-    },
-    {
-      "title": "論文サマリ「随意運動の制御と学習のための階層的ニューラルネットワークモデル」川人ら",
-      "url": "https://zenn.dev/zhidao/articles/63db6db6abe9c4",
-      "sourceId": "zenn-dev",
-      "sourceName": "Zenn",
-      "category": "community",
-      "publishedAt": "2026-10-17T11:22:21.000Z",
-      "relevance": 40,
-      "importance": 45,
-      "score": 41,
-      "reason": "読もうとしている本『現れる存在――脳と身体と世界の再統合』のテーマである脳・身体・運動制御と関連があるため。"
     }
   ]
 }
