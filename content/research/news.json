@@ -1,43 +1,19 @@
 {
-  "generatedAt": "2026-10-20T21:01:06.074Z",
+  "generatedAt": "2026-10-21T21:00:44.670Z",
   "question": "整理することに疲れている",
   "windowDays": 7,
   "items": [
     {
-      "title": "Codexでゲームを作っていたら、小さなAI開発組織を回す実験になった",
-      "url": "https://qiita.com/Masato_Iwasaki/items/7e5241176f3eead2a2f5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "sourceId": "qiita-com-popular-items",
-      "sourceName": "Qiita",
-      "category": "community",
-      "publishedAt": "2026-10-19T08:33:01.000Z",
-      "relevance": 75,
-      "importance": 50,
-      "score": 70,
-      "reason": "「手を動かして作るフェーズに入る」「ゲームがしたい」というメモに対し、実際にAIを使ってゲーム制作を進めた体験談が直結するため。"
-    },
-    {
-      "title": "ANTとOOOを統合する研究方法「トレース／退隠二重記述法」とは？デザイン研究・アート実践への応用ガイド",
-      "url": "https://research.smeai.org/ant-ooo-trace-withdrawal-hybrid/",
-      "sourceId": "research-smeai-org",
-      "sourceName": "中小企業AI活用協会研究サイト",
-      "category": "discovered",
-      "publishedAt": "2026-10-15T20:50:04.000Z",
-      "relevance": 65,
-      "importance": 30,
-      "score": 58,
-      "reason": "OOO（オブジェクト指向本体論）など、読もうとしている『現れる存在』やドゥルーズ哲学などの存在論的関心と強く繋がる。"
-    },
-    {
-      "title": "ログ調査のたびに検索→前後確認→コピーを繰り返すのがつらくて、VS Code拡張機能を作ってみた",
-      "url": "https://qiita.com/shinkai_/items/6e98d6ea443377e763f5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "sourceId": "qiita-com-popular-items",
-      "sourceName": "Qiita",
-      "category": "community",
-      "publishedAt": "2026-10-18T23:31:28.000Z",
-      "relevance": 60,
-      "importance": 45,
-      "score": 57,
-      "reason": "反復する調査作業のつらさを解消するため、整理や準備にとどまらず実際に手を動かしてツールを作成・解決しようとする姿勢がメモの課題意識と合致する。"
+      "title": "AI promises productivity, but for managers, it’s mostly a headache for now",
+      "url": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/",
+      "sourceId": "techcrunch-com-category-artificial-intelligence",
+      "sourceName": "TechCrunch AI",
+      "category": "media",
+      "publishedAt": "2026-10-21T14:00:00.000Z",
+      "relevance": 50,
+      "importance": 60,
+      "score": 52,
+      "reason": "AI導入に伴う管理コストや混乱に関する記事で、整理や管理作業に疲れている現状の問題意識と強く響き合います。"
     },
     {
       "title": "美濃焼を1400ページで読み解く『The Book of MINO 美濃焼の解剖』。産業、工芸、アートを横断し「創造のための資源」としたアーカイブ",
@@ -52,16 +28,16 @@
       "reason": "読もうとしている本『なぜ、植物図鑑か』の持つ記録・アーカイブ視点や、「整理・解剖」という行為に関連した書籍であり関心と繋がります。"
     },
     {
-      "title": "杉江あこ｜『The Book of MINO 美濃焼の解剖』（セラミックバレー協議会）",
-      "url": "https://artscape.jp/article/80555/",
-      "sourceId": "artscape-jp",
-      "sourceName": "artscape",
-      "category": "discovered",
-      "publishedAt": "2026-10-20T02:00:03.000Z",
+      "title": "エージェントを使い続けるためのメタワーク / Meta-work for keeping using the agent",
+      "url": "https://speakerdeck.com/rkaga/meta-work-for-keeping-using-the-agent",
+      "sourceId": "speakerdeck-com-c-programming",
+      "sourceName": "Speaker Deck Programming",
+      "category": "slides",
+      "publishedAt": "2026-10-21T14:06:12.000Z",
       "relevance": 55,
       "importance": 35,
       "score": 51,
-      "reason": "読書の関心領域（写真集・図鑑論など「記録や解剖」のテーマ）に関わる美濃焼アーカイブ書籍の解題記事です。"
+      "reason": "ツールやエージェントを動かすための整理・管理作業（メタワーク）に関するテーマで、「整理に疲れている」という問いに直結します。"
     },
     {
       "title": "Context Engineering with Deep Agents: How To Remember Without Keeping Everything In Context",
@@ -76,28 +52,28 @@
       "reason": "全てをコンテキストに保持せず記憶する技術であり、整理することに疲れて手を動かす段階に入りたいという問いに繋がります。"
     },
     {
-      "title": "人工的コミュニケーション論入門｜エスポジトとルーマンで考えるAIの意味参与",
-      "url": "https://research.smeai.org/esposito-artificial-communication-layered-meaning/",
-      "sourceId": "research-smeai-org",
-      "sourceName": "中小企業AI活用協会研究サイト",
-      "category": "discovered",
-      "publishedAt": "2026-10-20T20:43:59.000Z",
-      "relevance": 50,
-      "importance": 40,
+      "title": "After automation: Solo founding will be the default",
+      "url": "https://every.to/thesis-statements/julian-weisser",
+      "sourceId": "hnrss-org-frontpage",
+      "sourceName": "Hacker News",
+      "category": "developer",
+      "publishedAt": "2026-10-21T19:44:49.000Z",
+      "relevance": 45,
+      "importance": 60,
       "score": 48,
-      "reason": "『現れる存在』などの哲学・脳科学のテーマと親和性の高い「コミュニケーション論」や「意味参与」についての理論的解説です。"
+      "reason": "自動化の先で「整理段階を終えて手を動かし作る」ソロ創業のフェーズに関する議論であり、本人のメモの意向と重なるため。"
     },
     {
-      "title": "Beyond Explicit Intent: Discovering and Shaping Artistic Intent through Human-AI Co-Creation",
-      "url": "https://arxiv.org/abs/2610.24010",
-      "sourceId": "rss-arxiv-org-rss-cs-ai",
-      "sourceName": "arXiv cs.AI",
-      "category": "research",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "relevance": 45,
-      "importance": 55,
+      "title": "LINEに送った写真と音声メモを、自宅のPCが文字にしてくれるようにした",
+      "url": "https://zenn.dev/hilopon/articles/line-local-ai-photo-voice-capture",
+      "sourceId": "zenn-dev",
+      "sourceName": "Zenn",
+      "category": "community",
+      "publishedAt": "2026-10-20T14:37:43.000Z",
+      "relevance": 50,
+      "importance": 35,
       "score": 47,
-      "reason": "整える段階を終え手を動かして何かを作るフェーズに入るというメモの意識と、表現や創作的意図の形成というテーマが合致するため。"
+      "reason": "メモ整理の手間を自動化する試みであり、「整理することに疲れている」という悩みやメモ管理の課題意識に直接繋がるため。"
     },
     {
       "title": "Plants can speak using electricity, so this startup built an AI model to decipher their language",
@@ -124,16 +100,16 @@
       "reason": "効率化や整理の先で「手を動かして何を作るか・目指すか」というフェーズの話題と一致するため。"
     },
     {
-      "title": "自分を愛する以前に、ただ生きるために／絶対に終電を逃さない女",
-      "url": "https://meandyou.net/202610-zettainishudenwonogasanaionna/",
-      "sourceId": "meandyou-net",
-      "sourceName": "me and you little magazine & club",
-      "category": "discovered",
-      "publishedAt": "2026-10-14T09:00:55.000Z",
-      "relevance": 50,
-      "importance": 30,
-      "score": 46,
-      "reason": "完璧な整理や評価から離れ「ただ生きる」ことや日々の実感に目を向けるエッセイであり、整理疲れした心境に通じる。"
+      "title": "EA is shutting down BioWare",
+      "url": "https://www.theverge.com/games/1015647/ea-is-shutting-down-bioware",
+      "sourceId": "hnrss-org-frontpage",
+      "sourceName": "Hacker News",
+      "category": "developer",
+      "publishedAt": "2026-10-21T17:29:33.000Z",
+      "relevance": 40,
+      "importance": 65,
+      "score": 45,
+      "reason": "「シンプルにゲームがしたい」という本人の関心事項に関連する大手ゲーム開発スタジオの重要ニュースであるため。"
     },
     {
       "title": "【We-Being Radio ep.6&7】職場における「私たち」は、どこから生まれる？「空気」と「貢献」から考える ゲスト：柳澤田実（哲学者）",
@@ -148,16 +124,16 @@
       "reason": "『私とは何か』などの関心読書に通ずる哲学的な視点から、主体的・集団的な存在のあり方を提示しているため。"
     },
     {
-      "title": "誰でもゲームが作れる時代の到来？ 人生シミュレーター『80億分の1』が巻き起こした反響",
-      "url": "https://realsound.jp/tech/2026/10/post-2558126.html",
-      "sourceId": "realsound-jp-tech",
-      "sourceName": "リアルサウンド",
+      "title": "第1回 キャベツの顔つき",
+      "url": "https://kangaeruhito.jp/article/764377",
+      "sourceId": "kangaeruhito-jp",
+      "sourceName": "考える人",
       "category": "discovered",
-      "publishedAt": "2026-10-20T18:00:30.000Z",
+      "publishedAt": "2026-10-20T21:00:56.000Z",
       "relevance": 45,
       "importance": 35,
       "score": 43,
-      "reason": "「手を動かして何かを作るフェーズ」「シンプルにゲームがしたい」という思考に対し、誰でもゲームを作れる時代の到来というテーマが関与します。"
+      "reason": "対象を観察・視覚化する文化論的な論考であり、読みたい本『なぜ、植物図鑑か』の関心領域と重なります。"
     },
     {
       "title": "AWS初心者がエンジニアを辞めた話",
@@ -172,30 +148,6 @@
       "reason": "整理や環境の複雑さによる疲弊や挫折感という「整理することに疲れている」心理状態と、エンジニアを辞めた体験談が根底で繋がるため。"
     },
     {
-      "title": "塚田優｜移動撮影が浮かび上らせる身体──特集上映「Fire in Water 永田康祐映像作品集」（後編）",
-      "url": "https://artscape.jp/article/79730/",
-      "sourceId": "artscape-jp",
-      "sourceName": "artscape",
-      "category": "discovered",
-      "publishedAt": "2026-10-14T02:00:29.000Z",
-      "relevance": 45,
-      "importance": 35,
-      "score": 43,
-      "reason": "読もうとしている本『現れる存在』『なぜ、植物図鑑か』に通底する「身体」や「映像」を主題とした批評であるため。"
-    },
-    {
-      "title": "AIが高度になった時代の、人間の考え方の作法｜VEの思考プロセスに、AIをどう組み込むか",
-      "url": "https://speakerdeck.com/ishiirikie/ai-ga-koudo-ni-nata-jidai-no-ningen-no-kangaekata-no-sahou-ve-no-shikou-purosesu-ni-ai-o-dou-kumikomu-ka",
-      "sourceId": "speakerdeck-com-c-technology",
-      "sourceName": "Speaker Deck Technology",
-      "category": "slides",
-      "publishedAt": "2026-10-20T14:25:36.000Z",
-      "relevance": 40,
-      "importance": 50,
-      "score": 42,
-      "reason": "タスクや情報の整理に疲れている状態に対し、AI時代における人間の思考作法やプロセスを見直すヒントを提供する内容であるため。"
-    },
-    {
       "title": "怠惰の化身が資格取得するための勉強の習慣を身につけるまで",
       "url": "https://qiita.com/giganticsaki_A/items/f0ed9ec5cff12106978e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
       "sourceId": "qiita-com-popular-items",
@@ -208,40 +160,16 @@
       "reason": "整理や準備段階に疲れた状態から、実際に手を動かして行動や習慣に変えていく工夫として参考になるため。"
     },
     {
-      "title": "【福井】土田ヒロミ写真展「記憶と記録 ─ヒロシマ・ベルリン・エルサレム・私─」関連イベント",
-      "url": "https://artscape.jp/article/81500/",
-      "sourceId": "artscape-jp",
-      "sourceName": "artscape",
-      "category": "discovered",
-      "publishedAt": "2026-10-20T01:00:53.000Z",
-      "relevance": 45,
-      "importance": 30,
-      "score": 42,
-      "reason": "写真論や視覚的記録に関わる『なぜ、植物図鑑か』のテーマと「記憶と記録」の写真展という題材が共鳴します。"
-    },
-    {
-      "title": "ロンドンのデザイン・ミュージアムでエス・デヴリン初の欧州回顧展。2,000冊超の本で構成する新作《An Infinite Library》も公開",
-      "url": "https://www.axismag.jp/posts/2026/10/725000.html",
-      "sourceId": "axismag-jp",
-      "sourceName": "AXIS Web | デザインの視点で、人間の可能性や創造性を伝えるメディア",
-      "category": "discovered",
-      "publishedAt": "2026-10-14T01:00:00.000Z",
-      "relevance": 40,
-      "importance": 50,
-      "score": 42,
-      "reason": "大量の本で構成された展示の話題であり、「整理することに疲れている」心境や本への関心と緩やかに繋がるため。"
-    },
-    {
-      "title": "SimCity, but with Permits",
-      "url": "https://permit.petercai.com/",
-      "sourceId": "hnrss-org-frontpage",
-      "sourceName": "Hacker News",
-      "category": "developer",
-      "publishedAt": "2026-10-20T18:29:09.000Z",
+      "title": "Kiro Crewで「みのるん式」仕事術やってみた",
+      "url": "https://speakerdeck.com/minorun365/kiro-crew-de-minoru-nshiki-shigotojutsu-ya-te-mita",
+      "sourceId": "speakerdeck-com-c-technology",
+      "sourceName": "Speaker Deck Technology",
+      "category": "slides",
+      "publishedAt": "2026-10-21T11:55:42.000Z",
       "relevance": 40,
       "importance": 30,
       "score": 38,
-      "reason": "「シンプルにゲームがしたい」というメモに対し、シミュレーションゲームに関する独立した関心事として繋がるため。"
+      "reason": "仕事術の実践例であり、タスク管理や整理の手法についての話題として整理に関する関心と繋がります。"
     }
   ]
 }
