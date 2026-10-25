@@ -1,8 +1,44 @@
 {
-  "generatedAt": "2026-10-23T21:03:32.192Z",
+  "generatedAt": "2026-10-25T21:00:53.599Z",
   "question": "整理することに疲れている",
   "windowDays": 7,
   "items": [
+    {
+      "title": "自由エネルギー原理とフッサール現象学｜予測符号化で志向性はどこまで語れるか",
+      "url": "https://research.smeai.org/free-energy-principle-husserl-phenomenology/",
+      "sourceId": "research-smeai-org",
+      "sourceName": "中小企業AI活用協会研究サイト",
+      "category": "discovered",
+      "publishedAt": "2026-10-25T20:10:40.000Z",
+      "relevance": 85,
+      "importance": 60,
+      "score": 80,
+      "reason": "自由エネルギー原理と現象学を扱う内容は、読もうとしている『現れる存在―脳と身体と世界の再統合』の核心的テーマと直接つながる。"
+    },
+    {
+      "title": "AI が実装してくれる時代こそ、自分の手で実装しよう",
+      "url": "https://zenn.dev/loglass/articles/24b2a4776ce8d4",
+      "sourceId": "zenn-dev",
+      "sourceName": "Zenn",
+      "category": "community",
+      "publishedAt": "2026-10-23T01:28:43.000Z",
+      "relevance": 85,
+      "importance": 60,
+      "score": 80,
+      "reason": "AI任せではなく自分の手で実装することを主張するタイトルが、整える段階を終えて手を動かして何かを作るフェーズに入ったというメモに合致。"
+    },
+    {
+      "title": "AI対話に何を挟むか ― 高回転対話・デジタル摘録・手書き記録による創造体験の違い｜日本創造学会2026",
+      "url": "https://speakerdeck.com/ishiirikie/ai-taiwa-ni-nani-o-hasamu-ka-koukaiten-taiwa-dejitaru-tekiroku-tegaki-kiroku-niyoru-souzou-taiken-no-chigai-nippon-souzou-gakkai-2026",
+      "sourceId": "speakerdeck-com-c-research",
+      "sourceName": "Speaker Deck Research",
+      "category": "slides",
+      "publishedAt": "2026-10-25T03:34:12.000Z",
+      "relevance": 80,
+      "importance": 50,
+      "score": 74,
+      "reason": "手書き記録やデジタル摘録による創造体験の違いを扱っており、「整理に疲れ手を動かしたい」という心境や身体性に関する読書リストと深く合致する。"
+    },
     {
       "title": "Left alone with nothing to do, AI agents started playing",
       "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
@@ -16,16 +52,16 @@
       "reason": "整理やタスク作業から放置されて自由になったAIが遊び始める様子は、「整理に疲れてシンプルにゲームがしたい」という心境や状況と強く響き合う。"
     },
     {
-      "title": "I turned my TV into a Game Boy Color with a Pokemon town as my home screen",
-      "url": "https://twitter.com/robbietilton/status/2111936458923851923",
-      "sourceId": "hnrss-org-frontpage",
-      "sourceName": "Hacker News",
-      "category": "developer",
-      "publishedAt": "2026-10-23T17:40:22.000Z",
-      "relevance": 60,
-      "importance": 35,
-      "score": 55,
-      "reason": "「シンプルにゲームがしたい」「手を動かして作る」という意識に対し、テレビをDIYでゲーム機化する具体的なものづくり体験と合致する。"
+      "title": "事象境界と主観的時間の関係とは？合成データ・ベンチマーク設計を解説",
+      "url": "https://research.smeai.org/event-boundary-subjective-time-benchmark/",
+      "sourceId": "research-smeai-org",
+      "sourceName": "中小企業AI活用協会研究サイト",
+      "category": "discovered",
+      "publishedAt": "2026-10-24T20:21:24.000Z",
+      "relevance": 65,
+      "importance": 50,
+      "score": 62,
+      "reason": "主観的時間や認知の境目を捉えるテーマであり、認知・脳・身体の再統合を扱う読書リストの関心と強くリンクする。"
     },
     {
       "title": "昔の自分にしがみつくことを手放したら／me and you’s eye",
@@ -40,6 +76,18 @@
       "reason": "「昔の自分にしがみつくことを手放す」というテーマが、整理疲れや従来の整理・管理段階を終えて新しい制作フェーズに移行しようとする心情に響くため。"
     },
     {
+      "title": "歌、アニメ、2.5次元、そしてAI。「人間の声」をめぐる文化の現在地を考える。──声遊楽クロスダイアローグ#11レポート【長塚全×川原繁人×須川亜紀子】",
+      "url": "https://desilo.substack.com/p/seiyugaku-report-11",
+      "sourceId": "desilo-substack-com",
+      "sourceName": "De-Silo",
+      "category": "discovered",
+      "publishedAt": "2026-10-24T22:01:09.000Z",
+      "relevance": 55,
+      "importance": 40,
+      "score": 52,
+      "reason": "「人間の声」や身体表現、文化を巡る対話であり、読書リストにある中平卓馬の映像論や現象学的な身体・存在への問いと響き合う。"
+    },
+    {
       "title": "美濃焼を1400ページで読み解く『The Book of MINO 美濃焼の解剖』。産業、工芸、アートを横断し「創造のための資源」としたアーカイブ",
       "url": "https://www.axismag.jp/posts/2026/10/725017.html",
       "sourceId": "axismag-jp",
@@ -52,16 +100,16 @@
       "reason": "読もうとしている本『なぜ、植物図鑑か』の持つ記録・アーカイブ視点や、「整理・解剖」という行為に関連した書籍であり関心と繋がります。"
     },
     {
-      "title": "中四国PMセミナー2026_価値を生み出すアジャイルマネジメント － アウトプット重視からの脱却 / 20261023 Takeshi Watarai",
-      "url": "https://speakerdeck.com/shift_evolve/20261023-takeshi-watarai",
-      "sourceId": "speakerdeck-com-c-technology",
-      "sourceName": "Speaker Deck Technology",
-      "category": "slides",
-      "publishedAt": "2026-10-23T07:20:24.000Z",
-      "relevance": 55,
-      "importance": 35,
+      "title": "Context Engineering with Deep Agents: How To Remember Without Keeping Everything In Context",
+      "url": "https://www.langchain.com/blog/context-engineering-deep-agents-remember",
+      "sourceId": "blog-langchain-com",
+      "sourceName": "LangChain",
+      "category": "developer",
+      "publishedAt": "2026-10-24T01:05:29.000Z",
+      "relevance": 50,
+      "importance": 55,
       "score": 51,
-      "reason": "「アウトプット重視からの脱却」というテーマが、整理を終えて手を動かして作るフェーズへ移行したいという本人のメモの意識と親和性があるため。"
+      "reason": "全てをコンテキストに保持せず記憶する技術であり、整理することに疲れて手を動かす段階に入りたいという問いに繋がります。"
     },
     {
       "title": "杉江あこ｜『The Book of MINO 美濃焼の解剖』（セラミックバレー協議会）",
@@ -88,6 +136,18 @@
       "reason": "「手を動かして何かを作るフェーズ」や「ゲームがしたい」という関心に対し、軽量なゲームエンジンでの制作活動が直接つながります。"
     },
     {
+      "title": "モチベーションとは何か？産業組織心理学の研究をもとに読み解く / What is motivation?",
+      "url": "https://speakerdeck.com/psj59129/what-is-motivation",
+      "sourceId": "speakerdeck-com-c-science",
+      "sourceName": "Speaker Deck Science",
+      "category": "slides",
+      "publishedAt": "2026-10-24T02:39:16.000Z",
+      "relevance": 50,
+      "importance": 40,
+      "score": 48,
+      "reason": "モチベーションの構造を心理学的に紐解く内容は、整理の手を止めて何かを作るフェーズへ移行したい際の意欲や疲労感の理解に役立つ。"
+    },
+    {
       "title": "人工的コミュニケーション論入門｜エスポジトとルーマンで考えるAIの意味参与",
       "url": "https://research.smeai.org/esposito-artificial-communication-layered-meaning/",
       "sourceId": "research-smeai-org",
@@ -100,16 +160,16 @@
       "reason": "『現れる存在』などの哲学・脳科学のテーマと親和性の高い「コミュニケーション論」や「意味参与」についての理論的解説です。"
     },
     {
-      "title": "Obsidian でタブが散らかる人へ：見落とされがちなコアプラグイン「ワークスペース」で複数案件を切り替える",
-      "url": "https://qiita.com/ito-y/items/b3f19402b56a44141dd9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "sourceId": "qiita-com-popular-items",
-      "sourceName": "Qiita",
-      "category": "community",
-      "publishedAt": "2026-10-23T06:26:36.000Z",
-      "relevance": 50,
-      "importance": 30,
-      "score": 46,
-      "reason": "整理疲労を抱える中、Obsidianのタブ散らかりを防いで作業領域を切り替える構成案は、メモの整理テーマに関わります。"
+      "title": "知能とはなにか －ヒトとAIのあいだ－",
+      "url": "https://speakerdeck.com/tagtag/chinou-toha-nanika-hito-to-ai-no-aida",
+      "sourceId": "speakerdeck-com-c-science",
+      "sourceName": "Speaker Deck Science",
+      "category": "slides",
+      "publishedAt": "2026-10-25T07:08:51.000Z",
+      "relevance": 45,
+      "importance": 45,
+      "score": 45,
+      "reason": "ヒトとAIの間の知能を問う内容は、読もうとしている『私とは何か』や『現れる存在』における人間観や主観の探求とテーマが繋がる。"
     },
     {
       "title": "15．来し方を株分けする",
@@ -122,6 +182,18 @@
       "importance": 25,
       "score": 45,
       "reason": "「来し方を株分けする」という整理や区切りを感じさせる概念が、整理に疲れた段階から次の段階へ展開する思考の整理に通じるため。"
+    },
+    {
+      "title": "Why I Am a Programmer",
+      "url": "https://www.alfie.wtf/programming/why-i-am-a-programmer.html",
+      "sourceId": "hnrss-org-frontpage",
+      "sourceName": "Hacker News",
+      "category": "developer",
+      "publishedAt": "2026-10-25T19:11:31.000Z",
+      "relevance": 45,
+      "importance": 40,
+      "score": 44,
+      "reason": "プログラマであり続ける理由を語るエッセイであり、タスク整理を超えて実際にモノづくりを行う原点や動機に直結するため。"
     },
     {
       "title": "星野太｜ジャック・ハルバスタム『クィアな時間と場所で──トランスジェンダーの身体とサブカルチャーの生』",
@@ -160,18 +232,6 @@
       "reason": "対象を観察・視覚化する文化論的な論考であり、読みたい本『なぜ、植物図鑑か』の関心領域と重なります。"
     },
     {
-      "title": "CSS2026：OWS研究会・招待講演「世界観を、実装する」",
-      "url": "https://speakerdeck.com/atsush1_sada/css2026-ows-kenkyuukai-shoutai-kouen-sekaikan-o-jissou-suru",
-      "sourceId": "speakerdeck-com-c-technology",
-      "sourceName": "Speaker Deck Technology",
-      "category": "slides",
-      "publishedAt": "2026-10-23T06:38:51.000Z",
-      "relevance": 45,
-      "importance": 30,
-      "score": 42,
-      "reason": "「世界観を、実装する」という概念が、整理や準備の段階を終えて実際に手を動かして形にする（作る）というフェーズの志向に合致するため。"
-    },
-    {
       "title": "【福井】土田ヒロミ写真展「記憶と記録 ─ヒロシマ・ベルリン・エルサレム・私─」関連イベント",
       "url": "https://artscape.jp/article/81500/",
       "sourceId": "artscape-jp",
@@ -184,18 +244,6 @@
       "reason": "写真論や視覚的記録に関わる『なぜ、植物図鑑か』のテーマと「記憶と記録」の写真展という題材が共鳴します。"
     },
     {
-      "title": "The Missed Opportunities of Sonic 06 (2025)",
-      "url": "https://isaacmarovitz.com/posts/sonic-06/",
-      "sourceId": "hnrss-org-frontpage",
-      "sourceName": "Hacker News",
-      "category": "developer",
-      "publishedAt": "2026-10-23T16:38:35.000Z",
-      "relevance": 45,
-      "importance": 25,
-      "score": 41,
-      "reason": "「シンプルにゲームがしたい」という気分に対し、ゲームそのものに関する考察・題材を扱っているため。"
-    },
-    {
       "title": "主観時間表現とは？AIで「感じる時間」を活かす映像要約・UX・医療への応用",
       "url": "https://research.smeai.org/subjective-time-representation-ai-applications/",
       "sourceId": "research-smeai-org",
@@ -206,6 +254,30 @@
       "importance": 35,
       "score": 39,
       "reason": "主観時間や感覚に関するAI研究は、『現れる存在』が扱う脳・身体・世界の再統合の問いと関連する。"
+    },
+    {
+      "title": "個人タスク管理アプリを作った話",
+      "url": "https://speakerdeck.com/yuuka51/kojin-tasuku-kanri-o-tsukuta-hanashi",
+      "sourceId": "speakerdeck-com-c-technology",
+      "sourceName": "Speaker Deck Technology",
+      "category": "slides",
+      "publishedAt": "2026-10-25T15:16:45.000Z",
+      "relevance": 40,
+      "importance": 30,
+      "score": 38,
+      "reason": "タスク管理アプリの自作に関する資料であり、整理に疲れつつも「タスクやメモを整える段階を出て自ら作る」という姿勢に関連するため。"
+    },
+    {
+      "title": "ついに開幕「おじリーグ VS ストリーマー軍」 格ゲーファンが“正座でヤジを飛ばす”べき一大イベントの意義",
+      "url": "https://realsound.jp/tech/2026/10/post-2563275.html",
+      "sourceId": "realsound-jp-tech",
+      "sourceName": "リアルサウンド",
+      "category": "discovered",
+      "publishedAt": "2026-10-24T12:00:00.000Z",
+      "relevance": 40,
+      "importance": 30,
+      "score": 38,
+      "reason": "「シンプルにゲームがしたい」というメモに対し、格闘ゲームシーンのイベント話題として気楽な娯楽の関心に直接繋がる。"
     }
   ]
 }
