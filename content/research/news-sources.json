@@ -10,8 +10,8 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 47,
-      "fetched": 407,
+      "runs": 48,
+      "fetched": 419,
       "adopted": 15,
       "lastAdoptedAt": "2026-10-25T21:00:53.599Z",
       "runsAtLastAdoption": 46,
@@ -30,8 +30,8 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 47,
-      "fetched": 439,
+      "runs": 48,
+      "fetched": 450,
       "adopted": 26,
       "lastAdoptedAt": "2026-10-23T21:03:32.192Z",
       "runsAtLastAdoption": 44,
@@ -50,8 +50,8 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 47,
-      "fetched": 119,
+      "runs": 48,
+      "fetched": 125,
       "adopted": 1,
       "lastAdoptedAt": "2026-09-17T09:46:08.502Z",
       "runsAtLastAdoption": 7,
@@ -90,7 +90,7 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 47,
+      "runs": 48,
       "fetched": 21,
       "adopted": 1,
       "lastAdoptedAt": "2026-10-07T21:03:00.993Z",
@@ -110,13 +110,13 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 47,
-      "fetched": 13,
+      "runs": 48,
+      "fetched": 14,
       "adopted": 0,
       "lastAdoptedAt": null,
       "runsAtLastAdoption": 6,
-      "consecutiveErrors": 3,
-      "lastError": "Non-whitespace before first tag.\nLine: 0\nColumn: 1\nChar: \u001f"
+      "consecutiveErrors": 0,
+      "lastError": null
     }
   },
   {
@@ -130,8 +130,8 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 47,
-      "fetched": 54,
+      "runs": 48,
+      "fetched": 56,
       "adopted": 0,
       "lastAdoptedAt": null,
       "runsAtLastAdoption": 6,
@@ -150,8 +150,8 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 47,
-      "fetched": 14,
+      "runs": 48,
+      "fetched": 15,
       "adopted": 0,
       "lastAdoptedAt": null,
       "runsAtLastAdoption": 6,
@@ -190,7 +190,7 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 47,
+      "runs": 48,
       "fetched": 7,
       "adopted": 0,
       "lastAdoptedAt": null,
@@ -210,8 +210,8 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 47,
-      "fetched": 89,
+      "runs": 48,
+      "fetched": 90,
       "adopted": 3,
       "lastAdoptedAt": "2026-10-08T21:02:44.924Z",
       "runsAtLastAdoption": 29,
@@ -230,8 +230,8 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 47,
-      "fetched": 208,
+      "runs": 48,
+      "fetched": 212,
       "adopted": 2,
       "lastAdoptedAt": "2026-09-30T21:04:50.347Z",
       "runsAtLastAdoption": 21,
@@ -250,7 +250,7 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 47,
+      "runs": 48,
       "fetched": 20,
       "adopted": 0,
       "lastAdoptedAt": null,
@@ -270,8 +270,8 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 47,
-      "fetched": 53,
+      "runs": 48,
+      "fetched": 54,
       "adopted": 2,
       "lastAdoptedAt": "2026-10-14T21:03:14.218Z",
       "runsAtLastAdoption": 35,
@@ -290,7 +290,7 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 47,
+      "runs": 48,
       "fetched": 0,
       "adopted": 0,
       "lastAdoptedAt": null,
@@ -310,8 +310,8 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 47,
-      "fetched": 580,
+      "runs": 48,
+      "fetched": 594,
       "adopted": 39,
       "lastAdoptedAt": "2026-10-26T21:04:45.183Z",
       "runsAtLastAdoption": 47,
@@ -330,7 +330,7 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 47,
+      "runs": 48,
       "fetched": 330,
       "adopted": 9,
       "lastAdoptedAt": "2026-10-20T21:01:06.074Z",
@@ -350,8 +350,8 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 47,
-      "fetched": 375,
+      "runs": 48,
+      "fetched": 390,
       "adopted": 10,
       "lastAdoptedAt": "2026-09-28T21:01:14.487Z",
       "runsAtLastAdoption": 19,
@@ -370,7 +370,7 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 47,
+      "runs": 48,
       "fetched": 15,
       "adopted": 0,
       "lastAdoptedAt": null,
@@ -390,8 +390,8 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 47,
-      "fetched": 441,
+      "runs": 48,
+      "fetched": 451,
       "adopted": 5,
       "lastAdoptedAt": "2026-10-23T21:03:32.192Z",
       "runsAtLastAdoption": 44,
@@ -430,8 +430,8 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 47,
-      "fetched": 58,
+      "runs": 48,
+      "fetched": 59,
       "adopted": 0,
       "lastAdoptedAt": null,
       "runsAtLastAdoption": 6,
@@ -450,7 +450,7 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 47,
+      "runs": 48,
       "fetched": 8,
       "adopted": 0,
       "lastAdoptedAt": null,
@@ -490,8 +490,8 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 47,
-      "fetched": 495,
+      "runs": 48,
+      "fetched": 510,
       "adopted": 39,
       "lastAdoptedAt": "2026-10-26T21:04:45.183Z",
       "runsAtLastAdoption": 47,
@@ -510,8 +510,8 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 47,
-      "fetched": 313,
+      "runs": 48,
+      "fetched": 320,
       "adopted": 20,
       "lastAdoptedAt": "2026-10-26T21:04:45.183Z",
       "runsAtLastAdoption": 47,
@@ -530,8 +530,8 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 47,
-      "fetched": 137,
+      "runs": 48,
+      "fetched": 138,
       "adopted": 1,
       "lastAdoptedAt": "2026-10-25T21:00:53.599Z",
       "runsAtLastAdoption": 46,
@@ -550,7 +550,7 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 47,
+      "runs": 48,
       "fetched": 52,
       "adopted": 2,
       "lastAdoptedAt": "2026-10-25T21:00:53.599Z",
@@ -570,7 +570,7 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 45,
+      "runs": 46,
       "fetched": 19,
       "adopted": 9,
       "lastAdoptedAt": "2026-10-23T21:03:32.192Z",
@@ -590,7 +590,7 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 45,
+      "runs": 46,
       "fetched": 28,
       "adopted": 7,
       "lastAdoptedAt": "2026-10-23T21:03:32.192Z",
@@ -630,8 +630,8 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 45,
-      "fetched": 7,
+      "runs": 46,
+      "fetched": 8,
       "adopted": 3,
       "lastAdoptedAt": "2026-10-13T21:02:03.712Z",
       "runsAtLastAdoption": 32,
@@ -670,8 +670,8 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 45,
-      "fetched": 490,
+      "runs": 46,
+      "fetched": 505,
       "adopted": 19,
       "lastAdoptedAt": "2026-10-26T21:04:45.183Z",
       "runsAtLastAdoption": 45,
@@ -690,8 +690,8 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 45,
-      "fetched": 60,
+      "runs": 46,
+      "fetched": 62,
       "adopted": 6,
       "lastAdoptedAt": "2026-10-20T21:01:06.074Z",
       "runsAtLastAdoption": 39,
@@ -710,7 +710,7 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 45,
+      "runs": 46,
       "fetched": 4,
       "adopted": 3,
       "lastAdoptedAt": "2026-10-13T21:02:03.712Z",
@@ -730,7 +730,7 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 45,
+      "runs": 46,
       "fetched": 23,
       "adopted": 7,
       "lastAdoptedAt": "2026-10-25T21:00:53.599Z",
@@ -810,12 +810,12 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 41,
+      "runs": 42,
       "fetched": 78,
       "adopted": 16,
       "lastAdoptedAt": "2026-10-23T21:03:32.192Z",
       "runsAtLastAdoption": 38,
-      "consecutiveErrors": 1,
+      "consecutiveErrors": 2,
       "lastError": "read ECONNRESET"
     }
   },
@@ -870,7 +870,7 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 41,
+      "runs": 42,
       "fetched": 116,
       "adopted": 13,
       "lastAdoptedAt": "2026-09-30T21:04:50.347Z",
@@ -890,7 +890,7 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 41,
+      "runs": 42,
       "fetched": 29,
       "adopted": 4,
       "lastAdoptedAt": "2026-10-09T21:00:58.759Z",
@@ -910,7 +910,7 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 41,
+      "runs": 42,
       "fetched": 30,
       "adopted": 6,
       "lastAdoptedAt": "2026-10-09T21:00:58.759Z",
@@ -1010,8 +1010,8 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 30,
-      "fetched": 391,
+      "runs": 31,
+      "fetched": 406,
       "adopted": 4,
       "lastAdoptedAt": "2026-10-19T21:02:44.010Z",
       "runsAtLastAdoption": 23,
@@ -1070,7 +1070,7 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 30,
+      "runs": 31,
       "fetched": 7,
       "adopted": 1,
       "lastAdoptedAt": "2026-09-27T21:00:59.550Z",
@@ -1110,8 +1110,8 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 30,
-      "fetched": 40,
+      "runs": 31,
+      "fetched": 41,
       "adopted": 13,
       "lastAdoptedAt": "2026-10-25T21:00:53.599Z",
       "runsAtLastAdoption": 29,
@@ -1150,8 +1150,8 @@
     "stoppedAt": null,
     "stoppedReason": null,
     "stats": {
-      "runs": 30,
-      "fetched": 285,
+      "runs": 31,
+      "fetched": 295,
       "adopted": 6,
       "lastAdoptedAt": "2026-10-11T21:04:00.823Z",
       "runsAtLastAdoption": 15,
