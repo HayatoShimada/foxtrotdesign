@@ -1,8 +1,20 @@
 {
-  "generatedAt": "2026-10-26T21:04:45.183Z",
+  "generatedAt": "2026-10-28T21:01:02.571Z",
   "question": "整理することに疲れている",
   "windowDays": 7,
   "items": [
+    {
+      "title": "The Psychology of Overengineering",
+      "url": "https://speakerdeck.com/fabiangosebrink/the-psychology-of-overengineering",
+      "sourceId": "speakerdeck-com-c-technology",
+      "sourceName": "Speaker Deck Technology",
+      "category": "slides",
+      "publishedAt": "2026-10-28T11:59:15.000Z",
+      "relevance": 85,
+      "importance": 60,
+      "score": 80,
+      "reason": "整理や仕組み化の過剰（オーバーエンジニアリング）への心理を扱っており、整理疲れから手を動かしたいという問いやメモに強く合致する。"
+    },
     {
       "title": "自由エネルギー原理とフッサール現象学｜予測符号化で志向性はどこまで語れるか",
       "url": "https://research.smeai.org/free-energy-principle-husserl-phenomenology/",
@@ -14,6 +26,18 @@
       "importance": 60,
       "score": 80,
       "reason": "自由エネルギー原理と現象学を扱う内容は、読もうとしている『現れる存在―脳と身体と世界の再統合』の核心的テーマと直接つながる。"
+    },
+    {
+      "title": "アフォーダンス理論とロボティクス｜ハイデガーの手元性とギブソンをつなぐ設計論",
+      "url": "https://research.smeai.org/affordance-robotics-heidegger-gibson/",
+      "sourceId": "research-smeai-org",
+      "sourceName": "中小企業AI活用協会研究サイト",
+      "category": "discovered",
+      "publishedAt": "2026-10-27T20:51:35.000Z",
+      "relevance": 85,
+      "importance": 50,
+      "score": 78,
+      "reason": "読書予定の『現れる存在』などの関心領域であるアフォーダンス理論や認知・世界像、ハイデガー哲学の概念に直接つながるため。"
     },
     {
       "title": "AI対話に何を挟むか ― 高回転対話・デジタル摘録・手書き記録による創造体験の違い｜日本創造学会2026",
@@ -28,6 +52,18 @@
       "reason": "手書き記録やデジタル摘録による創造体験の違いを扱っており、「整理に疲れ手を動かしたい」という心境や身体性に関する読書リストと深く合致する。"
     },
     {
+      "title": "OmniBrain-0: A Unified Agentic Model for Embodied Intelligence",
+      "url": "https://arxiv.org/abs/2610.36013",
+      "sourceId": "rss-arxiv-org-rss-cs-cl",
+      "sourceName": "arXiv cs.CL",
+      "category": "research",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "relevance": 70,
+      "importance": 60,
+      "score": 68,
+      "reason": "読もうとしている本『現れる存在――脳と身体と世界の再統合』の主要テーマである「身体的知能（Embodied Intelligence）」に直接関わる研究であるため。"
+    },
+    {
       "title": "事象境界と主観的時間の関係とは？合成データ・ベンチマーク設計を解説",
       "url": "https://research.smeai.org/event-boundary-subjective-time-benchmark/",
       "sourceId": "research-smeai-org",
@@ -40,16 +76,16 @@
       "reason": "主観的時間や認知の境目を捉えるテーマであり、認知・脳・身体の再統合を扱う読書リストの関心と強くリンクする。"
     },
     {
-      "title": "A Man from the Future: Why Johnny Can't Stop Abstracting",
-      "url": "http://muratbuffalo.blogspot.com/2026/10/the-man-from-future-why-johnny-cant.html",
-      "sourceId": "hnrss-org-frontpage",
-      "sourceName": "Hacker News",
-      "category": "developer",
-      "publishedAt": "2026-10-26T17:49:55.000Z",
-      "relevance": 55,
-      "importance": 45,
-      "score": 53,
-      "reason": "過剰な抽象化（整理や仕組み化）を止められない傾向を扱う記事であり、整理することに疲れて手を動かす段階に入りたいという本人の問題意識に直接繋がるため。"
+      "title": "星野太｜レイ・ブラシエ『解き放たれた無──啓蒙と絶滅』",
+      "url": "https://artscape.jp/article/80929/",
+      "sourceId": "artscape-jp",
+      "sourceName": "artscape",
+      "category": "discovered",
+      "publishedAt": "2026-10-28T02:00:23.000Z",
+      "relevance": 60,
+      "importance": 40,
+      "score": 56,
+      "reason": "ドゥルーズや実存・身体論などの現代思想書を並行して読もうとしている関心と、哲学書『解き放たれた無』の批評が合致するため。"
     },
     {
       "title": "昔の自分にしがみつくことを手放したら／me and you’s eye",
@@ -64,18 +100,6 @@
       "reason": "「昔の自分にしがみつくことを手放す」というテーマが、整理疲れや従来の整理・管理段階を終えて新しい制作フェーズに移行しようとする心情に響くため。"
     },
     {
-      "title": "ツヤツヤ＆ピッカピカのテーブルを製作するDIY動画が大バズり 丁寧な解説に「感動」「チャレンジします」の声",
-      "url": "https://realsound.jp/tech/2026/10/post-2564139.html",
-      "sourceId": "realsound-jp-tech",
-      "sourceName": "リアルサウンド",
-      "category": "discovered",
-      "publishedAt": "2026-10-26T11:50:18.000Z",
-      "relevance": 60,
-      "importance": 20,
-      "score": 52,
-      "reason": "頭で整理するのをやめ、実際に自らの手を動かしてモノを作り上げるDIYの実践に関する話題であり、「手を動かして作る」関心に合致する。"
-    },
-    {
       "title": "歌、アニメ、2.5次元、そしてAI。「人間の声」をめぐる文化の現在地を考える。──声遊楽クロスダイアローグ#11レポート【長塚全×川原繁人×須川亜紀子】",
       "url": "https://desilo.substack.com/p/seiyugaku-report-11",
       "sourceId": "desilo-substack-com",
@@ -88,40 +112,40 @@
       "reason": "「人間の声」や身体表現、文化を巡る対話であり、読書リストにある中平卓馬の映像論や現象学的な身体・存在への問いと響き合う。"
     },
     {
-      "title": "美濃焼を1400ページで読み解く『The Book of MINO 美濃焼の解剖』。産業、工芸、アートを横断し「創造のための資源」としたアーカイブ",
-      "url": "https://www.axismag.jp/posts/2026/10/725017.html",
-      "sourceId": "axismag-jp",
-      "sourceName": "AXIS Web | デザインの視点で、人間の可能性や創造性を伝えるメディア",
-      "category": "discovered",
-      "publishedAt": "2026-10-20T05:05:55.000Z",
-      "relevance": 55,
-      "importance": 40,
-      "score": 52,
-      "reason": "読もうとしている本『なぜ、植物図鑑か』の持つ記録・アーカイブ視点や、「整理・解剖」という行為に関連した書籍であり関心と繋がります。"
-    },
-    {
       "title": "Context Engineering with Deep Agents: How To Remember Without Keeping Everything In Context",
       "url": "https://www.langchain.com/blog/context-engineering-deep-agents-remember",
       "sourceId": "blog-langchain-com",
       "sourceName": "LangChain",
       "category": "developer",
-      "publishedAt": "2026-10-26T15:32:16.000Z",
+      "publishedAt": "2026-10-28T18:06:04.000Z",
       "relevance": 50,
       "importance": 55,
       "score": 51,
       "reason": "全てをコンテキストに保持せず記憶する技術であり、整理することに疲れて手を動かす段階に入りたいという問いに繋がります。"
     },
     {
-      "title": "「作れる」と「リリースできる」の間にあったもの── PdMを外して見えた、PdMがやるべき仕事/Buildable ≠ Shippable: What Removing the PM Taught Me About the PM’s Job",
-      "url": "https://speakerdeck.com/yappli_developers/buildable-shippable-what-removing-the-pm-taught-me-about-the-pms-job",
-      "sourceId": "speakerdeck-com-c-technology",
-      "sourceName": "Speaker Deck Technology",
-      "category": "slides",
-      "publishedAt": "2026-10-26T06:01:43.000Z",
+      "title": "感情の嵐の中からあなたを救う「即効薬」!!『読むだけで心身が整う メンタルメンテナンス大全』発売！ 著者累計211万部、セルフメンタルケアの”即効薬”本",
+      "url": "https://web.kawade.co.jp/information/261155/",
+      "sourceId": "web-kawade-co-jp",
+      "sourceName": "Web河出",
+      "category": "discovered",
+      "publishedAt": "2026-10-28T09:00:00.000Z",
       "relevance": 55,
       "importance": 30,
       "score": 50,
-      "reason": "「作る」ことと実際にリリースして手を動かして形にする境界についての話であり、整える段階を終えて何かを作るフェーズに入るという関心に合致する。"
+      "reason": "「整理することに疲れている」という状態に対し、心身を整えるセルフメンタルケアの視点から直接役立つ話題であるため。"
+    },
+    {
+      "title": "Jevに問い合わせメッセージを仕分けてもらう",
+      "url": "https://zenn.dev/chot/articles/980c44e5a19736",
+      "sourceId": "zenn-dev",
+      "sourceName": "Zenn",
+      "category": "community",
+      "publishedAt": "2026-10-27T03:00:16.000Z",
+      "relevance": 50,
+      "importance": 45,
+      "score": 49,
+      "reason": "「整理することに疲れている」状態に対し、問い合わせメッセージ等の仕分け作業をAIに任せて整理の手間を減らす具体的な実践法として繋がるため。"
     },
     {
       "title": "モチベーションとは何か？産業組織心理学の研究をもとに読み解く / What is motivation?",
@@ -136,28 +160,16 @@
       "reason": "モチベーションの構造を心理学的に紐解く内容は、整理の手を止めて何かを作るフェーズへ移行したい際の意欲や疲労感の理解に役立つ。"
     },
     {
-      "title": "人工的コミュニケーション論入門｜エスポジトとルーマンで考えるAIの意味参与",
-      "url": "https://research.smeai.org/esposito-artificial-communication-layered-meaning/",
-      "sourceId": "research-smeai-org",
-      "sourceName": "中小企業AI活用協会研究サイト",
-      "category": "discovered",
-      "publishedAt": "2026-10-20T20:43:59.000Z",
-      "relevance": 50,
-      "importance": 40,
-      "score": 48,
-      "reason": "『現れる存在』などの哲学・脳科学のテーマと親和性の高い「コミュニケーション論」や「意味参与」についての理論的解説です。"
-    },
-    {
-      "title": "AI時代、つくる力を自分たちの手に。 ──電通×KAG、アジャイルとAI駆動開発で挑む開発の変革",
-      "url": "https://speakerdeck.com/yuukiyo/dentsu-kag-ai-agile-transformation",
-      "sourceId": "speakerdeck-com-c-technology",
-      "sourceName": "Speaker Deck Technology",
-      "category": "slides",
-      "publishedAt": "2026-10-25T23:37:23.000Z",
-      "relevance": 50,
-      "importance": 35,
-      "score": 47,
-      "reason": "計画や整理だけでなく実際に「つくる力」を自分たちの手に取り戻し手を動かす開発への変革は、作るフェーズに入りたい今の関心に繋がる。"
+      "title": "Claude Codeで半年分のレビュー指摘を分類してみた",
+      "url": "https://zenn.dev/port_inc/articles/a4bc3b39f44459",
+      "sourceId": "zenn-dev",
+      "sourceName": "Zenn",
+      "category": "community",
+      "publishedAt": "2026-10-28T01:00:06.000Z",
+      "relevance": 45,
+      "importance": 50,
+      "score": 46,
+      "reason": "整理や分類に疲れを感じている中で、大量の指摘事項や情報をAIを活用して自動で分類・整理する具体的な実践例として参考になるため。"
     },
     {
       "title": "知能とはなにか －ヒトとAIのあいだ－",
@@ -184,16 +196,28 @@
       "reason": "「来し方を株分けする」という整理や区切りを感じさせる概念が、整理に疲れた段階から次の段階へ展開する思考の整理に通じるため。"
     },
     {
-      "title": "第1回 キャベツの顔つき",
-      "url": "https://kangaeruhito.jp/article/764377",
-      "sourceId": "kangaeruhito-jp",
-      "sourceName": "考える人",
+      "title": "星野太｜ジャック・ハルバスタム『クィアな時間と場所で──トランスジェンダーの身体とサブカルチャーの生』",
+      "url": "https://artscape.jp/article/80927/",
+      "sourceId": "artscape-jp",
+      "sourceName": "artscape",
       "category": "discovered",
-      "publishedAt": "2026-10-20T21:00:56.000Z",
+      "publishedAt": "2026-10-23T02:00:38.000Z",
       "relevance": 45,
-      "importance": 35,
-      "score": 43,
-      "reason": "対象を観察・視覚化する文化論的な論考であり、読みたい本『なぜ、植物図鑑か』の関心領域と重なります。"
+      "importance": 40,
+      "score": 44,
+      "reason": "読書予定の『私とは何か』や『現れる存在』に通底する、身体性やアイデンティティの探求に繋がる。"
+    },
+    {
+      "title": "CNC Stone Carving",
+      "url": "https://carmelitegothic.com/cnc-stone-carving/",
+      "sourceId": "hnrss-org-frontpage",
+      "sourceName": "Hacker News",
+      "category": "developer",
+      "publishedAt": "2026-10-28T14:38:22.000Z",
+      "relevance": 45,
+      "importance": 30,
+      "score": 42,
+      "reason": "メモにある「手を動かして何かを作るフェーズに入る」という意識に対し、物理的な加工・制作技術である石彫り（Stone Carving）の話題が繋がる。"
     },
     {
       "title": "まずはコードより業務と向き合う：テーブル解体のためにPdMを呼んだ話",
@@ -206,6 +230,18 @@
       "importance": 25,
       "score": 41,
       "reason": "コードを書く・作る前に整理しがちな状況から、現場の業務や実際の泥臭い作りに向き合う姿勢が、整理に疲れた状態の示唆になる。"
+    },
+    {
+      "title": "記憶に頼るな。Claudeセッションの記録を取ろう",
+      "url": "https://qiita.com/qwertyhoge/items/987c0ea8afdb5cd045e8?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "sourceId": "qiita-com-popular-items",
+      "sourceName": "Qiita",
+      "category": "community",
+      "publishedAt": "2026-10-26T10:51:04.000Z",
+      "relevance": 40,
+      "importance": 40,
+      "score": 40,
+      "reason": "頭の中での記憶や整理に疲れた際に、ログの記録や管理を仕組み化して認知負荷を下げるヒントとして、「整理することに疲れた」問いと繋がる。"
     },
     {
       "title": "主観時間表現とは？AIで「感じる時間」を活かす映像要約・UX・医療への応用",
