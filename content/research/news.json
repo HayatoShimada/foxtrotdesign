@@ -1,20 +1,8 @@
 {
-  "generatedAt": "2026-10-28T21:01:02.571Z",
+  "generatedAt": "2026-10-29T21:01:31.389Z",
   "question": "整理することに疲れている",
   "windowDays": 7,
   "items": [
-    {
-      "title": "The Psychology of Overengineering",
-      "url": "https://speakerdeck.com/fabiangosebrink/the-psychology-of-overengineering",
-      "sourceId": "speakerdeck-com-c-technology",
-      "sourceName": "Speaker Deck Technology",
-      "category": "slides",
-      "publishedAt": "2026-10-28T11:59:15.000Z",
-      "relevance": 85,
-      "importance": 60,
-      "score": 80,
-      "reason": "整理や仕組み化の過剰（オーバーエンジニアリング）への心理を扱っており、整理疲れから手を動かしたいという問いやメモに強く合致する。"
-    },
     {
       "title": "自由エネルギー原理とフッサール現象学｜予測符号化で志向性はどこまで語れるか",
       "url": "https://research.smeai.org/free-energy-principle-husserl-phenomenology/",
@@ -40,6 +28,18 @@
       "reason": "読書予定の『現れる存在』などの関心領域であるアフォーダンス理論や認知・世界像、ハイデガー哲学の概念に直接つながるため。"
     },
     {
+      "title": "創造力も失わないし、疲弊しない／桜井杜音",
+      "url": "https://meandyou.net/202610-kamonesakurai/",
+      "sourceId": "meandyou-net",
+      "sourceName": "me and you little magazine & club",
+      "category": "discovered",
+      "publishedAt": "2026-10-29T09:00:24.000Z",
+      "relevance": 85,
+      "importance": 30,
+      "score": 74,
+      "reason": "整理に疲れ、手を動かして作るフェーズに入りたいという心境と「疲弊せず創造力を保つ」という題が直結するため。"
+    },
+    {
       "title": "AI対話に何を挟むか ― 高回転対話・デジタル摘録・手書き記録による創造体験の違い｜日本創造学会2026",
       "url": "https://speakerdeck.com/ishiirikie/ai-taiwa-ni-nani-o-hasamu-ka-koukaiten-taiwa-dejitaru-tekiroku-tegaki-kiroku-niyoru-souzou-taiken-no-chigai-nippon-souzou-gakkai-2026",
       "sourceId": "speakerdeck-com-c-research",
@@ -50,18 +50,6 @@
       "importance": 50,
       "score": 74,
       "reason": "手書き記録やデジタル摘録による創造体験の違いを扱っており、「整理に疲れ手を動かしたい」という心境や身体性に関する読書リストと深く合致する。"
-    },
-    {
-      "title": "OmniBrain-0: A Unified Agentic Model for Embodied Intelligence",
-      "url": "https://arxiv.org/abs/2610.36013",
-      "sourceId": "rss-arxiv-org-rss-cs-cl",
-      "sourceName": "arXiv cs.CL",
-      "category": "research",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "relevance": 70,
-      "importance": 60,
-      "score": 68,
-      "reason": "読もうとしている本『現れる存在――脳と身体と世界の再統合』の主要テーマである「身体的知能（Embodied Intelligence）」に直接関わる研究であるため。"
     },
     {
       "title": "事象境界と主観的時間の関係とは？合成データ・ベンチマーク設計を解説",
@@ -76,16 +64,40 @@
       "reason": "主観的時間や認知の境目を捉えるテーマであり、認知・脳・身体の再統合を扱う読書リストの関心と強くリンクする。"
     },
     {
-      "title": "星野太｜レイ・ブラシエ『解き放たれた無──啓蒙と絶滅』",
-      "url": "https://artscape.jp/article/80929/",
-      "sourceId": "artscape-jp",
-      "sourceName": "artscape",
-      "category": "discovered",
-      "publishedAt": "2026-10-28T02:00:23.000Z",
+      "title": "いいから休め - Black October が終わる今、セキュリティエンジニアがやるべきこと",
+      "url": "https://zenn.dev/nayuta/articles/aec9ab2e11a7b7",
+      "sourceId": "zenn-dev",
+      "sourceName": "Zenn",
+      "category": "community",
+      "publishedAt": "2026-10-28T10:14:03.000Z",
       "relevance": 60,
-      "importance": 40,
-      "score": 56,
-      "reason": "ドゥルーズや実存・身体論などの現代思想書を並行して読もうとしている関心と、哲学書『解き放たれた無』の批評が合致するため。"
+      "importance": 55,
+      "score": 59,
+      "reason": "「整理することに疲れている」問いや、業務・タスクに追われて休みたい・ゲームをしたいという心理状態に直結するアドバイスです。"
+    },
+    {
+      "title": "心を守るために、自他の境界線を引き直そう――鴻巣麻里香『自他の境界線を育てる』試し読み",
+      "url": "https://www.webchikuma.com/n/nf27ab0e1868b",
+      "sourceId": "webchikuma-com",
+      "sourceName": "webちくま（筑摩書房の読みものサイト）",
+      "category": "discovered",
+      "publishedAt": "2026-10-29T02:52:53.000Z",
+      "relevance": 60,
+      "importance": 35,
+      "score": 55,
+      "reason": "「私とは何か――『分人』へ」の読書予定や整理に疲れた心のケア・境界線という関心と合致するため。"
+    },
+    {
+      "title": "Slice Into GFN Thursday: ‘Phantom Blade Zero’ Launches on GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-phantom-blade-zero/",
+      "sourceId": "blogs-nvidia-com",
+      "sourceName": "NVIDIA",
+      "category": "vendor",
+      "publishedAt": "2026-10-29T13:00:16.000Z",
+      "relevance": 55,
+      "importance": 45,
+      "score": 53,
+      "reason": "「シンプルにゲームがしたい」という本人のメモの欲求と直接合致するクラウドゲーム・新作ゲーム配信のニュースです。"
     },
     {
       "title": "昔の自分にしがみつくことを手放したら／me and you’s eye",
@@ -100,6 +112,18 @@
       "reason": "「昔の自分にしがみつくことを手放す」というテーマが、整理疲れや従来の整理・管理段階を終えて新しい制作フェーズに移行しようとする心情に響くため。"
     },
     {
+      "title": "Claude Codeで「QAチーム」を組んだら、効いたのは「捨てる仕組み」だった ― AIだけが見つけた不具合・見逃しは？",
+      "url": "https://zenn.dev/sre_holdings/articles/d4acb079680a79",
+      "sourceId": "zenn-dev",
+      "sourceName": "Zenn",
+      "category": "community",
+      "publishedAt": "2026-10-29T05:00:29.000Z",
+      "relevance": 50,
+      "importance": 60,
+      "score": 52,
+      "reason": "「整理することに疲れている」という問いに対し、QA効率化で得られた「捨てる仕組み」の知見が片付けや整理の思想に通じます。"
+    },
+    {
       "title": "歌、アニメ、2.5次元、そしてAI。「人間の声」をめぐる文化の現在地を考える。──声遊楽クロスダイアローグ#11レポート【長塚全×川原繁人×須川亜紀子】",
       "url": "https://desilo.substack.com/p/seiyugaku-report-11",
       "sourceId": "desilo-substack-com",
@@ -112,12 +136,24 @@
       "reason": "「人間の声」や身体表現、文化を巡る対話であり、読書リストにある中平卓馬の映像論や現象学的な身体・存在への問いと響き合う。"
     },
     {
+      "title": "A tiny world model running games on a Raspberry Pi Pico 2 W",
+      "url": "https://github.com/SheepSeb/tinyworldformer",
+      "sourceId": "hnrss-org-frontpage",
+      "sourceName": "Hacker News",
+      "category": "developer",
+      "publishedAt": "2026-10-29T20:32:28.000Z",
+      "relevance": 50,
+      "importance": 55,
+      "score": 51,
+      "reason": "「手を動かして何かを作る」「シンプルにゲームがしたい」という関心に対し、マイコン上で動くゲーム用世界モデルの実験作が刺激を与えます。"
+    },
+    {
       "title": "Context Engineering with Deep Agents: How To Remember Without Keeping Everything In Context",
       "url": "https://www.langchain.com/blog/context-engineering-deep-agents-remember",
       "sourceId": "blog-langchain-com",
       "sourceName": "LangChain",
       "category": "developer",
-      "publishedAt": "2026-10-28T18:06:04.000Z",
+      "publishedAt": "2026-10-28T19:33:23.000Z",
       "relevance": 50,
       "importance": 55,
       "score": 51,
@@ -136,16 +172,16 @@
       "reason": "「整理することに疲れている」という状態に対し、心身を整えるセルフメンタルケアの視点から直接役立つ話題であるため。"
     },
     {
-      "title": "Jevに問い合わせメッセージを仕分けてもらう",
-      "url": "https://zenn.dev/chot/articles/980c44e5a19736",
-      "sourceId": "zenn-dev",
-      "sourceName": "Zenn",
+      "title": "沈黙させられた問いを起動する ― 多文化共生の強制という設計バグ : システム設計視点の行動経済学 (51)",
+      "url": "https://qiita.com/maskot1977/items/493e792d3af3d66314b6?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "sourceId": "qiita-com-popular-items",
+      "sourceName": "Qiita",
       "category": "community",
-      "publishedAt": "2026-10-27T03:00:16.000Z",
-      "relevance": 50,
-      "importance": 45,
-      "score": 49,
-      "reason": "「整理することに疲れている」状態に対し、問い合わせメッセージ等の仕分け作業をAIに任せて整理の手間を減らす具体的な実践法として繋がるため。"
+      "publishedAt": "2026-10-28T22:06:13.000Z",
+      "relevance": 45,
+      "importance": 60,
+      "score": 48,
+      "reason": "読もうとしている本（ドゥルーズや主体論）に関心があるユーザーにとって、システム設計視点での社会の「問い」の起動はテーマが響きます。"
     },
     {
       "title": "モチベーションとは何か？産業組織心理学の研究をもとに読み解く / What is motivation?",
@@ -158,6 +194,30 @@
       "importance": 40,
       "score": 48,
       "reason": "モチベーションの構造を心理学的に紐解く内容は、整理の手を止めて何かを作るフェーズへ移行したい際の意欲や疲労感の理解に役立つ。"
+    },
+    {
+      "title": "フーコーの言葉(パロール)",
+      "url": "https://www.webchikuma.com/n/ncf611d067448",
+      "sourceId": "webchikuma-com",
+      "sourceName": "webちくま（筑摩書房の読みものサイト）",
+      "category": "discovered",
+      "publishedAt": "2026-10-29T07:37:41.000Z",
+      "relevance": 50,
+      "importance": 35,
+      "score": 47,
+      "reason": "ドゥルーズなどの読もうとしている哲学・現代思想本と親和性が高く、関心軸と繋がるため。"
+    },
+    {
+      "title": "AIはどれくらい動画編集ができるのか!? Claude CodeでYouTube動画編集した話",
+      "url": "https://qiita.com/tsukasa_japan/items/b8bca096170d087e271d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+      "sourceId": "qiita-com-popular-items",
+      "sourceName": "Qiita",
+      "category": "community",
+      "publishedAt": "2026-10-29T08:11:44.000Z",
+      "relevance": 45,
+      "importance": 50,
+      "score": 46,
+      "reason": "「整理や準備を終えて手を動かして何かを作るフェーズに入る」というメモの志向性と、実際にAIを使って物を作る実践記事がリンクします。"
     },
     {
       "title": "Claude Codeで半年分のレビュー指摘を分類してみた",
@@ -184,64 +244,52 @@
       "reason": "ヒトとAIの間の知能を問う内容は、読もうとしている『私とは何か』や『現れる存在』における人間観や主観の探求とテーマが繋がる。"
     },
     {
-      "title": "15．来し方を株分けする",
-      "url": "https://kangaeruhito.jp/article/764350",
-      "sourceId": "kangaeruhito-jp",
-      "sourceName": "考える人",
-      "category": "discovered",
-      "publishedAt": "2026-10-22T21:00:29.000Z",
+      "title": "こいのようにぼくたちは（レトロゲームから得た学びの発表#8 LT資料）",
+      "url": "https://speakerdeck.com/mzryuka/koi-no-you-ni-bokutachi-ha-kara-eta-manabi-no-happyou-8-lt-shiryou",
+      "sourceId": "speakerdeck-com-c-technology",
+      "sourceName": "Speaker Deck Technology",
+      "category": "slides",
+      "publishedAt": "2026-10-29T14:43:20.000Z",
       "relevance": 50,
-      "importance": 25,
-      "score": 45,
-      "reason": "「来し方を株分けする」という整理や区切りを感じさせる概念が、整理に疲れた段階から次の段階へ展開する思考の整理に通じるため。"
-    },
-    {
-      "title": "星野太｜ジャック・ハルバスタム『クィアな時間と場所で──トランスジェンダーの身体とサブカルチャーの生』",
-      "url": "https://artscape.jp/article/80927/",
-      "sourceId": "artscape-jp",
-      "sourceName": "artscape",
-      "category": "discovered",
-      "publishedAt": "2026-10-23T02:00:38.000Z",
-      "relevance": 45,
-      "importance": 40,
+      "importance": 20,
       "score": 44,
-      "reason": "読書予定の『私とは何か』や『現れる存在』に通底する、身体性やアイデンティティの探求に繋がる。"
+      "reason": "ゲームを楽しみたいというメモの関心と、レトロゲームからの学びというテーマが繋がるため。"
     },
     {
-      "title": "CNC Stone Carving",
-      "url": "https://carmelitegothic.com/cnc-stone-carving/",
+      "title": "After 28 years walking across the globe, he's almost home",
+      "url": "https://www.nytimes.com/2026/10/29/world/europe/karl-bushby-walking-globe-uk.html",
       "sourceId": "hnrss-org-frontpage",
       "sourceName": "Hacker News",
       "category": "developer",
-      "publishedAt": "2026-10-28T14:38:22.000Z",
-      "relevance": 45,
-      "importance": 30,
+      "publishedAt": "2026-10-29T17:42:22.000Z",
+      "relevance": 40,
+      "importance": 50,
       "score": 42,
-      "reason": "メモにある「手を動かして何かを作るフェーズに入る」という意識に対し、物理的な加工・制作技術である石彫り（Stone Carving）の話題が繋がる。"
+      "reason": "長年の旅の終着というテーマは、「整理のフェーズを終えて次に移る」感覚や「動きすぎてはいけない」という読書リストの示唆に緩やかにつながります。"
     },
     {
-      "title": "まずはコードより業務と向き合う：テーブル解体のためにPdMを呼んだ話",
-      "url": "https://speakerdeck.com/sakawe_ee/mazuha-kodo-yori-gyoumu-to-mukiau-teburu-kaitai-no-tame-ni-pdm-o-yonda-hanashi",
-      "sourceId": "speakerdeck-com-c-programming",
-      "sourceName": "Speaker Deck Programming",
-      "category": "slides",
-      "publishedAt": "2026-10-26T07:51:35.000Z",
+      "title": "『マイクラ』でシンガポールの街並みを本格再現 900万ブロックで築いた“最高の夜景”に圧巻",
+      "url": "https://realsound.jp/tech/2026/10/post-2568676.html",
+      "sourceId": "realsound-jp-tech",
+      "sourceName": "リアルサウンド",
+      "category": "discovered",
+      "publishedAt": "2026-10-29T20:00:49.000Z",
       "relevance": 45,
       "importance": 25,
       "score": 41,
-      "reason": "コードを書く・作る前に整理しがちな状況から、現場の業務や実際の泥臭い作りに向き合う姿勢が、整理に疲れた状態の示唆になる。"
+      "reason": "手を動かして作るフェーズやゲームを楽しむという欲求と、サンドボックスゲームでのものづくりが重なるため。"
     },
     {
-      "title": "記憶に頼るな。Claudeセッションの記録を取ろう",
-      "url": "https://qiita.com/qwertyhoge/items/987c0ea8afdb5cd045e8?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "sourceId": "qiita-com-popular-items",
-      "sourceName": "Qiita",
-      "category": "community",
-      "publishedAt": "2026-10-26T10:51:04.000Z",
+      "title": "Meta quietly launches an AI fashion app called Style Sketch",
+      "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
+      "sourceId": "techcrunch-com-category-artificial-intelligence",
+      "sourceName": "TechCrunch AI",
+      "category": "media",
+      "publishedAt": "2026-10-29T19:14:36.000Z",
       "relevance": 40,
-      "importance": 40,
-      "score": 40,
-      "reason": "頭の中での記憶や整理に疲れた際に、ログの記録や管理を仕組み化して認知負荷を下げるヒントとして、「整理することに疲れた」問いと繋がる。"
+      "importance": 45,
+      "score": 41,
+      "reason": "「Sweat特集がほぼ完了した」「VOIRYのデニム」といったファッション周りの関心事項に関連するAIファッションアプリの話題です。"
     },
     {
       "title": "主観時間表現とは？AIで「感じる時間」を活かす映像要約・UX・医療への応用",
@@ -254,6 +302,18 @@
       "importance": 35,
       "score": 39,
       "reason": "主観時間や感覚に関するAI研究は、『現れる存在』が扱う脳・身体・世界の再統合の問いと関連する。"
+    },
+    {
+      "title": "『機動戦士ガンダム バトルオペレーション３』発表 『SEED』機体が本格参戦し、クロスプレイにも対応",
+      "url": "https://realsound.jp/tech/2026/10/post-2568246.html",
+      "sourceId": "realsound-jp-tech",
+      "sourceName": "リアルサウンド",
+      "category": "discovered",
+      "publishedAt": "2026-10-29T19:30:17.000Z",
+      "relevance": 40,
+      "importance": 30,
+      "score": 38,
+      "reason": "シンプルにゲームをしたいという本人のメモの欲求と関連するため。"
     }
   ]
 }
