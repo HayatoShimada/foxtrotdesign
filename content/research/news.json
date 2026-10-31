@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T21:01:46.634Z",
+  "generatedAt": "2026-10-31T21:00:45.859Z",
   "question": "整理することに疲れている",
   "windowDays": 7,
   "items": [
@@ -76,42 +76,6 @@
       "reason": "「整理することに疲れている」状態に対し、概念や哲学の整理法・配置の枠組みという関心事に深くリンクする。"
     },
     {
-      "title": "事象境界と主観的時間の関係とは？合成データ・ベンチマーク設計を解説",
-      "url": "https://research.smeai.org/event-boundary-subjective-time-benchmark/",
-      "sourceId": "research-smeai-org",
-      "sourceName": "中小企業AI活用協会研究サイト",
-      "category": "discovered",
-      "publishedAt": "2026-10-24T20:21:24.000Z",
-      "relevance": 65,
-      "importance": 50,
-      "score": 62,
-      "reason": "主観的時間や認知の境目を捉えるテーマであり、認知・脳・身体の再統合を扱う読書リストの関心と強くリンクする。"
-    },
-    {
-      "title": "HoYoverse初のスローライフゲーム『プチプラネット』、12月4日（金）正式リリース決定！",
-      "url": "https://prtimes.jp/main/html/rd/p/000000461.000096124.html",
-      "sourceId": "prtimes-jp-index-rdf",
-      "sourceName": "PR TIMES",
-      "category": "discovered",
-      "publishedAt": "2026-10-30T20:40:02.000Z",
-      "relevance": 65,
-      "importance": 45,
-      "score": 61,
-      "reason": "「シンプルにゲームがしたい」というメモの気分に合致し、整理疲れを癒やして純粋に遊ぶ選択肢となり得る。"
-    },
-    {
-      "title": "VS Code 1.144：Customizations の新ホーム Browse と Copilot connectors。探す・つなぐ・整える・配るを整理する",
-      "url": "https://qiita.com/shahin0809/items/12a7dd1fd077fd6169fa?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "sourceId": "qiita-com-popular-items",
-      "sourceName": "Qiita",
-      "category": "community",
-      "publishedAt": "2026-10-30T07:12:34.000Z",
-      "relevance": 65,
-      "importance": 45,
-      "score": 61,
-      "reason": "「探す・つなぐ・整える・配るを整理する」という見出しが、整理に疲れ環境を整える段階を抜け出そうとする意識と直接関連するため。"
-    },
-    {
       "title": "いいから休め - Black October が終わる今、セキュリティエンジニアがやるべきこと",
       "url": "https://zenn.dev/nayuta/articles/aec9ab2e11a7b7",
       "sourceId": "zenn-dev",
@@ -122,18 +86,6 @@
       "importance": 55,
       "score": 59,
       "reason": "「整理することに疲れている」問いや、業務・タスクに追われて休みたい・ゲームをしたいという心理状態に直結するアドバイスです。"
-    },
-    {
-      "title": "星野太｜レイ・ブラシエ『解き放たれた無──啓蒙と絶滅』",
-      "url": "https://artscape.jp/article/80929/",
-      "sourceId": "artscape-jp",
-      "sourceName": "artscape",
-      "category": "discovered",
-      "publishedAt": "2026-10-28T02:00:23.000Z",
-      "relevance": 60,
-      "importance": 40,
-      "score": 56,
-      "reason": "ドゥルーズや実存・身体論などの現代思想書を並行して読もうとしている関心と、哲学書『解き放たれた無』の批評が合致するため。"
     },
     {
       "title": "心を守るために、自他の境界線を引き直そう――鴻巣麻里香『自他の境界線を育てる』試し読み",
@@ -160,18 +112,6 @@
       "reason": "「シンプルにゲームがしたい」という本人のメモの欲求と直接合致するクラウドゲーム・新作ゲーム配信のニュースです。"
     },
     {
-      "title": "Claude Codeで「QAチーム」を組んだら、効いたのは「捨てる仕組み」だった ― AIだけが見つけた不具合・見逃しは？",
-      "url": "https://zenn.dev/sre_holdings/articles/d4acb079680a79",
-      "sourceId": "zenn-dev",
-      "sourceName": "Zenn",
-      "category": "community",
-      "publishedAt": "2026-10-29T05:00:29.000Z",
-      "relevance": 50,
-      "importance": 60,
-      "score": 52,
-      "reason": "「整理することに疲れている」という問いに対し、QA効率化で得られた「捨てる仕組み」の知見が片付けや整理の思想に通じます。"
-    },
-    {
       "title": "歌、アニメ、2.5次元、そしてAI。「人間の声」をめぐる文化の現在地を考える。──声遊楽クロスダイアローグ#11レポート【長塚全×川原繁人×須川亜紀子】",
       "url": "https://desilo.substack.com/p/seiyugaku-report-11",
       "sourceId": "desilo-substack-com",
@@ -182,6 +122,18 @@
       "importance": 40,
       "score": 52,
       "reason": "「人間の声」や身体表現、文化を巡る対話であり、読書リストにある中平卓馬の映像論や現象学的な身体・存在への問いと響き合う。"
+    },
+    {
+      "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
+      "url": "https://ryanmadden.net/gpt-56-beats-factorio/",
+      "sourceId": "hnrss-org-frontpage",
+      "sourceName": "Hacker News",
+      "category": "developer",
+      "publishedAt": "2026-10-31T18:50:34.000Z",
+      "relevance": 50,
+      "importance": 55,
+      "score": 51,
+      "reason": "「シンプルにゲームがしたい」というメモにおけるシミュレーション/自動化系ゲーム（Factorio）の話題に直接繋がります。"
     },
     {
       "title": "Context Engineering with Deep Agents: How To Remember Without Keeping Everything In Context",
@@ -196,18 +148,6 @@
       "reason": "全てをコンテキストに保持せず記憶する技術であり、整理することに疲れて手を動かす段階に入りたいという問いに繋がります。"
     },
     {
-      "title": "小さなアプリを作って公開するまで",
-      "url": "https://speakerdeck.com/onozaty/chiisana-o-tsuku-te-koukai-suru-made",
-      "sourceId": "speakerdeck-com-c-programming",
-      "sourceName": "Speaker Deck Programming",
-      "category": "slides",
-      "publishedAt": "2026-10-29T13:02:31.000Z",
-      "relevance": 55,
-      "importance": 30,
-      "score": 50,
-      "reason": "整理や準備を終え「手を動かして何かを作るフェーズに入る」という気持ちに対し、実際に小さなアプリを作って公開する過程が直接重なります。"
-    },
-    {
       "title": "感情の嵐の中からあなたを救う「即効薬」!!『読むだけで心身が整う メンタルメンテナンス大全』発売！ 著者累計211万部、セルフメンタルケアの”即効薬”本",
       "url": "https://web.kawade.co.jp/information/261155/",
       "sourceId": "web-kawade-co-jp",
@@ -218,18 +158,6 @@
       "importance": 30,
       "score": 50,
       "reason": "「整理することに疲れている」という状態に対し、心身を整えるセルフメンタルケアの視点から直接役立つ話題であるため。"
-    },
-    {
-      "title": "モチベーションとは何か？産業組織心理学の研究をもとに読み解く / What is motivation?",
-      "url": "https://speakerdeck.com/psj59129/what-is-motivation",
-      "sourceId": "speakerdeck-com-c-science",
-      "sourceName": "Speaker Deck Science",
-      "category": "slides",
-      "publishedAt": "2026-10-24T02:39:16.000Z",
-      "relevance": 50,
-      "importance": 40,
-      "score": 48,
-      "reason": "モチベーションの構造を心理学的に紐解く内容は、整理の手を止めて何かを作るフェーズへ移行したい際の意欲や疲労感の理解に役立つ。"
     },
     {
       "title": "フーコーの言葉(パロール)",
@@ -268,28 +196,16 @@
       "reason": "ヒトとAIの間の知能を問う内容は、読もうとしている『私とは何か』や『現れる存在』における人間観や主観の探求とテーマが繋がる。"
     },
     {
-      "title": "哲学と日常をつなぐ、独自のクリエイション / オランダ発ブランド「An Irrational Element」がAMAN ONLINE STOREに登場。",
-      "url": "https://prtimes.jp/main/html/rd/p/000000043.000037069.html",
-      "sourceId": "prtimes-jp-index-rdf",
-      "sourceName": "PR TIMES",
-      "category": "discovered",
-      "publishedAt": "2026-10-30T20:40:02.000Z",
-      "relevance": 45,
-      "importance": 40,
-      "score": 44,
-      "reason": "哲学と日常を繋ぐクリエイションは、読書リストにある哲学書や頭の整理を離れて日常・服飾を楽しむ意識と繋がる。"
-    },
-    {
-      "title": "Meta quietly launches an AI fashion app called Style Sketch",
-      "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
-      "sourceId": "techcrunch-com-category-artificial-intelligence",
-      "sourceName": "TechCrunch AI",
-      "category": "media",
-      "publishedAt": "2026-10-29T19:14:36.000Z",
+      "title": "Show HN: NES Contra (1987) port (ASM –> C and then C –> WebAssembly)",
+      "url": "https://epoyraz.github.io/nes-contra-us/",
+      "sourceId": "hnrss-org-frontpage",
+      "sourceName": "Hacker News",
+      "category": "developer",
+      "publishedAt": "2026-10-31T19:18:48.000Z",
       "relevance": 40,
-      "importance": 45,
-      "score": 41,
-      "reason": "「Sweat特集がほぼ完了した」「VOIRYのデニム」といったファッション周りの関心事項に関連するAIファッションアプリの話題です。"
+      "importance": 35,
+      "score": 39,
+      "reason": "「シンプルにゲームがしたい」というメモに関連し、レトロゲーム（魂斗羅）のWebAssembly移植の実践例です。"
     }
   ]
 }

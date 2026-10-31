@@ -565,5 +565,140 @@
     "feedUrl": "https://store.tsite.jp/rss.xml",
     "result": "registered",
     "sourceId": "store-tsite-jp"
+  },
+  {
+    "foundAt": "2026-10-31T21:03:06.458Z",
+    "query": "Andy Clark \"extended mind\" blog OR essays OR newsletter",
+    "title": "substack.com",
+    "url": "https://mindandmythos.substack.com/p/where-does-the-mind-stop-and-the",
+    "feedUrl": "https://mindandmythos.substack.com/feed?sectionId=403107",
+    "result": "registered",
+    "sourceId": "mindandmythos-substack-com"
+  },
+  {
+    "foundAt": "2026-10-31T21:03:12.338Z",
+    "query": "Andy Clark \"extended mind\" blog OR essays OR newsletter",
+    "title": "reddit.com",
+    "url": "https://www.reddit.com/r/cogsci/comments/1txk6tb/philosopher_andy_clark_argues_weve_always_been/",
+    "feedUrl": null,
+    "result": "no-feed",
+    "sourceId": null
+  },
+  {
+    "foundAt": "2026-10-31T21:03:12.909Z",
+    "query": "Andy Clark \"extended mind\" blog OR essays OR newsletter",
+    "title": "substack.com",
+    "url": "https://wrk3.substack.com/p/where-is-my-mind",
+    "feedUrl": "https://wrk3.substack.com/feed",
+    "result": "registered",
+    "sourceId": "wrk3-substack-com"
+  },
+  {
+    "foundAt": "2026-10-31T21:03:23.832Z",
+    "query": "Andy Clark \"extended mind\" blog OR essays OR newsletter",
+    "title": "iai.tv",
+    "url": "https://iai.tv/articles/where-is-my-mind-an-interview-with-andy-clark-auid-1162",
+    "feedUrl": null,
+    "result": "no-feed",
+    "sourceId": null
+  },
+  {
+    "foundAt": "2026-10-31T21:03:24.664Z",
+    "query": "Andy Clark \"extended mind\" blog OR essays OR newsletter",
+    "title": "medium.com",
+    "url": "https://alessandro-negro.medium.com/beyond-the-extended-mind-building-your-unique-digital-self-bc9ba6fe9967",
+    "feedUrl": "https://alessandro-negro.medium.com/feed",
+    "result": "registered",
+    "sourceId": "alessandro-negro-medium-com"
+  },
+  {
+    "foundAt": "2026-10-31T21:03:26.353Z",
+    "query": "Andy Clark \"extended mind\" blog OR essays OR newsletter",
+    "title": "philosophybites.com",
+    "url": "https://philosophybites.com/podcast/andy-clark-on-the-extended-mind/",
+    "feedUrl": "https://philosophybites.com/feed/",
+    "result": "registered",
+    "sourceId": "philosophybites-com"
+  },
+  {
+    "foundAt": "2026-10-31T21:03:30.633Z",
+    "query": "Andy Clark \"extended mind\" blog OR essays OR newsletter",
+    "title": "apple.com",
+    "url": "https://podcasts.apple.com/us/channel/crazy-wisdom/id6557081169?l=zh-Hans-CN",
+    "feedUrl": null,
+    "result": "no-feed",
+    "sourceId": null
+  },
+  {
+    "foundAt": "2026-10-31T21:03:31.186Z",
+    "query": "Andy Clark \"extended mind\" blog OR essays OR newsletter",
+    "title": "substack.com",
+    "url": "https://thecognitiveecologist.substack.com/p/ai-is-not-an-agent-its-an-environment",
+    "feedUrl": "https://thecognitiveecologist.substack.com/feed",
+    "result": "registered",
+    "sourceId": "thecognitiveecologist-substack-com"
+  },
+  {
+    "foundAt": "2026-10-31T21:03:33.513Z",
+    "query": "Andy Clark \"extended mind\" blog OR essays OR newsletter",
+    "title": "psychologyfanatic.com",
+    "url": "https://psychologyfanatic.com/psychology-fanatic-newsletter-116/",
+    "feedUrl": "https://psychologyfanatic.com/feed/",
+    "result": "registered",
+    "sourceId": "psychologyfanatic-com"
+  },
+  {
+    "foundAt": "2026-10-31T21:03:35.407Z",
+    "query": "Andy Clark \"extended mind\" blog OR essays OR newsletter",
+    "title": "madinamerica.com",
+    "url": "https://www.madinamerica.com/2018/04/mind-expanding-ideas-andy-clark/",
+    "feedUrl": "https://www.madinamerica.com/feed/",
+    "result": "registered",
+    "sourceId": "madinamerica-com"
+  },
+  {
+    "foundAt": "2026-10-31T21:03:35.931Z",
+    "query": "Andy Clark \"extended mind\" blog OR essays OR newsletter",
+    "title": "nautil.us",
+    "url": "https://nautil.us/dear-iphoneit-was-just-physical-and-now-its-over-237080",
+    "feedUrl": "https://nautil.us/feed",
+    "result": "registered",
+    "sourceId": "nautil-us"
+  },
+  {
+    "foundAt": "2026-10-31T21:03:39.925Z",
+    "query": "Andy Clark \"extended mind\" blog OR essays OR newsletter",
+    "title": "ed.ac.uk",
+    "url": "https://ppls.ed.ac.uk/philosophy/research/impact/the-extended-mind-in-science-and-society",
+    "feedUrl": null,
+    "result": "no-feed",
+    "sourceId": null
+  },
+  {
+    "foundAt": "2026-10-31T21:03:55.071Z",
+    "query": "Andy Clark \"extended mind\" blog OR essays OR newsletter",
+    "title": "fabian.ca",
+    "url": "https://www.fabian.ca/files/inline-files/the_mind-expanding_ideas_of_andy_clark__the_new_yorker.pdf",
+    "feedUrl": null,
+    "result": "no-feed",
+    "sourceId": null
+  },
+  {
+    "foundAt": "2026-10-31T21:03:56.608Z",
+    "query": "Andy Clark \"extended mind\" blog OR essays OR newsletter",
+    "title": "mariobrcic.com",
+    "url": "https://mariobrcic.com/writing/ai-memory-sovereignty-strategy/",
+    "feedUrl": "https://mariobrcic.com/rss.xml",
+    "result": "registered",
+    "sourceId": "mariobrcic-com"
+  },
+  {
+    "foundAt": "2026-10-31T21:03:57.108Z",
+    "query": "Andy Clark \"extended mind\" blog OR essays OR newsletter",
+    "title": "substack.com",
+    "url": "https://pasttensetomorrow.substack.com/p/from-socrates-to-chatgpt",
+    "feedUrl": "https://pasttensetomorrow.substack.com/feed?sectionId=372904",
+    "result": "registered",
+    "sourceId": "pasttensetomorrow-substack-com"
   }
 ]
