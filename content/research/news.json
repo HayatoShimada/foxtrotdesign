@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T21:00:48.142Z",
+  "generatedAt": "2026-11-12T21:04:47.760Z",
   "question": "整理することに疲れている",
   "windowDays": 7,
   "items": [
@@ -28,18 +28,6 @@
       "reason": "自己の統合と連続性を論じており、読書予定の『私とは何か――「個人」から「分人」へ』の分人主義・自己像の探求と深く合致するため。"
     },
     {
-      "title": "Two Paths of Personal Growth: Understanding More and Living More Deeply",
-      "url": "https://psychologyfanatic.com/personal-growth-goals/",
-      "sourceId": "psychologyfanatic-com",
-      "sourceName": "Psychology Fanatic",
-      "category": "discovered",
-      "publishedAt": "2026-11-06T18:09:18.000Z",
-      "relevance": 70,
-      "importance": 55,
-      "score": 67,
-      "reason": "理解を深めることと「より深く生きること（手を動かすこと）」の対立・統合を扱っており、整理に疲れて実践に向かう現状に直接繋がるため。"
-    },
-    {
       "title": "The Future of Leisure",
       "url": "https://wrk3.substack.com/p/the-future-of-leisure",
       "sourceId": "wrk3-substack-com",
@@ -62,6 +50,18 @@
       "importance": 60,
       "score": 56,
       "reason": "現象学的な時間意識を扱い、読書リストにある哲学書（ドゥルーズや現れる存在）の論点と密接に関係するため。"
+    },
+    {
+      "title": "A New Dawn in the Cloud: ‘Warhammer 40,000: Dawn of War IV’ Is Coming to GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-warhammer-dawn-of-war-iv-coming/",
+      "sourceId": "blogs-nvidia-com",
+      "sourceName": "NVIDIA",
+      "category": "vendor",
+      "publishedAt": "2026-11-12T14:00:59.000Z",
+      "relevance": 55,
+      "importance": 50,
+      "score": 54,
+      "reason": "「シンプルにゲームがしたい」という本人のメモに対し、PCゲームのクラウド配信に関する話題として直接つながるため。"
     },
     {
       "title": "Context Engineering with Deep Agents: How To Remember Without Keeping Everything In Context",
@@ -100,6 +100,30 @@
       "reason": "実生活の体験（Lived Experience）を重視する姿勢は、タスク整理を終えて実際に手を動かそうとする状態と重なるため。"
     },
     {
+      "title": "How the Brain’s Failing Trash Compactor Can Contribute to Alzheimer’s Disease",
+      "url": "https://nautil.us/how-the-brains-failing-trash-compactor-can-contribute-to-alzheimers-disease-1286581/",
+      "sourceId": "nautil-us",
+      "sourceName": "Nautilus",
+      "category": "discovered",
+      "publishedAt": "2026-11-12T13:00:00.000Z",
+      "relevance": 45,
+      "importance": 65,
+      "score": 49,
+      "reason": "脳のゴミ処理機構の不全に関する記事。メモにある「整理に疲れている」状態や脳の身体的機能という観点、読書リストの「現れる存在」等のテーマと繋がる。"
+    },
+    {
+      "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
+      "url": "https://github.com/simpsoka/zigzag",
+      "sourceId": "hnrss-org-frontpage",
+      "sourceName": "Hacker News",
+      "category": "developer",
+      "publishedAt": "2026-11-12T17:02:42.000Z",
+      "relevance": 50,
+      "importance": 40,
+      "score": 48,
+      "reason": "整える段階を終え「手を動かして何かを作るフェーズ」というメモと、自作でアプリを作り上げる行動が合致するため。"
+    },
+    {
       "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
       "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
       "sourceId": "technologyreview-com-topic-artificial-intelligence",
@@ -110,18 +134,6 @@
       "importance": 55,
       "score": 47,
       "reason": "部屋の清掃・整理をロボットが代行する体験談であり、整理することに疲れている状態への物理的アプローチとして関心と繋がる。"
-    },
-    {
-      "title": "AIの意味理解は経験の量か質か？広く浅い学習と深い相互作用を比較",
-      "url": "https://research.smeai.org/ai-semantic-understanding-breadth-vs-depth/",
-      "sourceId": "research-smeai-org",
-      "sourceName": "中小企業AI活用協会研究サイト",
-      "category": "discovered",
-      "publishedAt": "2026-11-05T20:20:22.000Z",
-      "relevance": 45,
-      "importance": 55,
-      "score": 47,
-      "reason": "深い相互作用と経験を論じており、『現れる存在』や身体を通じた世界の認識という関心軸と重なるため。"
     },
     {
       "title": "記号接地の評価指標とは？「度合い」を連続量で測る5つの軸",
@@ -148,16 +160,28 @@
       "reason": "「シンプルにゲームがしたい」というメモに関連し、人気アドベンチャーゲームの小説化というゲームカルチャーの話題であるため。"
     },
     {
-      "title": "‘Hogwarts Legacy’ Gets a Magical NVIDIA DLSS 5 Upgrade on GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/",
-      "sourceId": "blogs-nvidia-com",
-      "sourceName": "NVIDIA",
-      "category": "vendor",
-      "publishedAt": "2026-11-05T14:00:34.000Z",
+      "title": "【京都】「そうぞうする→みえる→わらう か ら だ」ワークショップ",
+      "url": "https://artscape.jp/article/83176/",
+      "sourceId": "artscape-jp",
+      "sourceName": "artscape",
+      "category": "discovered",
+      "publishedAt": "2026-11-12T01:00:38.000Z",
+      "relevance": 50,
+      "importance": 25,
+      "score": 45,
+      "reason": "「そうぞう」と「からだ」に着目したワークショップは、読書リストにある身体性の再統合や、手を動かして創造したいという意識に直接結びつく。"
+    },
+    {
+      "title": "AI TDDは「動作保証」のためだけじゃなかった — TDDの原点「学びのループ」をAI駆動開発に取り戻す | Agile Japan 2026",
+      "url": "https://speakerdeck.com/kojikojikoji37/agile-japan-2026-todan-slide-koyama-koji-1110",
+      "sourceId": "speakerdeck-com-c-programming",
+      "sourceName": "Speaker Deck Programming",
+      "category": "slides",
+      "publishedAt": "2026-11-12T01:04:44.000Z",
       "relevance": 45,
-      "importance": 50,
-      "score": 46,
-      "reason": "「シンプルにゲームがしたい」という本人のメモに対し、ゲームのリッチなプレイ環境を提供する技術更新の話題であるため。"
+      "importance": 40,
+      "score": 44,
+      "reason": "整理や管理に留まらず手を動かして学びのループを回して開発を進める姿勢は、メモにある「手を動かして作るフェーズ」の関心と重なる。"
     },
     {
       "title": "よく見れば次の一手が見えてくる。制約すら楽しむ研究者の思考法｜Che・ke・la・bo",
@@ -172,6 +196,18 @@
       "reason": "制約を楽しみ思考を前に進める姿勢は、整理を終えて手を動かすフェーズに入ろうとする意識と深く繋がります。"
     },
     {
+      "title": "The Four Forces That Shape Collective Memory",
+      "url": "https://nautil.us/the-four-forces-that-shape-collective-memory-1286569/",
+      "sourceId": "nautil-us",
+      "sourceName": "Nautilus",
+      "category": "discovered",
+      "publishedAt": "2026-11-11T21:00:00.000Z",
+      "relevance": 40,
+      "importance": 55,
+      "score": 43,
+      "reason": "集合的記憶を形作る要因についての記事。記憶の整理や記録に関する関心、読書リストの「私とは何か――「個人」から「分人」へ」における自己や記憶の構造に通じる。"
+    },
+    {
       "title": "【11/26開催】「AWE（畏敬の念）」の科学とビジネス—創造性・利他性・ウェルビーイングはどのように変わるか？【Academic Insights #29】",
       "url": "https://desilo.substack.com/p/1126aweacademic-insights-29",
       "sourceId": "desilo-substack-com",
@@ -182,18 +218,6 @@
       "importance": 50,
       "score": 42,
       "reason": "畏敬の念と創造性の関係を探る科学的テーマは、整理を終えて新しい制作へ向かうマインドと繋がります。"
-    },
-    {
-      "title": "【2026年10月刊】ビジネスと人権、戦争倫理、週休3日の経済学、イデオロギーに蝕まれる脳……デサイロが注目したい人文・社会科学の新刊33冊",
-      "url": "https://desilo.substack.com/p/book-list-2026-10",
-      "sourceId": "desilo-substack-com",
-      "sourceName": "De-Silo",
-      "category": "discovered",
-      "publishedAt": "2026-11-05T08:02:33.000Z",
-      "relevance": 40,
-      "importance": 50,
-      "score": 42,
-      "reason": "脳や思想に関する人文社会科学の新刊情報は、『現れる存在』や哲学書を読もうとする関心に直接響きます。"
     },
     {
       "title": "Claude Code から出ずに PR 対応を完結させる mod をつくった",
@@ -244,16 +268,28 @@
       "reason": "博物画や標本を通して概念を再構成する試みは、『なぜ、植物図鑑か』における分類や認識の問いと響き合います。"
     },
     {
-      "title": "WEBで画像を破くツールを作った",
-      "url": "https://qiita.com/ishi720/items/6d13fdce2a31fe630840?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-      "sourceId": "qiita-com-popular-items",
-      "sourceName": "Qiita",
-      "category": "community",
-      "publishedAt": "2026-11-08T21:44:47.000Z",
-      "relevance": 45,
-      "importance": 20,
-      "score": 40,
-      "reason": "整理を終えて「手を動かして何かを作るフェーズ」に入りたいというメモに対し、個人でツールを作成した実践例として共感できるため。"
+      "title": "ロンドンでスズキユウリの個展「Onomatopia」開催。音が構造となる5つの実験的ランドスケープ",
+      "url": "https://www.axismag.jp/posts/2026/11/730997.html",
+      "sourceId": "axismag-jp",
+      "sourceName": "AXIS Web | デザインの視点で、人間の可能性や創造性を伝えるメディア",
+      "category": "discovered",
+      "publishedAt": "2026-11-12T08:22:51.000Z",
+      "relevance": 40,
+      "importance": 35,
+      "score": 39,
+      "reason": "音が構造となる知覚的空間の試みは、読もうとしている本『現れる存在――脳と身体と世界の再統合』の身体的・知覚的アプローチと響き合う。"
+    },
+    {
+      "title": "宛先から考えるデジタルアーカイブ：――ジャック・デリダの〈痕跡〉と三輪田米山日記",
+      "url": "https://speakerdeck.com/ktanishima/atesaki-kara-kangaeru-dejitaru-akaibu-koukaiyou",
+      "sourceId": "speakerdeck-com-c-research",
+      "sourceName": "Speaker Deck Research",
+      "category": "slides",
+      "publishedAt": "2026-11-11T09:03:27.000Z",
+      "relevance": 40,
+      "importance": 30,
+      "score": 38,
+      "reason": "ジャック・デリダの思想や日記の記述を扱うテーマは、読もうとしているドゥルーズ等の哲学書や批評的関心と方向性を同じくする。"
     },
     {
       "title": "竹下早紀の個展「Made You Look.」開催。素材と構造の小さな差異から、ものの見え方をひらく",
